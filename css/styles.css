@@ -1,5 +1,8 @@
 .recipe-section-title{
 	margin: 20px 0px 5px 0px;
+	color : #084C61;
+	font-size: 120%;
+	font-weight: 700;
 }
 
 .recipe-link{
@@ -8,7 +11,7 @@
 }
 
 .page-title{
-	font-size: 200%;
+	font-size: 300%;
 }
 
 .jumbotron{
@@ -42,3 +45,11 @@
 	margin-bottom: 10px;
 }
 
+a{
+	color: #084C61;
+}
+
+a:hover{
+	color: #DB3A34;
+	text-decoration: none;
+}
