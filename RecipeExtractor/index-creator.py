@@ -29,18 +29,12 @@ for i, file in enumerate(files):
         else:
             recipe_section.append(recipe_name)
 
-output = ''
+output = '<div class="row">'
 index = 0
 for recipe_section in recipe_dictionary:
-
-    print(recipe_section)
-    if index % 3 == 0:
-        output += '<div class="row">\n<div class="col-4">\n<div class="recipe-section-title">' + recipe_section + '</div>\n'
-    else:
-        output += '<div class="col-4">\n<div class="recipe-section-title">' + recipe_section + '</div>\n'
+    output += '<div class="col-12 col-sm-4">\n<div class="recipe-section-title">' + recipe_section + '</div>\n'
 
     for recipe_name in recipe_dictionary.get(recipe_section):
-        print(recipe_name)
         if recipe_section == "Uncategorized":
             recipe_href = str(recipe_name)
         else:
@@ -49,14 +43,7 @@ for recipe_section in recipe_dictionary:
         recipe_href = urllib.parse.quote(recipe_href)
         output += '<a class="recipe-link" href="' + recipe_href + '">' + recipe_name.replace(".html", "") + '</a>\n'
 
-    if index % 3 == 2:
-        output += '</div>\n</div>\n'
-    else:
-        output += '</div>\n'
-
-    index = index + 1
-
-if index % 3 != 2:
     output += '</div>\n'
+output += '</div>\n'
 
 print(output)

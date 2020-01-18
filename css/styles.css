@@ -10,34 +10,52 @@
 	padding: 0px 0px 0px 10px;
 }
 
+.recipe-header{
+	margin-top: 20px;
+}
+
 .page-title{
+	display:block;
 	font-size: 300%;
+	padding: 20px 15px 20px 15px;
+	background: #177E89;
+	color : white;
 }
 
 .jumbotron{
 	background: #177E89;
 	color: white;
+	padding: 2rem 1rem; 
+	margin-bottom: 0px;
+	border-radius: 0px;
 }
 
-.title{
-	font-size: 150%;
-	padding: 50px 0px 20px 0px;
-	background: #177E89;
-	height: 150px;
-	color : white;
+.recipe{
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 15px;
 }
 
 .ingredient-title{
+	text-transform: uppercase;
+	font-weight: 600;
 	font-size: 120%;
-	margin: 20px 0px 10px 0px;
+	color: #DB3A34;
+	padding: 20px 0px 10px 0px;
 }
 
 .ingredient{
-	padding-left: 20px;
+	padding-left: 10px;
 }
 
 .directions-title{
+	color: #DB3A34;
+	border-top: 3px solid #CCC;
+	padding-top: 20px;
+	text-transform: uppercase;
 	font-size: 120%;
+	font-weight: 600;
 	margin: 20px 0px 10px 0px;
 }
 
