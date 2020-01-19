@@ -1,73 +1,73 @@
-.recipe-section-title{
-	margin: 20px 0px 5px 0px;
-	color : #084C61;
-	font-size: 120%;
-	font-weight: 700;
-}
+body {
+  background: #DFE3E7; }
 
-.recipe-link{
-	display: block;
-	padding: 0px 0px 0px 10px;
-}
+.container {
+  background: white; }
 
-.recipe-header{
-	margin-top: 20px;
-}
+.recipe-list {
+  border-left: 1px solid #CCCCCE;
+  border-right: 1px solid #CCCCCE; }
 
-.page-title{
-	display:block;
-	font-size: 300%;
-	padding: 20px 15px 20px 15px;
-	background: #177E89;
-	color : white;
-}
+.recipe-section-title {
+  margin: 20px 0px 5px 0px;
+  color: #962634;
+  font-size: 120%;
+  font-weight: 500; }
 
-.jumbotron{
-	background: #177E89;
-	color: white;
-	padding: 2rem 1rem; 
-	margin-bottom: 0px;
-	border-radius: 0px;
-}
+.recipe-link {
+  display: block;
+  padding: 0px 0px 0px 0px; }
 
-.recipe{
-	border-left: 1px solid #CCC;
-	border-right: 1px solid #CCC;
-	border-bottom: 1px solid #CCC;
-	padding-bottom: 15px;
-}
+@media (min-width: 576px) {
+  .recipe-header {
+    margin-top: 20px; } }
 
-.ingredient-title{
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 120%;
-	color: #DB3A34;
-	padding: 20px 0px 10px 0px;
-}
+.page-title {
+  display: block;
+  font-size: 300%;
+  padding: 20px 15px 20px 15px;
+  background: #0D9EB6;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #F4BA49;
+  border-left: 1px solid #CCCCCE;
+  border-right: 1px solid #CCCCCE; }
 
-.ingredient{
-	padding-left: 10px;
-}
+.jumbotron {
+  background: #0D9EB6;
+  color: #DFE3E7;
+  padding: 2rem 1rem;
+  margin-bottom: 0px;
+  border-radius: 0px; }
 
-.directions-title{
-	color: #DB3A34;
-	border-top: 3px solid #CCC;
-	padding-top: 20px;
-	text-transform: uppercase;
-	font-size: 120%;
-	font-weight: 600;
-	margin: 20px 0px 10px 0px;
-}
+.recipe {
+  border-left: 1px solid #CCCCCE;
+  border-right: 1px solid #CCCCCE;
+  border-bottom: 1px solid #CCCCCE;
+  padding-bottom: 15px; }
 
-.method-step{
-	margin-bottom: 10px;
-}
+.ingredient-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  padding: 20px 0px 10px 0px; }
 
-a{
-	color: #084C61;
-}
+.directions-title {
+  color: #962634;
+  border-top: 3px solid #CCCCCE;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px; }
 
-a:hover{
-	color: #DB3A34;
-	text-decoration: none;
-}
+.method-step {
+  margin-bottom: 10px; }
+
+a {
+  color: #0D9EB6; }
+
+a:hover {
+  color: #962634;
+  text-decoration: none; }

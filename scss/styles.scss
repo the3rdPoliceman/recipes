@@ -1,0 +1,99 @@
+$basq-blue : #0D9EB6;
+$basq-red : #962634;
+$basq-yellow : #F4BA49;
+$basq-grey : #CCCCCE;
+$basq-white : #DFE3E7;
+$basq-black : #08080D;
+
+body{
+	background: $basq-white;
+}
+
+.container{
+	background: white;
+}
+
+.recipe-list{
+	border-left: 1px solid $basq-grey;
+	border-right: 1px solid $basq-grey;
+}
+
+.recipe-section-title{
+	margin: 20px 0px 5px 0px;
+	color : $basq-red ;
+	font-size: 120%;
+	font-weight: 500;
+}
+
+.recipe-link{
+	display: block;
+	padding: 0px 0px 0px 0px;
+}
+
+@media (min-width: 576px) {
+	.recipe-header{
+		margin-top: 20px;
+	}
+}
+
+.page-title{
+	display:block;
+	font-size: 300%;
+	padding: 20px 15px 20px 15px;
+	background: $basq-blue;
+	color : white;
+	text-decoration: underline;
+	text-decoration-color: $basq-yellow;
+	border-left: 1px solid $basq-grey;
+	border-right: 1px solid $basq-grey;
+}
+
+.jumbotron{
+	background: $basq-blue;
+	color: $basq-white;
+	padding: 2rem 1rem; 
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.recipe{
+	border-left: 1px solid $basq-grey;
+	border-right: 1px solid $basq-grey;
+	border-bottom: 1px solid $basq-grey;
+	padding-bottom: 15px;
+}
+
+.ingredient-title{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 120%;
+	color: $basq-red;
+	padding: 20px 0px 10px 0px;
+}
+
+.ingredient{
+
+}
+
+.directions-title{
+	color: $basq-red;
+	border-top: 3px solid $basq-grey;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: 120%;
+	font-weight: 600;
+	margin: 20px 0px 10px 0px;
+}
+
+.method-step{
+	margin-bottom: 10px;
+}
+
+a{
+	color: $basq-blue;
+}
+
+a:hover{
+	color: $basq-red;
+	text-decoration: none;
+}
