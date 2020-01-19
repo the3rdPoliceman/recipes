@@ -29,9 +29,12 @@ body {
   background: #0D9EB6;
   color: white;
   text-decoration: underline;
-  text-decoration-color: #F4BA49;
-  border-left: 1px solid #CCCCCE;
-  border-right: 1px solid #CCCCCE; }
+  text-decoration-color: #F4BA49; }
+
+@media (min-width: 576px) {
+  .page-title {
+    border-left: 1px solid #CCCCCE;
+    border-right: 1px solid #CCCCCE; } }
 
 .jumbotron {
   background: #0D9EB6;
@@ -41,10 +44,13 @@ body {
   border-radius: 0px; }
 
 .recipe {
-  border-left: 1px solid #CCCCCE;
-  border-right: 1px solid #CCCCCE;
-  border-bottom: 1px solid #CCCCCE;
   padding-bottom: 15px; }
+
+@media (min-width: 576px) {
+  .recipe {
+    border-left: 1px solid #CCCCCE;
+    border-right: 1px solid #CCCCCE;
+    border-bottom: 1px solid #CCCCCE; } }
 
 .ingredient-title {
   text-transform: uppercase;

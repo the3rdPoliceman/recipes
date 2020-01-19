@@ -44,9 +44,15 @@ body{
 	color : white;
 	text-decoration: underline;
 	text-decoration-color: $basq-yellow;
-	border-left: 1px solid $basq-grey;
-	border-right: 1px solid $basq-grey;
 }
+
+@media (min-width: 576px) {
+	.page-title{
+		border-left: 1px solid $basq-grey;
+		border-right: 1px solid $basq-grey;
+	}
+}
+
 
 .jumbotron{
 	background: $basq-blue;
@@ -57,10 +63,15 @@ body{
 }
 
 .recipe{
-	border-left: 1px solid $basq-grey;
-	border-right: 1px solid $basq-grey;
-	border-bottom: 1px solid $basq-grey;
 	padding-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+	.recipe{
+		border-left: 1px solid $basq-grey;
+		border-right: 1px solid $basq-grey;
+		border-bottom: 1px solid $basq-grey;
+	}
 }
 
 .ingredient-title{
