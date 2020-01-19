@@ -31,7 +31,9 @@ body {
   color: white;
   text-decoration: underline;
   text-transform: uppercase;
-  text-decoration-color: #F4BA49; }
+  text-decoration-color: #F4BA49;
+  word-wrap: break-word;
+  line-height: 1.15em; }
 
 @media (min-width: 576px) {
   .page-title {

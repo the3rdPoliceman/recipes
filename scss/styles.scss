@@ -46,6 +46,8 @@ body{
 	text-decoration: underline;
 	text-transform: uppercase;
 	text-decoration-color: $basq-yellow;
+	word-wrap: break-word;
+	line-height : 1.15em;
 }
 
 @media (min-width: 576px) {
