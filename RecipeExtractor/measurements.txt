@@ -18,6 +18,8 @@ pints
 pint
 pounds
 pound
+sprig
+sprigs
 tablespoons
 tablespoon
 tbs
