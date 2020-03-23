@@ -64,6 +64,12 @@ body {
   color: #962634;
   padding: 20px 0px 10px 0px; }
 
+.ingredient-spacer {
+  height: 0.5em; }
+
+.ingredient-sub-list {
+  margin-top: 1.0em; }
+
 .directions-title {
   color: #962634;
   border-top: 10px solid #DFE3E7;
