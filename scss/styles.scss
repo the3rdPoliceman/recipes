@@ -91,6 +91,10 @@ body{
 
 }
 
+.serves::before{
+	content: "Serves ";
+}
+
 .ingredient-spacer{
 	height : 0.5em;
 }
