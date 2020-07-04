@@ -19,6 +19,19 @@ body {
   font-size: 120%;
   padding: 0px 0px 0px 0px; }
 
+.resource-link {
+  display: block;
+  font-size: 140%;
+  padding: 0px 0px 0px 0px; }
+
+.resource-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  padding: 20px 0px 10px 0px;
+}
+
 @media (min-width: 576px) {
   .recipe-header {
     margin-top: 20px; } }
