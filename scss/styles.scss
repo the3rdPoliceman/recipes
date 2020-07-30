@@ -57,7 +57,7 @@ body{
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 	0px 0px;
  }
 
  .name-to::before{
@@ -80,6 +80,11 @@ body{
   display: block;
   font-weight: 600;
   padding: 0px 0px 0px 0px; }
+
+.weights-table>thead{
+	background: $basq-blue ;
+	color: $basq-white;
+}
 
 @media (min-width: 576px) {
 	.recipe-header{
