@@ -24,13 +24,38 @@ body {
   font-size: 140%;
   padding: 0px 0px 0px 0px; }
 
-.resource-title{
+.resource-title {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 20px 0px 10px 0px;
-}
+  padding: 20px 0px 10px 0px; }
+
+.name-from {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  padding: 10px 0px 0px 0px; }
+
+.name-to::before {
+  content: '  '; }
+
+.project-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  padding: 20px 0px 10px 0px; }
+
+.project-detail {
+  display: block;
+  padding: 0px 0px 0px 0px; }
+
+.project-description {
+  display: block;
+  font-weight: 600;
+  padding: 0px 0px 0px 0px; }
 
 @media (min-width: 576px) {
   .recipe-header {
@@ -76,6 +101,9 @@ body {
   font-size: 120%;
   color: #962634;
   padding: 20px 0px 10px 0px; }
+
+.serves::before {
+  content: "Serves "; }
 
 .ingredient-spacer {
   height: 0.5em; }
