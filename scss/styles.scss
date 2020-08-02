@@ -13,6 +13,12 @@ body{
 	background: white;
 }
 
+.note{
+	font-weight: 500;
+	color: darken($basq-blue, 10%);
+	margin-bottom: 0.3em;
+}
+
 .recipe-list{
 	border-left: 1px solid $basq-grey;
 	border-right: 1px solid $basq-grey;

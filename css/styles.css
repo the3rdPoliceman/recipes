@@ -4,6 +4,11 @@ body {
 .container {
   background: white; }
 
+.note {
+  font-weight: 500;
+  color: #0a7586;
+  margin-bottom: 0.3em; }
+
 .recipe-list {
   border-left: 1px solid #CCCCCE;
   border-right: 1px solid #CCCCCE; }
