@@ -54,25 +54,158 @@ body{
   padding: 20px 0px 10px 0px;
 }
 
- .english-name{
-        
- }
- 
- .german-name{
-        
- }
+.log-entry{
+	padding-top: 20px;
+}
 
- .name-from{
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 120%;
-  color: #962634;
-  padding: 10px 0px 	0px 0px;
- }
+.log-header{
+	font-weight: 600;
+	font-size: 120%;
+	color: #962634;
+	text-transform: uppercase;
+}
 
- .name-to::before{
-        content: '  ';
- }
+.log-date{
+	display :inline;
+}
+
+.log-title{
+	padding-left: 1em;
+	display :inline;	
+}
+
+@mixin log-rating{
+	padding-left: 1em;
+	display :inline;
+}
+
+.log-rating-0{
+	@include log-rating;
+}
+
+.log-rating-1{
+	@include log-rating;
+}
+
+.log-rating-2{
+	@include log-rating;
+}
+
+.log-rating-3{
+	@include log-rating;
+}
+
+.log-rating-4{
+	@include log-rating;
+}
+
+.log-rating-5{
+	@include log-rating;
+}
+
+.log-rating-6{
+	@include log-rating;
+}
+
+.log-rating-7{
+	@include log-rating;
+}
+
+.log-rating-8{
+	@include log-rating;
+}
+
+.log-rating-9{
+	@include log-rating;
+}
+
+.log-rating-10{
+	@include log-rating;
+}
+
+@mixin log-rating-before{
+	font-family: "Font Awesome 5 Free";                     
+	font-weight: 900;      
+}
+
+.log-rating-0::before{
+	@include log-rating-before;
+	content: "\f006\f006\f006\f006\f006";  
+}
+
+.log-rating-1::before{
+	@include log-rating-before;
+	content: "\f089\f006\f006\f006\f006";  
+}
+
+.log-rating-2::before{
+	@include log-rating-before;
+	content: "\f005\f006\f006\f006\f006";  
+}
+
+.log-rating-3::before{
+	@include log-rating-before;
+	content: "\f005\f089\f006\f006\f006";  
+}
+
+.log-rating-4::before{
+	@include log-rating-before;
+	content: "\f005\f005\f006\f006\f006";  
+}
+
+.log-rating-5::before{
+	@include log-rating-before;
+	content: "\f005\f005\f089";  
+}
+
+.log-rating-6::before{
+	@include log-rating-before;
+	content: "\f005\f005\f005\f006\f006";  
+}
+
+.log-rating-7::before{
+	@include log-rating-before;
+	content: "\f005\f005\f005\f089\f006";  
+}
+
+.log-rating-8::before{
+	@include log-rating-before;
+	content: "\f005\f005\f005\f005\f006";  
+}
+
+.log-rating-9::before{
+	@include log-rating-before;
+	content: "\f005\f005\f005\f005\f089";  
+}
+
+.log-rating-10::before{
+	@include log-rating-before;
+	content: "\f005\f005\f005\f005\f005";  
+}
+
+.log-detail{
+	
+} 
+
+.english-name{
+        
+}
+
+.german-name{
+    
+}
+
+.name-from{
+text-transform: uppercase;
+font-weight: 600;
+font-size: 120%;
+color: #962634;
+padding: 10px 0px 	0px 0px;
+}
+
+.name-to::before{
+    content: '  ';
+}
 
 .project-title{
   text-transform: uppercase;

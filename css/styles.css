@@ -36,6 +36,121 @@ body {
   color: #962634;
   padding: 20px 0px 10px 0px; }
 
+.log-entry {
+  padding-top: 20px; }
+
+.log-header {
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  text-transform: uppercase; }
+
+.log-date {
+  display: inline; }
+
+.log-title {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-0 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-1 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-2 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-3 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-4 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-5 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-6 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-7 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-8 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-9 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-10 {
+  padding-left: 1em;
+  display: inline; }
+
+.log-rating-0::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f006\f006\f006\f006\f006"; }
+
+.log-rating-1::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f089\f006\f006\f006\f006"; }
+
+.log-rating-2::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f006\f006\f006\f006"; }
+
+.log-rating-3::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f089\f006\f006\f006"; }
+
+.log-rating-4::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f006\f006\f006"; }
+
+.log-rating-5::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f089"; }
+
+.log-rating-6::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f005\f006\f006"; }
+
+.log-rating-7::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f005\f089\f006"; }
+
+.log-rating-8::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f005\f005\f006"; }
+
+.log-rating-9::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f005\f005\f089"; }
+
+.log-rating-10::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005\f005\f005\f005\f005"; }
+
 .name-from {
   text-transform: uppercase;
   font-weight: 600;
