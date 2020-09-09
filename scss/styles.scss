@@ -17,49 +17,49 @@ $basq-black : #08080D;
 *
 */
 body{
-	background: $basq-white;
+  background: $basq-white;
 }
 
 .container{
-	background: white;
+  background: white;
 }
 
 .page-title{
-	display:block;
-	font-size: 400%;
-	font-weight: 900;
-	padding: 20px 15px 20px 15px;
-	background: $basq-blue;
-	color : white;
-	text-decoration: underline;
-	text-transform: uppercase;
-	text-decoration-color: $basq-yellow;
-	word-wrap: break-word;
-	line-height : 1.15em;
+  display:block;
+  font-size: 400%;
+  font-weight: 900;
+  padding: 20px 15px 20px 15px;
+  background: $basq-blue;
+  color : white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: $basq-yellow;
+  word-wrap: break-word;
+  line-height : 1.15em;
 }
 
 @media (min-width: 576px) {
-	.page-title{
-		border-left: 1px solid $basq-grey;
-		border-right: 1px solid $basq-grey;
-	}
+  .page-title{
+    border-left: 1px solid $basq-grey;
+    border-right: 1px solid $basq-grey;
+  }
 }
 
 .jumbotron{
-	background: $basq-blue;
-	color: $basq-white;
-	padding: 2rem 1rem; 
-	margin-bottom: 0px;
-	border-radius: 0px;
+  background: $basq-blue;
+  color: $basq-white;
+  padding: 2rem 1rem; 
+  margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 a{
-	color: $basq-blue;
+  color: $basq-blue;
 }
 
 a:hover{
-	color: $basq-red;
-	text-decoration: none;
+  color: $basq-red;
+  text-decoration: none;
 }
 
 
@@ -69,26 +69,26 @@ a:hover{
 *
 */
 .recipe-list{
-	border-left: 1px solid $basq-grey;
-	border-right: 1px solid $basq-grey;
+  border-left: 1px solid $basq-grey;
+  border-right: 1px solid $basq-grey;
 }
 
 .recipe-section-title{
-	margin: 20px 0px 5px 0px;
-	color : $basq-red ;
-	font-size: 150%;
-	font-weight: 500;
+  margin: 20px 0px 5px 0px;
+  color : $basq-red ;
+  font-size: 150%;
+  font-weight: 500;
 }
 
 .recipe-link{
-	display: block;
-	font-size: 120%;
-	padding: 0px 0px 0px 0px;
+  display: block;
+  font-size: 120%;
+  padding: 0px 0px 0px 0px;
 }
 
 .vegetarian::after{
-	padding-left : 0.5em;
-	content: url(../images/Veggie.svg);
+  padding-left : 0.5em;
+  content: url(../images/Veggie.svg);
 }
 
 .resource-link {
@@ -107,38 +107,38 @@ a:hover{
 
 /*
 *
-*  Styles for RECIPES	 
+*  Styles for RECIPES   
 *
 */
 
 .recipe{
-	padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 @media (min-width: 576px) {
-	.recipe{
-		border-left: 1px solid $basq-grey;
-		border-right: 1px solid $basq-grey;
-		border-bottom: 1px solid $basq-grey;
-	}
+  .recipe{
+    border-left: 1px solid $basq-grey;
+    border-right: 1px solid $basq-grey;
+    border-bottom: 1px solid $basq-grey;
+  }
 }
 
 @media (min-width: 576px) {
-	.recipe-header{
-		margin-top: 20px;
-	}
+  .recipe-header{
+    margin-top: 20px;
+  }
 }
 
 .ingredient-title{
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 120%;
-	color: $basq-red;
-	padding: 20px 0px 10px 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: $basq-red;
+  padding: 20px 0px 10px 0px;
 }
 
 .ingredient-sub-list{
-	margin-top: 1.0em;
+  margin-top: 1.0em;
 }
 
 .ingredient{
@@ -146,39 +146,39 @@ a:hover{
 }
 
 .servings::before{
-	content: "Servings: ";
+  content: "Servings: ";
 }
 
 .source-link::before{
-	content: "Source: ";
+  content: "Source: ";
 }
 
 .ingredient-spacer{
-	height : 0.5em;
+  height : 0.5em;
 }
 
 .directions-title{
-	color: $basq-red;
-	border-top: 10px solid $basq-white;
-	padding-top: 20px;
-	text-transform: uppercase;
-	font-size: 120%;
-	font-weight: 600;
-	margin: 20px 0px 10px 0px;
+  color: $basq-red;
+  border-top: 10px solid $basq-white;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px;
 }
 
 .method-step{
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .ingredient-sub-list{
-	color: $basq-red;
+  color: $basq-red;
 }
 
 .note{
-	font-weight: 500;
-	color: darken($basq-blue, 10%);
-	margin-bottom: 0.3em;
+  font-weight: 500;
+  color: darken($basq-blue, 10%);
+  margin-bottom: 0.3em;
 }
 
 .recipe-ref{
@@ -192,136 +192,136 @@ a:hover{
 *
 */
 .log-entry{
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 .log-header{
-	font-weight: 600;
-	font-size: 120%;
-	color: #962634;
-	text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  text-transform: uppercase;
 }
 
 .log-date{
-	display :inline;
+  display :inline;
 }
 
 .log-title{
-	padding-left: 1em;
-	display :inline;	
+  padding-left: 1em;
+  display :inline;  
 }
 
 @mixin log-rating{
-	padding-left: 1em;
-	display :inline;
+  padding-left: 1em;
+  display :inline;
 }
 
 .log-rating-0{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-1{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-2{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-3{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-4{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-5{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-6{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-7{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-8{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-9{
-	@include log-rating;
+  @include log-rating;
 }
 
 .log-rating-10{
-	@include log-rating;
+  @include log-rating;
 }
 
 @mixin log-rating-before{
-	font-family: "Font Awesome 5 Free";                     
-	font-weight: 900;      
+  font-family: "Font Awesome 5 Free";                     
+  font-weight: 900;      
 }
 
 .log-rating-0::before{
-	@include log-rating-before;
-	content: "\f006\f006\f006\f006\f006";  
+  @include log-rating-before;
+  content: "\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-1::before{
-	@include log-rating-before;
-	content: "\f089\f006\f006\f006\f006";  
+  @include log-rating-before;
+  content: "\f089\f006\f006\f006\f006";  
 }
 
 .log-rating-2::before{
-	@include log-rating-before;
-	content: "\f005\f006\f006\f006\f006";  
+  @include log-rating-before;
+  content: "\f005\f006\f006\f006\f006";  
 }
 
 .log-rating-3::before{
-	@include log-rating-before;
-	content: "\f005\f089\f006\f006\f006";  
+  @include log-rating-before;
+  content: "\f005\f089\f006\f006\f006";  
 }
 
 .log-rating-4::before{
-	@include log-rating-before;
-	content: "\f005\f005\f006\f006\f006";  
+  @include log-rating-before;
+  content: "\f005\f005\f006\f006\f006";  
 }
 
 .log-rating-5::before{
-	@include log-rating-before;
-	content: "\f005\f005\f089";  
+  @include log-rating-before;
+  content: "\f005\f005\f089";  
 }
 
 .log-rating-6::before{
-	@include log-rating-before;
-	content: "\f005\f005\f005\f006\f006";  
+  @include log-rating-before;
+  content: "\f005\f005\f005\f006\f006";  
 }
 
 .log-rating-7::before{
-	@include log-rating-before;
-	content: "\f005\f005\f005\f089\f006";  
+  @include log-rating-before;
+  content: "\f005\f005\f005\f089\f006";  
 }
 
 .log-rating-8::before{
-	@include log-rating-before;
-	content: "\f005\f005\f005\f005\f006";  
+  @include log-rating-before;
+  content: "\f005\f005\f005\f005\f006";  
 }
 
 .log-rating-9::before{
-	@include log-rating-before;
-	content: "\f005\f005\f005\f005\f089";  
+  @include log-rating-before;
+  content: "\f005\f005\f005\f005\f089";  
 }
 
 .log-rating-10::before{
-	@include log-rating-before;
-	content: "\f005\f005\f005\f005\f005";  
+  @include log-rating-before;
+  content: "\f005\f005\f005\f005\f005";  
 }
 
 .log-detail{
-	
+  
 } 
 
 
@@ -343,7 +343,7 @@ text-transform: uppercase;
 font-weight: 600;
 font-size: 120%;
 color: #962634;
-padding: 10px 0px 	0px 0px;
+padding: 10px 0px   0px 0px;
 }
 
 .name-to::before{
@@ -380,6 +380,6 @@ padding: 10px 0px 	0px 0px;
 *
 */
 .weights-table>thead{
-	background: $basq-blue ;
-	color: $basq-white;
+  background: $basq-blue ;
+  color: $basq-white;
 }
