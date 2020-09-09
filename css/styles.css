@@ -24,6 +24,10 @@ body {
   font-size: 120%;
   padding: 0px 0px 0px 0px; }
 
+.vegetarian::after {
+  padding-left: 0.5em;
+  content: url(../images/Veggie.svg); }
+
 .resource-link {
   display: block;
   font-size: 140%;

@@ -37,6 +37,11 @@ body{
 	padding: 0px 0px 0px 0px;
 }
 
+.vegetarian::after{
+	padding-left : 0.5em;
+	content: url(../images/Veggie.svg);
+}
+
 .recipe-ref{
 
 }
