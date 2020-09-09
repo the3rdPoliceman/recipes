@@ -1,3 +1,8 @@
+/*
+*
+* COLORS and VARIABLES
+*
+*/
 $basq-blue : #0D9EB6;
 $basq-red : #962634;
 $basq-yellow : #F4BA49;
@@ -5,6 +10,12 @@ $basq-grey : #CCCCCE;
 $basq-white : #DFE3E7;
 $basq-black : #08080D;
 
+
+/*
+*
+* STYLES for APPLICATION
+*
+*/
 body{
 	background: $basq-white;
 }
@@ -13,12 +24,50 @@ body{
 	background: white;
 }
 
-.note{
-	font-weight: 500;
-	color: darken($basq-blue, 10%);
-	margin-bottom: 0.3em;
+.page-title{
+	display:block;
+	font-size: 400%;
+	font-weight: 900;
+	padding: 20px 15px 20px 15px;
+	background: $basq-blue;
+	color : white;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-decoration-color: $basq-yellow;
+	word-wrap: break-word;
+	line-height : 1.15em;
 }
 
+@media (min-width: 576px) {
+	.page-title{
+		border-left: 1px solid $basq-grey;
+		border-right: 1px solid $basq-grey;
+	}
+}
+
+.jumbotron{
+	background: $basq-blue;
+	color: $basq-white;
+	padding: 2rem 1rem; 
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+a{
+	color: $basq-blue;
+}
+
+a:hover{
+	color: $basq-red;
+	text-decoration: none;
+}
+
+
+/*
+*
+*  Styles for INDEX 
+*
+*/
 .recipe-list{
 	border-left: 1px solid $basq-grey;
 	border-right: 1px solid $basq-grey;
@@ -42,10 +91,6 @@ body{
 	content: url(../images/Veggie.svg);
 }
 
-.recipe-ref{
-
-}
-
 .resource-link {
   display: block;
   font-size: 120%;
@@ -59,6 +104,93 @@ body{
   padding: 20px 0px 10px 0px;
 }
 
+
+/*
+*
+*  Styles for RECIPES	 
+*
+*/
+
+.recipe{
+	padding-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+	.recipe{
+		border-left: 1px solid $basq-grey;
+		border-right: 1px solid $basq-grey;
+		border-bottom: 1px solid $basq-grey;
+	}
+}
+
+@media (min-width: 576px) {
+	.recipe-header{
+		margin-top: 20px;
+	}
+}
+
+.ingredient-title{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 120%;
+	color: $basq-red;
+	padding: 20px 0px 10px 0px;
+}
+
+.ingredient-sub-list{
+	margin-top: 1.0em;
+}
+
+.ingredient{
+
+}
+
+.servings::before{
+	content: "Servings: ";
+}
+
+.source-link::before{
+	content: "Source: ";
+}
+
+.ingredient-spacer{
+	height : 0.5em;
+}
+
+.directions-title{
+	color: $basq-red;
+	border-top: 10px solid $basq-white;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: 120%;
+	font-weight: 600;
+	margin: 20px 0px 10px 0px;
+}
+
+.method-step{
+	margin-bottom: 10px;
+}
+
+.ingredient-sub-list{
+	color: $basq-red;
+}
+
+.note{
+	font-weight: 500;
+	color: darken($basq-blue, 10%);
+	margin-bottom: 0.3em;
+}
+
+.recipe-ref{
+
+}
+
+
+/*
+*
+*  Styles for COOKING LOG 
+*
+*/
 .log-entry{
 	padding-top: 20px;
 }
@@ -192,6 +324,12 @@ body{
 	
 } 
 
+
+/*
+*
+*  Styles for WHAT'S THAT CALLED...
+*
+*/
 .english-name{
         
 }
@@ -212,6 +350,12 @@ padding: 10px 0px 	0px 0px;
     content: '  ';
 }
 
+
+/*
+*
+*  Styles for PROJECTS
+*
+*/
 .project-title{
   text-transform: uppercase;
   font-weight: 600;
@@ -229,106 +373,13 @@ padding: 10px 0px 	0px 0px;
   font-weight: 600;
   padding: 0px 0px 0px 0px; }
 
+
+/*
+*
+*  Styles for WEIGHTS AND VOLUMES 
+*
+*/
 .weights-table>thead{
 	background: $basq-blue ;
 	color: $basq-white;
-}
-
-@media (min-width: 576px) {
-	.recipe-header{
-		margin-top: 20px;
-	}
-}
-
-.page-title{
-	display:block;
-	font-size: 400%;
-	font-weight: 900;
-	padding: 20px 15px 20px 15px;
-	background: $basq-blue;
-	color : white;
-	text-decoration: underline;
-	text-transform: uppercase;
-	text-decoration-color: $basq-yellow;
-	word-wrap: break-word;
-	line-height : 1.15em;
-}
-
-@media (min-width: 576px) {
-	.page-title{
-		border-left: 1px solid $basq-grey;
-		border-right: 1px solid $basq-grey;
-	}
-}
-
-
-.jumbotron{
-	background: $basq-blue;
-	color: $basq-white;
-	padding: 2rem 1rem; 
-	margin-bottom: 0px;
-	border-radius: 0px;
-}
-
-.recipe{
-	padding-bottom: 15px;
-}
-
-@media (min-width: 576px) {
-	.recipe{
-		border-left: 1px solid $basq-grey;
-		border-right: 1px solid $basq-grey;
-		border-bottom: 1px solid $basq-grey;
-	}
-}
-
-.ingredient-title{
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 120%;
-	color: $basq-red;
-	padding: 20px 0px 10px 0px;
-}
-
-.ingredient{
-
-}
-
-.serves::before{
-	content: "Serves ";
-}
-
-.ingredient-spacer{
-	height : 0.5em;
-}
-
-.ingredient-sub-list{
-	margin-top: 1.0em;
-}
-
-.directions-title{
-	color: $basq-red;
-	border-top: 10px solid $basq-white;
-	padding-top: 20px;
-	text-transform: uppercase;
-	font-size: 120%;
-	font-weight: 600;
-	margin: 20px 0px 10px 0px;
-}
-
-.method-step{
-	margin-bottom: 10px;
-}
-
-.ingredient-sub-list{
-	color: $basq-red;
-}
-
-a{
-	color: $basq-blue;
-}
-
-a:hover{
-	color: $basq-red;
-	text-decoration: none;
 }
