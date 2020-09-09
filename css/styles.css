@@ -1,14 +1,56 @@
+/*
+*
+* COLORS and VARIABLES
+*
+*/
+/*
+*
+* STYLES for APPLICATION
+*
+*/
 body {
   background: #DFE3E7; }
 
 .container {
   background: white; }
 
-.note {
-  font-weight: 500;
-  color: #0a7586;
-  margin-bottom: 0.3em; }
+.page-title {
+  display: block;
+  font-size: 400%;
+  font-weight: 900;
+  padding: 20px 15px 20px 15px;
+  background: #0D9EB6;
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: #F4BA49;
+  word-wrap: break-word;
+  line-height: 1.15em; }
 
+@media (min-width: 576px) {
+  .page-title {
+    border-left: 1px solid #CCCCCE;
+    border-right: 1px solid #CCCCCE; } }
+
+.jumbotron {
+  background: #0D9EB6;
+  color: #DFE3E7;
+  padding: 2rem 1rem;
+  margin-bottom: 0px;
+  border-radius: 0px; }
+
+a {
+  color: #0D9EB6; }
+
+a:hover {
+  color: #962634;
+  text-decoration: none; }
+
+/*
+*
+*  Styles for INDEX 
+*
+*/
 .recipe-list {
   border-left: 1px solid #CCCCCE;
   border-right: 1px solid #CCCCCE; }
@@ -40,6 +82,68 @@ body {
   color: #962634;
   padding: 20px 0px 10px 0px; }
 
+/*
+*
+*  Styles for RECIPES   
+*
+*/
+.recipe {
+  padding-bottom: 15px; }
+
+@media (min-width: 576px) {
+  .recipe {
+    border-left: 1px solid #CCCCCE;
+    border-right: 1px solid #CCCCCE;
+    border-bottom: 1px solid #CCCCCE; } }
+
+@media (min-width: 576px) {
+  .recipe-header {
+    margin-top: 20px; } }
+
+.ingredient-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: #962634;
+  padding: 20px 0px 10px 0px; }
+
+.ingredient-sub-list {
+  margin-top: 1.0em; }
+
+.servings::before {
+  content: "Servings: "; }
+
+.source-link::before {
+  content: "Source: "; }
+
+.ingredient-spacer {
+  height: 0.5em; }
+
+.directions-title {
+  color: #962634;
+  border-top: 10px solid #DFE3E7;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: 600;
+  margin: 20px 0px 10px 0px; }
+
+.method-step {
+  margin-bottom: 10px; }
+
+.ingredient-sub-list {
+  color: #962634; }
+
+.note {
+  font-weight: 500;
+  color: #0a7586;
+  margin-bottom: 0.3em; }
+
+/*
+*
+*  Styles for COOKING LOG 
+*
+*/
 .log-entry {
   padding-top: 20px; }
 
@@ -155,16 +259,26 @@ body {
   font-weight: 900;
   content: "\f005\f005\f005\f005\f005"; }
 
+/*
+*
+*  Styles for WHAT'S THAT CALLED...
+*
+*/
 .name-from {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 10px 0px 	0px 0px; }
+  padding: 10px 0px   0px 0px; }
 
 .name-to::before {
   content: '  '; }
 
+/*
+*
+*  Styles for PROJECTS
+*
+*/
 .project-title {
   text-transform: uppercase;
   font-weight: 600;
@@ -181,82 +295,11 @@ body {
   font-weight: 600;
   padding: 0px 0px 0px 0px; }
 
+/*
+*
+*  Styles for WEIGHTS AND VOLUMES 
+*
+*/
 .weights-table > thead {
   background: #0D9EB6;
   color: #DFE3E7; }
-
-@media (min-width: 576px) {
-  .recipe-header {
-    margin-top: 20px; } }
-
-.page-title {
-  display: block;
-  font-size: 400%;
-  font-weight: 900;
-  padding: 20px 15px 20px 15px;
-  background: #0D9EB6;
-  color: white;
-  text-decoration: underline;
-  text-transform: uppercase;
-  text-decoration-color: #F4BA49;
-  word-wrap: break-word;
-  line-height: 1.15em; }
-
-@media (min-width: 576px) {
-  .page-title {
-    border-left: 1px solid #CCCCCE;
-    border-right: 1px solid #CCCCCE; } }
-
-.jumbotron {
-  background: #0D9EB6;
-  color: #DFE3E7;
-  padding: 2rem 1rem;
-  margin-bottom: 0px;
-  border-radius: 0px; }
-
-.recipe {
-  padding-bottom: 15px; }
-
-@media (min-width: 576px) {
-  .recipe {
-    border-left: 1px solid #CCCCCE;
-    border-right: 1px solid #CCCCCE;
-    border-bottom: 1px solid #CCCCCE; } }
-
-.ingredient-title {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 120%;
-  color: #962634;
-  padding: 20px 0px 10px 0px; }
-
-.serves::before {
-  content: "Serves "; }
-
-.ingredient-spacer {
-  height: 0.5em; }
-
-.ingredient-sub-list {
-  margin-top: 1.0em; }
-
-.directions-title {
-  color: #962634;
-  border-top: 10px solid #DFE3E7;
-  padding-top: 20px;
-  text-transform: uppercase;
-  font-size: 120%;
-  font-weight: 600;
-  margin: 20px 0px 10px 0px; }
-
-.method-step {
-  margin-bottom: 10px; }
-
-.ingredient-sub-list {
-  color: #962634; }
-
-a {
-  color: #0D9EB6; }
-
-a:hover {
-  color: #962634;
-  text-decoration: none; }
