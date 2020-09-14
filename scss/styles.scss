@@ -207,8 +207,12 @@ a:hover{
 }
 
 .log-title{
-  padding-left: 1em;
+  padding-left: 0.6em;
   display :inline;  
+}
+
+.log-link{
+  text-transform: lowercase;
 }
 
 @mixin log-rating{
