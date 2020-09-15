@@ -1,3 +1,5 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /*
 *
 * COLORS and VARIABLES
@@ -265,7 +267,7 @@ a:hover{
 }
 
 @mixin log-rating-before{
-  font-family: "Font Awesome 5 Free";                     
+  font-family: "FontAwesome";                     
   font-weight: 900;      
 }
 
@@ -296,7 +298,7 @@ a:hover{
 
 .log-rating-5::before{
   @include log-rating-before;
-  content: "\f005\f005\f089";  
+  content: "\f005\f005\f089\f006\f006";  
 }
 
 .log-rating-6::before{

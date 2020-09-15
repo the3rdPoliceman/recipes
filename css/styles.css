@@ -1,3 +1,4 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /*
 *
 * COLORS and VARIABLES
@@ -208,57 +209,57 @@ a:hover {
   display: inline; }
 
 .log-rating-0::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f006\f006\f006\f006\f006"; }
 
 .log-rating-1::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f089\f006\f006\f006\f006"; }
 
 .log-rating-2::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f006\f006\f006\f006"; }
 
 .log-rating-3::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f089\f006\f006\f006"; }
 
 .log-rating-4::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f005\f006\f006\f006"; }
 
 .log-rating-5::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
-  content: "\f005\f005\f089"; }
+  content: "\f005\f005\f089\f006\f006"; }
 
 .log-rating-6::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f005\f005\f006\f006"; }
 
 .log-rating-7::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f005\f005\f089\f006"; }
 
 .log-rating-8::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f005\f005\f005\f006"; }
 
 .log-rating-9::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f005\f005\f005\f089"; }
 
 .log-rating-10::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   content: "\f005\f005\f005\f005\f005"; }
 
