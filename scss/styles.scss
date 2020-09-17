@@ -147,6 +147,11 @@ a:hover{
 
 }
 
+.optional::after{
+  font-style: italic;
+  content : ' (optional)';
+}
+
 .servings::before{
   content: "Servings: ";
 }
@@ -181,6 +186,34 @@ a:hover{
   font-weight: 500;
   color: darken($basq-blue, 10%);
   margin-bottom: 0.3em;
+}
+
+.note::before{
+  content : 'NOTE: ';
+}
+
+.alternative-recipe{
+  font-weight: 500;
+  color: darken($basq-blue, 10%);
+  margin-bottom: 0.3em;  
+}
+
+.alternative-recipe::before{
+  content : 'ALTERNATIVE RECIPE: ';
+}
+
+.variation{
+  font-weight: 500;
+  color: darken($basq-blue, 10%);
+  margin-bottom: 0.3em;
+}
+
+.variation::before{
+  content : 'VARIATION: ';
+}
+
+.variation::before{
+  content : 'VARIATION: ';
 }
 
 .recipe-ref{

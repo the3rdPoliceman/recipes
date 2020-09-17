@@ -111,6 +111,10 @@ a:hover {
 .ingredient-sub-list {
   margin-top: 1.0em; }
 
+.optional::after {
+  font-style: italic;
+  content: ' (optional)'; }
+
 .servings::before {
   content: "Servings: "; }
 
@@ -139,6 +143,28 @@ a:hover {
   font-weight: 500;
   color: #0a7586;
   margin-bottom: 0.3em; }
+
+.note::before {
+  content: 'NOTE: '; }
+
+.alternative-recipe {
+  font-weight: 500;
+  color: #0a7586;
+  margin-bottom: 0.3em; }
+
+.alternative-recipe::before {
+  content: 'ALTERNATIVE RECIPE: '; }
+
+.variation {
+  font-weight: 500;
+  color: #0a7586;
+  margin-bottom: 0.3em; }
+
+.variation::before {
+  content: 'VARIATION: '; }
+
+.variation::before {
+  content: 'VARIATION: '; }
 
 /*
 *
