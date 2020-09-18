@@ -190,6 +190,10 @@ a:hover {
 .log-link {
   text-transform: lowercase; }
 
+.log-rating-unknown {
+  padding-left: 1em;
+  display: inline; }
+
 .log-rating-0 {
   padding-left: 1em;
   display: inline; }
@@ -233,6 +237,11 @@ a:hover {
 .log-rating-10 {
   padding-left: 1em;
   display: inline; }
+
+.log-rating-unknown::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "?"; }
 
 .log-rating-0::before {
   font-family: "FontAwesome";

@@ -255,6 +255,10 @@ a:hover{
   display :inline;
 }
 
+.log-rating-unknown{
+  @include log-rating; 
+}
+
 .log-rating-0{
   @include log-rating;
 }
@@ -302,6 +306,11 @@ a:hover{
 @mixin log-rating-before{
   font-family: "FontAwesome";                     
   font-weight: 900;      
+}
+
+.log-rating-unknown::before{
+  @include log-rating-before;
+  content: "?";  
 }
 
 .log-rating-0::before{
