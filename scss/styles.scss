@@ -315,57 +315,57 @@ a:hover{
 
 .log-rating-0::before{
   @include log-rating-before;
-  content: "\f006\f006\f006\f006\f006";  
+  content: "\f006\f006\f006\f006\f006\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-1::before{
   @include log-rating-before;
-  content: "\f089\f006\f006\f006\f006";  
+  content: "\f005\f006\f006\f006\f006\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-2::before{
   @include log-rating-before;
-  content: "\f005\f006\f006\f006\f006";  
+  content: "\f005\f005\f006\f006\f006\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-3::before{
   @include log-rating-before;
-  content: "\f005\f089\f006\f006\f006";  
+  content: "\f005\f005\f005\f006\f006\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-4::before{
   @include log-rating-before;
-  content: "\f005\f005\f006\f006\f006";  
+  content: "\f005\f005\f005\f005\f006\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-5::before{
   @include log-rating-before;
-  content: "\f005\f005\f089\f006\f006";  
+  content: "\f005\f005\f005\f005\f005\f006\f006\f006\f006\f006";  
 }
 
 .log-rating-6::before{
   @include log-rating-before;
-  content: "\f005\f005\f005\f006\f006";  
+  content: "\f005\f005\f005\f005\f005\f005\f006\f006\f006\f006";  
 }
 
 .log-rating-7::before{
   @include log-rating-before;
-  content: "\f005\f005\f005\f089\f006";  
+  content: "\f005\f005\f005\f005\f005\f005\f005\f006\f006\f006";  
 }
 
 .log-rating-8::before{
   @include log-rating-before;
-  content: "\f005\f005\f005\f005\f006";  
+  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f006\f006";  
 }
 
 .log-rating-9::before{
   @include log-rating-before;
-  content: "\f005\f005\f005\f005\f089";  
+  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f006";  
 }
 
 .log-rating-10::before{
   @include log-rating-before;
-  content: "\f005\f005\f005\f005\f005";  
+  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";  
 }
 
 .log-detail{
