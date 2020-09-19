@@ -131,27 +131,6 @@ a:hover{
   }
 }
 
-.ingredient-title{
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 120%;
-  color: $basq-red;
-  padding: 20px 0px 10px 0px;
-}
-
-.ingredient-sub-list{
-  margin-top: 1.0em;
-}
-
-.ingredient{
-
-}
-
-.optional::after{
-  font-style: italic;
-  content : ' (optional)';
-}
-
 .servings::before{
   content: "Servings: ";
 }
@@ -160,8 +139,34 @@ a:hover{
   content: "Source: ";
 }
 
+.ingredient-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 120%;
+  color: $basq-red;
+  padding: 20px 0px 10px 0px;
+}
+
+.ingredient{
+
+}
+
+.ingredient-sub-list{
+  margin-top: 1.0em;
+  color: $basq-red;
+}
+
 .ingredient-spacer{
   height : 0.5em;
+}
+
+.recipe-ref{
+
+}
+
+.optional::after{
+  font-style: italic;
+  content : ' (optional)';
 }
 
 .directions-title{
@@ -174,12 +179,13 @@ a:hover{
   margin: 20px 0px 10px 0px;
 }
 
-.method-step{
-  margin-bottom: 10px;
+.method-sub-list{
+  margin-top: 1.0em;
+  color: $basq-red;
 }
 
-.ingredient-sub-list{
-  color: $basq-red;
+.method-part{
+  margin-bottom: 10px;
 }
 
 .note{
@@ -212,12 +218,14 @@ a:hover{
   content : 'VARIATION: ';
 }
 
-.variation::before{
-  content : 'VARIATION: ';
+.serve-with{
+  font-weight: 500;
+  color: darken($basq-blue, 10%);
+  margin-top: 0.3em;
 }
 
-.recipe-ref{
-
+.serve-with::before{
+  content : 'SERVE WITH: ';
 }
 
 

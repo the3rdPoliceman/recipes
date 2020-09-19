@@ -101,6 +101,12 @@ a:hover {
   .recipe-header {
     margin-top: 20px; } }
 
+.servings::before {
+  content: "Servings: "; }
+
+.source-link::before {
+  content: "Source: "; }
+
 .ingredient-title {
   text-transform: uppercase;
   font-weight: 600;
@@ -109,20 +115,15 @@ a:hover {
   padding: 20px 0px 10px 0px; }
 
 .ingredient-sub-list {
-  margin-top: 1.0em; }
+  margin-top: 1.0em;
+  color: #962634; }
+
+.ingredient-spacer {
+  height: 0.5em; }
 
 .optional::after {
   font-style: italic;
   content: ' (optional)'; }
-
-.servings::before {
-  content: "Servings: "; }
-
-.source-link::before {
-  content: "Source: "; }
-
-.ingredient-spacer {
-  height: 0.5em; }
 
 .directions-title {
   color: #962634;
@@ -133,11 +134,12 @@ a:hover {
   font-weight: 600;
   margin: 20px 0px 10px 0px; }
 
-.method-step {
-  margin-bottom: 10px; }
-
-.ingredient-sub-list {
+.method-sub-list {
+  margin-top: 1.0em;
   color: #962634; }
+
+.method-part {
+  margin-bottom: 10px; }
 
 .note {
   font-weight: 500;
@@ -163,8 +165,13 @@ a:hover {
 .variation::before {
   content: 'VARIATION: '; }
 
-.variation::before {
-  content: 'VARIATION: '; }
+.serve-with {
+  font-weight: 500;
+  color: #0a7586;
+  margin-top: 0.3em; }
+
+.serve-with::before {
+  content: 'SERVE WITH: '; }
 
 /*
 *
