@@ -116,7 +116,8 @@ a:hover {
 
 .ingredient-sub-list {
   margin-top: 1.0em;
-  color: #962634; }
+  color: #962634;
+  text-transform: uppercase; }
 
 .ingredient-spacer {
   height: 0.5em; }
@@ -124,6 +125,15 @@ a:hover {
 .optional::after {
   font-style: italic;
   content: ' (optional)'; }
+
+.substitute {
+  font-style: italic; }
+
+.substitute::before {
+  content: ' (or '; }
+
+.substitute::after {
+  content: ') '; }
 
 .directions-title {
   color: #962634;

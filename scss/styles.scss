@@ -154,6 +154,7 @@ a:hover{
 .ingredient-sub-list{
   margin-top: 1.0em;
   color: $basq-red;
+  text-transform: uppercase;
 }
 
 .ingredient-spacer{
@@ -167,6 +168,18 @@ a:hover{
 .optional::after{
   font-style: italic;
   content : ' (optional)';
+}
+
+.substitute{
+  font-style: italic;
+}
+
+.substitute::before{
+  content: ' (or ';
+}
+
+.substitute::after{
+  content: ') ';
 }
 
 .directions-title{
