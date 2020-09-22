@@ -47,6 +47,13 @@ a:hover {
   color: #962634;
   text-decoration: none; }
 
+table > thead {
+  background: #0D9EB6;
+  color: #DFE3E7; }
+
+caption {
+  padding-top: .25rem; }
+
 /*
 *
 *  Styles for INDEX 
@@ -70,6 +77,11 @@ a:hover {
 .vegetarian::after {
   padding-left: 0.5em;
   content: url(../images/Veggie.svg); }
+
+.guide-link {
+  display: block;
+  font-size: 120%;
+  padding: 0px 0px 0px 0px; }
 
 .resource-link {
   display: block;
@@ -356,6 +368,3 @@ a:hover {
 *  Styles for WEIGHTS AND VOLUMES 
 *
 */
-.weights-table > thead {
-  background: #0D9EB6;
-  color: #DFE3E7; }

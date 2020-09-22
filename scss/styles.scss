@@ -64,6 +64,14 @@ a:hover{
   text-decoration: none;
 }
 
+table>thead{
+  background: $basq-blue ;
+  color: $basq-white;
+}
+
+caption {
+    padding-top: .25rem;
+}
 
 /*
 *
@@ -82,10 +90,14 @@ a:hover{
   font-weight: 500;
 }
 
-.recipe-link{
+@mixin link_from-index{
   display: block;
   font-size: 120%;
   padding: 0px 0px 0px 0px;
+}
+
+.recipe-link{
+  @include link_from-index; 
 }
 
 .vegetarian::after{
@@ -93,10 +105,14 @@ a:hover{
   content: url(../images/Veggie.svg);
 }
 
+.guide-link{
+  @include link_from-index; 
+}
+
+
 .resource-link {
-  display: block;
-  font-size: 120%;
-  padding: 0px 0px 0px 0px; }
+  @include link_from-index; 
+}
 
 .resource-title{
   text-transform: uppercase;
@@ -448,7 +464,3 @@ a:hover{
 *  Styles for WEIGHTS AND VOLUMES 
 *
 */
-.weights-table>thead{
-  background: $basq-blue ;
-  color: $basq-white;
-}
