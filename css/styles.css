@@ -134,6 +134,10 @@ caption {
 .ingredient-spacer {
   height: 0.5em; }
 
+.alternative-ingredient::before {
+  color: #962634;
+  content: ' alternative: '; }
+
 .optional::after {
   font-style: italic;
   content: ' (optional)'; }

@@ -177,6 +177,11 @@ caption {
   height : 0.5em;
 }
 
+.alternative-ingredient::before{
+  color: $basq-red;
+  content : ' alternative: ';
+}
+
 .recipe-ref{
 
 }
