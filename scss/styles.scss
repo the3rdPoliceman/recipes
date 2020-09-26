@@ -466,6 +466,26 @@ caption {
 
 /*
 *
+*  Styles for GUIDES
+*
+*/
+.guide-section-first{
+  color: $basq-red;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.guide-section{
+  @extend .guide-section-first;
+  border-top: 5px solid $basq-white;
+  margin: 20px 0px 10px 0px;
+}
+
+
+/*
+*
 *  Styles for WEIGHTS AND VOLUMES 
 *
 */

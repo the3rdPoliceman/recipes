@@ -369,6 +369,22 @@ caption {
 
 /*
 *
+*  Styles for GUIDES
+*
+*/
+.guide-section-first, .guide-section {
+  color: #962634;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: 600;
+  padding-top: 20px; }
+
+.guide-section {
+  border-top: 5px solid #DFE3E7;
+  margin: 20px 0px 10px 0px; }
+
+/*
+*
 *  Styles for WEIGHTS AND VOLUMES 
 *
 */
