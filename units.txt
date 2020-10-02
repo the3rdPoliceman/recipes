@@ -1,0 +1,62 @@
+bunch
+can
+cans
+colander
+colanders
+cup
+cups
+dash
+g
+gram
+gramm
+gramms
+grams
+grind
+grinds
+gs
+juice
+kg
+kgs
+Kg
+Kgs
+kilo
+kilogram
+kilograms
+kilos
+liter
+liters
+litre
+litres
+ml
+mls
+pinch
+pinches
+shaving
+shavings
+slice    ?
+slices  ?
+sprig   ? 
+sprigs  ?
+tablespoon
+tablespoons
+tbsp
+tbsps
+teaspoon
+teaspoons
+thumb
+thumbs
+tin
+tins
+tsp
+tsps
+tsp.
+tsps.
+zest
+
+1-2
+.75
+0.75
+1/2
+a
+A
+unspecified, but shouldn't be taken as 1
