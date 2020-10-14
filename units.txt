@@ -33,10 +33,10 @@ pinch
 pinches
 shaving
 shavings
-slice    ?
-slices  ?
-sprig   ? 
-sprigs  ?
+slice
+slices
+sprig
+sprigs
 tablespoon
 tablespoons
 tbsp
@@ -49,9 +49,7 @@ tin
 tins
 tsp
 tsps
-tsp.
-tsps.
-zest
+zest of
 
 1-2
 .75

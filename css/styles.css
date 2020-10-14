@@ -134,6 +134,13 @@ caption {
 .ingredient-spacer {
   height: 0.5em; }
 
+.servings-not-adjusted::before {
+  content: '(NOT ADJUSTED WITH SERVINGS) '; }
+
+.adjusted {
+  font-style: italic;
+  color: #F4BA49; }
+
 .alternative-ingredient::before {
   color: #962634;
   content: ' alternative: '; }

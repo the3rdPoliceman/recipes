@@ -177,6 +177,15 @@ caption {
   height : 0.5em;
 }
 
+.servings-not-adjusted::before{
+  content : '(NOT ADJUSTED WITH SERVINGS) ';
+}
+
+.adjusted{
+  font-style: italic;
+  color:$basq-yellow ;
+}
+
 .alternative-ingredient::before{
   color: $basq-red;
   content : ' alternative: ';
