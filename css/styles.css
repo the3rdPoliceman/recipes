@@ -141,6 +141,9 @@ caption {
   font-style: italic;
   color: #F4BA49; }
 
+div.alternative-ingredient {
+  display: inline; }
+
 .alternative-ingredient::before {
   color: #962634;
   content: ' alternative: '; }

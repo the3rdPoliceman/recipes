@@ -186,6 +186,10 @@ caption {
   color:$basq-yellow ;
 }
 
+div.alternative-ingredient{
+  display :inline;
+}
+
 .alternative-ingredient::before{
   color: $basq-red;
   content : ' alternative: ';
