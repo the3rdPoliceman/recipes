@@ -122,7 +122,13 @@ function updateRectangleCake(){
 
 function updateIngredients(ratio){
 	$(".ingredient").each(function( index, element) {
-		$(element).addClass('servings-not-adjusted');
+		if (ratio == 1){
+			$(element).removeClass('servings-not-adjusted');
+		}
+		else{
+			$(element).addClass('servings-not-adjusted');
+		}
+
 		var contents = $(element).contents();
 
 		// standard "number then measure" order 
