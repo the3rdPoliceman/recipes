@@ -26,3 +26,17 @@ Fett			28g
 Kohlenhydrate		36g	
 davon Zucker		36g	
 Eiweiss			26g	
+
+
+Experiments
+1	75g Philadelphia tub, 20g butter, 90g icing sugar. Too runny
+2	75g Migros, 20g butter, 90g icing sugar. Quite a bit better, still not totally stiff - ********** CURRENT BENCHMARK *********
+3	75g Migros, 20g butter, 90g icing sugar, 7g milk powder. Not significantly better or worse than 2 - maybe a bit better taste, but maybe a bit granier too
+4	75g Migros, 20g butter, 90g icing sugar, 15g milk powder. Way too grainy
+
+
+Ideas
+1	The philadelphia brick seems to have around 10g per 100g less water. Maybe put the more watery cheese in cheesecloth to squeeze out some water?
+2	Adjust or remove water
+3	Adjust Icing Sugar
+3	Cornflour to thicken
