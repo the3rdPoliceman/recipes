@@ -341,6 +341,16 @@ div.alternative-ingredient {
   font-weight: 900;
   content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005"; }
 
+.log-header.collapsed::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f078"; }
+
+.log-header:not(.collapsed)::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f077"; }
+
 /*
 *
 *  Styles for WHAT'S THAT CALLED...

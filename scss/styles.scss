@@ -427,6 +427,18 @@ div.alternative-ingredient{
   
 } 
 
+.log-header.collapsed::before{
+  font-family: "FontAwesome";                     
+  font-weight: 900;      
+  content: "\f078";  
+}
+
+.log-header:not(.collapsed)::before{
+  font-family: "FontAwesome";                     
+  font-weight: 900;      
+  content: "\f077";  
+}
+
 
 /*
 *
