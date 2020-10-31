@@ -54,6 +54,9 @@ table > thead {
 caption {
   padding-top: .25rem; }
 
+input {
+  border: 2px solid #CCCCCE; }
+
 /*
 *
 *  Styles for INDEX 
@@ -113,6 +116,9 @@ caption {
   .recipe-header {
     margin-top: 20px; } }
 
+.servings {
+  padding-top: 0.25em; }
+
 .servings::before {
   content: "Servings: "; }
 
@@ -124,10 +130,10 @@ caption {
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 20px 0px 10px 0px; }
+  padding: 16px 0px 8px 0px; }
 
 .ingredient-sub-list {
-  margin-top: 1.0em;
+  margin-top: 0.4em;
   color: #962634;
   text-transform: uppercase; }
 
@@ -176,6 +182,9 @@ div.alternative-ingredient {
 
 .method-part {
   margin-bottom: 10px; }
+
+.method-step {
+  padding-bottom: 0.4em; }
 
 .note {
   font-weight: 500;
@@ -229,9 +238,6 @@ div.alternative-ingredient {
 .log-title {
   padding-left: 0.6em;
   display: inline; }
-
-.log-link {
-  text-transform: lowercase; }
 
 .log-rating-unknown {
   padding-left: 1em;

@@ -73,6 +73,10 @@ caption {
     padding-top: .25rem;
 }
 
+input{
+  border: 2px solid $basq-grey;
+}
+
 /*
 *
 *  Styles for INDEX 
@@ -147,6 +151,10 @@ caption {
   }
 }
 
+.servings{
+  padding-top: 0.25em;
+}
+
 .servings::before{
   content: "Servings: ";
 }
@@ -160,7 +168,7 @@ caption {
   font-weight: 600;
   font-size: 120%;
   color: $basq-red;
-  padding: 20px 0px 10px 0px;
+  padding: 16px 0px 8px 0px;
 }
 
 .ingredient{
@@ -168,7 +176,7 @@ caption {
 }
 
 .ingredient-sub-list{
-  margin-top: 1.0em;
+  margin-top: 0.4em;
   color: $basq-red;
   text-transform: uppercase;
 }
@@ -233,6 +241,10 @@ div.alternative-ingredient{
 
 .method-part{
   margin-bottom: 10px;
+}
+
+.method-step{
+  padding-bottom: 0.4em;
 }
 
 .note{
@@ -302,7 +314,6 @@ div.alternative-ingredient{
 }
 
 .log-link{
-  text-transform: lowercase;
 }
 
 @mixin log-rating{
