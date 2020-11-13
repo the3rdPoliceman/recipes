@@ -122,6 +122,30 @@ input {
 .servings::before {
   content: "Servings: "; }
 
+#servings {
+  text-align: right;
+  padding-right: 5px; }
+
+#cake-rectangle-number {
+  text-align: right;
+  padding-right: 5px; }
+
+#cake-rectangle-length {
+  text-align: right;
+  padding-right: 5px; }
+
+#cake-rectangle-width {
+  text-align: right;
+  padding-right: 5px; }
+
+#cake-round-number {
+  text-align: right;
+  padding-right: 5px; }
+
+#cake-round-diameter {
+  text-align: right;
+  padding-right: 5px; }
+
 .source-link::before {
   content: "Source: "; }
 

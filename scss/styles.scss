@@ -159,6 +159,35 @@ input{
   content: "Servings: ";
 }
 
+@mixin serving-input{
+  text-align: right;
+  padding-right: 5px;
+}
+
+#servings{
+  @include serving-input;
+}
+
+#cake-rectangle-number{
+  @include serving-input;
+}
+
+#cake-rectangle-length{
+  @include serving-input;
+}
+
+#cake-rectangle-width{
+  @include serving-input;
+}
+
+#cake-round-number{
+  @include serving-input;
+}
+
+#cake-round-diameter{
+  @include serving-input;
+}
+
 .source-link::before{
   content: "Source: ";
 }
