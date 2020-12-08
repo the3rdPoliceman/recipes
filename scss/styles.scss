@@ -30,7 +30,7 @@ body{
   display:block;
   font-size: 400%;
   font-weight: 900;
-  padding: 20px 15px 20px 15px;
+  padding: 0.25em 0.25em 0.25em 0.25em;
   background: $basq-blue;
   color : white;
   text-decoration: underline;
@@ -51,8 +51,8 @@ body{
   background: $basq-blue;
   color: $basq-white;
   padding: 2rem 1rem; 
-  margin-bottom: 0px;
-  border-radius: 0px;
+  margin-bottom: 0em;
+  border-radius: 0em;
 }
 
 a{
@@ -71,6 +71,12 @@ table>thead{
 
 caption {
     padding-top: .25rem;
+    color: $basq-grey;
+}
+
+figcaption {
+    padding-top: .25rem;
+    color: $basq-grey;
 }
 
 input{
@@ -88,7 +94,7 @@ input{
 }
 
 .recipe-section-title{
-  margin: 20px 0px 5px 0px;
+  margin: 1.25em 0em 5px 0em;
   color : $basq-red ;
   font-size: 150%;
   font-weight: 500;
@@ -97,7 +103,7 @@ input{
 @mixin link_from-index{
   display: block;
   font-size: 120%;
-  padding: 0px 0px 0px 0px;
+  padding: 0em 0em 0em 0em;
 }
 
 .recipe-link{
@@ -123,7 +129,7 @@ input{
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 20px 0px 10px 0px;
+  padding: 1.25em 0em 0.5em 0em;
 }
 
 
@@ -134,7 +140,7 @@ input{
 */
 
 .recipe{
-  padding-bottom: 15px;
+  padding-bottom: 1em;
 }
 
 @media (min-width: 576px) {
@@ -147,7 +153,7 @@ input{
 
 @media (min-width: 576px) {
   .recipe-header{
-    margin-top: 20px;
+    margin-top: 1.25em;
   }
 }
 
@@ -197,7 +203,7 @@ input{
   font-weight: 600;
   font-size: 120%;
   color: $basq-red;
-  padding: 16px 0px 8px 0px;
+  padding: 1em 0em 0.5em 0em;
 }
 
 .ingredient{
@@ -255,12 +261,12 @@ div.alternative-ingredient{
 
 .directions-title{
   color: $basq-red;
-  border-top: 10px solid $basq-white;
-  padding-top: 20px;
+  border-top: 0.5em solid $basq-white;
+  padding-top: 1.25em;
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
-  margin: 20px 0px 10px 0px;
+  margin: 1.25em 0em 0.5em 0em;
 }
 
 .method-sub-list{
@@ -269,7 +275,7 @@ div.alternative-ingredient{
 }
 
 .method-part{
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
 }
 
 .method-step{
@@ -316,14 +322,17 @@ div.alternative-ingredient{
   content : 'SERVE WITH: ';
 }
 
-
+.recipe-image{
+  width: 100%;
+  padding-top: 1em;
+}
 /*
 *
 *  Styles for COOKING LOG 
 *
 */
 .log-entry{
-  padding-top: 20px;
+  padding-top: 1.25em;
 }
 
 .log-header{
@@ -498,7 +507,7 @@ div.alternative-ingredient{
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 10px 0px   0px 0px;
+  padding: 0.5em 0em   0em 0em;
 }
 
 .name-to::before{
@@ -516,17 +525,17 @@ div.alternative-ingredient{
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 20px 0px 10px 0px;
+  padding: 1.25em 0em 0.5em 0em;
 }
 
 .project-detail {
   display: block;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 .project-description {
   display: block;
   font-weight: 600;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 
 /*
@@ -539,18 +548,18 @@ div.alternative-ingredient{
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
-  padding-top: 20px;
+  padding-top: 1.25em;
 }
 
 .guide-section{
   @extend .guide-section-first;
   border-top: 5px solid $basq-white;
-  margin: 20px 0px 10px 0px;
+  margin: 1.25em 0em 0.5em 0em;
 }
 
 @media (min-width: 576px) {
   .guide-header{
-    margin-top: 20px;
+    margin-top: 1.25em;
   }
 }
 

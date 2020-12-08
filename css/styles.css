@@ -19,7 +19,7 @@ body {
   display: block;
   font-size: 400%;
   font-weight: 900;
-  padding: 20px 15px 20px 15px;
+  padding: 0.25em 0.25em 0.25em 0.25em;
   background: #0D9EB6;
   color: white;
   text-decoration: underline;
@@ -37,8 +37,8 @@ body {
   background: #0D9EB6;
   color: #DFE3E7;
   padding: 2rem 1rem;
-  margin-bottom: 0px;
-  border-radius: 0px; }
+  margin-bottom: 0em;
+  border-radius: 0em; }
 
 a {
   color: #0D9EB6; }
@@ -52,7 +52,12 @@ table > thead {
   color: #DFE3E7; }
 
 caption {
-  padding-top: .25rem; }
+  padding-top: .25rem;
+  color: #CCCCCE; }
+
+figcaption {
+  padding-top: .25rem;
+  color: #CCCCCE; }
 
 input {
   border: 2px solid #CCCCCE; }
@@ -67,7 +72,7 @@ input {
   border-right: 1px solid #CCCCCE; }
 
 .recipe-section-title {
-  margin: 20px 0px 5px 0px;
+  margin: 1.25em 0em 5px 0em;
   color: #962634;
   font-size: 150%;
   font-weight: 500; }
@@ -75,7 +80,7 @@ input {
 .recipe-link {
   display: block;
   font-size: 120%;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 .vegetarian::after {
   padding-left: 0.5em;
@@ -84,19 +89,19 @@ input {
 .guide-link {
   display: block;
   font-size: 120%;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 .resource-link {
   display: block;
   font-size: 120%;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 .resource-title {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 20px 0px 10px 0px; }
+  padding: 1.25em 0em 0.5em 0em; }
 
 /*
 *
@@ -104,7 +109,7 @@ input {
 *
 */
 .recipe {
-  padding-bottom: 15px; }
+  padding-bottom: 1em; }
 
 @media (min-width: 576px) {
   .recipe {
@@ -114,7 +119,7 @@ input {
 
 @media (min-width: 576px) {
   .recipe-header {
-    margin-top: 20px; } }
+    margin-top: 1.25em; } }
 
 .servings {
   padding-top: 0.25em; }
@@ -154,7 +159,7 @@ input {
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 16px 0px 8px 0px; }
+  padding: 1em 0em 0.5em 0em; }
 
 .ingredient-sub-list {
   margin-top: 0.4em;
@@ -193,19 +198,19 @@ div.alternative-ingredient {
 
 .directions-title {
   color: #962634;
-  border-top: 10px solid #DFE3E7;
-  padding-top: 20px;
+  border-top: 0.5em solid #DFE3E7;
+  padding-top: 1.25em;
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
-  margin: 20px 0px 10px 0px; }
+  margin: 1.25em 0em 0.5em 0em; }
 
 .method-sub-list {
   margin-top: 1.0em;
   color: #962634; }
 
 .method-part {
-  margin-bottom: 10px; }
+  margin-bottom: 0.5em; }
 
 .method-step {
   padding-bottom: 0.4em; }
@@ -242,13 +247,17 @@ div.alternative-ingredient {
 .serve-with::before {
   content: 'SERVE WITH: '; }
 
+.recipe-image {
+  width: 100%;
+  padding-top: 1em; }
+
 /*
 *
 *  Styles for COOKING LOG 
 *
 */
 .log-entry {
-  padding-top: 20px; }
+  padding-top: 1.25em; }
 
 .log-header {
   font-weight: 600;
@@ -391,7 +400,7 @@ div.alternative-ingredient {
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 10px 0px   0px 0px; }
+  padding: 0.5em 0em   0em 0em; }
 
 .name-to::before {
   content: '  '; }
@@ -406,16 +415,16 @@ div.alternative-ingredient {
   font-weight: 600;
   font-size: 120%;
   color: #962634;
-  padding: 20px 0px 10px 0px; }
+  padding: 1.25em 0em 0.5em 0em; }
 
 .project-detail {
   display: block;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 .project-description {
   display: block;
   font-weight: 600;
-  padding: 0px 0px 0px 0px; }
+  padding: 0em 0em 0em 0em; }
 
 /*
 *
@@ -427,15 +436,15 @@ div.alternative-ingredient {
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
-  padding-top: 20px; }
+  padding-top: 1.25em; }
 
 .guide-section {
   border-top: 5px solid #DFE3E7;
-  margin: 20px 0px 10px 0px; }
+  margin: 1.25em 0em 0.5em 0em; }
 
 @media (min-width: 576px) {
   .guide-header {
-    margin-top: 20px; } }
+    margin-top: 1.25em; } }
 
 /*
 *
