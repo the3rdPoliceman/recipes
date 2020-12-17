@@ -158,7 +158,10 @@ input{
 }
 
 .servings{
-  padding-top: 0.25em;
+  padding-top: 1em;
+  color: $basq-blue;
+  font-size: 90%;
+  text-transform: uppercase;
 }
 
 .servings::before{
@@ -194,8 +197,19 @@ input{
   @include serving-input;
 }
 
+.source-link{
+  padding-top: 1.5em;
+}
+
 .source-link::before{
+  color: $basq-blue;
+  font-size: 90%;
+  text-transform: uppercase;
   content: "Source: ";
+}
+
+.recipe-details{
+  margin-top: 1em;
 }
 
 .ingredient-title{
@@ -207,7 +221,9 @@ input{
 }
 
 .ingredient{
-
+  text-indent: -2em;
+  margin-left: 2em;
+  font-weight : 600;
 }
 
 .ingredient-sub-list{
@@ -281,6 +297,39 @@ div.alternative-ingredient{
 .method-step{
   padding-bottom: 0.4em;
 }
+
+@media (min-width:576px) {
+  .directions
+  {
+    border-left: 2px solid $basq-blue;
+  }
+}
+
+ol.directions-list li {
+  counter-increment: methodstepcount
+}
+
+@media (max-width:575px) {
+  .directions-list
+  {
+    padding-top : 1em;
+    margin-top : 1em;
+    padding-bottom : 1em;
+    border-top: 2px solid $basq-blue;
+  }
+}
+
+ol.directions-list li:before {
+  content: counter(methodstepcount) ". ";
+  color: $basq-blue;
+}
+
+ol.directions-list {
+  list-style: none;
+  counter-reset: methodstepcount;
+  padding-inline-start: 0px;
+}
+
 
 .note{
   font-weight: 500;

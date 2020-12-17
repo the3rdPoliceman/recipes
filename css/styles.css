@@ -122,7 +122,10 @@ input {
     margin-top: 1.25em; } }
 
 .servings {
-  padding-top: 0.25em; }
+  padding-top: 1em;
+  color: #0D9EB6;
+  font-size: 90%;
+  text-transform: uppercase; }
 
 .servings::before {
   content: "Servings: "; }
@@ -151,8 +154,17 @@ input {
   text-align: right;
   padding-right: 5px; }
 
+.source-link {
+  padding-top: 1.5em; }
+
 .source-link::before {
+  color: #0D9EB6;
+  font-size: 90%;
+  text-transform: uppercase;
   content: "Source: "; }
+
+.recipe-details {
+  margin-top: 1em; }
 
 .ingredient-title {
   text-transform: uppercase;
@@ -160,6 +172,11 @@ input {
   font-size: 120%;
   color: #962634;
   padding: 1em 0em 0.5em 0em; }
+
+.ingredient {
+  text-indent: -2em;
+  margin-left: 2em;
+  font-weight: 600; }
 
 .ingredient-sub-list {
   margin-top: 0.4em;
@@ -214,6 +231,29 @@ div.alternative-ingredient {
 
 .method-step {
   padding-bottom: 0.4em; }
+
+@media (min-width: 576px) {
+  .directions {
+    border-left: 2px solid #0D9EB6; } }
+
+ol.directions-list li {
+  counter-increment: methodstepcount; }
+
+@media (max-width: 575px) {
+  .directions-list {
+    padding-top: 1em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px solid #0D9EB6; } }
+
+ol.directions-list li:before {
+  content: counter(methodstepcount) ". ";
+  color: #0D9EB6; }
+
+ol.directions-list {
+  list-style: none;
+  counter-reset: methodstepcount;
+  padding-inline-start: 0px; }
 
 .note {
   font-weight: 500;
