@@ -6,6 +6,7 @@
 *
 */
 $basq-blue : #0D9EB6;
+$basq-darkblue : darken($basq-blue, 10%);;
 $basq-red : #962634;
 $basq-yellow : #F4BA49;
 $basq-grey : #CCCCCE;
@@ -347,7 +348,7 @@ ol.directions-list {
 
 .note{
   font-weight: 500;
-  color: darken($basq-blue, 10%);
+  color: $basq-blue;
   margin-bottom: 0.3em;
 }
 
@@ -357,7 +358,7 @@ ol.directions-list {
 
 .alternative-recipe{
   font-weight: 500;
-  color: darken($basq-blue, 10%);
+  color: $basq-blue;
   margin-bottom: 0.3em;  
 }
 
@@ -367,7 +368,7 @@ ol.directions-list {
 
 .variation{
   font-weight: 500;
-  color: darken($basq-blue, 10%);
+  color: $basq-blue;
   margin-bottom: 0.3em;
 }
 
@@ -377,7 +378,7 @@ ol.directions-list {
 
 .serve-with{
   font-weight: 500;
-  color: darken($basq-blue, 10%);
+  color: $basq-blue;
   margin-top: 0.3em;
 }
 

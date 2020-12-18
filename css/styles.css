@@ -265,7 +265,7 @@ ol.directions-list {
 
 .note {
   font-weight: 500;
-  color: #0a7586;
+  color: #0D9EB6;
   margin-bottom: 0.3em; }
 
 .note::before {
@@ -273,7 +273,7 @@ ol.directions-list {
 
 .alternative-recipe {
   font-weight: 500;
-  color: #0a7586;
+  color: #0D9EB6;
   margin-bottom: 0.3em; }
 
 .alternative-recipe::before {
@@ -281,7 +281,7 @@ ol.directions-list {
 
 .variation {
   font-weight: 500;
-  color: #0a7586;
+  color: #0D9EB6;
   margin-bottom: 0.3em; }
 
 .variation::before {
@@ -289,7 +289,7 @@ ol.directions-list {
 
 .serve-with {
   font-weight: 500;
-  color: #0a7586;
+  color: #0D9EB6;
   margin-top: 0.3em; }
 
 .serve-with::before {
