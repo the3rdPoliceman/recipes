@@ -69,7 +69,8 @@ input {
 */
 .recipe-list {
   border-left: 1px solid #CCCCCE;
-  border-right: 1px solid #CCCCCE; }
+  border-right: 1px solid #CCCCCE;
+  padding-bottom: 1em; }
 
 .recipe-section-title {
   margin: 1.25em 0em 5px 0em;
@@ -122,12 +123,12 @@ input {
     margin-top: 1.25em; } }
 
 .servings {
-  padding-top: 1em;
-  color: #0D9EB6;
-  font-size: 90%;
-  text-transform: uppercase; }
+  padding-top: 1em; }
 
 .servings::before {
+  color: #0D9EB6;
+  font-size: 90%;
+  text-transform: uppercase;
   content: "Servings: "; }
 
 #servings {
@@ -170,17 +171,22 @@ input {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: #0D9EB6;
   padding: 1em 0em 0.5em 0em; }
 
 .ingredient {
   text-indent: -2em;
   margin-left: 2em;
+  margin-bottom: 0.2em;
   font-weight: 600; }
 
 .ingredient-sub-list {
-  margin-top: 0.4em;
-  color: #962634;
+  margin-top: 1em;
+  color: #0D9EB6;
+  text-transform: uppercase; }
+
+.ingredient-sub-list-top {
+  color: #0D9EB6;
   text-transform: uppercase; }
 
 .ingredient-spacer {
@@ -194,10 +200,12 @@ input {
   color: #F4BA49; }
 
 div.alternative-ingredient {
-  display: inline; }
+  display: inline;
+  font-weight: normal; }
 
 .alternative-ingredient::before {
-  color: #962634;
+  color: #0D9EB6;
+  font-weight: normal;
   content: ' alternative: '; }
 
 .optional::after {
@@ -214,7 +222,7 @@ div.alternative-ingredient {
   content: ') '; }
 
 .directions-title {
-  color: #962634;
+  color: #0D9EB6;
   border-top: 0.5em solid #DFE3E7;
   padding-top: 1.25em;
   text-transform: uppercase;
@@ -224,7 +232,7 @@ div.alternative-ingredient {
 
 .method-sub-list {
   margin-top: 1.0em;
-  color: #962634; }
+  color: #0D9EB6; }
 
 .method-part {
   margin-bottom: 0.5em; }
@@ -290,6 +298,16 @@ ol.directions-list {
 .recipe-image {
   width: 100%;
   padding-top: 1em; }
+
+.serving-suggestions-title {
+  color: #0D9EB6; }
+
+.serving-suggestions-list {
+  padding-inline-start: 0px; }
+
+li.serving-suggestion {
+  list-style-type: circle;
+  list-style-position: inside; }
 
 /*
 *
@@ -472,7 +490,7 @@ ol.directions-list {
 *
 */
 .guide-section-first, .guide-section {
-  color: #962634;
+  color: #0D9EB6;
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
@@ -485,6 +503,15 @@ ol.directions-list {
 @media (min-width: 576px) {
   .guide-header {
     margin-top: 1.25em; } }
+
+.guide {
+  padding-bottom: 1em; }
+
+@media (min-width: 576px) {
+  .guide {
+    border-left: 1px solid #CCCCCE;
+    border-right: 1px solid #CCCCCE;
+    border-bottom: 1px solid #CCCCCE; } }
 
 /*
 *

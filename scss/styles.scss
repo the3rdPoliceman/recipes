@@ -91,6 +91,7 @@ input{
 .recipe-list{
   border-left: 1px solid $basq-grey;
   border-right: 1px solid $basq-grey;
+  padding-bottom: 1em;
 }
 
 .recipe-section-title{
@@ -159,12 +160,13 @@ input{
 
 .servings{
   padding-top: 1em;
-  color: $basq-blue;
-  font-size: 90%;
-  text-transform: uppercase;
 }
 
 .servings::before{
+  
+  color: $basq-blue;
+  font-size: 90%;
+  text-transform: uppercase;
   content: "Servings: ";
 }
 
@@ -216,20 +218,30 @@ input{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: $basq-red;
+  color: $basq-blue;
   padding: 1em 0em 0.5em 0em;
 }
 
 .ingredient{
   text-indent: -2em;
   margin-left: 2em;
+  margin-bottom: 0.2em;
   font-weight : 600;
 }
 
 .ingredient-sub-list{
-  margin-top: 0.4em;
-  color: $basq-red;
+  margin-top: 1em;
+  color: $basq-blue;
   text-transform: uppercase;
+}
+
+.ingredient-sub-list-top{
+  color: $basq-blue;
+  text-transform: uppercase;
+}
+
+.ingredient-sub-list{
+
 }
 
 .ingredient-spacer{
@@ -247,10 +259,12 @@ input{
 
 div.alternative-ingredient{
   display :inline;
+  font-weight: normal;
 }
 
 .alternative-ingredient::before{
-  color: $basq-red;
+  color: $basq-blue;
+  font-weight: normal;
   content : ' alternative: ';
 }
 
@@ -276,7 +290,7 @@ div.alternative-ingredient{
 }
 
 .directions-title{
-  color: $basq-red;
+  color: $basq-blue;
   border-top: 0.5em solid $basq-white;
   padding-top: 1.25em;
   text-transform: uppercase;
@@ -287,7 +301,7 @@ div.alternative-ingredient{
 
 .method-sub-list{
   margin-top: 1.0em;
-  color: $basq-red;
+  color: $basq-blue;
 }
 
 .method-part{
@@ -374,6 +388,19 @@ ol.directions-list {
 .recipe-image{
   width: 100%;
   padding-top: 1em;
+}
+
+.serving-suggestions-title{
+  color: $basq-blue;
+}
+
+.serving-suggestions-list{
+  padding-inline-start : 0px;
+}
+
+li.serving-suggestion{
+  list-style-type: circle;
+  list-style-position: inside;
 }
 /*
 *
@@ -593,7 +620,7 @@ ol.directions-list {
 *
 */
 .guide-section-first{
-  color: $basq-red;
+  color: $basq-blue;
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
@@ -612,6 +639,17 @@ ol.directions-list {
   }
 }
 
+.guide{
+  padding-bottom: 1em;
+}
+
+@media (min-width: 576px) {
+  .guide{
+    border-left: 1px solid $basq-grey;
+    border-right: 1px solid $basq-grey;
+    border-bottom: 1px solid $basq-grey;
+  }
+}
 
 /*
 *

@@ -42,7 +42,7 @@ def parse_file(the_file):
                     elif before_method:
                         output += '<div class="ingredient">' + line + '</div>\n'
                     else:
-                        output += '<div class="method-step">' + line + '</div>\n'
+                        output += '<li class="method-step">' + line + '</li>\n'
 
             output = header + output + footer
             output_file = str(the_file.parent) + "/" + the_file.name.replace(".txt", ".html")

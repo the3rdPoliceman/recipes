@@ -8,8 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Vanilla ice cream
-    </title>
+    <title>Vanilla ice cream</title>
 </head>
 
 <body>
@@ -21,18 +20,25 @@
     </header>
     <div class="container recipe">
         <div class="servings"><input type="text" id="servings" size="2" value="?" disabled></div>
-        <div class="ingredient">240ml milk</div>
-        <div class="ingredient">300ml cream</div>
-        <div class="ingredient">120g sugar</div>
-        <div class="ingredient">1.3g salt</div>
-        <div class="ingredient">1/2 vanilla pod</div>
-        <div class="ingredient">4 eggs</div>
-        <div class="ingredient">1 teaspoon vanilla paste</div>
-        <div class="directions-title">Directions</div>
-        <div class="method-step">Heat milk, cream, vanilla bean, salt then infuse half an hour</div>
-        <div class="method-step">Whisk the egg yolks and sugar</div>
-        <div class="method-step">Mix inthe milk, and heat to 80C and a bit thick</div>
-        <div class="method-step">Add the vanilla extract, chill & churn</div>
+        <div class="recipe-details row">
+            <div class="ingredients col-sm-3 col-12">
+                <div class="ingredient">240ml milk</div>
+                <div class="ingredient">300ml cream</div>
+                <div class="ingredient">120g sugar</div>
+                <div class="ingredient">1.3g salt</div>
+                <div class="ingredient">1/2 vanilla pod</div>
+                <div class="ingredient">4 eggs</div>
+                <div class="ingredient">1 teaspoon vanilla paste</div>
+            </div>
+            <div class="directions col-sm-9 col-12">
+                <ol class="directions-list">
+                    <li class="method-step">Heat milk, cream, vanilla bean, salt then infuse half an hour</li>
+                    <li class="method-step">Whisk the egg yolks and sugar</li>
+                    <li class="method-step">Mix inthe milk, and heat to 80C and a bit thick</li>
+                    <li class="method-step">Add the vanilla extract, chill & churn</li>
+                </ol>
+            </div>
+        </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
