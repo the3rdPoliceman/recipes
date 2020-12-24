@@ -193,33 +193,28 @@ input {
   height: 0.5em; }
 
 .servings-not-adjusted::before {
-  content: '(NOT ADJUSTED WITH SERVINGS) '; }
+  content: '!NOT ADJUSTED! '; }
 
 .adjusted {
   font-style: italic;
   color: #F4BA49; }
 
-div.alternative-ingredient {
-  display: inline;
-  font-weight: normal; }
+.alternative-ingredient {
+  display: block;
+  font-style: italic;
+  font-weight: 400; }
 
 .alternative-ingredient::before {
+  padding-left: 1em;
   color: #0D9EB6;
-  font-weight: normal;
-  content: ' alternative: '; }
-
-.optional::after {
+  font-size: 90%;
   font-style: italic;
-  content: ' (optional)'; }
+  content: 'sub: '; }
 
-.substitute {
-  font-style: italic; }
-
-.substitute::before {
-  content: ' (or '; }
-
-.substitute::after {
-  content: ') '; }
+.optional::before {
+  font-style: italic;
+  font-weight: 400;
+  content: '(optional) '; }
 
 .directions-title {
   color: #0D9EB6;
@@ -242,6 +237,14 @@ div.alternative-ingredient {
 
 .method-step {
   padding-bottom: 0.4em; }
+
+.method-step-optional {
+  padding-bottom: 0.4em; }
+
+.method-step-optional::after {
+  font-style: italic;
+  font-weight: 300;
+  content: ' (optional)'; }
 
 @media (min-width: 576px) {
   .directions {
@@ -267,11 +270,13 @@ ol.directions-list {
   padding-inline-start: 0px; }
 
 .note {
-  font-weight: 500;
-  color: #0D9EB6;
-  margin-bottom: 0.3em; }
+  margin-bottom: 0.3em;
+  font-style: italic;
+  font-weight: lighter; }
 
 .note::before {
+  font-weight: 500;
+  color: #0D9EB6;
   content: 'NOTE: '; }
 
 .alternative-recipe {

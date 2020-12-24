@@ -250,7 +250,7 @@ input{
 }
 
 .servings-not-adjusted::before{
-  content : '(NOT ADJUSTED WITH SERVINGS) ';
+  content : '!NOT ADJUSTED! ';
 }
 
 .adjusted{
@@ -258,36 +258,28 @@ input{
   color:$basq-yellow ;
 }
 
-div.alternative-ingredient{
-  display :inline;
-  font-weight: normal;
+.alternative-ingredient{
+  display: block;
+  font-style:italic;
+  font-weight: 400;
 }
 
 .alternative-ingredient::before{
+  padding-left: 1em;
   color: $basq-blue;
-  font-weight: normal;
-  content : ' alternative: ';
+  font-size: 90%;
+  font-style:italic;
+  content : 'sub: ';
 }
 
 .recipe-ref{
 
 }
 
-.optional::after{
+.optional::before{
   font-style: italic;
-  content : ' (optional)';
-}
-
-.substitute{
-  font-style: italic;
-}
-
-.substitute::before{
-  content: ' (or ';
-}
-
-.substitute::after{
-  content: ') ';
+  font-weight: 400;
+  content : '(optional) ';
 }
 
 .directions-title{
@@ -313,8 +305,22 @@ div.alternative-ingredient{
   margin-bottom: 0.5em;
 }
 
-.method-step{
+@mixin method-step-mixin{
   padding-bottom: 0.4em;
+}
+
+.method-step{
+  @include method-step-mixin;
+}
+
+.method-step-optional{
+  @include method-step-mixin;
+}
+
+.method-step-optional::after{
+  font-style : italic;
+  font-weight : 300;
+  content : ' (optional)';
 }
 
 @media (min-width:576px) {
@@ -351,12 +357,14 @@ ol.directions-list {
 
 
 .note{
-  font-weight: 500;
-  color: $basq-blue;
   margin-bottom: 0.3em;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .note::before{
+  font-weight: 500;
+  color: $basq-blue;
   content : 'NOTE: ';
 }
 
