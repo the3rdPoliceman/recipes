@@ -226,7 +226,7 @@ input{
 .ingredient{
   text-indent: -2em;
   margin-left: 2em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.3em;
   font-weight : 600;
 }
 
@@ -306,7 +306,7 @@ input{
 }
 
 @mixin method-step-mixin{
-  padding-bottom: 0.4em;
+  padding-bottom: 0.5em;
 }
 
 .method-step{
@@ -355,16 +355,15 @@ ol.directions-list {
   padding-inline-start: 0px;
 }
 
-
 .note{
   margin-bottom: 0.3em;
-  font-style: italic;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 .note::before{
   font-weight: 500;
   color: $basq-blue;
+  font-size: 90%;
   content : 'NOTE: ';
 }
 

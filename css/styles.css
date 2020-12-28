@@ -177,7 +177,7 @@ input {
 .ingredient {
   text-indent: -2em;
   margin-left: 2em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.3em;
   font-weight: 600; }
 
 .ingredient-sub-list {
@@ -236,10 +236,10 @@ input {
   margin-bottom: 0.5em; }
 
 .method-step {
-  padding-bottom: 0.4em; }
+  padding-bottom: 0.5em; }
 
 .method-step-optional {
-  padding-bottom: 0.4em; }
+  padding-bottom: 0.5em; }
 
 .method-step-optional::after {
   font-style: italic;
@@ -271,12 +271,12 @@ ol.directions-list {
 
 .note {
   margin-bottom: 0.3em;
-  font-style: italic;
-  font-weight: lighter; }
+  font-weight: 200; }
 
 .note::before {
   font-weight: 500;
   color: #0D9EB6;
+  font-size: 90%;
   content: 'NOTE: '; }
 
 .alternative-recipe {
