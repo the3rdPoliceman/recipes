@@ -10,7 +10,8 @@
 *
 */
 body {
-  background: #DFE3E7; }
+  background: #DFE3E7;
+  font-family: circe-rounded; }
 
 .container {
   background: white; }
@@ -19,6 +20,7 @@ body {
   display: block;
   font-size: 400%;
   font-weight: 900;
+  font-family: 'circe';
   padding: 0.25em 0.25em 0.25em 0.25em;
   background: #0D9EB6;
   color: white;

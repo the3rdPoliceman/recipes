@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Making Sushi</title>
+    <style type="text/css">@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/849347/000000000000000000010093/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-display:auto;}@font-face{font-family:circe-rounded;src:url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:circe-rounded;src:url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:circe;src:url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-display:auto;}@font-face{font-family:circe;src:url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:circe;src:url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/a?subset_id=2&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;font-display:auto;}</style>
 </head>
 
 <body>
@@ -19,12 +20,15 @@
         </div>
     </header>
     <div class="container guide">
-        <div class="guide-section-first">VINEGAR WATER FOR WASHING HANDS</div>
+        <div class="guide-section-first">DETAILED INFO</div>
+        <div><a href="https://lapetitnoisette.com/edomae-sushi-%e6%b1%9f%e6%88%b8%e5%89%8d%e9%ae%a8/">La Petit Noisette </a>provides a lot of very good detailed information about sushi making from a guy who worked in a 3 star michelin sushi restaurant in japan. He includes very specific brands, recipes, techniques etc.</div>
+        
+        <div class="guide-section">VINEGAR WATER FOR WASHING HANDS</div>
         <div>35ml rice vinegar</div>
         <div>250ml water</div>
 
         <div class="guide-section">SEAWEED NOTES</div>
-        <div>Smooth side goes out</div>
+        <div>Smooth side goes out when making Maki</div>
 
         <div class="guide-section">SHAPING NIGIRI</div>
         <div>The aim is to squeeze tight enough that it doesn't fall apart, but not tighter as it will become chewier</div>
@@ -67,47 +71,70 @@
         <div>Boil until thickness you want</div>
 
         <div class="guide-section">DASHI RECIPE</div>
-        <div>no recipe </div>
+        <strong>Ingredients:</strong><br>
+        1 liter water <br>
+        10 * 12cm kombu <br>
+        30g bonito flakes <br>
+        <br>
+        <strong>Method:</strong><br>
+        Soak the kombu in the water overnight <br>
+        Heat the water and kombu gently to 75C and then remove the kombu <br>
+        Continue heating the water until it almost boils (it MUST NOT boil), and remove from the heat <br>
+        Add the Bonito and stir, leave for five minutes and then strain through cheesecloth to leave the dashi<br>
 
-
+        <div class="guide-section">PICKLING GINGER</div>
+        <div><a href="https://lapetitnoisette.com/2019/08/05/how-to-pickle-sushi-ginger-%e3%82%ac%e3%83%aa-gari/">La Petit Noisette </a> has detailed instructions. Not sure where I could get young ginger though</div>
+        
         <div class="guide-section">RICE BRANDS</div>
         <div><strong>RECOMMENDED RICE BRANDS</strong></div>
-            <div><strong>Koshihikari Rice (recommended in both english and japanese search, and apparently used in decent restaurants)</strong></div>
-            <div>Tamanishiki rice</div>
-            <div>Tamaki Gold Rice</div>
-            <div>Lundberg Organic Farms</div>
-            <div>Rice Select</div>
-            <div>Kokuho</div>
-            <div>OUMIMAI Premium</div>
-            <div>Soeos</div>
-            <div>Nishiki (frequently recommended)</div>
-            <div>Botan Calrose</div>
-            <div>Essential Waitrose</div>
-            <div>sasanishiki</div>
-            <div>furumai</div>
+        <ul>
+            <li><strong>Koshihikari Rice (recommended in both english and japanese search, and apparently used in decent restaurants):</strong> <a href="http://www.ryunohitomi.com/">Ryu No Hitomi </a> is supposed to be a specially good subcultivar and brand. Their top rice is  年産龍の瞳(有機JAS米)</li>
+            <li>Tamanishiki rice</li>
+            <li>Tamaki Gold Rice</li>
+            <li>Lundberg Organic Farms</li>
+            <li>Rice Select</li>
+            <li>Kokuho</li>
+            <li>OUMIMAI Premium</li>
+            <li>Soeos</li>
+            <li>Nishiki (frequently recommended)</li>
+            <li>Botan Calrose</li>
+            <li>Essential Waitrose</li>
+            <li>sasanishiki</li>
+            <li>furumai</li>
             <br>
-
+        </ul>
         <div><strong>AVAILABLE IN NISHI</strong></div>
-            <div><strong>koshihikari - 46fr 5kg ****</strong></div>
-            <div>emi no kizuna - 13fr 1kg</div>
+        <ul>
+            <li><strong>koshihikari - 46fr 5kg ****</strong></li>
+            <li>emi no kizuna - 13fr 1kg</li>
+        </ul>
         <br>
         <div><strong>AVAILABLE IN YUMIHANA</strong></div>
-        <div>hankukmi 24fr 7kg</div>
-        <div>rheechun 27fr 9kg</div>
-        <div>Chihominori 37fr 5kg</div>
-        <div>Hitomebore 40fr 5kg</div>
-        <div>Akitakomachi 50fr 5kg</div>
-
-
+        <ul>
+            <li>hankukmi 24fr 7kg</li>
+            <li>rheechun 27fr 9kg</li>
+            <li>Chihominori 37fr 5kg</li>
+            <li>Hitomebore 40fr 5kg</li>
+            <li>Akitakomachi 50fr 5kg</li>
+        </ul>
         <div class="guide-section">OTHER RECOMMENDED PRODUCTS</div>
-        <div>Akazu Vinegar - see <a href="https://lapetitnoisette.com/2019/08/08/edomae-red-sushi-vinegar-%E8%B5%A4%E9%85%A2-yokois-vinegar-and-michelin-sushi-vinegar/">here</a></div>
-        <div>Maruyamanori Nori Sheets - see <a href="https://www.jugetsudo.fr/en/produit/one-pack-of-dried-seaweed-temaki-nori/">here</a></div>
+        <div><strong>Akazu Red Vinegar:</strong> High end restaurants commonly use red vinegar for it's more rounded flavour - see <a href="https://lapetitnoisette.com/2019/08/08/edomae-red-sushi-vinegar-%E8%B5%A4%E9%85%A2-yokois-vinegar-and-michelin-sushi-vinegar/">here</a>
+            <ul>
+                <li><a href="http://www3.mizkan.co.jp/sapari/product/group/index.html?id=01008&sid=01">Mizkan</a> is a budget brand</li>
+                <li><a href="https://www.takusan.jp/yokoi/018023000023.htm">Yokoi</a> is a premium brand used in michelin star restaurants</li>
+            </ul>
+        </div>
+        <div><strong>White Vinegar: </strong><a href="https://www.iio-jozo.co.jp/">Iio-Jozo</a> apparently make some of the best white rice vinegar in Japan (from one source). Junmai Fuji Vineger (純米富士酢) is their standard and costs about 1900JPY for 1.8L, and they also have Fuji Vinegar Premium (富士酢プレミアム) which costs double</div>
+        <div><strong>Nori Sheets: </strong>Maruyamanori are recommended- see their european website <a href="https://www.jugetsudo.fr/en/produit/one-pack-of-dried-seaweed-temaki-nori/">here</a></div>
+        <div><strong>Yuzukoshō: </strong> Available in Nishi. Hoshisan brand is popular, and homemade could also be an option as it seems easy enough and keeps a long time</a></div>
+        <div><strong>Kombu: </strong> Different types described <a href="https://www.justonecookbook.com/kombu/">here</a></div>
 
         <div class="guide-section">POSSIBLE SUSHI TOPPINGS</div>
         <div><strong>NOTE: Freshwater fish are normally avoided due to number of parasites</strong></div>
         <div>Tuna, also salt cured</div>
         <div>Salmon, also citrus cured (farmed have no parasites)</div>
         <div>Scallops</div>
+        <div>Eel (peak season for farmed eel is mostly summer, and for wild eel is early winter)</div>
         <div>Langoustine</div>
         <div>Octopus, cooked</div>
         <div>Vinegar marinated Mackerel (may have parasites - not sure how to make it safe, probably freezing)</div>

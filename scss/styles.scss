@@ -21,6 +21,7 @@ $basq-black : #08080D;
 */
 body{
   background: $basq-white;
+  font-family: circe-rounded;
 }
 
 .container{
@@ -31,6 +32,7 @@ body{
   display:block;
   font-size: 400%;
   font-weight: 900;
+  font-family: 'circe';
   padding: 0.25em 0.25em 0.25em 0.25em;
   background: $basq-blue;
   color : white;
