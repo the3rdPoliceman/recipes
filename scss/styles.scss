@@ -230,6 +230,7 @@ input{
   margin-left: 2em;
   margin-bottom: 0.3em;
   font-weight : 600;
+  text-transform: lowercase;
 }
 
 .ingredient-sub-list{
@@ -271,7 +272,7 @@ input{
   color: $basq-blue;
   font-size: 90%;
   font-style:italic;
-  content : 'sub: ';
+  content : 'or: ';
 }
 
 .recipe-ref{

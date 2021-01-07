@@ -180,7 +180,8 @@ input {
   text-indent: -2em;
   margin-left: 2em;
   margin-bottom: 0.3em;
-  font-weight: 600; }
+  font-weight: 600;
+  text-transform: lowercase; }
 
 .ingredient-sub-list {
   margin-top: 1em;
@@ -211,7 +212,7 @@ input {
   color: #0D9EB6;
   font-size: 90%;
   font-style: italic;
-  content: 'sub: '; }
+  content: 'or: '; }
 
 .optional::before {
   font-style: italic;
