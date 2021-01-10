@@ -13,34 +13,6 @@ body {
   background: #E8E8E8;
   font-family: circe-rounded; }
 
-.nav-button-left {
-  float: left;
-  background: #F7F7F7;
-  color: black;
-  padding-top: 10px;
-  font-weight: 300;
-  border-bottom: solid 2px rgba(0, 0, 0, 0);
-  margin-right: 20px; }
-
-.nav-button-left:hover {
-  text-decoration: none;
-  color: black;
-  border-bottom: solid 2px black; }
-
-.nav-button-right {
-  float: right;
-  color: black;
-  background: #F7F7F7;
-  padding-top: 10px;
-  font-weight: 300;
-  border-bottom: solid 2px rgba(0, 0, 0, 0);
-  margin-left: 20px; }
-
-.nav-button-right:hover {
-  text-decoration: none;
-  color: black;
-  border-bottom: solid 2px black; }
-
 .nav-bar {
   clear: both;
   width: 100%;
@@ -48,6 +20,34 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 5px; }
+
+.nav-button-left {
+  background: #F7F7F7;
+  color: #0b899e;
+  padding-top: 10px;
+  font-weight: 300;
+  border-bottom: solid 2px rgba(0, 0, 0, 0);
+  float: left;
+  margin-right: 20px; }
+
+.nav-button-right {
+  background: #F7F7F7;
+  color: #0b899e;
+  padding-top: 10px;
+  font-weight: 300;
+  border-bottom: solid 2px rgba(0, 0, 0, 0);
+  float: right;
+  margin-left: 20px; }
+
+.nav-button-left:hover {
+  text-decoration: none;
+  color: #0b899e;
+  border-bottom: solid 2px #0b899e; }
+
+.nav-button-right:hover {
+  text-decoration: none;
+  color: #0b899e;
+  border-bottom: solid 2px #0b899e; }
 
 .page-title {
   display: block;
@@ -73,7 +73,8 @@ body {
 
 .non-footer {
   background: #F7F7F7;
-  min-height: calc(100vh - 50px); }
+  min-height: calc(100vh - 50px);
+  box-shadow: 5px 0px 8px rgba(100, 100, 100, 0.1), -5px 0px 8px rgba(100, 100, 100, 0.1); }
 
 .footer-container {
   height: 50px;
@@ -81,7 +82,8 @@ body {
   background-image: url("../images/footer-background.svg");
   background-repeat: no-repeat;
   background-position: center top;
-  color: white; }
+  color: white;
+  box-shadow: 5px 0px 8px rgba(100, 100, 100, 0.1), -5px 0px 8px rgba(100, 100, 100, 0.1); }
 
 .footer-spacer {
   height: 16px; }
