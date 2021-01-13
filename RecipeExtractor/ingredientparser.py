@@ -20,7 +20,7 @@ def get_regex():
     return regex
 
 
-target_folder = "/Users/dave/Documents/GitHub/recipes"
+target_folder = "/Users/dave/Documents/GitHub/RecipeCollection"
 files = list(Path(target_folder).rglob("*.html"))
 regex = get_regex()
 
