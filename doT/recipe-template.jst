@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+    <!-- Bootstrap CSS -->
+    <!-- build:css ../../css/recipe.css -->
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../css/fonts.css">
+    <!-- endbuild -->
+    <title>{{=it.title}}</title>
+</head>
+
+<body>
+    <div class="container non-footer">
+        <div class="row">
+            <div class="nav-bar">
+                <a class="nav-button-left" href="../../index.html">Home</a>
+                <a class="nav-button-right" href="../../Resources/CookingLog.html">Log</a>
+                <a class="nav-button-right" href="../../Resources/Projects.html">Projects</a>
+                <a class="nav-button-right" href="../../Resources/SaltFatAcidHeat.html">Salt Fat...</a>
+                <a class="nav-button-right" href="../../Resources/WeightsAndVolumes.html">Conversions</a>
+                <a class="nav-button-right" href="../../Resources/WhatsThatCalledInGerman.html">Names</a>
+                <a class="nav-button-right" href="../../Resources/WhereCanIBuy.html">Shopping</a>
+            </div>
+            <div class="page-title">{{=it.title}}</div>
+        </div>
+        <div class="row recipe">
+            <div class="container">
+                <!-- ********** SERVINGS -->
+                {{? it.quantity }}
+                <div class="servings"><input type="text" id="servings" size="2" value="{{= it.quantity.number }}">
+                    {{? it.quantity.dimensions }}
+                        {{~ it.quantity.dimensions :dimension:dimension_index}}
+                            <input type="text" id="dimension-{{= dimension_index}}" size="2" value="{{= dimension}}">
+                            {{? dimension_index < (it.quantity.dimensions.length - 1)}} by {{?}}
+                        {{~}}
+                    {{?}}
+                    {{? it.quantity.label }} 
+                        {{= it.quantity.label }} 
+                    {{?}}
+                </div>
+                {{?}}
+                <div class="recipe-details row">
+
+                    <!-- ********** INGREDIENTS -->
+                    {{? it.ingredient_list}}
+                        <div class="ingredients col-sm-3 col-12">
+                        {{~ it.ingredient_list :ingredient_list_item:ingredient_list_item_index}}
+                            {{? ingredient_list_item.type === "NOTE"}}
+                                <div class="note">{{= ingredient_list_item.text}}</div>
+                            {{?? ingredient_list_item.type === "INGREDIENT"}}
+                                <div class="ingredient{{? ingredient_list_item.optional === true}} optional{{?}}">{{= ingredient_list_item.text}}
+                                    {{? ingredient_list_item.alternative_ingredients}}
+                                        {{~ ingredient_list_item.alternative_ingredients :alternative_ingredient:alternative_ingredient_index}} 
+                                            <span class="alternative-ingredient">{{= alternative_ingredient.text }}</span>
+                                         {{~}}
+                                    {{?}}
+                                </div>
+                                {{? ingredient_list_item.note}}
+                                    <div class="note">{{= ingredient_list_item.note.text}}</div>
+                                {{?}}
+                            {{?? ingredient_list_item.type === "INGREDIENT_SUB_LIST"}}
+                                {{? ingredient_list_item_index === 0}}
+                                <div class="method-sub-list-top">{{= ingredient_list_item.name}}</div>
+                                {{??}}
+                                <div class="method-sub-list">{{= ingredient_list_item.name}}</div>
+                                {{?}}
+                                {{~  ingredient_list_item.ingredient_list :sub_list_ingredient:sub_list_ingredient_index}}
+
+                                <div class="ingredient{{? sub_list_ingredient.optional === true}} optional{{?}}">{{= sub_list_ingredient.text}}
+                                    {{? sub_list_ingredient.alternative_ingredients}}
+                                        {{~ sub_list_ingredient.alternative_ingredients :sub_list_alternative_ingredient:sub_list_alternative_ingredient_index}} 
+                                            <span class="alternative-ingredient">{{= sub_list_alternative_ingredient.text }}</span>
+                                         {{~}}
+                                    {{?}}
+                                    {{? ingredient_list_item.note}}
+                                        <div class="note">{{= ingredient_list_item.note.text}}</div>
+                                    {{?}}
+                                </div>
+
+                                {{~}}
+                            {{?? ingredient_list_item.type === "RECIPE_LINK"}}
+                                <div class="recipe-ref"><a href="{{= ingredient_list_item.href}}">{{= ingredient_list_item.text}}</a></div>
+                            {{?}}
+                        {{~}}
+                        </div>
+                    {{?}}
+
+
+                    <div class="directions col-sm-9 col-12">
+                        <!-- ********** RECIPE NOTES -->
+                        {{? it.notes }}
+                            {{~ it.notes :note:index}}
+                                <div class="note">{{= note.text}}</div>
+                            {{~}}
+                        {{?}}
+                        <ol class="directions-list">
+
+                        <!-- ********** METHOD -->
+                        {{? it.method}}
+                            {{~ it.method :method_item:method_item_index}}
+                                {{? method_item.type === "METHOD_STEP"}}
+                                    {{? method_item.pre_notes}}
+                                        {{~ method_item.pre_notes :pre_note:pre_note_index}}
+                                            <div class="note">{{= pre_note.text}}</div>
+                                        {{~}} 
+                                    {{?}}
+                                    <li class="method-step">{{= method_item.text}}</li>
+                                    {{? method_item.post_notes}}
+                                        {{~ method_item.post_notes :post_note:post_note_index}}
+                                            <div class="note">{{= post_note.text}}</div>
+                                        {{~}} 
+                                    {{?}}
+                                {{?? method_item.type === "METHOD_SUB_LIST"}}
+                                    {{? method_item_index === 0}}
+                                    <div class="method-sub-list-top">{{= method_item.text}}</div>
+                                    {{??}}
+                                    <div class="method-sub-list">{{= method_item.text}}</div>
+                                    {{?}}
+                                    {{~ method_item.method_steps :method_step:method_step_index}}
+                                        {{? method_step.pre_notes}}
+                                            {{~ method_step.pre_notes :pre_note:pre_note_index}}
+                                                <div class="note">{{= pre_note.text}}</div>
+                                            {{~}} 
+                                        {{?}}
+                                        <li class="method-step">{{= method_step.text}}</li>
+                                        {{? method_step.post_notes}}
+                                            {{~ method_step.post_notes :post_note:post_note_index}}
+                                                <div class="note">{{= post_note.text}}</div>
+                                            {{~}} 
+                                        {{?}}
+                                    {{~}} 
+                                {{?}}
+                            {{~}}
+                        {{?}}
+
+                        </ol>
+
+
+                        <!-- ********** SERVING SUGGESTIONS -->
+                        {{? it.serving_suggestions }}
+                            <div id="serving-suggestions">
+                                <div class="serving-suggestions-title">Serving Suggestions</div>
+                                <ul class="serving-suggestions-list">
+                                {{~ it.serving_suggestions :suggestion:suggestion_index}}
+                                    <li class="serving-suggestion">{{= suggestion.text}}</li>
+                                {{~}}
+                                </ul>
+                            </div>
+                        {{?}}
+
+                        <!-- ********** VARIATIONS -->
+                        {{? it.variations }}
+                            <div id="variations">
+                                <div class="variations-title">Variations</div>
+                                <ul class="variations-list">
+                                {{~ it.variations :variation:variation_index}}
+                                    <li class="variation">{{= variation.text}}</li>
+                                {{~}}
+                                </ul>
+                            </div>
+                        {{?}}
+
+                        <!-- ********** ATTEMPT LOG -->
+                        {{? it.attempt_log }}
+                            <div id="attempt-log">
+                                <div class="attempt-log-title">Attempt Log</div>
+                                <ul class="attempt-log-list">
+                                {{~ it.attempt_log :log_entry:log_entry_index}}
+                                    <li class="attempt">{{? log_entry.date}}{{= log_entry.date}} {{?}}{{= log_entry.text}}</li>
+                                {{~}}
+                                </ul>
+                            </div>
+                        {{?}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ********** SOURCE -->
+        {{? it.source }}
+            <div class="source-link">
+                {{? it.source.href }}
+                    <a href="{{=it.source.href}}">
+                        {{? it.source.text }} 
+                            {{= it.source.text }} 
+                        {{??}} 
+                        {{=it.source.href}}{{?}}
+                    </a>
+                {{??}}
+                    {{=it.source.text}}
+                {{?}}
+            </div>
+        {{?}}
+    </div>
+    <footer class="footer-container container">
+        <div class="footer-spacer"></div>
+        <div class="footer">
+            <div class="footer-text">Footer - not much here really</div>
+        </div>
+    </footer>
+</body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<!-- build:js ../../js/recipe.js -->
+<script src="../../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="../../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../../js/ingredient-multiplier.js"></script>
+<!-- endbuild -->
+</html>
