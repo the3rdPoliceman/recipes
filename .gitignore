@@ -1,4 +1,5 @@
 scratchpad
 node_modules
+gen
 RecipeExtractor/venv
 **/.DS_Store
