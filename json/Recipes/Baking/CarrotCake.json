@@ -153,7 +153,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "1 recipe Cream Cheese Icing",
+            "text": "<a href=\"../../Basics/CreamCheeseIcing.html\"><span class=\"quantity\">1</span> recipe Cream Cheese Icing</a>",
             "href": "../../Basics/CreamCheeseIcing.html",
             "type": "RECIPE_LINK"
         }

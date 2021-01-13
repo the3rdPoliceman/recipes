@@ -221,7 +221,7 @@ def create_ingredient(element):
 
 def create_recipe_link(element):
     new_recipe_link = RecipeLink()
-    new_recipe_link.text = element.get_text()
+    new_recipe_link.text = get_complete_tag_contents(element)
     new_recipe_link.href = element['data-href']
     new_recipe_link.type = 'RECIPE_LINK'
 

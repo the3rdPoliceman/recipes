@@ -11,7 +11,7 @@
             "name": "Pasta",
             "ingredient_list": [
                 {
-                    "text": "half recipe of basic agnolotti pasta",
+                    "text": "<a href=\"./BasicAgnolotti.html\">half recipe of basic agnolotti pasta</a>",
                     "href": "./BasicAgnolotti.html",
                     "type": "RECIPE_LINK"
                 }

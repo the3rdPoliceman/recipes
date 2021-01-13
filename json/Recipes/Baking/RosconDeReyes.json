@@ -151,7 +151,7 @@
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "candied orange slices",
+                    "text": "<a href=\"../../Dessert/CandiedOranges.html\">candied orange slices</a>",
                     "href": "../../Dessert/CandiedOranges.html",
                     "type": "RECIPE_LINK"
                 },
@@ -176,7 +176,7 @@
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "500ml cr\u00e8me p\u00e2tissi\u00e8re",
+                    "text": "<a href=\"../../Basics/CremePat.html\">500ml cr\u00e8me p\u00e2tissi\u00e8re</a>",
                     "href": "../../Basics/CremePat.html",
                     "type": "RECIPE_LINK"
                 },

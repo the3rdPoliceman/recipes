@@ -15,7 +15,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "Octo Vinaigrette",
+            "text": "<a href=\"./BasicAgnolotti.html\">Octo Vinaigrette</a>",
             "href": "../../SaucesAndVinagrettes/MomofukuOctoVinaigrette.html",
             "type": "RECIPE_LINK"
         },

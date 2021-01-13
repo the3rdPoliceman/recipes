@@ -15,12 +15,12 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "Citrus Salmon (minus the oranges and sauce)",
+            "text": "<a href=\"../Fish/CitrusSalmonWithWatercressSauce.html\">Citrus Salmon (minus the oranges and sauce)</a>",
             "href": "../Fish/CitrusSalmonWithWatercressSauce.html",
             "type": "RECIPE_LINK"
         },
         {
-            "text": "Avocado Puree",
+            "text": "<a href=\"../SaucesAndVinagrettes/AvocadoPuree.html\">Avocado Puree</a>",
             "href": "../SaucesAndVinagrettes/AvocadoPuree.html",
             "type": "RECIPE_LINK"
         }

@@ -111,7 +111,7 @@
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "1 recipe Agnolotti",
+                    "text": "1 recipe <a href=\"../PastaAndGnocchi/BasicAgnolotti.html\">Agnolotti</a>",
                     "href": "../PastaAndGnocchi/BasicAgnolotti.html",
                     "type": "RECIPE_LINK"
                 }
