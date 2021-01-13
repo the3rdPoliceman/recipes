@@ -211,11 +211,6 @@ input{
   padding-bottom: 1em;
 }
 
-@media (min-width: 576px) {
-  .recipe-header{
-  }
-}
-
 .servings{
   padding-top: 1em;
 }
@@ -330,10 +325,6 @@ input{
   content : 'or: ';
 }
 
-.recipe-ref{
-
-}
-
 .optional::before{
   font-style: italic;
   font-weight: 400;
@@ -435,16 +426,6 @@ ol.directions-list {
   content : 'ALTERNATIVE RECIPE: ';
 }
 
-.variation{
-  font-weight: 500;
-  color: $basq-blue;
-  margin-bottom: 0.3em;
-}
-
-.variation::before{
-  content : 'VARIATION: ';
-}
-
 .serve-with{
   font-weight: 500;
   color: $basq-blue;
@@ -460,18 +441,57 @@ ol.directions-list {
   padding-top: 1em;
 }
 
-.serving-suggestions-title{
+@mixin supplementary-section-title{
   color: $basq-blue;
 }
 
-.serving-suggestions-list{
+@mixin supplementary-section-list{
   padding-inline-start : 0px;
 }
 
-li.serving-suggestion{
+@mixin supplementary-section-list-item{
   list-style-type: circle;
   list-style-position: inside;
 }
+
+.serving-suggestions-title{
+  @include supplementary-section-title;
+}
+
+.serving-suggestions-list{
+  @include supplementary-section-list;
+}
+
+li.serving-suggestion{
+  @include supplementary-section-list-item;
+}
+
+.variations-title{
+  @include supplementary-section-title;
+}
+
+.variations-list{
+  @include supplementary-section-list;
+}
+
+li.variation{
+  @include supplementary-section-list-item;
+}
+
+.attempt-log-title{
+  @include supplementary-section-title;
+}
+
+.attempt-log-list{
+  @include supplementary-section-list;
+}
+
+li.attempt{
+  @include supplementary-section-list-item;
+}
+
+
+
 /*
 *
 *  Styles for COOKING LOG 
@@ -711,14 +731,6 @@ li.serving-suggestion{
 
 .guide{
   padding-bottom: 1em;
-}
-
-@media (min-width: 576px) {
-  .guide{
-    border-left: 1px solid $basq-grey;
-    border-right: 1px solid $basq-grey;
-    border-bottom: 1px solid $basq-grey;
-  }
 }
 
 /*

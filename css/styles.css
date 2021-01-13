@@ -328,14 +328,6 @@ ol.directions-list {
 .alternative-recipe::before {
   content: 'ALTERNATIVE RECIPE: '; }
 
-.variation {
-  font-weight: 500;
-  color: #0D9EB6;
-  margin-bottom: 0.3em; }
-
-.variation::before {
-  content: 'VARIATION: '; }
-
 .serve-with {
   font-weight: 500;
   color: #0D9EB6;
@@ -355,6 +347,26 @@ ol.directions-list {
   padding-inline-start: 0px; }
 
 li.serving-suggestion {
+  list-style-type: circle;
+  list-style-position: inside; }
+
+.variations-title {
+  color: #0D9EB6; }
+
+.variations-list {
+  padding-inline-start: 0px; }
+
+li.variation {
+  list-style-type: circle;
+  list-style-position: inside; }
+
+.attempt-log-title {
+  color: #0D9EB6; }
+
+.attempt-log-list {
+  padding-inline-start: 0px; }
+
+li.attempt {
   list-style-type: circle;
   list-style-position: inside; }
 
@@ -555,12 +567,6 @@ li.serving-suggestion {
 
 .guide {
   padding-bottom: 1em; }
-
-@media (min-width: 576px) {
-  .guide {
-    border-left: 1px solid #CCCCCE;
-    border-right: 1px solid #CCCCCE;
-    border-bottom: 1px solid #CCCCCE; } }
 
 /*
 *
