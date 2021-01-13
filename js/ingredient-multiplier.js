@@ -1,60 +1,59 @@
 // setup adjustment for standard recipes with simple servings unit
 if($("#servings").length !== 0) {
-	// Store original values
-	$('#servings').attr('data-original-value', $('#servings').val());
+	disableQuantityAdjustersIfNotAllValid();
+
+	$('.quantity-adjuster').each(function() {
+		$(this).attr('data-original-value', $(this).val());
+	});
+
 	storeOriginalIngredientAndQuantitiyValues();
 
-	$('#servings').change(function(){
-		var originalServings = $('#servings').attr('data-original-value');
-		
-		if ($('#servings').val() === ""){
-			// set original values
-			$('#servings').val(originalServings);
+	$('.quantity-adjuster').change(function(){
+		let allQuantityAdjustersSet = true;
+		$('.quantity-adjuster').each(function() {
+			if ($(this).val() === ""){
+				allQuantityAdjustersSet = false;
+			}
+		});
+
+		if (allQuantityAdjustersSet){
+			// adjust ingredient amounts
+			let originalMultiplier = 1;
+			let newMultiplier = 1;
+			$('.quantity-adjuster').each(function() {
+				originalMultiplier = originalMultiplier * ($(this).attr('data-original-value'));
+				newMultiplier = newMultiplier * ($(this).val());
+			});
+
+			let ratio = newMultiplier/originalMultiplier;
+
+			updateIngredients(ratio);
+			updateQuantities(ratio);
+		}
+		else{
+			//restore original ingredient amounts
+			updateIngredients(1);
+			updateQuantities(1);
 		}
 		
-		var newServings = getAsNumber($('#servings').val());
-		var ratio = newServings/originalServings;
-
-		updateIngredients(ratio);
-		updateQuantities(ratio);
 	});
 }
 
-// setup adjustment for cake recipes with number of cakes and cake size
-if($("#cake-round-number").length !== 0 && $("#cake-round-diameter").length !== 0) {
-	// Store original values
-	$('#cake-round-number').attr('data-original-value', $('#cake-round-number').val());
-	$('#cake-round-diameter').attr('data-original-value', $('#cake-round-diameter').val());
-	storeOriginalIngredientAndQuantitiyValues();
-
-	$('#cake-round-number').change(function(){
-		updateRoundCake();
+function disableQuantityAdjustersIfNotAllValid(){
+	let allValid = true;
+	$('.quantity-adjuster').each(function() {
+		if ($(this).val() === ""){
+			allValid = false;
+		}
 	});
 
-	$('#cake-round-diameter').change(function(){
-		updateRoundCake();
-	});
-}
-
-// setup adjustment for cake recipes with number of cakes and cake size
-if($("#cake-rectangle-number").length !== 0 && $("#cake-rectangle-length").length !== 0 && $("#cake-rectangle-width").length !== 0) {
-	// Store original values
-	$('#cake-rectangle-number').attr('data-original-value', $('#cake-rectangle-number').val());
-	$('#cake-rectangle-length').attr('data-original-value', $('#cake-rectangle-length').val());
-	$('#cake-rectangle-width').attr('data-original-value', $('#cake-rectangle-width').val());
-	storeOriginalIngredientAndQuantitiyValues();
-
-	$('#cake-rectangle-number').change(function(){
-		updateRectangleCake();
-	});
-
-	$('#cake-rectangle-length').change(function(){
-		updateRectangleCake();
-	});
-
-	$('#cake-rectangle-width').change(function(){
-		updateRectangleCake();
-	});
+	if (!allValid){
+		$('.quantity-adjuster').each(function() {
+			if ($(this).val() === ""){
+				$(this).attr("disabled", true);
+			}
+		});
+	}
 }
 
 function storeOriginalIngredientAndQuantitiyValues(){
@@ -68,54 +67,6 @@ function storeOriginalIngredientAndQuantitiyValues(){
 			$(element).attr('data-original-value', $(element).contents()[0].textContent);
 		}
 	});	
-}
-
-function updateRoundCake(){
-	var ratio = 0;
-	if ($('#cake-round-number').val() === "" || $('#cake-round-diameter').val() === ""){
-		// set original values
-		ratio = 0;
-	}
-	else{
-		var originalNumberOfCakes = $('#cake-round-number').attr('data-original-value');
-		var originalDiameterOfCakes = $('#cake-round-diameter').attr('data-original-value');
-		
-		var newNumberOfCakes = getAsNumber($('#cake-round-number').val());
-		var newDiameterOfCakes = getAsNumber($('#cake-round-diameter').val());
-
-		var cakeNumberRatio = newNumberOfCakes/originalNumberOfCakes;
-		var cakeAreaRatio = (newDiameterOfCakes*newDiameterOfCakes)/(originalDiameterOfCakes*originalDiameterOfCakes);
-
-		ratio = cakeNumberRatio * cakeAreaRatio;
-	}
-	
-	updateIngredients(ratio);
-	updateQuantities(ratio);
-}
-
-function updateRectangleCake(){
-	var ratio = 0;
-	if ($('#cake-rectangle-number').val() === "" || $('#cake-rectangle-length').val() === "" || $('#cake-rectangle-width').val() === ""){
-		// set original values
-		ratio = 0;
-	}
-	else{
-		var originalNumberOfCakes = $('#cake-rectangle-number').attr('data-original-value');
-		var originalLengthOfCakes = $('#cake-rectangle-length').attr('data-original-value');
-		var originalWidthOfCakes = $('#cake-rectangle-width').attr('data-original-value');
-		
-		var newNumberOfCakes = getAsNumber($('#cake-rectangle-number').val());
-		var newLengthOfCakes = getAsNumber($('#cake-rectangle-length').val());
-		var newWidthOfCakes = getAsNumber($('#cake-rectangle-width').val());
-
-		var cakeNumberRatio = newNumberOfCakes/originalNumberOfCakes;
-		var cakeAreaRatio = (newLengthOfCakes*newWidthOfCakes)/(originalLengthOfCakes*originalWidthOfCakes);
-
-		ratio = cakeNumberRatio * cakeAreaRatio;
-	}
-	
-	updateIngredients(ratio);
-	updateQuantities(ratio);
 }
 
 function updateIngredients(ratio){
@@ -207,7 +158,7 @@ function applyRatioToQuantity(input, ratio){
 }
 
 function formatQuantity(quantity){
-  	return '' + parseFloat(quantity).toFixed( 2 );
+  	return '' + +parseFloat(quantity).toFixed( 2 );
 }
 
 function getAsNumber(value){

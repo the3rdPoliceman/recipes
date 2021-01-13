@@ -33,10 +33,10 @@
             <div class="container">
                 <!-- ********** SERVINGS -->
                 {{? it.quantity }}
-                <div class="servings"><input type="text" id="servings" size="2" value="{{= it.quantity.number }}">
+                <div class="servings"><input type="text" class="quantity-adjuster" id="servings" size="2" value="{{= it.quantity.number }}">
                     {{? it.quantity.dimensions }}
                         {{~ it.quantity.dimensions :dimension:dimension_index}}
-                            <input type="text" id="dimension-{{= dimension_index}}" size="2" value="{{= dimension}}">
+                            <input type="text" class="quantity-adjuster" id="dimension-{{= dimension_index}}" size="2" value="{{= dimension}}">
                             {{? dimension_index < (it.quantity.dimensions.length - 1)}} by {{?}}
                         {{~}}
                     {{?}}
