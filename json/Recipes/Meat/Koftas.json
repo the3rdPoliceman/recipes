@@ -1,0 +1,90 @@
+{
+    "title": "Koftas",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "500g lamb mince, 30% fat min.",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "100g pistachios",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 large bunch of parsley",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 onion",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 clove garlic",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "6g salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Pepper",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1/2 tsp chilli powder",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Chop everything finely and add to the lamb mince",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Form mini burger shapes, chill to help hold shape and grill",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Try with mint, coriander, cumin, breadcrumbs",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

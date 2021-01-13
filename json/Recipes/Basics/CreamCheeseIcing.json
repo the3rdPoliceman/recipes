@@ -1,0 +1,89 @@
+{
+    "title": "Cream Cheese Icing",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "75g cream cheese, left to hang overnight in cheesecloth and squeezed",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "20g unsalted butter, softened to room temperature",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "90g icing sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1/2 teaspoon heavy cream or milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1/2 teaspoons vanilla extract",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Beat the cream cheese and butter together until smooth",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the icing sugar, vanilla extract, and a pinch of salt, and beat hard for about 3 minutes until completely combined and creamy",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add more Icing sugar if frosting is too thin, or milk if frosting is too thick",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Taste for salt",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Next time try cutting sugar to 60g",
+            "note_type": null
+        },
+        {
+            "text": "Try sifting the icing sugar a couple of times, to see if that reduces grittiness",
+            "note_type": null
+        },
+        {
+            "text": "The original recipe specified using a brick of philadelphia cheese but that's not available here. Migros Budget Frischk\u00e4se is better than Philadelphia from the tub. See <a href=\"../PhiladelphiaBrickSubstitutes.txt\">further notes</a>",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

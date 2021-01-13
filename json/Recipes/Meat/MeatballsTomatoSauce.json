@@ -1,0 +1,146 @@
+{
+    "title": "Meatballs in Tomato Sauce",
+    "quantity": {
+        "number": "3",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "25g tablespoons breadcrumbs",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "60ml full cream",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tsp salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tablespoon parsley",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "3 tablespoons grated parmesan",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "large pinch of nutmeg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 egg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 small onion",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "200 gram ground beef",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "300g ground pork",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "6 tbsp olive oil",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tin tomatoes",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Mix breadcrumbs, cream, salt, parsley, cheese, and nutmeg, and leave to stand for 10 minutes",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Beat egg into cream, followed by onion, then mix into the meat",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Beat your meat well, and form into balls",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Fry in olive oil until brown",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Remove all the oil and fat from the pan, add the tomatoes and some salt",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "cover and simmer gently for 20 minutes, until the sauce is saucy",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Tried a similar recipe to this. In this one I reduced the breadcrumbs, and the cream a bit",
+            "note_type": null
+        },
+        {
+            "text": "Try with some other herbs - oregano or rosemary",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

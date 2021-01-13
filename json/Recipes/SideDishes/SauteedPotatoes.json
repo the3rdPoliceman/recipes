@@ -1,0 +1,86 @@
+{
+    "title": "Sauteed Potates",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "Waxy Potatoes (Charlotte is good, preferably around the size of an egg)",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Rosemary",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Garlic - One Clove per person",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Duck fat",
+            "optional": false,
+            "alternative_ingredients": [
+                {
+                    "text": "neutral oil"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Cut the Potatoes in half and add to a pan of cold salted water. Boil gently until you can poke a fork into them without it feeling crunchy. Drain the Potatoes and leave to dry for 5 minutes or more",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Heat some Oil (not too tight, but not a bloody great pool) in frying pan over a medium heat and fry the Potatoes cut side down with Salt &amp; Pepper until golden brown",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add in Rosemary, Garlic and Butter and fry for a couple more minutes, flipping the Potatoes regularly",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Drain on kitchen paper",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Eat",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

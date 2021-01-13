@@ -1,0 +1,88 @@
+{
+    "title": "Kebab Shop Yogurt Sauce",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "50g mayonnaise",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "120g greek yogurt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "12g sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "30g white vinegar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 teaspoon lemon juice",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 bunch of chopped parsley",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tsp ground black pepper",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Whisk everything except the salt together, the season with the salt to taste",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "original recipe called for 2tsp black pepper, so try one first then add more as necessary",
+            "note_type": null
+        },
+        {
+            "text": "not tested this recipe",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

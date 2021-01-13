@@ -1,0 +1,180 @@
+{
+    "title": "Amaretto & Walnut Cake",
+    "quantity": {
+        "number": "10",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": {
+        "href": "https://www.youtube.com/watch?v=HH9vJZeU43Q&list=PLQNeRlHk_5USDMjrYL_kjRxeOm9p5xmO1&index=7",
+        "text": "Video from River Cafe"
+    },
+    "ingredient_list": [
+        {
+            "name": "Cake",
+            "ingredient_list": [
+                {
+                    "text": "300g butter, softened",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "300g fine sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "4 large eggs",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "2.5 vanilla beans",
+                    "optional": false,
+                    "alternative_ingredients": [
+                        {
+                            "text": "8 tsp vanilla paste"
+                        },
+                        {
+                            "text": "8 tsp vanilla extract"
+                        }
+                    ],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "300g ground almonds",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "160g walnuts, finely chopped",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "70g cake flour",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "\u00bd tsp baking powder",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "80ml amaretto",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Icing",
+            "ingredient_list": [
+                {
+                    "text": "120g 70% chocolate",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "30g butter",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "Heat oven to 160C. Grease and paper a 9-inch cake pan",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Using an electric mixer beat the butter and sugar together until light",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Stir in the vanilla",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Beat in the eggs, one at a time",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix the almonds, walnuts, flour, and baking powder together, then fold into the butter mix",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Stir in the Amaretto",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Bake until set - check after 1 hour. Signs include it coming slightly away from the side of the tin, skewer coming out more or less clean",
+            "post_notes": [
+                {
+                    "text": "Last time I took it out after 1 hour with internal temp 107C (which seems impossibly high from what i read on the internet), and few microcrumbs sticking to skewer. Was just about cooked enough. Recipe indicated 1.25 - 1.5 hours",
+                    "note_type": null
+                }
+            ],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Turn out and leave to cool on a rack",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Melt chocolate and butter in bain marie, mix, cool a bit and use as icing",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "not sure if this should be baked with fan or not. With fan was fine, but try without next time",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

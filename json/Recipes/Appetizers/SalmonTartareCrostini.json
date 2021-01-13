@@ -1,0 +1,45 @@
+{
+    "title": "Salmon Tartare Crostini",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "Bread",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Citrus Salmon (minus the oranges and sauce)",
+            "href": "../Fish/CitrusSalmonWithWatercressSauce.html",
+            "type": "RECIPE_LINK"
+        },
+        {
+            "text": "Avocado Puree",
+            "href": "../SaucesAndVinagrettes/AvocadoPuree.html",
+            "type": "RECIPE_LINK"
+        }
+    ],
+    "method": [
+        {
+            "text": "Make citrus marinated salmon, but without cooking it. Wash off the marinade and leave in fridge for flavours to spread through the fish. Mix in a few chives, and serve on toasted bread, with either avocado puree or kewpie mayo",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Not sure on the proportions here",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

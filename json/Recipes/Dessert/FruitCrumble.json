@@ -1,0 +1,96 @@
+{
+    "title": "Fruit Crumble",
+    "quantity": {
+        "number": "4",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "250g flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "50g ground almonds",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "pinch of salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "175g sugar (brown, white or mix)",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "200g butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "fruit, for filling - see below",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Mix the flour, almonds, salt and sugar",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Rub in the butter",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put on top of whatever fruit you're using",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Record amount of salt next time",
+            "note_type": null
+        },
+        {
+            "text": "Try some cardamom in the crumble next time when making with raspberry and orange zest",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": [
+        {
+            "text": "Bag of raspberries, zest of one or two oranges, some sugar"
+        },
+        {
+            "text": "Bag of raspberries, few apples, some sugar"
+        },
+        {
+            "text": "Not tried this idea: 500g rhubarb, zest of an orange and a squeeze of juice, some form of vanilla, few tablespoons sugar"
+        }
+    ],
+    "attempt_log": null
+}

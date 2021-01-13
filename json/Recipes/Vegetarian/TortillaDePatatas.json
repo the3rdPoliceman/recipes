@@ -1,0 +1,126 @@
+{
+    "title": "Tortilla de Patatas",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": {
+        "href": "https://youtu.be/fCe7IcBwNLI",
+        "text": "Gypsy Chef"
+    },
+    "ingredient_list": [
+        {
+            "text": "1350g Potatoes",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "150g onion",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "25g Salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "10 eggs",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Olive Oil",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Peel the potatoes and use a knife to lever off chunks of the potato rather than chop them",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Chop the onion into 1cm dice and put in a bowl with the potatoes and salt",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Leave for 20 minutes so water comes out of the potatoes, then drain (maybe dry the potatoes and onion also?)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Heat enough olive oil to fry the potatoes. It should be hot enough that th oil bubbles when a piece of potato is put in, but doesn't go crazy",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the potatoes and onion and cook until potatoes are tender and onion soft",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Turn up the heat a bit at the end to give th potatoes a slight golden edge (15-20 mins total)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Crack three or four eggs into a bowl, mix the drained potatoes into it (a bit of oil does no harm), and stir well until it goes creamy as the potatoes cook the eggs",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put in the rest fo the eggs and stir some more",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "To cook the final tortilla, get a pan very hot and add a few tablespoons of the cooking oil from before",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the mix, and flip around like an omlette, until it's gets close to cooked enough. The let settle in the pan so the bottom cooks solid",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Drip some oil over the top, flip and cook the other side, then serve",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "A good non stick pan is essential",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

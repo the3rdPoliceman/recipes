@@ -1,0 +1,121 @@
+{
+    "title": "Sausage Rolls with Mustard",
+    "quantity": {
+        "number": "50",
+        "dimensions": [],
+        "label": " small sausage rolls"
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "1 medium onion",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "6 large sausages",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Zest of 1 Lemon",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tbsp wholegrain mustard",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1-2 tbsp chopped thyme",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 bunch of parsley",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1/4 teaspoon pepper",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "640g puff pastry",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 egg, beaten",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "nigella seeds",
+            "optional": true,
+            "alternative_ingredients": [
+                {
+                    "text": "sesame seeds"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Chop the onion finely, fry until soft, then leave to cool",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix sausage chilled onion, meat, zest, mustard, thyme, parsley and pepper (maybe with handheld mixer)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Divide each pastry sheet into long strips about 12cm wide (to initially form long sausage rolls which will then be chopped up into small ones)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Make a line of sausage mix along the middle of each strip, egg wash one side, and roll the other side over",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Crimp the edge, eggwash the whole thing, sprinkle with seeds, and cut into individual sausage rolls",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

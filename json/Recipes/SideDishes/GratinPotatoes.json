@@ -1,0 +1,107 @@
+{
+    "title": "Gratin Potatoes",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "1Kg Waxy Potatoes (Charlotte?)",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2 Medium Onions",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "300ml Milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "300ml Full Cream",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "5 Cloves Roasted Garlic",
+            "optional": false,
+            "alternative_ingredients": [
+                {
+                    "text": "<span class=\"quantity\">1</span> Clove Raw Garlic"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 Small bunch of Thyme",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "4 Bay Leaves",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Nutmeg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Fry the Onions until they are soft but not brown",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put the Milk, Cream, Thyme, and Bay leaves in a pan and warm for 10 minutes - do not boil. Strain the milk to remove the bits and pieces, add the Garlic and blend",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Slice the Potatoes as thin as crisps, and layer in an oven proof dish with the Onions adding Salt &amp; Pepper with each layer",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Cover with Cream, and bake at 190 for 1.5 - 2 hours",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "It will be roughly the same temperature as Lava when it comes out of the oven",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

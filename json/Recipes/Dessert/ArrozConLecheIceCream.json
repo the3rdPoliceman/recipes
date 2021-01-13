@@ -1,0 +1,56 @@
+{
+    "title": "Arroz Con Leche Ice Cream",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "Arroz Con Leche",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Milk Powder",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "invert sugar",
+            "optional": true,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Cinnamon powder to serve",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Added some extra milk powder to hot runny arroz con leche (maybe 100g powder to arroz con leche made using 200g rice) to thicken it, then blended and churned. I also added some extra invert sugar which probably wasn't necessary as I had quite sweet arroz con leche already - would try without next time",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Don't really have a recipe here yet, but this is close to what I did and it worked. I suspect the arroz con leche could be made faster than normal if it's only going to be used for ice cream",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

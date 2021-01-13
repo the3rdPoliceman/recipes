@@ -1,0 +1,174 @@
+{
+    "title": "Halal Cart Chicken",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "name": "Chicken",
+            "ingredient_list": [
+                {
+                    "text": "3 tablespoons lemon juice",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 tablespoon dried oregano",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 tablespoon ground coriander",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "7 cloves garlic",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "50ml light olive oil",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Salt and black pepper",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 chicken, jointed",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Rice",
+            "ingredient_list": [
+                {
+                    "text": "30g butter",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1/2 teaspoon turmeric",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "2 teaspoon cumin seeds",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "300g rice",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "600ml chicken broth",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Salt and black pepper",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "Blend all the marinade ingredients, and marinade the chicken for 1-4hrs",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Preheat the oven to 180C, with baking dish inside",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Clean the marinade off the chicken (saving it)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Season the chicken, and brown in a frying pan with some oil",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Meanwhile, start the rice, by melting the butter, and frying the turmeric, and cumin, and cook for about a minute until fragrant but not browned",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the rice and fry for a few minutes before adding the stock, and seasoning",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Take the baking dish out of the oven, put the rice in it",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Cover the chicken in the reserved marinade, and place on the rice along with some more black pepper",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Cook in the oven until done",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

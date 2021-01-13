@@ -1,0 +1,118 @@
+{
+    "title": "Sushi Rice",
+    "quantity": {
+        "number": "3",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "name": "Rice",
+            "ingredient_list": [
+                {
+                    "text": "400g Sushi Rice",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "540g water",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 piece of kombu, 10x12cm",
+                    "optional": true,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Vinegar Seasoning",
+            "ingredient_list": [
+                {
+                    "text": "25g sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "42g vinegar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "12g salt",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "Wash the rice in cold water (warm water will result in less sticky rice) until the water runs clear, and leave to drain in a colander (ideally for 30mins+)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put the cold water and rice in a pan, with the kombu on top if using, covered with a tight lid and bring to the boil",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Let the rice boil hard for 2 minutes, then turn the heat as low as possible and leave for 15 minutes",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "While the rice is cooking, heat the vinegar, sugar and salt slowly until everything is dissolved. Let cool",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Take the rice off the heat, cover with a cloth and let stand for 10 minutes (optional)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Empty the rice (leave the crusty stuff at the bottom of the pan) onto a large surface like a baking sheet and mix in the vinegar mix. You may not need it all.",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "If not using rice straight away, cover with a damp cloth. Do not refrigerate",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Need to decide on exactly how much vinegar mix is needed. Some recipes suggest more",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

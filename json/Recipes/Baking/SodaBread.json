@@ -1,0 +1,84 @@
+{
+    "title": "Soda Bread",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "180g plain white flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "180g plain wholemeal flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "75g porridge oats",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "0.75 tsp bicarbonate of soda",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "0.75 tsp salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "25g butter, cut in pieces",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "375ml buttermilk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Preheat the oven to 200C/gas 6/fan 180C and dust a baking sheet with flour",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix the dry ingredients in a large bowl, then rub in the butter. Pour in the buttermilk and mix it in quickly with a table knife, then bring the dough together very lightly with your fingertips (handle it very, very gently). Now shape it into a flat, round loaf measuring 20cm/8in in diameter",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put the loaf on the baking sheet and score a deep cross in the top to let the fairies out( and help the bread to cook through.) Bake for 30-35 minutes until the bottom of the loaf sounds hollow when tapped. If it isn\u2019t ready after this time, turn it upside down on the baking sheet and bake for a few minutes more",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

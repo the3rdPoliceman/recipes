@@ -1,0 +1,175 @@
+{
+    "title": "Overnight Bread",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "400g white flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "100g wholemeal flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 teaspoon dried yeast",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2 teaspoons fine salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "PRE-FERMENT",
+            "method_steps": [
+                {
+                    "text": "On the night before, mix 200g white flour, 200g water and 0.25 teaspoons yeast. Leave sitting out until the next day",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Mix in the remaining ingredients",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "FOLDING",
+            "method_steps": [
+                {
+                    "text": "oil your hands so the dough doesn't stick to you",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "grab one side of the dough, stretch it a bit and fold it onto the other (like you're closing a stretchy book), then turn the bowl 90 degrees",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "repeat 15-20 times",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Leave until it doubles in size (maybe 90 mins)",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "SHAPING",
+            "method_steps": [
+                {
+                    "text": "Flour a work surface and flip the dough out onto it. Then shape it - <a href=\"https://youtu.be/O6INjgO91mg\">this video</a> from the 2:00 minutes shows how (The idea is to get some tension into the surface of the loaf)",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Cover a tea towel in flour, put the dough on the tea towel, and put the whole thing in a bowl. Like <a href=\"https://blossomandsunshine.files.wordpress.com/2016/11/sourdough-2.jpg\">this</a>",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Leave it for an hour",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "BAKING",
+            "method_steps": [
+                {
+                    "text": "Heat the over to 230C",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "put baking paper or flour onto a baking tray",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "flip the dough onto the tray",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "slash a cross into the top of it, like <a href=\"https://files.recipetips.com/kitchen/images/refimages/bread/prep/shaping/coburg_slash_2.jpg\">this</a>",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "If you have a big metal bowl, cover the dough with that - it'll help it to puff up more",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Put it in the oven",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "After 20 minutes, turn the heat down to 200C, and take the metal bowl off",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Cook until it's pretty dark brown",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

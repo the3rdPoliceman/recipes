@@ -1,0 +1,306 @@
+{
+    "title": "Rosc\u00f3n De Reyes",
+    "quantity": {
+        "number": "10",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": {
+        "href": "https://www.diariovasco.com/gastronomia/recetas/martin-berasategui/receta-roscon-reyes-20200110110833-nt.html",
+        "text": "Martin Berasategui"
+    },
+    "ingredient_list": [
+        {
+            "name": "Pre-ferment",
+            "ingredient_list": [
+                {
+                    "text": "100g flour",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "60ml milk, warm",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "2g fresh yeast",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Flavored Milk",
+            "ingredient_list": [
+                {
+                    "text": "60ml milk",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 cinnamon stick",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "zest of 1 orange",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Dough",
+            "ingredient_list": [
+                {
+                    "text": "330g flour",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "2 eggs",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "30ml honey",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "15g fresh yeast",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "15ml rum (I used rum vanilla essence)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "10ml agua de azar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "zest of 0.5 lemons",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "5g salt",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "80g sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "110g butter, cold from the fridge",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Decoration",
+            "ingredient_list": [
+                {
+                    "text": "1 egg, beaten",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "candied orange slices",
+                    "href": "../../Dessert/CandiedOranges.html",
+                    "type": "RECIPE_LINK"
+                },
+                {
+                    "text": "flaked almonds",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "To Finish",
+            "ingredient_list": [
+                {
+                    "text": "syrup from the candied oranges",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "500ml cr\u00e8me p\u00e2tissi\u00e8re",
+                    "href": "../../Basics/CremePat.html",
+                    "type": "RECIPE_LINK"
+                },
+                {
+                    "text": "1 bean",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 small king",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "The Night Before",
+            "method_steps": [
+                {
+                    "text": "Make the candied oranges, saving the syrup",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Mix the ingredients for the pre-ferment together, leave to sit for 30 minutes, then wrap in cling film and refrigerate overnight",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "For the flavored milk, heat the milk together with the orange zest and cinnamon stick until nearly boiling, then leave to steep overnight",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "Making the Dough",
+            "method_steps": [
+                {
+                    "text": "Put all the dough ingredients apart from the sugar and butter in a bowl, along with the pre-ferment and flavored milk. Knead for 5 minutes",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Add half the sugar and knead a few minutes more. Do the same again with the remaining half of the sugar",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Add the butter, and knead for about 10 minutes until completely incorporated. It will become extremely sticky during the kneading, and feel almost like choux dough",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Leave to rise for 2 hours, knock back, form into a ball. After 15 minutes, form it into a donut shape for the rosc\u00f3n, leaving about 12cm of a hole in the middle",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Leave to rise for 3 hours more, then decorate with the beaten egg, oranges, and almonds",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "Baking and Filling",
+            "method_steps": [
+                {
+                    "text": "Bake for around 20 minutes at 180C with fan",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "While the rosc\u00f3n is cooking, make the cr\u00e8me p\u00e2tissi\u00e8re",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "When the rosc\u00f3n is done, take it out and leave to cool on a rack",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Once cold, split it in half. Then fill it with the cream, and hide the bean and the king",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Brush the top with a little of the syrup from the candied oranges",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

@@ -1,0 +1,85 @@
+{
+    "title": "Battered Fish",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "rice flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "corn flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "beer (ice cold)",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": {
+                "text": "Heston Blumenthal suggests half beer, half vodka",
+                "note_type": null,
+                "type": "NOTE"
+            },
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "baking soda",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Make batter. Everything as cold as possible before starting seems to be common. Lumpy is fine, stirring a lot is bad.",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Dry the fish. Season your fish. Season some flour. Dip the fish in the seasoned flour, then in the batter",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Possibly double fry - once at 165, once at 180. Rest 10 minutes between",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Drain on a rack",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "This doesn't work yet. Need some ideas to fix the fact that my batter went soft quickly last time - rack helps a bit",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

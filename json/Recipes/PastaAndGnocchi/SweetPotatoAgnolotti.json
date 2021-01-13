@@ -1,0 +1,164 @@
+{
+    "title": "Sweet Potato Agnolotti",
+    "quantity": {
+        "number": "4-6",
+        "dimensions": [],
+        "label": " (as starter)"
+    },
+    "source": {
+        "href": null,
+        "text": "French Laundry At Home"
+    },
+    "ingredient_list": [
+        {
+            "name": "Sweet Potato Filling",
+            "ingredient_list": [
+                {
+                    "text": "1200g sweet potatoes",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "100g unsalted butter",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "4 slices bacon",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1/4 teaspoon grated nutmeg",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Kosher salt and black pepper",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Sage Cream",
+            "ingredient_list": [
+                {
+                    "text": "10 large sage leaves, chopped (save the smaller leaves for the fried sage leaf garnish)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "200g creme fraiche",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "200g Buerre Monte (below)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Pinch of Kosher salt (to taste)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Canola oil for deep-frying",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "48 tiny sage leaves (reserved from above)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "25g unsalted butter",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "4 thin slices prosciutto, cut crosswise into fine julienne",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 recipe Agnolotti",
+                    "href": "../PastaAndGnocchi/BasicAgnolotti.html",
+                    "type": "RECIPE_LINK"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "Oven roast sweet potato",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Fry the bacon, and blend it to paste",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "In a frying pan, mix the bacon, sweet potato flesh, nutmeg and butter. Fry for a while to reduce the moisture",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Chill, and then make the agnolotti",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "For the sauce, make beurre monte, mix in warm creme fraiche, then blend along with Sage",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Serve with deep fried sage leaves and shredded ham",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

@@ -1,0 +1,299 @@
+{
+    "title": "Citrus Salmon with Watercress Sauce",
+    "quantity": {
+        "number": "4",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "name": "SALMON",
+            "ingredient_list": [
+                {
+                    "text": "600g Skinless Salmon Fillet",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Zest of 1 orange",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Zest of 1 lemon",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "3 Tablespoons Salt",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "2 Tablespoons Sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 Tablespoon Ground White Pepper",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "200ml Olive Oil",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "ORANGES",
+            "ingredient_list": [
+                {
+                    "text": "2 Oranges",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "100ml Water",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "80g Sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1/2 Teaspoon White Wine Vinegar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "WATERCRESS SAUCE",
+            "ingredient_list": [
+                {
+                    "text": "150g Watercress (Rocket also works)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "25g Butter",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "25g Chives, Finely Chopped",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "25g Lumpfish Roe",
+                    "optional": false,
+                    "alternative_ingredients": [
+                        {
+                            "text": "Caviar, if you\u2019re feeling rich!"
+                        }
+                    ],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "Preparing the salmon",
+            "method_steps": [
+                {
+                    "text": "Trim the edges of the salmon so that the whole piece is roughly the same thickness",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Combine the orange and lemon zest, sugar, salt and pepper in a bowl and mix well",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Completely cover the fish in the marinade and wrap it tightly in kitchen foil",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Put on a plate in the refrigerator with a second plate on top to squash it a little, and leave to marinate for 3 hours",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Remove the fish from the foil, rinse off the marinade and dry it with kitchen paper",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Cut into individual portions and return to the refrigerator",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "Preparing the oranges",
+            "method_steps": [
+                {
+                    "text": "Cut the oranges into segments, and place in a bowl",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Boil the sugar and water in a saucepan to dissolve the sugar, then add the vinegar",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Pour the mixture over the oranges and leave to cool",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "Preparing the watercress sauce",
+            "method_steps": [
+                {
+                    "text": "Boil the watercress in salted water until tender (about 5 minutes), then drain and steep it in cold water to stop it cooking",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Place the watercress in a blender and blend to create a sauce - you may need to add a little water to help it blend",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Pass the sauce through a sieve if it seems a bit stringy",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "To complete",
+            "method_steps": [
+                {
+                    "text": "Place the pieces of salmon in one or more zip-lock bags along with the olive oil, and squeeze all the air out of the zip lock bags and seal",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Sous vide at 43\u00b0C for 15 minutes (cooking longer won\u2019t do any harm)",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Remove the salmon, take it out of the bags and drain on kitchen paper. It should still look raw but it will be cooked",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Meanwhile, bring the watercress sauce to a simmer, whisk in the butter and add salt to taste",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Warm the orange sections in the syrup and then drain them on kitchen paper",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Spread the chives on a dish and press the tops of the salmon pieces in the chives to coat them",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "To serve",
+            "method_steps": [
+                {
+                    "text": "Place orange sections in the center of each plate, spoon the sauce around the outside, and set the fish on top of the oranges",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Put a little fish roe on top",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

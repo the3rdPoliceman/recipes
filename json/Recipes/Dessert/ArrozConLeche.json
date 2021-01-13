@@ -1,0 +1,173 @@
+{
+    "title": "Arroz con leche",
+    "quantity": {
+        "number": "10",
+        "dimensions": [],
+        "label": " Small Bowls"
+    },
+    "source": {
+        "href": null,
+        "text": "Casa Gerardo, with some modifications"
+    },
+    "ingredient_list": [
+        {
+            "text": "200g rice",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "400g water",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2.6l full milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2 cinnamon sticks",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 vanilla pod",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Zest of 1 lemon, in big pieces",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Zest of 1/2 orange, in big pieces",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "100g butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "350g sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "4g salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "15ml anis",
+            "optional": true,
+            "alternative_ingredients": [
+                {
+                    "text": "rum"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Add the rice and water to a pan and cook until no liquid is left",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Start boiling the milk, cinnamon, vanilla and zest in another pan",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the boiled milk and stuff to the rice and place on a medium heat",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Stir with a wooden spoon regularly until it boils. From here on it must be stirred continuously",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "When the mixture becomes thick (leaves a trail on the spoon), gradually add the butter",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Once the butter is well incorporated, remove the rice from the heat and let the temperature drop slightly",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Sprinkle in the salt and <span class=\"quantity\">300</span>g of sugar while stirring(whisking is probably too rough)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Taste and see if it needs more sugar. While hot, it should taste a little too sweet",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "If using alcohol, stir it in now",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Leave to cool",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Next time, weigh the milk rice before and after cooking to see how much milk needs to evaporate to give good texture",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": [
+        {
+            "text": "Sprinkle sugar on top and grill"
+        },
+        {
+            "text": "Sprinkle powdered cinnamon on top"
+        }
+    ],
+    "variations": null,
+    "attempt_log": null
+}

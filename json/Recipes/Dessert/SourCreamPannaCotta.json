@@ -1,0 +1,84 @@
+{
+    "title": "Sour Cream Panna Cotta",
+    "quantity": {
+        "number": "4",
+        "dimensions": [],
+        "label": " Small Bowls"
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "1.6 sheets gelatine",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "400g sour cream",
+            "optional": false,
+            "alternative_ingredients": [
+                {
+                    "text": "creme fraiche"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "60g buttermilk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "65g sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tsp vanilla paste",
+            "optional": false,
+            "alternative_ingredients": [
+                {
+                    "text": "vanilla essense"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Soak the gelatine in water for 5 minutes",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Heat the sour cream, sugar and buttermilk until quite hot and the sugar dissolves",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Drain the gelatine, add to the sour cream mix along with the vanilla, and whisk until incorporated",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Strain into bowls or glasses and refrigerate until set (overnight)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

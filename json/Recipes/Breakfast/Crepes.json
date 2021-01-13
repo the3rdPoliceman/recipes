@@ -1,0 +1,127 @@
+{
+    "title": "Crepes",
+    "quantity": {
+        "number": "10",
+        "dimensions": [],
+        "label": " crepes"
+    },
+    "source": {
+        "href": "https://www.youtube.com/watch?v=V_okk5pOLp4",
+        "text": "Jacques P\u00e9pin"
+    },
+    "ingredient_list": [
+        {
+            "text": "30g Butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "80g Flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2 eggs",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2g salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "10g sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "240ml milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Making the Batter",
+            "method_steps": [
+                {
+                    "text": "Melt butter in the frying pan you're going to use to make the crepes",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Put dry ingredients, egg, and a bit of the milk in a bowl and whisk to get a smooth thick batter",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Add the rest of the milk, and mix it in",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Dump the melted butter in to the batter, and mix again",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        },
+        {
+            "text": "Cooking",
+            "method_steps": [
+                {
+                    "text": "Don't add any more butter to the pan - the butter in the mix is enough",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Cooking it lower, and spreading the batter thinner results in a significantly crispier crepe",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Pour the batter in one side of the pan (rather than the middle) and let it flow across",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Try with more salt next time - 3g. Potentially even more is good - bread is 2.4g per 100g flour, or 2.4g per 200g dough and here we have 80g flour and 450g batter",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": [
+        {
+            "text": "Thick chocolate sauce - melt 2 parts chocolate to 1 part cream together in a small pan"
+        }
+    ],
+    "variations": null,
+    "attempt_log": null
+}

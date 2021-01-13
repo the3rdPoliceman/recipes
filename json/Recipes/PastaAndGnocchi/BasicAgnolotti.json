@@ -1,0 +1,66 @@
+{
+    "title": "Basic Agnolotti Dough",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "200g Flour",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "130g eggs",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "large pinch of salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": {
+                "text": "Normally for 200g flour i'd use 3 eggs yolks and add enough of the whites to get to 130g egg in total. It's flexible though",
+                "note_type": null,
+                "type": "NOTE"
+            },
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Make a well from the flour and put eggs and salt in the middle",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Whisk the eggs with a fork, gradually incorporating flour until it's dry enough so you can work it and keep your hands pretty clean",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Knead, until smooth",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Roll",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

@@ -1,0 +1,81 @@
+{
+    "title": "Momofuku Fried Chicken",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "1.5 Kg Chicken Pieces",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Octo Vinaigrette",
+            "href": "../../SaucesAndVinagrettes/MomofukuOctoVinaigrette.html",
+            "type": "RECIPE_LINK"
+        },
+        {
+            "text": "Brine",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 liter lukewarm water",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "100g sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "120g kosher salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Brine the Chicken for 1-6 hrs. (Tried 2hrs with small chicken legs - Not too salty, would go longer next time)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Steam the Chicken for 20-40 minutes depending on the size of the pieces and put in fridge to chill for 2-24 hrs",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Take the chicken out of the refrigerator 1-2 hours before you fry it",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Dry the chicken and deep fry at 190C until the skin is deep drown and crisp, 6 to 8 minutes. Drain on kitchen paper and serve with the Vinaigrette",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

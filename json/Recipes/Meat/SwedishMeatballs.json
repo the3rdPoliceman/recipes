@@ -1,0 +1,178 @@
+{
+    "title": "Swedish Meatballs",
+    "quantity": {
+        "number": "3",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": {
+        "href": "https://www.youtube.com/watch?v=JViMCRQ4f44",
+        "text": "Niklas Ekstedt via Alex"
+    },
+    "ingredient_list": [
+        {
+            "text": "1 onion",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tbsp butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "3 tablespoons bread crumbs",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "200ml heavy cream",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 egg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tsp salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Pinch of cinnamon",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "large pinch of nutmeg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "large pinch of ground cloves",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "200 gram ground beef",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "300g ground pork",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tbsp oil",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tbsp butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "lingonberry jam",
+            "optional": false,
+            "alternative_ingredients": [
+                {
+                    "text": "cranberry jam"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1/4 recipe quick pickled cucumbers",
+            "href": "../../SaucesAndVinagrettes/QuickPickledCucumber.html",
+            "type": "RECIPE_LINK"
+        }
+    ],
+    "method": [
+        {
+            "text": "Finely chop the onion and fry slowly in the butter until well caramelized",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix 150ml of the cream and bredcrumbs and set aside for at least 10 minutes",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix the egg, salt, spices and onion into the cream. Then add this all to the meat",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Beat the meat vigorously for a couple of minutes until it's really well mixed, then form into walnut sized meatballs (water on hands makes this easier)",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Fry in the onion pan with a little oil if needed, adding a little butter towards the end",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "When the meatballs are done, take them out and add the rest of the cream to the pan to make a sauce",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Serve with the berries, cucumber, and mashed potato",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Original meat was 200g beef, 100g pork, 100g veal, but this was what i could find",
+            "note_type": null
+        },
+        {
+            "text": "Original spices was \u00bd tsp ground allspice, pinch of nutmeg, pinch of ground cloves. But i couldn't find allspice",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

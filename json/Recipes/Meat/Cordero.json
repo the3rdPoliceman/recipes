@@ -1,0 +1,78 @@
+{
+    "title": "Paletilla de Cordero",
+    "quantity": {
+        "number": "4",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "1.5kg lamb shoulder, from a young lamb",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "1-2 days in advance of cooking, salt the lamb with 1.25% salt by weight of lamb, e.g. 19g salt for 1.5kg lamb shoulder",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Leave the lamb out for a couple of hours before cooking to come up to temperature",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put in a roasting dish, with 600ml warm water, slashing the thickest part of the meat a few times about 1cm deep",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Start in the oven at 130C (no fan) and cook 45 minutes each side",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Raise the temp to 160C and cook 45 minutes each side",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Take the lamb out of the oven, and let the temperature heat up to 250C",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put something under the bone end of the lamb to raise it well up off the tray - this will allow all the skin to brown. When the oven is up to temperature, put the lamb back in and cook briefly until the crust is deep brown",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Try not slashing meat next time, to see it it's really necessary",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

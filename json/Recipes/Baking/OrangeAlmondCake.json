@@ -1,0 +1,166 @@
+{
+    "title": "Orange & Almond Cake",
+    "quantity": {
+        "number": "1",
+        "dimensions": [
+            "18"
+        ],
+        "label": " cm deep cake"
+    },
+    "source": {
+        "href": "https://www.curdhome.co.uk/recipes/?p=98",
+        "text": "Moro - The Cookbook"
+    },
+    "ingredient_list": [
+        {
+            "name": "Cake",
+            "ingredient_list": [
+                {
+                    "text": "4 eggs, separated",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "160g caster sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "150g ground almonds",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "Zest of 2 oranges, finely grated",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1g salt",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Syrup",
+            "ingredient_list": [
+                {
+                    "text": "juice of 5 oranges, preferably Seville",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "juice of 1 lemon (if not using Seville oranges)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1 stick cinnamon",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "50g caster sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "Toast the almonds",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Heat oven to 160C and line the cake pan",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Put a tablespoon of the caster sugar in with the egg whites",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Beat the rest of the caster sugar with the egg yolks until pale",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix in the almonds and zest",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Beat the egg whites and sugar until stiff and then fold into the egg mixture",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Bake for about 50-70 minutes until golden on top and firm to the touch",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "To make some orange syrup, simmer the orange juice, lemon juice, cinnamon and sugar until reduced to 50% of the original weight. Taste for sugar (should be quite tart) and allow to cool",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Rose and sank pretty severely, leaving it looking like a skateboarding bowl. Maybe less egg white....or more?...also could be timing of adding sugar to eggwhites - next time, add the sugar after a bit of whisking, once the egg whites have started to get foamy. Maybe don't whip superfast, the aim is to get a dense stable foam with small bubbles. The cake pan seemed overly full in the first place.",
+            "note_type": null
+        },
+        {
+            "text": "A lot of recipes for tarta de santiago (similar almond cake) don't separate the egg yolks - they mix the whole eggs and sugar",
+            "note_type": null
+        },
+        {
+            "text": "Overcooked on top and bottom at 180C - have reduced to 160C for next time",
+            "note_type": null
+        },
+        {
+            "text": "Baking time sees high too - check after 40 minutes",
+            "note_type": null
+        },
+        {
+            "text": "A few flaked almonds (another recipe put these on before baking) or chopped pistachios on top would help appearance",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

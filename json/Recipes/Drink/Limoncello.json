@@ -1,0 +1,103 @@
+{
+    "title": "Limoncello",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": {
+        "href": "http://www.youtube.com/watch?v=aeYYyY-jIgY",
+        "text": "Italian Dude"
+    },
+    "ingredient_list": [
+        {
+            "text": "500ml Purest alcohol",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Zest of 10 Lemons",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "name": "Weak Sugar Syrup",
+            "ingredient_list": [
+                {
+                    "text": "500ml water",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "170g sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        },
+        {
+            "name": "Strong Sugar Syrup",
+            "ingredient_list": [
+                {
+                    "text": "175ml water",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "550g Sugar",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
+        }
+    ],
+    "method": [
+        {
+            "text": "If only waxed lemons are available, lemons should be washed in warm water and scrubbed to remove wax.",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Mix alcohol &amp; lemon zest in jar, and leave somewhere dark for 3 weeks (maybe until peel goes pale?), shaking every 2-3 days",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add weak sugar syrup which will include most of the necessary water, to get it to 50% alcohol",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Adjust sweetness with strong sugar syrup",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Alternative recipe from <a href=\"https://gizmodo.com/how-to-make-the-best-limoncello-youve-ever-had-1533528095\">Gizmodo</a>",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

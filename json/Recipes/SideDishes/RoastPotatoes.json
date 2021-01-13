@@ -1,0 +1,68 @@
+{
+    "title": "Roast Potatoes",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "Potatoes - Possible Varieties include Maris Piper, ?",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Groundnut Oil, Olive Oil, Duck Fat or whatever",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Herbs, Garlic if you want",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Cut potatoes into walnut size pieces. Put in cold, well salted water, bring to the boil and simmer until well cooked",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Drain in a colander and shake around a bit to roughen up the outsides. Leave to dry for 10 minutes",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Preheat Oven, with an empty roasting pan inside",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Heat a large frying pan over a high heat. Add enough Fat or Oil to cover the bottom of the pan, and when the Fat gets to smoking point add the potatoes. Season with Salt &amp; Pepper. Fry, turning periodically, until the outsides are golden brown and crispy. Drain potatoes on kitchen paper to remove excess Fat, and transfer to the oven (fry the Potatoes in batches rather than overcrowding the pan). If you want, add Sprigs of Rosemary or Thyme or some unpeeled cloves of garlic at this point",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Bake for 20 minutes. Or until brown enough",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

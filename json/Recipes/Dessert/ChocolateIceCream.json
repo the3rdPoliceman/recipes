@@ -1,0 +1,98 @@
+{
+    "title": "Chocolate Ice Cream",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": {
+        "href": null,
+        "text": "Pierre Herme"
+    },
+    "ingredient_list": [
+        {
+            "text": "40g powdered milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "700ml whole milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "65g sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "200g dark chocolate, finely chopped",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Gradually whisk the milk into the powdered milk",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "When the powdered milk is dissolved, whisk in the sugar",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Bring the mixture to a boil, then stir in the chopped chocolate and bring to a boil again",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Chill and churn",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Apparently the graininess is likely caused by cocoa butter clumping together during freezing. A high cocoa mass chocolate like valrhona p125 should help",
+            "note_type": null
+        },
+        {
+            "text": "Also try versions with tonka, vanilla",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": [
+        {
+            "text": "1: Using half lindt 70% half lindt fleur de sel - tasted great but was quite grainy",
+            "date": ""
+        },
+        {
+            "text": "2: Using lindt 70% - taste was not quite as good, not quite sweet enough (needs 10% more sugar i guess). Texture was less grainy but still a bit",
+            "date": ""
+        },
+        {
+            "text": "3: Using half recipe - 100g lindt 70%, with 20g white sugar and 20g inverted sugar",
+            "date": ""
+        },
+        {
+            "text": "4: Using half recipe - 350g milk, 100g lindt 70%, 25g light brown sugar, 25g inverted sugar, 0.9g salt, 0.3g xanthan gum, 15ml kahlua, 1/2 tsp vanilla. Very smooth and nice flavor. Not sure the taste is quite as good as attempt 1",
+            "date": ""
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "title": "Mashed Potato",
+    "quantity": {
+        "number": "?",
+        "dimensions": [],
+        "label": ""
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "1kg Potatoes (Charlotte are good)",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "250g Butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Nutmeg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Put unpeeled Potatoes in cold Salted Water, bring to the boil until cooked",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Drain and peel the Potatoes, put through a ricer (or if you want to go completely overboard, pass through a tamis or sieve) back into the pan and stir a bit to allow the steam to come out",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Melt the Butter in a pan and add a little Milk. Whisk Butter and Milk into the Potato. Heat some more milk and add as much as needed to the Potato to get the right consistency",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Season with Nutmeg, Salt &amp; Pepper",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [],
+    "serving_suggestions": null,
+    "variations": [
+        {
+            "text": "Roasted Garlic. Add to Butter while melting it, and give it a blast with the hand blender"
+        }
+    ],
+    "attempt_log": null
+}
