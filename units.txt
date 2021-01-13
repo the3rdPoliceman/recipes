@@ -1,8 +1,6 @@
 bunch
 can
 cans
-colander
-colanders
 cup
 cups
 dash
@@ -31,8 +29,6 @@ ml
 mls
 pinch
 pinches
-shaving
-shavings
 slice
 slices
 sprig
