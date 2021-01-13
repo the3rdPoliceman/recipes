@@ -6,10 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<!-- endbuild -->
 		<title>Recipes</title>
-		<style type="text/css">@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/849347/000000000000000000010093/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-display:auto;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-display:auto;}@font-face{font-family:circe-rounded;src:url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-display:auto;}@font-face{font-family:circe-rounded;src:url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:circe;src:url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-display:auto;}@font-face{font-family:circe;src:url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-display:auto;}@font-face{font-family:circe;src:url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/a?subset_id=2&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;font-display:auto;}</style>
 	</head>
 	<body>
 		<div class="container non-footer">
@@ -17,24 +19,24 @@
 	            <div class="nav-bar">
 	                <a class="nav-button-left" href="index.html">Home</a>
 	                <a class="nav-button-right" href="Resources/CookingLog.html">Log</a>
-	                <a class="nav-button-right" href="Recipes/Resources/Projects.html">Projects</a>
-	                <a class="nav-button-right" href="Recipes/Resources/SaltFatAcidHeat.html">Salt Fat...</a>
-	                <a class="nav-button-right" href="Recipes/Resources/WeightsAndVolumes.html">Conversions</a>
-	                <a class="nav-button-right" href="Recipes/Resources/WhatsThatCalledInGerman.html">Names</a>
-	                <a class="nav-button-right" href="Recipes/Resources/WhereCanIBuy.html">Shopping</a>
+	                <a class="nav-button-right" href="Resources/Projects.html">Projects</a>
+	                <a class="nav-button-right" href="Resources/SaltFatAcidHeat.html">Salt Fat...</a>
+	                <a class="nav-button-right" href="Resources/WeightsAndVolumes.html">Conversions</a>
+	                <a class="nav-button-right" href="Resources/WhatsThatCalledInGerman.html">Names</a>
+	                <a class="nav-button-right" href="Resources/WhereCanIBuy.html">Shopping</a>
 	            </div>
 	            <div class="page-title">Recipes</div>
 	        </div>
 			<div class="row recipe-list">
 				<div class="col-12 col-sm-4">
 					<div class="recipe-section-title">Resources</div>
-					<a class="resource-link" href="Recipes/Resources/CookingLog.html">Cooking Log</a>
+					<a class="resource-link" href="Resources/CookingLog.html">Cooking Log</a>
 					<a class="resource-link" href="juliasrecipes.html">Julia's Recipes</a>
-					<a class="resource-link" href="Recipes/Resources/Projects.html">Projects</a>
-					<a class="resource-link" href="Recipes/Resources/SaltFatAcidHeat.html">Salt Fat Acid Heat</a>
-					<a class="resource-link" href="Recipes/Resources/WeightsAndVolumes.html">Weights and Volumes</a>
-					<a class="resource-link" href="Recipes/Resources/WhatsThatCalledInGerman.html">What's that called...</a>
-					<a class="resource-link" href="Recipes/Resources/WhereCanIBuy.html">Where can i buy...</a>
+					<a class="resource-link" href="Resources/Projects.html">Projects</a>
+					<a class="resource-link" href="Resources/SaltFatAcidHeat.html">Salt Fat Acid Heat</a>
+					<a class="resource-link" href="Resources/WeightsAndVolumes.html">Weights and Volumes</a>
+					<a class="resource-link" href="Resources/WhatsThatCalledInGerman.html">What's that called...</a>
+					<a class="resource-link" href="Resources/WhereCanIBuy.html">Where can i buy...</a>
 
 					<div class="recipe-section-title">Salads</div>
 					<a class="recipe-link vegetarian" href="Recipes/Salads/BeetrootPearAndFetaSalad.html">Beetroot, Pear and Feta Salad</a>
@@ -85,7 +87,7 @@
 					<a class="recipe-link" href="Recipes/Meat/SwedishMeatballs.html">Swedish Meatballs</a>
 
 					<div class="recipe-section-title">Fish</div>
-					<a class="guide-link" href="Recipes/Fish/Sushi.html">Making Sushi <span class="badge badge-pill badge-warning">guide</span></a>
+					<a class="guide-link" href="Guides/Fish/Sushi.html">Making Sushi <span class="badge badge-pill badge-warning">guide</span></a>
 					<a class="recipe-link" href="Recipes/Fish/BatteredFish.html">Battered Fish</a>
 					<a class="recipe-link" href="Recipes/Fish/CitrusSalmonWithWatercressSauce.html">Citrus Salmon with Watercress Sauce</a>
 					<a class="recipe-link" href="Recipes/Fish/MackerelKedgeree.html">Mackerel Kedgeree</a>
@@ -109,8 +111,8 @@
 					<a class="recipe-link" href="Recipes/Sausages/Pasties.html">Pasties</a>
 
 					<div class="recipe-section-title">Pasta and Gnocchi</div>
-					<a class="guide-link" href="Recipes/PastaAndGnocchi/Pasta.html">Making Pasta <span class="badge badge-pill badge-warning">guide</span></a>
-					<a class="guide-link" href="Recipes/PastaAndGnocchi/PotatoGnocchi.html">Making Potato Gnocchi <span class="badge badge-pill badge-warning">guide</span></a>
+					<a class="guide-link" href="Guides/PastaAndGnocchi/Pasta.html">Making Pasta <span class="badge badge-pill badge-warning">guide</span></a>
+					<a class="guide-link" href="Guides/PastaAndGnocchi/PotatoGnocchi.html">Making Potato Gnocchi <span class="badge badge-pill badge-warning">guide</span></a>
 					<a class="recipe-link" href="Recipes/PastaAndGnocchi/BasicAgnolotti.html">Agnolotti Dough (Basic)</a>
 					<a class="recipe-link" href="Recipes/PastaAndGnocchi/KellersAgnolotti.html">Agnolotti Dough (Keller)</a>
 					<a class="recipe-link" href="Recipes/PastaAndGnocchi/ChardProscuittoRicottaRavioli.html">Chard, Prosciutto &amp; Ricotta Ravioli</a>
@@ -149,7 +151,7 @@
 				</div>
 				<div class="col-12 col-sm-4">
 					<div class="recipe-section-title">Dessert</div>
-					<a class="guide-link" href="Recipes/Dessert/Chocolate.html">Working with Chocolate <span class="badge badge-pill badge-warning">guide</span></a>
+					<a class="guide-link" href="Guides/Dessert/Chocolate.html">Working with Chocolate <span class="badge badge-pill badge-warning">guide</span></a>
 					<a class="recipe-link vegetarian" href="Recipes/Dessert/ArrozConLeche.html">Arroz con Leche</a>
 					<a class="recipe-link vegetarian" href="Recipes/Dessert/Banoffee.html">Banoffee</a>
 					<a class="recipe-link vegetarian" href="Recipes/Dessert/CandiedOranges.html">Candied Oranges</a>
@@ -181,7 +183,7 @@
 					<a class="recipe-link vegetarian" href="Recipes/Breakfast/PancakesAmericanStyle.html">Pancakes - American style</a>
 
 					<div class="recipe-section-title">Baking</div>
-					<a class="guide-link" href="Recipes/Baking/Cakes.html">Making Cakes <span class="badge badge-pill badge-warning">guide</span></a>
+					<a class="guide-link" href="Guides/Baking/Cakes.html">Making Cakes <span class="badge badge-pill badge-warning">guide</span></a>
 					<a class="recipe-link vegetarian" href="Recipes/Baking/AmarettoWalnutCake.html">Amaretto &amp; Walnut Cake</a>
 					<a class="recipe-link" href="Recipes/Baking/BaconAndCheeseScones.html">Bacon and cheese scones</a>
 					<a class="recipe-link vegetarian" href="Recipes/Baking/BananaBread.html">Banana Bread</a>
@@ -236,9 +238,10 @@
 	        </div>
 	    </footer>
 	</body>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="../js/ingredient-multiplier.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+	<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+	<!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
 </html>
