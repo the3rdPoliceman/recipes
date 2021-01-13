@@ -1,5 +1,5 @@
 // setup adjustment for standard recipes with simple servings unit
-if($("#servings").length != 0) {
+if($("#servings").length !== 0) {
 	// Store original values
 	$('#servings').attr('data-original-value', $('#servings').val());
 	storeOriginalIngredientAndQuantitiyValues();
@@ -7,7 +7,7 @@ if($("#servings").length != 0) {
 	$('#servings').change(function(){
 		var originalServings = $('#servings').attr('data-original-value');
 		
-		if ($('#servings').val() == ""){
+		if ($('#servings').val() === ""){
 			// set original values
 			$('#servings').val(originalServings);
 		}
@@ -21,7 +21,7 @@ if($("#servings").length != 0) {
 }
 
 // setup adjustment for cake recipes with number of cakes and cake size
-if($("#cake-round-number").length != 0 && $("#cake-round-diameter").length != 0) {
+if($("#cake-round-number").length !== 0 && $("#cake-round-diameter").length !== 0) {
 	// Store original values
 	$('#cake-round-number').attr('data-original-value', $('#cake-round-number').val());
 	$('#cake-round-diameter').attr('data-original-value', $('#cake-round-diameter').val());
@@ -37,7 +37,7 @@ if($("#cake-round-number").length != 0 && $("#cake-round-diameter").length != 0)
 }
 
 // setup adjustment for cake recipes with number of cakes and cake size
-if($("#cake-rectangle-number").length != 0 && $("#cake-rectangle-length").length != 0 && $("#cake-rectangle-width").length != 0) {
+if($("#cake-rectangle-number").length !== 0 && $("#cake-rectangle-length").length !== 0 && $("#cake-rectangle-width").length !== 0) {
 	// Store original values
 	$('#cake-rectangle-number').attr('data-original-value', $('#cake-rectangle-number').val());
 	$('#cake-rectangle-length').attr('data-original-value', $('#cake-rectangle-length').val());
@@ -60,21 +60,19 @@ if($("#cake-rectangle-number").length != 0 && $("#cake-rectangle-length").length
 function storeOriginalIngredientAndQuantitiyValues(){
 	$( ".ingredient" ).each(function( i, element) {
 		if ($(element).contents()[0].nodeType == 3){
-			text = $(element).contents()[0].textContent;
-			$(element).attr('data-original-value', text);
+			$(element).attr('data-original-value', $(element).contents()[0].textContent);
 		}
 	});	
 	$( ".quantity" ).each(function( i, element) {
 		if ($(element).contents()[0].nodeType == 3){
-			text = $(element).contents()[0].textContent;
-			$(element).attr('data-original-value', text);
+			$(element).attr('data-original-value', $(element).contents()[0].textContent);
 		}
 	});	
 }
 
 function updateRoundCake(){
 	var ratio = 0;
-	if ($('#cake-round-number').val() == "" || $('#cake-round-diameter').val() == ""){
+	if ($('#cake-round-number').val() === "" || $('#cake-round-diameter').val() === ""){
 		// set original values
 		ratio = 0;
 	}
@@ -86,7 +84,7 @@ function updateRoundCake(){
 		var newDiameterOfCakes = getAsNumber($('#cake-round-diameter').val());
 
 		var cakeNumberRatio = newNumberOfCakes/originalNumberOfCakes;
-		var cakeAreaRatio = (newDiameterOfCakes**2)/(originalDiameterOfCakes**2);
+		var cakeAreaRatio = (newDiameterOfCakes*newDiameterOfCakes)/(originalDiameterOfCakes*originalDiameterOfCakes);
 
 		ratio = cakeNumberRatio * cakeAreaRatio;
 	}
@@ -97,7 +95,7 @@ function updateRoundCake(){
 
 function updateRectangleCake(){
 	var ratio = 0;
-	if ($('#cake-rectangle-number').val() == "" || $('#cake-rectangle-length').val() == "" || $('#cake-rectangle-width').val() == ""){
+	if ($('#cake-rectangle-number').val() === "" || $('#cake-rectangle-length').val() === "" || $('#cake-rectangle-width').val() === ""){
 		// set original values
 		ratio = 0;
 	}
@@ -133,14 +131,14 @@ function updateIngredients(ratio){
 
 		// standard "number then measure" order 
 		var regexMatch = $(element).attr('data-original-value').match(/^([0-9\-/.]+)( ?)(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)?( ?)(.*)$/i);
-		if (regexMatch != null){
+		if (regexMatch !== null){
 			//construct scaled ingredient text
 			var newQuantity = applyRatioToQuantity(regexMatch[1],ratio);
-			var newText = '' + newQuantity + regexMatch[2] + (regexMatch[3] == undefined ? '' : regexMatch[3]) + regexMatch[4] + regexMatch[5];
+			var newText = '' + newQuantity + regexMatch[2] + (regexMatch[3] === undefined ? '' : regexMatch[3]) + regexMatch[4] + regexMatch[5];
 			
 			$(element).text(newText);
 			if (contents.length > 1){
-				for (i = 1; i < contents.length; i++) {
+				for (var i = 1; i < contents.length; i++) {
 					$(element).append(contents[i]);
 				}
 			}
@@ -149,14 +147,14 @@ function updateIngredients(ratio){
 		}
 		else{
 			//"measure then number" order 
-			var regexMatch = $(element).attr('data-original-value').match(/^(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)( ?)([0-9\-/.]+)( ?)(.*)$/i);
-			if (regexMatch != null){
+			regexMatch = $(element).attr('data-original-value').match(/^(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)( ?)([0-9\-/.]+)( ?)(.*)$/i);
+			if (regexMatch !== null){
 				//construct scaled ingredient text
 				var newQuantity = applyRatioToQuantity(regexMatch[3], ratio);
 				var newText = regexMatch[1] + regexMatch[2] + newQuantity + regexMatch[4] + regexMatch[5];
 				$(element).text(newText);
 				if (contents.length > 1){
-					for (i = 1; i < contents.length; i++) {
+					for (var i = 1; i < contents.length; i++) {
 						$(element).append(contents[i]);
 					}
 				}
@@ -189,7 +187,7 @@ function applyRatioToQuantity(input, ratio){
 	// in case of fractions
 	var fractionMatch = input.match(/^(\d+)\/(\d+)$/);
 
-	if (fractionMatch != null){
+	if (fractionMatch !== null){
 		var decimalValue = Number(fractionMatch[1])/Number(fractionMatch[2]);
 		
 		return formatQuantity(decimalValue * ratio);
@@ -197,7 +195,7 @@ function applyRatioToQuantity(input, ratio){
 
 	// in case of range
 	var rangeMatch = input.match(/^(\d+)( *)-( *)(\d+)$/);
-	if (rangeMatch != null){
+	if (rangeMatch !== null){
 		var startValue = Number(rangeMatch[1]);
 		var endValue = Number(rangeMatch[4]);
 		
@@ -209,13 +207,13 @@ function applyRatioToQuantity(input, ratio){
 }
 
 function formatQuantity(quantity){
-  	return '' + +parseFloat(quantity).toFixed( 2 );
+  	return '' + parseFloat(quantity).toFixed( 2 );
 }
 
 function getAsNumber(value){
 	var fractionMatch = value.match(/^(\d+)\/(\d+)$/);
 
-	if (fractionMatch != null){
+	if (fractionMatch !== null){
 		var decimalValue = Number(fractionMatch[1])/Number(fractionMatch[2]);
 		
 		return decimalValue;
