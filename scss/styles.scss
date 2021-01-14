@@ -11,12 +11,12 @@ $basq-red : #962634;
 $basq-yellow : #F4BA49;
 $basq-grey : #CCCCCE;
 $basq-white : #DFE3E7;
-$basq-black : #08080D;
+
 $body-bg : #F7F7F7;
 $body-bg-2 : #E8E8E8;
-
 $menu-text : $basq-darkblue;
 $menu-bg : $body-bg;
+$main-text-color : #4C4C4C;
 
 
 /*
@@ -27,6 +27,7 @@ $menu-bg : $body-bg;
 body{
   background: $body-bg-2;
   font-family: circe-rounded;
+  color: $main-text-color;
 }
 
 .nav-bar{
@@ -35,7 +36,8 @@ body{
     background: $menu-bg;
     padding-left : 20px;
     padding-right : 20px;
-    padding-bottom:  5px;
+    padding-bottom:  8px;
+    padding-top:  6px;
 }
 
 @mixin nav-button{
@@ -44,6 +46,9 @@ body{
     padding-top: 10px;
     font-weight: 300;
     border-bottom: solid 2px rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    font-size: smaller;
+    letter-spacing: 1px;
 }
 
 .nav-button-left {
@@ -99,10 +104,30 @@ body{
   border-radius: 0em;
 }
 
+@mixin super-smooth-box-shadow{
+  box-shadow : 
+  2.8px 0px 2.2px rgba(0, 0, 0, 0.01),
+  6.7px 0px 5.3px rgba(0, 0, 0, 0.016),
+  12.5px 0px 10px rgba(0, 0, 0, 0.02),
+  22.3px 0px 17.9px rgba(0, 0, 0, 0.024),
+  41.8px 0px 33.4px rgba(0, 0, 0, 0.030),
+  100px 0px 80px rgba(0, 0, 0, 0.02),
+  -2.8px 0px 2.2px rgba(0, 0, 0, 0.01),
+  -6.7px 0px 5.3px rgba(0, 0, 0, 0.016),
+  -12.5px 0px 10px rgba(0, 0, 0, 0.02),
+  -22.3px 0px 17.9px rgba(0, 0, 0, 0.024),
+  -41.8px 0px 33.4px rgba(0, 0, 0, 0.030),
+  -100px 0px 80px rgba(0, 0, 0, 0.02);
+}
+
+@mixin subtle-box-shadow{
+  box-shadow : 5px 0px 8px rgba(100,100,100,.1), -5px 0px 8px rgba(100,100,100,.1);
+}
+
 .non-footer{
   background : $body-bg;
   min-height: calc(100vh - 50px);
-  box-shadow : 5px 0px 8px rgba(100,100,100,.1), -5px 0px 8px rgba(100,100,100,.1);
+  @include super-smooth-box-shadow;
 }
 
 .footer-container {
@@ -112,7 +137,7 @@ body{
   background-repeat: no-repeat;
   background-position: center top;
   color: white;
-  box-shadow : 5px 0px 8px rgba(100,100,100,.1), -5px 0px 8px rgba(100,100,100,.1);
+  @include super-smooth-box-shadow;
 }
 
 .footer-spacer {
@@ -150,6 +175,8 @@ figcaption {
 
 input{
   border: 2px solid $basq-grey;
+  color: $menu-text;
+  padding-bottom: 0px;
 }
 
 /*
@@ -196,7 +223,7 @@ input{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: $basq-red;
   padding: 1.25em 0em 0.5em 0em;
 }
 
@@ -308,7 +335,7 @@ input{
 
 .adjusted{
   font-style: italic;
-  color:$basq-yellow ;
+  color: $basq-yellow ;
 }
 
 .alternative-ingredient{
@@ -341,13 +368,17 @@ input{
   margin: 1.25em 0em 0.5em 0em;
 }
 
-.method-sub-list{
-  margin-top: 1.0em;
+@mixin method-sub-list-base{
   color: $basq-blue;
 }
 
+.method-sub-list{
+  @include method-sub-list-base;
+  margin-top: 0.3em;
+}
+
 .method-sub-list-top{
-  color: $basq-blue;
+  @include method-sub-list-base;
 }
 
 .method-part{
@@ -360,16 +391,6 @@ input{
 
 .method-step{
   @include method-step-mixin;
-}
-
-.method-step-optional{
-  @include method-step-mixin;
-}
-
-.method-step-optional::after{
-  font-style : italic;
-  font-weight : 300;
-  content : ' (optional)';
 }
 
 @media (min-width:576px) {
@@ -504,7 +525,7 @@ li.attempt{
 .log-header{
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: $basq-red;
   text-transform: uppercase;
 }
 
@@ -672,7 +693,7 @@ li.attempt{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: $basq-red;
   padding: 0.5em 0em   0em 0em;
 }
 
@@ -690,7 +711,7 @@ li.attempt{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: $basq-red;
   padding: 1.25em 0em 0.5em 0em;
 }
 
