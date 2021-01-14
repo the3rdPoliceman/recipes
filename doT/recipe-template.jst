@@ -51,9 +51,7 @@
                     {{? it.ingredient_list}}
                         <div class="ingredients col-sm-3 col-12">
                         {{~ it.ingredient_list :ingredient_list_item:ingredient_list_item_index}}
-                            {{? ingredient_list_item.type === "NOTE"}}
-                                <div class="note">{{= ingredient_list_item.text}}</div>
-                            {{?? ingredient_list_item.type === "INGREDIENT"}}
+                            {{? ingredient_list_item.type === "INGREDIENT"}}
                                 <div class="ingredient{{? ingredient_list_item.optional === true}} optional{{?}}">{{= ingredient_list_item.text}}
                                     {{? ingredient_list_item.alternative_ingredients}}
                                         {{~ ingredient_list_item.alternative_ingredients :alternative_ingredient:alternative_ingredient_index}} 
@@ -66,9 +64,9 @@
                                 {{?}}
                             {{?? ingredient_list_item.type === "INGREDIENT_SUB_LIST"}}
                                 {{? ingredient_list_item_index === 0}}
-                                <div class="method-sub-list-top">{{= ingredient_list_item.name}}</div>
+                                <div class="ingredient-sub-list-top">{{= ingredient_list_item.name}}</div>
                                 {{??}}
-                                <div class="method-sub-list">{{= ingredient_list_item.name}}</div>
+                                <div class="ingredient-sub-list">{{= ingredient_list_item.name}}</div>
                                 {{?}}
                                 {{~  ingredient_list_item.ingredient_list :sub_list_ingredient:sub_list_ingredient_index}}
 
@@ -86,6 +84,8 @@
                                 {{~}}
                             {{?? ingredient_list_item.type === "RECIPE_LINK"}}
                                 <div class="recipe-ref"><a href="{{= ingredient_list_item.href}}">{{= ingredient_list_item.text}}</a></div>
+                            {{?? ingredient_list_item.type === "NOTE"}}
+                                <div class="note">{{= ingredient_list_item.text}}</div>
                             {{?}}
                         {{~}}
                         </div>
@@ -202,7 +202,7 @@
     <footer class="footer-container container">
         <div class="footer-spacer"></div>
         <div class="footer">
-            <div class="footer-text">Footer - not much here really</div>
+            <div class="footer-text">Footer. Not much here really. Nice to have a footer though.</div>
         </div>
     </footer>
 </body>
