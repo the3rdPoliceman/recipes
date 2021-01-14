@@ -123,7 +123,7 @@ gulp.task('usemin', function() {
     }))
     .pipe(gulp.dest('dist/Resources/'));
 
-  return gulp.src('./*.html')
+    gulp.src('./*.html')
     .pipe(flatmap(function(stream, file) {
       return stream
         .pipe(usemin({
@@ -139,6 +139,8 @@ gulp.task('usemin', function() {
         }))
     }))
     .pipe(gulp.dest('dist/'));
+
+  return gulp.src('./*.txt').pipe(gulp.dest('dist/'));
 });
 
 function getAllJsonFiles(dir, files) {
