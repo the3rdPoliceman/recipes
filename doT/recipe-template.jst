@@ -70,16 +70,20 @@
                                 {{?}}
                                 {{~  ingredient_list_item.ingredient_list :sub_list_ingredient:sub_list_ingredient_index}}
 
-                                <div class="ingredient{{? sub_list_ingredient.optional === true}} optional{{?}}">{{= sub_list_ingredient.text}}
-                                    {{? sub_list_ingredient.alternative_ingredients}}
-                                        {{~ sub_list_ingredient.alternative_ingredients :sub_list_alternative_ingredient:sub_list_alternative_ingredient_index}} 
-                                            <span class="alternative-ingredient">{{= sub_list_alternative_ingredient.text }}</span>
-                                         {{~}}
+                                    {{? sub_list_ingredient.type === "INGREDIENT"}}
+                                        <div class="ingredient{{? sub_list_ingredient.optional === true}} optional{{?}}">{{= sub_list_ingredient.text}}
+                                            {{? sub_list_ingredient.alternative_ingredients}}
+                                                {{~ sub_list_ingredient.alternative_ingredients :sub_list_alternative_ingredient:sub_list_alternative_ingredient_index}} 
+                                                    <span class="alternative-ingredient">{{= sub_list_alternative_ingredient.text }}</span>
+                                                 {{~}}
+                                            {{?}}
+                                            {{? sub_list_ingredient.note}}
+                                                <div class="note">{{= sub_list_ingredient.note.text}}</div>
+                                            {{?}}
+                                        </div>
+                                    {{?? sub_list_ingredient.type === "RECIPE_LINK"}}
+                                        <div class="recipe-ref"><a href="{{= ingredient_list_item.href}}">{{= ingredient_list_item.text}}</a></div>
                                     {{?}}
-                                    {{? ingredient_list_item.note}}
-                                        <div class="note">{{= ingredient_list_item.note.text}}</div>
-                                    {{?}}
-                                </div>
 
                                 {{~}}
                             {{?? ingredient_list_item.type === "RECIPE_LINK"}}
