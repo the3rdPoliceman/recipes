@@ -113,8 +113,8 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "<a href=\"../../SaucesAndVinagrettes/QuickPickledCucumber.html\">1/4 recipe quick pickled cucumbers</a>",
-            "href": "../../SaucesAndVinagrettes/QuickPickledCucumber.html",
+            "text": "<a href=\"../SaucesAndVinagrettes/QuickPickledCucumber.html\">1/4 recipe quick pickled cucumbers</a>",
+            "href": "../SaucesAndVinagrettes/QuickPickledCucumber.html",
             "type": "RECIPE_LINK"
         }
     ],
