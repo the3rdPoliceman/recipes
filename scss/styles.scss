@@ -18,6 +18,26 @@ $menu-text : $basq-darkblue;
 $menu-bg : $body-bg;
 $main-text-color : #4C4C4C;
 
+@mixin super-smooth-box-shadow{
+  box-shadow : 
+  2.8px 0px 2.2px rgba(0, 0, 0, 0.01),
+  6.7px 0px 5.3px rgba(0, 0, 0, 0.016),
+  12.5px 0px 10px rgba(0, 0, 0, 0.02),
+  22.3px 0px 17.9px rgba(0, 0, 0, 0.024),
+  41.8px 0px 33.4px rgba(0, 0, 0, 0.030),
+  100px 0px 80px rgba(0, 0, 0, 0.02),
+  -2.8px 0px 2.2px rgba(0, 0, 0, 0.01),
+  -6.7px 0px 5.3px rgba(0, 0, 0, 0.016),
+  -12.5px 0px 10px rgba(0, 0, 0, 0.02),
+  -22.3px 0px 17.9px rgba(0, 0, 0, 0.024),
+  -41.8px 0px 33.4px rgba(0, 0, 0, 0.030),
+  -100px 0px 80px rgba(0, 0, 0, 0.02);
+}
+
+@mixin subtle-box-shadow{
+  box-shadow : 5px 0px 8px rgba(100,100,100,.1), -5px 0px 8px rgba(100,100,100,.1);
+}
+
 
 /*
 *
@@ -38,6 +58,12 @@ body{
     padding-right : 20px;
     padding-bottom:  8px;
     padding-top:  6px;
+}
+
+.nav-link{
+  padding: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 @mixin nav-button{
@@ -66,7 +92,7 @@ body{
 @mixin nav-button-hover{
     text-decoration: none;
     color: $menu-text;
-    border-bottom: solid 2px $menu-text;
+    border-bottom: solid 2px $basq-blue;
 }
 
 .nav-button-left:hover{
@@ -75,6 +101,14 @@ body{
 
 .nav-button-right:hover{
     @include nav-button-hover;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+  padding: 0px;
 }
 
 .floater-small {
@@ -144,26 +178,6 @@ body{
   border-radius: 0em;
 }
 
-@mixin super-smooth-box-shadow{
-  box-shadow : 
-  2.8px 0px 2.2px rgba(0, 0, 0, 0.01),
-  6.7px 0px 5.3px rgba(0, 0, 0, 0.016),
-  12.5px 0px 10px rgba(0, 0, 0, 0.02),
-  22.3px 0px 17.9px rgba(0, 0, 0, 0.024),
-  41.8px 0px 33.4px rgba(0, 0, 0, 0.030),
-  100px 0px 80px rgba(0, 0, 0, 0.02),
-  -2.8px 0px 2.2px rgba(0, 0, 0, 0.01),
-  -6.7px 0px 5.3px rgba(0, 0, 0, 0.016),
-  -12.5px 0px 10px rgba(0, 0, 0, 0.02),
-  -22.3px 0px 17.9px rgba(0, 0, 0, 0.024),
-  -41.8px 0px 33.4px rgba(0, 0, 0, 0.030),
-  -100px 0px 80px rgba(0, 0, 0, 0.02);
-}
-
-@mixin subtle-box-shadow{
-  box-shadow : 5px 0px 8px rgba(100,100,100,.1), -5px 0px 8px rgba(100,100,100,.1);
-}
-
 .non-footer{
   background : $body-bg;
   min-height: calc(100vh - 50px);
@@ -194,7 +208,7 @@ a{
 }
 
 a:hover{
-  color: $basq-red;
+  color: $basq-blue;
   text-decoration: none;
 }
 
