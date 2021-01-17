@@ -30,6 +30,11 @@ body {
   padding-bottom: 8px;
   padding-top: 6px; }
 
+.nav-link {
+  padding: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important; }
+
 .nav-button-left {
   background: #F7F7F7;
   color: #0b899e;
@@ -57,12 +62,18 @@ body {
 .nav-button-left:hover {
   text-decoration: none;
   color: #0b899e;
-  border-bottom: solid 2px #0b899e; }
+  border-bottom: solid 2px #0D9EB6; }
 
 .nav-button-right:hover {
   text-decoration: none;
   color: #0b899e;
-  border-bottom: solid 2px #0b899e; }
+  border-bottom: solid 2px #0D9EB6; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.navbar-toggler {
+  padding: 0px; }
 
 .floater-small {
   position: fixed;
@@ -145,7 +156,7 @@ a {
   color: #0D9EB6; }
 
 a:hover {
-  color: #962634;
+  color: #0D9EB6;
   text-decoration: none; }
 
 table > thead {
