@@ -77,6 +77,46 @@ body{
     @include nav-button-hover;
 }
 
+.floater-small {
+  position: fixed;
+  top : 100px;
+  width : 160px;
+  height : 160px;
+  z-index: 100;
+  border-radius:50%;
+  box-shadow : 5px 5px 16px rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-small{
+  width: 160px;
+  height: 160px;
+}
+
+@media (max-width:575px) {
+  .floater-small {
+    position: fixed;
+    bottom : 50px;
+    top: unset;
+    right : -10px;
+    width : 100px;
+    height : 100px;
+    z-index: 100;
+    border-radius:50%;
+    box-shadow : 5px 5px 16px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avatar-small{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .container{
 }
 
