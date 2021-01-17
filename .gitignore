@@ -1,7 +1,6 @@
-scratchpad
-node_modules
-css
-gen
-target
-RecipeExtractor/venv
+/node_modules
+/css
+/gen
+/target
+/RecipeExtractor/venv
 **/.DS_Store
