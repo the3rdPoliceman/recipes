@@ -250,7 +250,6 @@ function runDist() {
 };
 
 // TASKS
-
 const buildTarget = series(generateRecipesFromJson, 
                             parallel( copyNecessaryLocalNodeModules, 
                                       copyCssToTarget, 
