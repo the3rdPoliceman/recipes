@@ -1,7 +1,14 @@
 'use strict';
 
-var gulp = require('gulp'),
-  sass = require('gulp-sass'),
+const {
+  src,
+  dest,
+  parallel,
+  series,
+  watch
+} = require('gulp');
+
+var sass = require('gulp-sass'),
   browserSync = require('browser-sync'),
   del = require('del'),
   imagemin = require('gulp-imagemin'),
@@ -17,17 +24,17 @@ var gulp = require('gulp'),
   fs_extra = require('fs-extra');
 
 
-gulp.task('sass', function() {
-  return gulp.src('./scss/*.scss')
+function compileScss() {
+  src('./scss/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
-});
+    .pipe(dest('./css'));
+}
 
-gulp.task('sass:watch', function() {
-  gulp.watch('./css/*.scss', ['sass']);
-});
+function watchScss() {
+  watch('./css/*.scss', compileScss);
+}
 
-gulp.task('browser-sync', function() {
+function syncBrowser() {
   var files = [
     './*.html',
     './Recipes/**/*.html',
@@ -41,38 +48,36 @@ gulp.task('browser-sync', function() {
       baseDir: "./dist"
     }
   });
-
-});
+};
 
 // Default task
-gulp.task('default', ['browser-sync'], function() {
-  gulp.start('sass:watch');
-});
+const defaultTasks = parallel(syncBrowser, watchScss);
+
 
 // Clean
-gulp.task('clean', function() {
+function clean() {
   return del(['dist', 'gen']);
-});
+}
 
-gulp.task('copyfonts', function() {
-  gulp.src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
-    .pipe(gulp.dest('./dist/fonts'));
-});
 
-// Images
-gulp.task('imagemin', function() {
-  return gulp.src('images/*.{png,jpg,gif,svg}')
+function copyFonts() {
+  return src('./node_modules/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
+    .pipe(dest('./dist/fonts'));
+}
+
+// // Images
+function minifyImages() {
+  return src('images/*.{png,jpg,gif,svg}')
     .pipe(imagemin({
       optimizationLevel: 3,
       progressive: true,
       interlaced: true
     }))
-    .pipe(gulp.dest('dist/images'));
-});
+    .pipe(dest('dist/images'));
+}
 
-// Minify code
-gulp.task('usemin', function() {
-  gulp.src('./gen/Recipes/**/*.html')
+function minifyGuides() {
+  return src('./Guides/**/*.html')
     .pipe(flatmap(function(stream, file) {
       return stream
         .pipe(usemin({
@@ -87,9 +92,11 @@ gulp.task('usemin', function() {
           inlinecss: [cleanCss(), 'concat']
         }))
     }))
-    .pipe(gulp.dest('dist/Recipes/'));
+    .pipe(dest('dist/Guides/'));
+}
 
-  gulp.src('./Guides/**/*.html')
+function minifyResources() {
+  return src('./Resources/**/*.html')
     .pipe(flatmap(function(stream, file) {
       return stream
         .pipe(usemin({
@@ -104,9 +111,11 @@ gulp.task('usemin', function() {
           inlinecss: [cleanCss(), 'concat']
         }))
     }))
-    .pipe(gulp.dest('dist/Guides/'));
+    .pipe(dest('dist/Resources/'));
+}
 
-  gulp.src('./Resources/**/*.html')
+function minifyRootHtml() {
+  return src('./*.html')
     .pipe(flatmap(function(stream, file) {
       return stream
         .pipe(usemin({
@@ -121,9 +130,11 @@ gulp.task('usemin', function() {
           inlinecss: [cleanCss(), 'concat']
         }))
     }))
-    .pipe(gulp.dest('dist/Resources/'));
+    .pipe(dest('dist/'));
+}
 
-    gulp.src('./*.html')
+function minifyRecipes() {
+    return src('./gen/Recipes/**/*.html')
     .pipe(flatmap(function(stream, file) {
       return stream
         .pipe(usemin({
@@ -138,44 +149,54 @@ gulp.task('usemin', function() {
           inlinecss: [cleanCss(), 'concat']
         }))
     }))
-    .pipe(gulp.dest('dist/'));
+    .pipe(dest('dist/Recipes/'));
+}
 
-  return gulp.src('./*.txt').pipe(gulp.dest('dist/'));
-});
+// // Minify code
+function copyTextFilesToDist() {
+  return src('./*.txt').pipe(dest('dist/'));
+};
 
 function getAllJsonFiles(dir, files) {
   fs.readdirSync(dir).forEach(file => {
     const current_file = path.join(dir, file);
-    if (fs.statSync(current_file).isDirectory()) 
+    if (fs.statSync(current_file).isDirectory())
       return getAllJsonFiles(current_file, files);
     else if (current_file.endsWith('.json'))
       return files.push(current_file);
   });
 }
 
-gulp.task('generate-recipes-from-json', function() {
-  fs.readFile('doT/recipe-template.jst', 'utf8', (err, template_as_string) => {
-    if(err) {
-        throw err;
-    }
+function generateRecipesFromJson(callback) {
+  let template_as_string = fs.readFileSync('doT/recipe-template.jst', 'utf8');
+  let templateFunction = doT.template(template_as_string);
 
-    let templateFunction = doT.template(template_as_string);
+  let files = [];
+  getAllJsonFiles("json/Recipes", files);
+  for (let index = 0; index < files.length; index++) {
+    let recipe_as_string = fs.readFileSync(files[index], 'utf8');
+    let recipe_as_json = JSON.parse(recipe_as_string);
+    let recipe_as_html = templateFunction(recipe_as_json);
 
-    let files = [];
-    getAllJsonFiles("json/Recipes", files);
-    for (let index = 0; index < files.length; index++) {
-      let recipe_as_string = fs.readFileSync(files[index], 'utf8');
-      let recipe_as_json = JSON.parse(recipe_as_string);
-      let recipe_as_html = templateFunction(recipe_as_json);
+    let generated_recipe_file_path = "gen/" + files[index].substring(5).replace('.json', '.html');
+    fs_extra.ensureFileSync(generated_recipe_file_path);
+    fs.writeFileSync(generated_recipe_file_path, recipe_as_html);
+  }
 
-      let generated_recipe_file_path = "gen/" + files[index].substring(5).replace('.json', '.html');
-      fs_extra.ensureFileSync(generated_recipe_file_path);
-      fs.writeFileSync(generated_recipe_file_path, recipe_as_html);
-    }
-  });
-});
+  callback();
+};
 
 // Build
-gulp.task('build', ['clean'], function() {
-  gulp.start('generate-recipes-from-json', 'copyfonts', 'imagemin', 'usemin');
-});
+const build = series(clean, generateRecipesFromJson, copyFonts, parallel(minifyImages, minifyRecipes, minifyGuides, minifyResources, minifyRootHtml, copyTextFilesToDist));
+
+exports.build = build;
+exports.default = defaultTasks;
+exports.clean = clean;
+exports.copyFonts = copyFonts;
+exports.minifyImages = minifyImages;
+exports.minifyRecipes = minifyRecipes;
+exports.minifyGuides = minifyGuides;
+exports.minifyResources = minifyResources;
+exports.minifyRootHtml = minifyRootHtml;
+exports.copyTextFilesToDist = copyTextFilesToDist;
+exports.generateRecipesFromJson = generateRecipesFromJson;
