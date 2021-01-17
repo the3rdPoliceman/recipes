@@ -170,6 +170,12 @@ body{
   width: 100%
 }
 
+@media (max-width:575px) {
+.page-title{
+  font-size: 300%;
+}
+}
+
 .jumbotron{
   background: $basq-blue;
   color: $basq-white;

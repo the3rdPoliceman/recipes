@@ -124,6 +124,10 @@ body {
   line-height: 1.15em;
   width: 100%; }
 
+@media (max-width: 575px) {
+  .page-title {
+    font-size: 300%; } }
+
 .jumbotron {
   background: #0D9EB6;
   color: #DFE3E7;

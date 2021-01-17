@@ -1,3 +1,4 @@
 1	think about enclosing method sublist steps inside method sublist div element
 2	ingredient multiplier not disabling when value of quantity multiplier missing, or non null
 3	fix menu item alignment when collapsed
+4	see if the "dist" build can be done in github
