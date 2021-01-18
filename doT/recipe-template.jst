@@ -77,9 +77,9 @@
                                 {{?}}
                             {{?? ingredient_list_item.type === "INGREDIENT_SUB_LIST"}}
                                 {{? ingredient_list_item_index === 0}}
-                                <div class="ingredient-sub-list-top">{{= ingredient_list_item.name}}</div>
+                                <div class="ingredient-sub-list-top">{{= ingredient_list_item.name}}
                                 {{??}}
-                                <div class="ingredient-sub-list">{{= ingredient_list_item.name}}</div>
+                                <div class="ingredient-sub-list">{{= ingredient_list_item.name}}
                                 {{?}}
                                 {{~  ingredient_list_item.ingredient_list :sub_list_ingredient:sub_list_ingredient_index}}
 
@@ -97,8 +97,8 @@
                                     {{?? sub_list_ingredient.type === "RECIPE_LINK"}}
                                         <div class="recipe-ref"><a href="{{= sub_list_ingredient.href}}">{{= sub_list_ingredient.text}}</a></div>
                                     {{?}}
-
                                 {{~}}
+                                </div>
                             {{?? ingredient_list_item.type === "RECIPE_LINK"}}
                                 <div class="recipe-ref"><a href="{{= ingredient_list_item.href}}">{{= ingredient_list_item.text}}</a></div>
                             {{?? ingredient_list_item.type === "NOTE"}}
@@ -135,9 +135,9 @@
                                     {{?}}
                                 {{?? method_item.type === "METHOD_SUB_LIST"}}
                                     {{? method_item_index === 0}}
-                                    <div class="method-sub-list-top">{{= method_item.text}}</div>
+                                    <div class="method-sub-list-top">{{= method_item.text}}
                                     {{??}}
-                                    <div class="method-sub-list">{{= method_item.text}}</div>
+                                    <div class="method-sub-list">{{= method_item.text}}
                                     {{?}}
                                     {{~ method_item.method_steps :method_step:method_step_index}}
                                         {{? method_step.pre_notes}}
@@ -152,6 +152,7 @@
                                             {{~}} 
                                         {{?}}
                                     {{~}} 
+                                    </div>
                                 {{?}}
                             {{~}}
                         {{?}}

@@ -367,6 +367,7 @@ input{
   margin-left: 2em;
   margin-bottom: 0.3em;
   font-weight : 600;
+  color: $main-text-color;
   text-transform: lowercase;
 }
 
@@ -402,6 +403,7 @@ input{
   display: block;
   font-style:italic;
   font-weight: 400;
+  color: $main-text-color;
 }
 
 .alternative-ingredient::before{
@@ -445,12 +447,9 @@ input{
   margin-bottom: 0.5em;
 }
 
-@mixin method-step-mixin{
-  padding-bottom: 0.5em;
-}
-
 .method-step{
-  @include method-step-mixin;
+  padding-bottom: 0.5em;
+  color : $main-text-color;
 }
 
 @media (min-width:576px) {
@@ -488,6 +487,7 @@ ol.directions-list {
 .note{
   margin-bottom: 0.3em;
   font-weight: 200;
+  color: $main-text-color;
 }
 
 .note::before{
