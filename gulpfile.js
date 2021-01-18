@@ -128,7 +128,7 @@ function copyResourcesToTarget() {
 }
 
 function copyRootFilesToTarget() {
-  return src(['./*.html', './*.txt']).pipe(dest('./target'));
+  return src(['./*.html', './*.txt', './*.ico']).pipe(dest('./target'));
 }
 
 // Clean
@@ -239,8 +239,8 @@ function minifyRecipes() {
 }
 
 
-function copyTextFilesToDist() {
-  return src('./*.txt').pipe(dest('dist/'));
+function copyRootResourceFilesToDist() {
+  return src(['./*.txt', './*.ico']).pipe(dest('dist/'));
 };
 
 function runDist() {
@@ -274,7 +274,7 @@ const build = series( clean,
                                 minifyGuides, 
                                 minifyResources, 
                                 minifyRootHtml, 
-                                copyTextFilesToDist));
+                                copyRootResourceFilesToDist));
 
 // Default task
 const runTarget = series( cleanTarget, 
