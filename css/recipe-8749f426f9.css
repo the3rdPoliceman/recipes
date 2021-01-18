@@ -285,6 +285,7 @@ input {
   margin-left: 2em;
   margin-bottom: 0.3em;
   font-weight: 600;
+  color: #4C4C4C;
   text-transform: lowercase; }
 
 .ingredient-sub-list {
@@ -309,7 +310,8 @@ input {
 .alternative-ingredient {
   display: block;
   font-style: italic;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #4C4C4C; }
 
 .alternative-ingredient::before {
   padding-left: 1em;
@@ -343,7 +345,8 @@ input {
   margin-bottom: 0.5em; }
 
 .method-step {
-  padding-bottom: 0.5em; }
+  padding-bottom: 0.5em;
+  color: #4C4C4C; }
 
 @media (min-width: 576px) {
   .directions {
@@ -370,7 +373,8 @@ ol.directions-list {
 
 .note {
   margin-bottom: 0.3em;
-  font-weight: 200; }
+  font-weight: 200;
+  color: #4C4C4C; }
 
 .note::before {
   font-weight: 500;
