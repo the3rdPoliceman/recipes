@@ -39,10 +39,10 @@
                     "optional": false,
                     "alternative_ingredients": [
                         {
-                            "text": "8 tsp vanilla paste"
+                            "text": "<span class=\"quantity\">8</span> tsp vanilla paste"
                         },
                         {
-                            "text": "8 tsp vanilla extract"
+                            "text": "<span class=\"quantity\">8</span> tsp vanilla extract"
                         }
                     ],
                     "note": null,
@@ -70,7 +70,7 @@
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "\u00bd tsp baking powder",
+                    "text": "1/2 tsp baking powder",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,

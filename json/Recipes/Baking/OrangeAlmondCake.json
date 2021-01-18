@@ -3,8 +3,10 @@
     "quantity": {
         "number": "1",
         "dimensions": [
-            "18"
-        ],
+        {
+            "magnitude": "18",
+            "number_of_dimensions": "2"
+        }],
         "label": " cm deep cake"
     },
     "source": {

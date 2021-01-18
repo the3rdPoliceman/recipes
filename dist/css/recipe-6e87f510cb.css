@@ -69,8 +69,28 @@ body {
   color: #0b899e;
   border-bottom: solid 2px #0D9EB6; }
 
+@media (max-width: 748px) {
+  .nav-button-left {
+    margin-right: 0px;
+    border-bottom: none; }
+  .nav-button-right {
+    margin-left: 0px;
+    border-bottom: none; }
+  .nav-button-left:hover {
+    text-decoration: underline;
+    border-bottom: none; }
+  .nav-button-right:hover {
+    text-decoration: underline;
+    border-bottom: none; } }
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none; }
 
 .navbar-toggler {
   padding: 0px; }
@@ -148,6 +168,10 @@ body {
   background-position: center top;
   color: white;
   box-shadow: 2.8px 0px 2.2px rgba(0, 0, 0, 0.01), 6.7px 0px 5.3px rgba(0, 0, 0, 0.016), 12.5px 0px 10px rgba(0, 0, 0, 0.02), 22.3px 0px 17.9px rgba(0, 0, 0, 0.024), 41.8px 0px 33.4px rgba(0, 0, 0, 0.03), 100px 0px 80px rgba(0, 0, 0, 0.02), -2.8px 0px 2.2px rgba(0, 0, 0, 0.01), -6.7px 0px 5.3px rgba(0, 0, 0, 0.016), -12.5px 0px 10px rgba(0, 0, 0, 0.02), -22.3px 0px 17.9px rgba(0, 0, 0, 0.024), -41.8px 0px 33.4px rgba(0, 0, 0, 0.03), -100px 0px 80px rgba(0, 0, 0, 0.02); }
+
+@media (max-width: 575px) {
+  .footer-container {
+    background-image: url("../images/footer-background-small.svg"); } }
 
 .footer-spacer {
   height: 16px; }
@@ -241,23 +265,16 @@ input {
   text-align: right;
   padding-right: 5px; }
 
-#cake-rectangle-number {
-  text-align: right;
-  padding-right: 5px; }
+.multiplier {
+  padding-top: 1em; }
 
-#cake-rectangle-length {
-  text-align: right;
-  padding-right: 5px; }
+.multiplier::before {
+  color: #0D9EB6;
+  font-size: 90%;
+  text-transform: uppercase;
+  content: "scale by: "; }
 
-#cake-rectangle-width {
-  text-align: right;
-  padding-right: 5px; }
-
-#cake-round-number {
-  text-align: right;
-  padding-right: 5px; }
-
-#cake-round-diameter {
+#multiplier {
   text-align: right;
   padding-right: 5px; }
 

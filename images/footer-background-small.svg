@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120">
+<path      
+  id="main-background"
+  fill="#0D9EB6"
+  d="m 0,0 L 1000,0 L 1000,120 L 0,120 Z" />
+<path      
+  id="yellow-feature"
+  fill="#F4BA49"
+  d="m 570,0 L 1000,0 L 1000,120 L 630,120  Z" />
+</svg>

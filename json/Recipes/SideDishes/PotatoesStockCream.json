@@ -1,10 +1,5 @@
 {
     "title": "Potatoes in Stock and Cream",
-    "quantity": {
-        "number": "?",
-        "dimensions": [],
-        "label": ""
-    },
     "source": null,
     "ingredient_list": [
         {

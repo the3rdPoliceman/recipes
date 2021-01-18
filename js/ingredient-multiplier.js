@@ -21,11 +21,40 @@ if($("#servings").length !== 0) {
 			let originalMultiplier = 1;
 			let newMultiplier = 1;
 			$('.quantity-adjuster').each(function() {
-				originalMultiplier = originalMultiplier * ($(this).attr('data-original-value'));
-				newMultiplier = newMultiplier * ($(this).val());
+				let numberOfDimensionsAdjusterAppliesTo = 1;
+
+				if (($(this).attr('data-number-of-dimensions')) !== "" && ($(this).attr('data-number-of-dimensions'))!== undefined){
+					numberOfDimensionsAdjusterAppliesTo = $(this).attr('data-number-of-dimensions');
+				}
+
+				for (var i = 0; i < numberOfDimensionsAdjusterAppliesTo; i++) {
+					originalMultiplier = originalMultiplier * ($(this).attr('data-original-value'));
+					newMultiplier = newMultiplier * ($(this).val());
+				}
 			});
 
 			let ratio = newMultiplier/originalMultiplier;
+
+			updateIngredients(ratio);
+			updateQuantities(ratio);
+		}
+		else{
+			//restore original ingredient amounts
+			updateIngredients(1);
+			updateQuantities(1);
+		}
+		
+	});
+}
+
+if($("#multiplier").length !== 0) {
+	storeOriginalIngredientAndQuantitiyValues();
+
+	$('#multiplier').change(function(){
+		let allQuantityAdjustersSet = true;
+		if ($('#multiplier').val() !== ""){
+			// adjust ingredient amounts
+			let ratio = 1 * $('#multiplier').val();
 
 			updateIngredients(ratio);
 			updateQuantities(ratio);
@@ -71,13 +100,6 @@ function storeOriginalIngredientAndQuantitiyValues(){
 
 function updateIngredients(ratio){
 	$(".ingredient").each(function( index, element) {
-		if (ratio == 1){
-			$(element).removeClass('servings-not-adjusted');
-		}
-		else{
-			$(element).addClass('servings-not-adjusted');
-		}
-
 		var contents = $(element).contents();
 
 		// standard "number then measure" order 
@@ -93,7 +115,6 @@ function updateIngredients(ratio){
 					$(element).append(contents[i]);
 				}
 			}
-			$(element).removeClass('servings-not-adjusted');
 			toggleAdjustedClass(element, ratio);
 		}
 		else{
@@ -109,7 +130,6 @@ function updateIngredients(ratio){
 						$(element).append(contents[i]);
 					}
 				}
-				$(element).removeClass('servings-not-adjusted');
 				toggleAdjustedClass(element, ratio);
 			}
 		}

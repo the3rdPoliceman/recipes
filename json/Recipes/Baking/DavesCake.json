@@ -3,8 +3,10 @@
     "quantity": {
         "number": "2",
         "dimensions": [
-            "23"
-        ],
+        {
+            "magnitude": "23",
+            "number_of_dimensions": "2"
+        }],
         "label": "cm cakes"
     },
     "source": null,

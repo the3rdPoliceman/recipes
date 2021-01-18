@@ -3,9 +3,14 @@
     "quantity": {
         "number": "1",
         "dimensions": [
-            "25",
-            "10"
-        ],
+        {
+            "magnitude": "25",
+            "number_of_dimensions": "1"
+        },
+        {
+            "magnitude": "10",
+            "number_of_dimensions": "1"
+        }],
         "label": "cm bread pan"
     },
     "source": null,
