@@ -1,5 +1,3 @@
-# RECIPES
-
 ## Recipes Website
 The full recipes website is available via GitHub Pages at [https://the3rdpoliceman.github.io/recipes/index.html](https://the3rdpoliceman.github.io/recipes/index.html)
 
