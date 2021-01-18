@@ -1,15 +1,7 @@
-function avatarOver(source) {
-    document.getElementById("avatar").src = "/images/avatarDizzy.svg";
+function avatarOver(source, imageLocation) {
+    document.getElementById("avatar").src = imageLocation;
 }
 
-function avatarOut(source) {
-    document.getElementById("avatar").src = "/images/avatar.svg";
-}
-
-function avatarJuliaOver(source) {
-    document.getElementById("avatar").src = "/images/avatarJuliaDizzy.svg";
-}
-
-function avatarJuliaOut(source) {
-    document.getElementById("avatar").src = "/images/avatarJulia.svg";
+function avatarOut(source, imageLocation) {
+    document.getElementById("avatar").src = imageLocation;
 }

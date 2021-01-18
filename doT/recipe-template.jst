@@ -36,11 +36,11 @@
 <body>
     {{? it.author === "Julia" }}
     <div class="avatar-holder">
-        <img src="../../images/avatarJulia.svg" alt="" class="avatar" id="avatar" onmouseover="avatarJuliaOver(this)" onmouseout="avatarJuliaOut(this)">
+        <img src="../../images/avatarJulia.svg" alt="" class="avatar" id="avatar" onmouseover="avatarOver(this, '../../images/avatarJuliaDizzy.svg')" onmouseout="avatarOut(this, '../../images/avatarJulia.svg')">
     </div>
     {{??}}
     <div class="avatar-holder">
-        <img src="../../images/avatar.svg" alt="" class="avatar" id="avatar" onmouseover="avatarOver(this)" onmouseout="avatarOut(this)">
+        <img src="../../images/avatar.svg" alt="" class="avatar" id="avatar" onmouseover="avatarOver(this, '../../images/avatarDizzy.svg')" onmouseout="avatarOut(this, '../../images/avatar.svg')">
     </div>
     {{?}}
     <div class="container non-footer">
