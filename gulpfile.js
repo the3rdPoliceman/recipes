@@ -62,7 +62,7 @@ function generateRecipesFromJson(callback) {
 function watchAll() {
   let filesToWatch = ['./scss/*.scss',
     './json/**/*.json',
-    './images/*.*',
+    './images/**/*.*',
     './js/*.*',
     './doT/**/*.jst',
     './Guides/**/*.html',
@@ -79,7 +79,7 @@ function syncBrowser() {
     './target/*.html',
     './target/Recipes/**/*.html',
     './target/css/*.css',
-    './target/images/*.{png,jpg,gif}',
+    './target/images/**/*.{png,jpg,gif,xml,json}',
     './target/js/*.js'
   ];
 
@@ -108,7 +108,7 @@ function copyCssToTarget() {
 }
 
 function copyImagesToTarget() {
-  return src('./images/*.{png,jpg,gif,svg}').pipe(dest('./target/images'));
+  return src('./images/**/*.{png,jpg,gif,svg,xml,json}').pipe(dest('./target/images'));
 }
 
 function copyJavascriptToTarget() {
@@ -149,7 +149,7 @@ function generateCss() {
 
 // // Images
 function minifyImages() {
-  return src('images/*.{png,jpg,gif,svg}')
+  return src('images/**/*.{png,jpg,gif,svg}')
     .pipe(imagemin({
       optimizationLevel: 3,
       progressive: true,
@@ -157,6 +157,10 @@ function minifyImages() {
     }))
     .pipe(dest('dist/images'));
 }
+
+function copyImageDescriptorsToDist() {
+  return src('images/**/*.{json,xml}').pipe(dest('dist/images'));
+};
 
 function minifyGuides() {
   return src('./Guides/**/*.html')
@@ -265,6 +269,7 @@ const build = series( clean,
                       generateCss, 
                       copyFonts, 
                       parallel( minifyImages, 
+                                copyImageDescriptorsToDist,
                                 minifyRecipes, 
                                 minifyGuides, 
                                 minifyResources, 
