@@ -95,9 +95,10 @@ body {
 .navbar-toggler {
   padding: 0px; }
 
-.floater-small {
+.avatar-holder {
   position: fixed;
-  top: 100px;
+  top: 80px;
+  right: -15px;
   width: 160px;
   height: 160px;
   z-index: 100;
@@ -107,15 +108,14 @@ body {
   justify-content: center;
   align-items: center; }
 
-.avatar-small {
+.avatar {
   width: 160px;
   height: 160px; }
 
 @media (max-width: 575px) {
-  .floater-small {
+  .avatar-holder {
     position: fixed;
-    bottom: 50px;
-    top: unset;
+    top: 85px;
     right: -10px;
     width: 100px;
     height: 100px;
@@ -125,7 +125,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .avatar-small {
+  .avatar {
     width: 100px;
     height: 100px; } }
 
@@ -243,6 +243,9 @@ input {
   font-size: 120%;
   color: #962634;
   padding: 1.25em 0em 0.5em 0em; }
+
+.badge-warning {
+  color: white; }
 
 /*
 *

@@ -15,6 +15,22 @@
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
     <title>{{=it.title}}</title>
+    <script async="true" src="https://cdn.whisk.com/sdk/shopping-list.js" type="text/javascript"></script>
+    <script>
+      var whisk = whisk || {};
+      whisk.queue = whisk.queue || [];
+
+      whisk.queue.push(function () {
+        whisk.shoppingList.defineWidget("WBRB-VQFG-VMJH-RSNG", {
+          styles: {
+            button: {
+              color: "#F4BA49",
+              text: "Add to Shopping List"
+            }
+          }
+        });
+      });
+    </script>
 </head>
 
 <body>
@@ -109,6 +125,15 @@
                                 <div class="note">{{= ingredient_list_item.text}}</div>
                             {{?}}
                         {{~}}
+
+                        <!-- Whisk Integration -->
+                        <div id="WBRB-VQFG-VMJH-RSNG">
+                            <script>
+                                whisk.queue.push(function () {
+                                whisk.display("WBRB-VQFG-VMJH-RSNG");
+                                });
+                            </script>
+                        </div>
                         </div>
                     {{?}}
 
