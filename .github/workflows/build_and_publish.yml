@@ -1,0 +1,38 @@
+# This workflow is triggered by pushes to the master branch, which invokes a build of the dist, which is then deployed to the gh-pages branch
+name: Automated Build and Publish
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  push:
+    branches: ["master"]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm ci
+      - run: gulp build
+
+      - name: Commit files
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add -A
+          git commit -m "Automated rebuild of dist folder via Github Action .github/workflows/build_and_publish.yml"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+      - name: Deploy to GitHub pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
