@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --local user.name  ${{ github.actor }}
           git add -A
-          git commit -m "Automated rebuild of dist folder via Github Action .github/workflows/build_and_publish.yml"
+          git commit -m "Automated rebuild of dist folder via Github Action .github/workflows/build_and_publish.yml" --allow-empty
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
