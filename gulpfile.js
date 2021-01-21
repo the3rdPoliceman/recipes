@@ -292,9 +292,9 @@ const build = series( clean,
 const runTarget = series( cleanTarget, 
                           buildTarget,
                           parallel( syncBrowser, 
-                                    watchAll));
+                                    watchAll,
+                                    watchMarkdownRecipes));
 
 exports.build = build;
 exports.runDist = runDist;
 exports.default = runTarget;
-exports.watchMarkdownRecipes = watchMarkdownRecipes;
