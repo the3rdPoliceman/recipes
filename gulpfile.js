@@ -21,8 +21,20 @@ const sass = require('gulp-sass'),
   doT = require('dot'),
   fs = require('fs'),
   fs_extra = require('fs-extra'),
-  path = require("path");
+  path = require("path"),
+  recipesToJson = require('./recipe-to-json/dist');
 
+function compileMarkdownRecipesToJSON() {
+   return src('./RecipeScratchpad/**/*.recipe')
+     .pipe(recipesToJson())
+     .pipe(dest('./json/Recipes'));
+}
+
+function watchMarkdownRecipes(){
+  let filesToWatch = ['./RecipeScratchpad/**/*.recipe'];
+
+  return watch(filesToWatch, compileMarkdownRecipesToJSON  );
+}
 
 function compileScss() {
   return src('./scss/*.scss')
@@ -280,7 +292,8 @@ const build = series( clean,
 const runTarget = series( cleanTarget, 
                           buildTarget,
                           parallel( syncBrowser, 
-                                    watchAll));
+                                    watchAll,
+                                    watchMarkdownRecipes));
 
 exports.build = build;
 exports.runDist = runDist;

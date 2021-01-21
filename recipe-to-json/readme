@@ -1,0 +1,42 @@
+#recipe-to-json
+
+A simple project which is run from Gulp and generates JSON formatted recipes from a more readable format
+
+#Usage
+
+const recipesToJson = require('./recipe-to-json/dist');
+
+function compileMarkdownRecipesToJSON() {
+   return src('./RecipeScratchpad/**/*.recipe')
+     .pipe(recipesToJson())
+     .pipe(dest('./json/Recipes'));
+}
+
+#Sample recipe format
+
+TITLE:Spinach Shakshuka
+CAT:Vegetarian
+SERVE:2
+*1 Onion
+*Olive Oil
+*2 cloves garlic
+*1tsp mustard seeds
+*2tsp cumin seeds
+*0.25tsp chilli powder 
+*400g Spinach {{N: frozen is fine }} 
+*2tsp coriander powder
+*4 eggs
+O*50g feta cheese
+-to start
+-Fry onion in some olive oil until golden brown
+-Add mustard seeds and fry until they start popping 
+-Add the cumin seeds and chilli powder and fry for another 30 seconds
+-Add the spinach, fry until wilted and cooked through and taste for salt
+-Add the ground coriander and mix in well
+-to finish
+-Make {{Q: 4 }} holes in the spinach, and crack an egg into each hole. If using feta, scatter it over the top at this point.
+-Cover with a lid and cook until the eggs are done to your liking
+SS:needs nothing else!
+SS:add something else!
+V:instead of the spices and feta, add some ham and scatter cubes of fontina on top when you add the eggs
+V:do something else! 

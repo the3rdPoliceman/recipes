@@ -4,3 +4,4 @@
 /target
 /RecipeExtractor/venv
 **/.DS_Store
+/RecipeScratchpad/**/*.recipe
