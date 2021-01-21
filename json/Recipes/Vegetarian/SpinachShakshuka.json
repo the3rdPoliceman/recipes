@@ -1,0 +1,106 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 Onion",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Olive Oil",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 cloves garlic",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1tsp mustard seeds",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2tsp cumin seeds",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.25tsp chilli powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "400g Spinach",
+      "note": {
+        "text": "frozen is fine"
+      },
+      "alternative_ingredients": [
+        {
+          "text": "<span class=\"quantity\">400</span>g Chard"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2tsp coriander powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "4 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "50g feta cheese",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_STEP",
+      "text": "Fry the onion and garlic in some olive oil until golden brown"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Add the mustard seeds and fry until they start popping, then add the cumin seeds and chilli powder and fry for another 30 seconds"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Add the spinach, fry until wilted and cooked through and taste for salt"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Sprinkle the ground coriander over the spinach and mix in well"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Make <span class=\"quantity\">4</span> holes in the spinach, and crack an egg into each. If using feta, scatter it over the top at this point."
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Cover with a lid and cook until the eggs are done to your liking"
+    }
+  ],
+  "title": "Spinach Shakshuka",
+  "quantity": {
+    "number": "2"
+  },
+  "variations": [
+    {
+      "text": "Instead of the spices and feta, add some ham and scatter cubes of fontina on top when you add the eggs"
+    }
+  ]
+}
