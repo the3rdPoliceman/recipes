@@ -103,8 +103,8 @@ export module RecipeStructure {
         title: string;
         quantity: Quantity;
         source: Source;
-        ingredient_list: object[] = [];
-        method: object[] = [];
+        ingredient_list: (Ingredient|IngredientSubList)[] = [];
+        method: (MethodStep|MethodSubList)[] = [];
         notes: Note[];
         serving_suggestions: ServingSuggestion[];
         variations: Variation[];
@@ -379,9 +379,10 @@ export module RecipeStructure {
     }
 
     export function parseNote(line: string, recipe: Recipe) {
-        line = line.substring(NOTE_PREFIX.length).trim();
+        let noteContent = line.substring(NOTE_PREFIX.length).trim();
+        noteContent = replaceQuantities(noteContent).trim();
 
-        throw new PluginError(PLUGIN_NAME, "Haven't yet implemented the ability to handle Note");
+        recipe.notes.push(new Note(noteContent));
     }
 
     export function parseDimension(line: string, recipe: Recipe) {

@@ -327,8 +327,9 @@ var RecipeStructure;
     }
     RecipeStructure.parseSource = parseSource;
     function parseNote(line, recipe) {
-        line = line.substring(NOTE_PREFIX.length).trim();
-        throw new PluginError(PLUGIN_NAME, "Haven't yet implemented the ability to handle Note");
+        var noteContent = line.substring(NOTE_PREFIX.length).trim();
+        noteContent = replaceQuantities(noteContent).trim();
+        recipe.notes.push(new Note(noteContent));
     }
     RecipeStructure.parseNote = parseNote;
     function parseDimension(line, recipe) {

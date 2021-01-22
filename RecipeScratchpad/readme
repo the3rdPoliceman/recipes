@@ -1,29 +1,39 @@
-Below is an example of a sample recipe file which could be converted to JSON. It should be placed in an approprite subfolder in the RecipeScratchpad folder and have a .recipe extension e.g. store it as ./RecipeScratchpad/Vegetarian/SpinachShakshuka.recipe
+Recipes placed in this folder while running the gulp default task will be converted into JSON and then placed into the json/Recipes folder. To be recognized as a recipe, they should have a ".recipe" extension and use the formatting below 
+
+Below are the elements which can be used when defining recipes
+
+TITLE: Title
+CAT: Category (Currently unused)
+SERVE: Serving Count
+** Ingredient List
+* Ingredient  {{N: Note about this Ingredient }} {{ALT: {{Q: Quantity }} Alternative Ingredient }}  {{ALT: Alternative Ingredient without Quantity }}
+O* Optional Ingredient
+-- Method Step List
+- Method Step {{Q: Quantity within Method Step }}
+SS: Serving Suggestion
+V: Variation
+SRC: Source text {{HREF:source url}}
 
 
-TITLE:Spinach Shakshuka
-CAT:Vegetarian
-SERVE:2
-*1 Onion
-*Olive Oil
-*2 cloves garlic
-*1tsp mustard seeds
-*2tsp cumin seeds
-*0.25tsp chilli powder 
-*400g Spinach {{N: frozen is fine }} 
-*2tsp coriander powder
-*4 eggs
-O*50g feta cheese
--to start
--Fry onion in some olive oil until golden brown
--Add mustard seeds and fry until they start popping 
--Add the cumin seeds and chilli powder and fry for another 30 seconds
--Add the spinach, fry until wilted and cooked through and taste for salt
--Add the ground coriander and mix in well
--to finish
--Make {{Q: 4 }} holes in the spinach, and crack an egg into each hole. If using feta, scatter it over the top at this point.
--Cover with a lid and cook until the eggs are done to your liking
-ss:needs nothing else!
-ss:add something else!
-v:instead of the spices and feta, add some ham and scatter cubes of fontina on top when you add the eggs
-v:do something else!
+Below is an example of a sample recipe file, which might be created as RecipeScratchpad/Vegetarian/SpinachShakshuka.recipe
+
+TITLE: Spinach Shakshuka
+CAT: Vegetarian
+SERVE: 2 
+* 1 Onion
+* Olive Oil
+* 2 cloves garlic
+* 1tsp mustard seeds
+* 2tsp cumin seeds
+* 0.25tsp chilli powder 
+* 400g Spinach {{N: frozen is fine }} {{ALT:{{Q:400}}g Chard}}
+* 2tsp coriander powder
+* 4 eggs
+O* 50g feta cheese
+- Fry the onion and garlic in some olive oil until golden brown
+- Add the mustard seeds and fry until they start popping, then add the cumin seeds and chilli powder and fry for another 30 seconds
+- Add the spinach, fry until wilted and cooked through and taste for salt
+- Sprinkle the ground coriander over the spinach and mix in well
+- Make {{Q: 4 }} holes in the spinach, and crack an egg into each. If using feta, scatter it over the top at this point.
+- Cover with a lid and cook until the eggs are done to your liking
+VAR: Instead of the spices and feta, add some ham and scatter cubes of fontina on top when you add the eggs
