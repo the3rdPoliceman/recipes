@@ -2,22 +2,22 @@ import "mocha";
 let chaiAssertions = require('chai').assert;
 let expect = require('chai').expect;
 import * as assert from "assert";
-import {RecipeThing} from '../dist/recipe';
-import parseMethodStep = RecipeThing.parseMethodStep;
-import parseMethodSubList = RecipeThing.parseMethodSubList;
-import MethodStep = RecipeThing.MethodStep;
-import MethodSubListItemType = RecipeThing.MethodSubListItemType;
-import MethodSubList = RecipeThing.MethodSubList;
-import parseIngredient = RecipeThing.parseIngredient;
-import Ingredient = RecipeThing.Ingredient;
-import IngredientListItemType = RecipeThing.IngredientListItemType;
-import parseIngredientSubList = RecipeThing.parseIngredientSubList;
-import IngredientSubList = RecipeThing.IngredientSubList;
-import AlternativeIngredient = RecipeThing.AlternativeIngredient;
+import {RecipeStructure} from '../dist/recipe';
+import parseMethodStep = RecipeStructure.parseMethodStep;
+import parseMethodSubList = RecipeStructure.parseMethodSubList;
+import MethodStep = RecipeStructure.MethodStep;
+import MethodSubListItemType = RecipeStructure.MethodSubListItemType;
+import MethodSubList = RecipeStructure.MethodSubList;
+import parseIngredient = RecipeStructure.parseIngredient;
+import Ingredient = RecipeStructure.Ingredient;
+import IngredientListItemType = RecipeStructure.IngredientListItemType;
+import parseIngredientSubList = RecipeStructure.parseIngredientSubList;
+import IngredientSubList = RecipeStructure.IngredientSubList;
+import AlternativeIngredient = RecipeStructure.AlternativeIngredient;
 
 describe('Tests for parseMethodStep', function () {
     it('parseMethodStep into empty recipe', function () {
-        let recipe:RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe:RecipeStructure.Recipe = new RecipeStructure.Recipe();
         let firstMethodStep = parseMethodStep("-first method step", recipe);
 
         chaiAssertions.lengthOf(recipe.method, 1, "1 method step created in the recipe");
@@ -26,7 +26,7 @@ describe('Tests for parseMethodStep', function () {
         expect(methodStep.type).to.be.equal(MethodSubListItemType.METHOD_STEP);
     });
     it('parseMethodStep into recipe with existing method step', function () {
-        let recipe:RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe:RecipeStructure.Recipe = new RecipeStructure.Recipe();
         let firstMethodStep = parseMethodStep("-first method step", recipe);
         let secondMethodStep = parseMethodStep("-second method step", recipe);
 
@@ -41,7 +41,7 @@ describe('Tests for parseMethodStep', function () {
         expect(methodStep2.type).to.be.equal(MethodSubListItemType.METHOD_STEP);
     });
     it('parseMethodStep into recipe with existing method sub list', function () {
-        let recipe:RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe:RecipeStructure.Recipe = new RecipeStructure.Recipe();
         let subList = parseMethodSubList("--Sublist", recipe);
         let firstMethodStep = parseMethodStep("-New method step...should be in sublist", recipe);
         let secondMethodStep = parseMethodStep("-Second method step...should also be in sublist", recipe);
@@ -63,7 +63,7 @@ describe('Tests for parseMethodStep', function () {
 
     });
     it('parseMethodStep with quantity', function () {
-        let recipe:RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe:RecipeStructure.Recipe = new RecipeStructure.Recipe();
         let firstMethodStep = parseMethodStep("-Make {{Q: 4 }} holes in the spinach", recipe);
 
         chaiAssertions.lengthOf(recipe.method, 1, "1 method step created in the recipe");
@@ -75,7 +75,7 @@ describe('Tests for parseMethodStep', function () {
 
 describe('Tests for parseIngredient', function () {
     it('parseIngredient add ingredient to empty recipe', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*My Ingredient", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");
@@ -88,7 +88,7 @@ describe('Tests for parseIngredient', function () {
     });
 
     it('parseIngredient add two ingredients to empty recipe', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*My Ingredient 1", recipe);
         parseIngredient("*My Ingredient 2", recipe);
 
@@ -111,7 +111,7 @@ describe('Tests for parseIngredient', function () {
 
 
     it('parseIngredient into recipe with sublist', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredientSubList("**Ingredient Sublist", recipe);
         parseIngredient("*My Ingredient", recipe);
 
@@ -132,7 +132,7 @@ describe('Tests for parseIngredient', function () {
 
 
     it('use parseIngredient to add 2 ingredients into recipe with sublist', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredientSubList("**Ingredient Sublist", recipe);
         parseIngredient("*My Ingredient 1", recipe);
         parseIngredient("*My Ingredient 2", recipe);
@@ -160,7 +160,7 @@ describe('Tests for parseIngredient', function () {
     });
 
     it('Use parseIngredient to add ingredient with note to empty recipe', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*400g Spinach {{N: frozen is fine }}", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");
@@ -175,7 +175,7 @@ describe('Tests for parseIngredient', function () {
 
 
     it('Use parseIngredient to add ingredient with alternative ingredient', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*400g Spinach {{ALT: Chard }}", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");
@@ -191,7 +191,7 @@ describe('Tests for parseIngredient', function () {
     });
 
     it('Use parseIngredient to add ingredient with 2 alternative ingredients', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*400g Spinach {{ALT: Chard }} {{ALT: Kale }}", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");
@@ -211,7 +211,7 @@ describe('Tests for parseIngredient', function () {
 
 
     it('Use parseIngredient to add ingredient with 2 alternative ingredients', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*400g Spinach {{ALT: Chard }} {{ALT: Kale }}", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");
@@ -230,7 +230,7 @@ describe('Tests for parseIngredient', function () {
     }); 
 
     it('Use parseIngredient to add ingredient with 2 alternative ingredients and 1 note', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*400g Spinach {{ALT: Chard }} {{ALT: Kale }} {{N:frozen is fine}}", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");
@@ -249,7 +249,7 @@ describe('Tests for parseIngredient', function () {
     });
 
     it('Use parseIngredient to add ingredient with alternative ingredient containing quantity', function () {
-        let recipe: RecipeThing.Recipe = new RecipeThing.Recipe();
+        let recipe: RecipeStructure.Recipe = new RecipeStructure.Recipe();
         parseIngredient("*400g Spinach {{ALT: {{Q:400}}g Chard }}", recipe);
 
         chaiAssertions.lengthOf(recipe.ingredient_list, 1, "1 ingredient in list");

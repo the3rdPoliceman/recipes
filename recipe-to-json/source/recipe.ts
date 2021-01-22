@@ -1,6 +1,4 @@
-import {log} from "util";
-
-export module RecipeThing {
+export module RecipeStructure {
     const PluginError = require('plugin-error');
     const PLUGIN_NAME = 'recipe-to-json';
 
@@ -242,21 +240,21 @@ export module RecipeThing {
 
 
     function replaceQuantities(source:string):string{
-        return replaceAll(source, /\{\{Q:([^}]*)\}\}/, '<span class="quantity">', '</span>');
+        return replaceAll(source, /{{Q:([^}]*)}}/, '<span class="quantity">', '</span>');
     }
 
     export function parseIngredientText(ingredientAsString: string): Ingredient {
         ingredientAsString = replaceQuantities(ingredientAsString);
         let ingredient = new Ingredient(ingredientAsString);
 
-        let noteRegExp = /\{\{N:([^}]*)\}\}/;
+        let noteRegExp = /{{N:([^}]*)}}/;
         let noteExtractionResult = extractAll(ingredientAsString, noteRegExp, true);
         ingredientAsString = noteExtractionResult.postExtractionString;
         noteExtractionResult.extractedStrings.forEach( (value:string) => {
             ingredient.note = new Note(value);
         });
 
-        let alternativeIngredientRegExp = /\{\{ALT:([^}]*)\}\}/;
+        let alternativeIngredientRegExp = /{{ALT:([^}]*)}}/;
         let alternativeIngredientExtractionResult = extractAll(ingredientAsString, alternativeIngredientRegExp, true);
         let alternativeIngredients: AlternativeIngredient[] = [];
         ingredientAsString = alternativeIngredientExtractionResult.postExtractionString;
@@ -367,7 +365,7 @@ export module RecipeThing {
     export function parseSource(line: string, recipe: Recipe) {
         line = line.substring(SOURCE_PREFIX.length).trim();
 
-        let hrefRegExp = /\{\{HREF:([^}]*)\}\}/;
+        let hrefRegExp = /{{HREF:([^}]*)}}/;
         let extractionResult = extractAll(line, hrefRegExp, true);
 
         let source = new Source();
