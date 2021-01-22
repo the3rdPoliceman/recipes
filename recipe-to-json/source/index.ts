@@ -1,5 +1,5 @@
-import {RecipeThing} from "../dist/recipe";
-import parseIntoRecipe = RecipeThing.parseIntoRecipe;
+import {RecipeStructure} from "../dist/recipe";
+import parseIntoRecipe = RecipeStructure.parseIntoRecipe;
 
 // through2 is a thin wrapper around node transform streams
 const through = require('through2');

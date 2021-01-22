@@ -107,3 +107,4 @@ export declare module RecipeStructure {
     function parseDimension(line: string, recipe: Recipe): void;
     function parseIntoRecipe(lines: string[]): Recipe;
 }
+//# sourceMappingURL=recipe.d.ts.map

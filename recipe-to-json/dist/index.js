@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var recipe_1 = require("../dist/recipe");
-var parseIntoRecipe = recipe_1.RecipeThing.parseIntoRecipe;
+var parseIntoRecipe = recipe_1.RecipeStructure.parseIntoRecipe;
 // through2 is a thin wrapper around node transform streams
 var through = require('through2');
 var PluginError = require('plugin-error');

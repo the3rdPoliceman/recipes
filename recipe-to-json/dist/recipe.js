@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.RecipeThing = void 0;
-var RecipeThing;
-(function (RecipeThing) {
+exports.RecipeStructure = void 0;
+var RecipeStructure;
+(function (RecipeStructure) {
     var PluginError = require('plugin-error');
     var PLUGIN_NAME = 'recipe-to-json';
     // constants used for parsing recipes
@@ -37,12 +37,12 @@ var RecipeThing;
         IngredientListItemType["INGREDIENT"] = "INGREDIENT";
         IngredientListItemType["INGREDIENT_SUB_LIST"] = "INGREDIENT_SUB_LIST";
         IngredientListItemType["NOTE"] = "NOTE";
-    })(IngredientListItemType = RecipeThing.IngredientListItemType || (RecipeThing.IngredientListItemType = {}));
+    })(IngredientListItemType = RecipeStructure.IngredientListItemType || (RecipeStructure.IngredientListItemType = {}));
     var MethodSubListItemType;
     (function (MethodSubListItemType) {
         MethodSubListItemType["METHOD_SUB_LIST"] = "METHOD_SUB_LIST";
         MethodSubListItemType["METHOD_STEP"] = "METHOD_STEP";
-    })(MethodSubListItemType = RecipeThing.MethodSubListItemType || (RecipeThing.MethodSubListItemType = {}));
+    })(MethodSubListItemType = RecipeStructure.MethodSubListItemType || (RecipeStructure.MethodSubListItemType = {}));
     var IngredientSubList = /** @class */ (function () {
         function IngredientSubList() {
             this.name = '';
@@ -51,7 +51,7 @@ var RecipeThing;
         }
         return IngredientSubList;
     }());
-    RecipeThing.IngredientSubList = IngredientSubList;
+    RecipeStructure.IngredientSubList = IngredientSubList;
     var Ingredient = /** @class */ (function () {
         function Ingredient(text) {
             this.optional = false;
@@ -60,38 +60,38 @@ var RecipeThing;
         }
         return Ingredient;
     }());
-    RecipeThing.Ingredient = Ingredient;
+    RecipeStructure.Ingredient = Ingredient;
     var AlternativeIngredient = /** @class */ (function () {
         function AlternativeIngredient(text) {
             this.text = text;
         }
         return AlternativeIngredient;
     }());
-    RecipeThing.AlternativeIngredient = AlternativeIngredient;
+    RecipeStructure.AlternativeIngredient = AlternativeIngredient;
     var RecipeLink = /** @class */ (function () {
         function RecipeLink() {
         }
         return RecipeLink;
     }());
-    RecipeThing.RecipeLink = RecipeLink;
+    RecipeStructure.RecipeLink = RecipeLink;
     var Quantity = /** @class */ (function () {
         function Quantity() {
         }
         return Quantity;
     }());
-    RecipeThing.Quantity = Quantity;
+    RecipeStructure.Quantity = Quantity;
     var Dimension = /** @class */ (function () {
         function Dimension() {
         }
         return Dimension;
     }());
-    RecipeThing.Dimension = Dimension;
+    RecipeStructure.Dimension = Dimension;
     var Source = /** @class */ (function () {
         function Source() {
         }
         return Source;
     }());
-    RecipeThing.Source = Source;
+    RecipeStructure.Source = Source;
     var Recipe = /** @class */ (function () {
         function Recipe() {
             this.ingredient_list = [];
@@ -99,7 +99,7 @@ var RecipeThing;
         }
         return Recipe;
     }());
-    RecipeThing.Recipe = Recipe;
+    RecipeStructure.Recipe = Recipe;
     var MethodStep = /** @class */ (function () {
         function MethodStep(text) {
             this.type = MethodSubListItemType.METHOD_STEP;
@@ -107,7 +107,7 @@ var RecipeThing;
         }
         return MethodStep;
     }());
-    RecipeThing.MethodStep = MethodStep;
+    RecipeStructure.MethodStep = MethodStep;
     var MethodSubList = /** @class */ (function () {
         function MethodSubList(text) {
             this.type = MethodSubListItemType.METHOD_SUB_LIST;
@@ -115,28 +115,28 @@ var RecipeThing;
         }
         return MethodSubList;
     }());
-    RecipeThing.MethodSubList = MethodSubList;
+    RecipeStructure.MethodSubList = MethodSubList;
     var ServingSuggestion = /** @class */ (function () {
         function ServingSuggestion(text) {
             this.text = text;
         }
         return ServingSuggestion;
     }());
-    RecipeThing.ServingSuggestion = ServingSuggestion;
+    RecipeStructure.ServingSuggestion = ServingSuggestion;
     var Variation = /** @class */ (function () {
         function Variation(text) {
             this.text = text;
         }
         return Variation;
     }());
-    RecipeThing.Variation = Variation;
+    RecipeStructure.Variation = Variation;
     var Note = /** @class */ (function () {
         function Note(text) {
             this.text = text;
         }
         return Note;
     }());
-    RecipeThing.Note = Note;
+    RecipeStructure.Note = Note;
     var IngredientNote = /** @class */ (function (_super) {
         __extends(IngredientNote, _super);
         function IngredientNote(text) {
@@ -146,16 +146,16 @@ var RecipeThing;
         }
         return IngredientNote;
     }(Note));
-    RecipeThing.IngredientNote = IngredientNote;
+    RecipeStructure.IngredientNote = IngredientNote;
     function parseTitle(line, recipe) {
         line = line.substring(TITLE_PREFIX.length).trim();
         recipe.title = line;
     }
-    RecipeThing.parseTitle = parseTitle;
+    RecipeStructure.parseTitle = parseTitle;
     function parseCategory(line, recipe) {
         // doing nothing with this for now
     }
-    RecipeThing.parseCategory = parseCategory;
+    RecipeStructure.parseCategory = parseCategory;
     function parseServing(line, recipe) {
         line = line.substring(SERVING_PREFIX.length).trim();
         if (recipe.quantity === undefined) {
@@ -163,14 +163,14 @@ var RecipeThing;
         }
         recipe.quantity.number = line.trim();
     }
-    RecipeThing.parseServing = parseServing;
+    RecipeStructure.parseServing = parseServing;
     function parseIngredientSubList(line, recipe) {
         var subListName = line.substring(INGREDIENT_SUB_LIST_PREFIX.length).trim();
         var ingredientSubList = new IngredientSubList();
         ingredientSubList.name = subListName;
         recipe.ingredient_list.push(ingredientSubList);
     }
-    RecipeThing.parseIngredientSubList = parseIngredientSubList;
+    RecipeStructure.parseIngredientSubList = parseIngredientSubList;
     var ExtractionResult = /** @class */ (function () {
         function ExtractionResult() {
             this.extractedStrings = [];
@@ -202,18 +202,18 @@ var RecipeThing;
         return result;
     }
     function replaceQuantities(source) {
-        return replaceAll(source, /\{\{Q:([^}]*)\}\}/, '<span class="quantity">', '</span>');
+        return replaceAll(source, /{{Q:([^}]*)}}/, '<span class="quantity">', '</span>');
     }
     function parseIngredientText(ingredientAsString) {
         ingredientAsString = replaceQuantities(ingredientAsString);
         var ingredient = new Ingredient(ingredientAsString);
-        var noteRegExp = /\{\{N:([^}]*)\}\}/;
+        var noteRegExp = /{{N:([^}]*)}}/;
         var noteExtractionResult = extractAll(ingredientAsString, noteRegExp, true);
         ingredientAsString = noteExtractionResult.postExtractionString;
         noteExtractionResult.extractedStrings.forEach(function (value) {
             ingredient.note = new Note(value);
         });
-        var alternativeIngredientRegExp = /\{\{ALT:([^}]*)\}\}/;
+        var alternativeIngredientRegExp = /{{ALT:([^}]*)}}/;
         var alternativeIngredientExtractionResult = extractAll(ingredientAsString, alternativeIngredientRegExp, true);
         var alternativeIngredients = [];
         ingredientAsString = alternativeIngredientExtractionResult.postExtractionString;
@@ -224,20 +224,20 @@ var RecipeThing;
         ingredient.text = ingredientAsString.trim();
         return ingredient;
     }
-    RecipeThing.parseIngredientText = parseIngredientText;
+    RecipeStructure.parseIngredientText = parseIngredientText;
     function parseIngredient(line, recipe) {
         var ingredientAsString = line.substring(INGREDIENT_PREFIX.length).trim();
         var ingredient = parseIngredientText(ingredientAsString);
         putIngredientInRecipe(recipe, ingredient);
     }
-    RecipeThing.parseIngredient = parseIngredient;
+    RecipeStructure.parseIngredient = parseIngredient;
     function parseOptionalIngredient(line, recipe) {
         var ingredientAsString = line.substring(OPTIONAL_INGREDIENT_PREFIX.length).trim();
         var ingredient = parseIngredientText(ingredientAsString);
         ingredient.optional = true;
         putIngredientInRecipe(recipe, ingredient);
     }
-    RecipeThing.parseOptionalIngredient = parseOptionalIngredient;
+    RecipeStructure.parseOptionalIngredient = parseOptionalIngredient;
     function putIngredientInRecipe(recipe, ingredient) {
         if (recipe.ingredient_list.length === 0) {
             recipe.ingredient_list.push(ingredient);
@@ -255,22 +255,22 @@ var RecipeThing;
             }
         }
     }
-    RecipeThing.putIngredientInRecipe = putIngredientInRecipe;
+    RecipeStructure.putIngredientInRecipe = putIngredientInRecipe;
     function parseMethodSubList(line, recipe) {
         var subListName = line.substring(METHOD_SUB_LIST_PREFIX.length).trim();
         var methodSubList = new MethodSubList(subListName);
         recipe.method.push(methodSubList);
     }
-    RecipeThing.parseMethodSubList = parseMethodSubList;
+    RecipeStructure.parseMethodSubList = parseMethodSubList;
     function returnString(line) {
         return "line:" + line;
     }
-    RecipeThing.returnString = returnString;
+    RecipeStructure.returnString = returnString;
     function parseMethodStep2(methodAsString) {
         methodAsString = replaceQuantities(methodAsString);
         return new MethodStep(methodAsString);
     }
-    RecipeThing.parseMethodStep2 = parseMethodStep2;
+    RecipeStructure.parseMethodStep2 = parseMethodStep2;
     function parseMethodStep(line, recipe) {
         var methodAsString = line.substring(METHOD_STEP_PREFIX.length).trim();
         var methodStep = parseMethodStep2(methodAsString);
@@ -293,7 +293,7 @@ var RecipeThing;
             }
         }
     }
-    RecipeThing.parseMethodStep = parseMethodStep;
+    RecipeStructure.parseMethodStep = parseMethodStep;
     function parseServingSuggestion(line, recipe) {
         var servingSuggestionText = line.substring(SERVING_SUGGESTION_PREFIX.length);
         servingSuggestionText = replaceQuantities(servingSuggestionText).trim();
@@ -303,7 +303,7 @@ var RecipeThing;
         }
         recipe.serving_suggestions.push(servingSuggestion);
     }
-    RecipeThing.parseServingSuggestion = parseServingSuggestion;
+    RecipeStructure.parseServingSuggestion = parseServingSuggestion;
     function parseVariation(line, recipe) {
         var variationText = line.substring(VARIATION_PREFIX.length).trim();
         variationText = replaceQuantities(variationText).trim();
@@ -313,10 +313,10 @@ var RecipeThing;
         }
         recipe.variations.push(variation);
     }
-    RecipeThing.parseVariation = parseVariation;
+    RecipeStructure.parseVariation = parseVariation;
     function parseSource(line, recipe) {
         line = line.substring(SOURCE_PREFIX.length).trim();
-        var hrefRegExp = /\{\{HREF:([^}]*)\}\}/;
+        var hrefRegExp = /{{HREF:([^}]*)}}/;
         var extractionResult = extractAll(line, hrefRegExp, true);
         var source = new Source();
         source.text = extractionResult.postExtractionString.trim();
@@ -325,17 +325,17 @@ var RecipeThing;
         }
         recipe.source = source;
     }
-    RecipeThing.parseSource = parseSource;
+    RecipeStructure.parseSource = parseSource;
     function parseNote(line, recipe) {
         line = line.substring(NOTE_PREFIX.length).trim();
         throw new PluginError(PLUGIN_NAME, "Haven't yet implemented the ability to handle Note");
     }
-    RecipeThing.parseNote = parseNote;
+    RecipeStructure.parseNote = parseNote;
     function parseDimension(line, recipe) {
         line = line.substring(DIMENSION_PREFIX.length).trim();
         throw new PluginError(PLUGIN_NAME, "Haven't yet implemented the ability to handle Dimension");
     }
-    RecipeThing.parseDimension = parseDimension;
+    RecipeStructure.parseDimension = parseDimension;
     function parseIntoRecipe(lines) {
         var recipe = new Recipe();
         for (var _i = 0, lines_1 = lines; _i < lines_1.length; _i++) {
@@ -385,6 +385,6 @@ var RecipeThing;
         }
         return recipe;
     }
-    RecipeThing.parseIntoRecipe = parseIntoRecipe;
-})(RecipeThing = exports.RecipeThing || (exports.RecipeThing = {}));
+    RecipeStructure.parseIntoRecipe = parseIntoRecipe;
+})(RecipeStructure = exports.RecipeStructure || (exports.RecipeStructure = {}));
 //# sourceMappingURL=recipe.js.map
