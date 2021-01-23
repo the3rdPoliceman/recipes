@@ -387,7 +387,38 @@ input{
 
 .recipe-details{
   margin-top: 1em;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
 }
+
+.ingredients{
+  padding : 0px 15px;
+}
+
+.directions
+{
+  border-left: 2px solid $basq-blue;
+  padding: 0px 15px;
+}
+
+@media (max-width:576px) {
+  .recipe-details{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns:unset !important; 
+    grid-template-rows: auto 1fr;
+  }
+
+  .directions
+  {
+    border-left: none;
+  }
+
+  .ingredients{
+    padding : 0px 15px;
+  }
+}
+
 
 .ingredient-title{
   text-transform: uppercase;
@@ -485,13 +516,6 @@ input{
 .method-step{
   padding-bottom: 0.5em;
   color : $main-text-color;
-}
-
-@media (min-width:576px) {
-  .directions
-  {
-    border-left: 2px solid $basq-blue;
-  }
 }
 
 ol.directions-list li {
