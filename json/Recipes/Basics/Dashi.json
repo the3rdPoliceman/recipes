@@ -1,0 +1,41 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 liter water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "10 * 12cm kombu",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30g bonito flakes",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_STEP",
+      "text": "Soak the kombu in the water overnight"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Heat the water and kombu gently to 75C and then remove the kombu"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Continue heating the water until it almost boils (it MUST NOT boil), and remove from the heat"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Add the Bonito and stir, leave for five minutes and then strain through cheesecloth to leave the dashi"
+    }
+  ],
+  "title": "Dashi"
+}

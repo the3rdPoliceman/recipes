@@ -90,7 +90,7 @@
 
                     <!-- ********** INGREDIENTS -->
                     {{? it.ingredient_list}}
-                        <div class="ingredients col-sm-3 col-12">
+                        <div class="ingredients">
                         {{~ it.ingredient_list :ingredient_list_item:ingredient_list_item_index}}
                             {{? ingredient_list_item.type === "INGREDIENT"}}
                                 <div class="ingredient{{? ingredient_list_item.optional === true}} optional{{?}}">{{= ingredient_list_item.text}}
@@ -146,7 +146,7 @@
                     {{?}}
 
 
-                    <div class="directions col-sm-9 col-12">
+                    <div class="directions">
                         <!-- ********** RECIPE NOTES -->
                         {{? it.notes }}
                             {{~ it.notes :note:index}}

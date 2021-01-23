@@ -1,0 +1,43 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1l water, ideally <span class=\"quantity\">700</span>ml should be chilled or ice",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50g salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "Additional Flavorings (See <a href=\"../../Guides/Basics/Brining.html\">Guide</a>)",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_STEP",
+      "text": "Put <span class=\"quantity\">300</span>ml of water in a pot with the sugar, salt and any additions and heat to dissolve the salt and sugar"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Take off the heat, add the rest of the water or ice"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Chill further in the fridge if necessary to bring the temperature down to around 5C"
+    }
+  ],
+  "title": "Basic Brine"
+}
