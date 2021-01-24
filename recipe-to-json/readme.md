@@ -1,8 +1,8 @@
 #recipe-to-json
 
-A simple project which is run from Gulp and generates JSON formatted recipes from a more readable format
+A simple project to help enter recipes as easily as possible. This module takes recipes entered in a readable format and converts them into JSON, which is later used to generate recipe HTML pages as part of the build process.
 
-#Usage
+#Usage from gulpfile.js
 
 const recipesToJson = require('./recipe-to-json/dist');
 
