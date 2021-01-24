@@ -31,7 +31,7 @@ O* Optional Ingredient
 -  Take {{Q: 4 }} of ingredint 1 and do something with it
 SS: Serving Suggestion 1
 SS: Serving Suggestion 2
-VAR:  Variation 1
-VAR:  Variation 2
+VAR: Variation 1
+VAR: Variation 2
 SRC: Source Name {{HREF:https://www.recipesource.com}}
 ~~~~
