@@ -1,9 +1,9 @@
-#recipe-to-json
+# recipe-to-json
 
-A simple project which is run from Gulp and generates JSON formatted recipes from a more readable format
+A simple project to help enter recipes as easily as possible. This module takes recipes entered in a readable format(see example below) and converts them into JSON, which is later used in conjunction with doT.js to generate HTML pages for each recipe, as part of the build process.
 
-#Usage
-
+# Usage from gulpfile.js
+~~~~
 const recipesToJson = require('./recipe-to-json/dist');
 
 function compileMarkdownRecipesToJSON() {
@@ -11,9 +11,10 @@ function compileMarkdownRecipesToJSON() {
      .pipe(recipesToJson())
      .pipe(dest('./json/Recipes'));
 }
+~~~~
+# Sample recipe format
 
-#Sample recipe format
-
+~~~~
 TITLE:Spinach Shakshuka
 CAT:Vegetarian
 SERVE:2
@@ -27,9 +28,10 @@ O* Optional Ingredient
 -  Method Step 1
 -  Method Step 2
 -- Method Sub List 2
--Make {{Q: 4 }} holes in the spinach, and crack an egg into each hole. If using feta, scatter it over the top at this point.
+-  Take {{Q: 4 }} of ingredint 1 and do something with it
 SS: Serving Suggestion 1
 SS: Serving Suggestion 2
-VAR:  Variation 1
-VAR:  Variation 2
-SRC: source name {{HREF:https://www.recipesource.com}}
+VAR: Variation 1
+VAR: Variation 2
+SRC: Source Name {{HREF:https://www.recipesource.com}}
+~~~~

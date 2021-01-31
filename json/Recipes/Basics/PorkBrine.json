@@ -3,7 +3,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1l water, ideally <span class=\"quantity\">600</span>ml should be chilled or ice",
+      "text": "1l water, ideally <span class=\"quantity\">700</span>ml should be chilled or ice",
       "alternative_ingredients": []
     },
     {
@@ -52,7 +52,7 @@
   "method": [
     {
       "type": "METHOD_STEP",
-      "text": "Put <span class=\"quantity\">400</span>ml of water in a pot with the rest of the ingredients and heat to dissolve the salt and sugar"
+      "text": "Put <span class=\"quantity\">300</span>ml of water in a pot with the rest of the ingredients and heat to dissolve the salt and sugar"
     },
     {
       "type": "METHOD_STEP",
