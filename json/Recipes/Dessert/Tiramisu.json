@@ -75,7 +75,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Get 3 bowls",
+            "text": "Get 2 bowls",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -87,19 +87,19 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Beat the egg yolks and sugar in the next until pale",
+            "text": "Beat the egg yolks and sugar in the other until pale",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Beat the mascarpone and marsala (or other alcohol) in the third until softened",
+            "text": "Beat the marsala (or other alcohol) into the egg yolks, followed by the mascarpone",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Combine the egg yolks and mascarpone, then fold in the egg whites",
+            "text": "Fold in the egg whites",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -125,19 +125,15 @@
     ],
     "notes": [
         {
-            "text": "Coffee amount is approximate - 100ml Coffee to 100g biscuits was definitely too much",
-            "note_type": null
-        },
-        {
-            "text": "I had no Marsala, so used half the amount of Grand Marnier. Kahlua would also be an option",
-            "note_type": null
-        },
-        {
-            "text": "One third recipe for small dish",
-            "note_type": null
+            "text": "One third recipe for small blue dish",
+            "note_type": "PERSONAL"
         }
     ],
     "serving_suggestions": null,
-    "variations": null,
+    "variations": [
+        {
+            "text": "Recipe uses Grand Marnier but Marsala, Brandy, Amaretto or Kahlua would also be options"
+        }
+    ],
     "attempt_log": null
 }
