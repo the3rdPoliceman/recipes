@@ -17,6 +17,8 @@ $body-bg-2 : #E8E8E8;
 $menu-text : $basq-darkblue;
 $menu-bg : $body-bg;
 $main-text-color : #4C4C4C;
+$caption-text : #888888;
+$index-link-text : #6C6C6C;
 
 @mixin super-smooth-box-shadow{
   box-shadow : 
@@ -260,12 +262,12 @@ table>thead{
 
 caption {
     padding-top: .25rem;
-    color: $basq-grey;
+    color: $caption-text;
 }
 
 figcaption {
     padding-top: .25rem;
-    color: $basq-grey;
+    color: $caption-text;
 }
 
 input{
@@ -284,16 +286,17 @@ input{
 }
 
 .recipe-section-title{
-  margin: 1.25em 0em 5px 0em;
-  color : $basq-red ;
-  font-size: 150%;
-  font-weight: 500;
+  color : $basq-blue ;
+  margin: 1.25em 0em 2px 0em;
+  font-size: 140%;
+  text-transform: uppercase;
 }
 
 @mixin link_from-index{
   display: block;
   font-size: 120%;
   padding: 0em 0em 0em 0em;
+  color: $index-link-text;
 }
 
 .recipe-link{
@@ -318,8 +321,8 @@ input{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: $basq-red;
-  padding: 1.25em 0em 0.5em 0em;
+  color: $basq-blue;
+  padding: 1em 0em 0em 0em;
 }
 
 .badge-warning {
@@ -648,7 +651,7 @@ li.attempt{
 .log-header{
   font-weight: 600;
   font-size: 120%;
-  color: $basq-red;
+  color: $main-text-color;
   text-transform: uppercase;
 }
 
@@ -667,6 +670,7 @@ li.attempt{
 @mixin log-rating{
   padding-left: 1em;
   display :inline;
+  color: $basq-yellow;
 }
 
 .log-rating-unknown{
@@ -816,12 +820,12 @@ li.attempt{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: $basq-red;
-  padding: 0.5em 0em   0em 0em;
+  color: $basq-blue;
+  padding: 1.25em 0em 0em 0em;
 }
 
-.name-to::before{
-  content: '  ';
+.name-to{
+  padding-left: 0.5em;
 }
 
 
@@ -834,7 +838,7 @@ li.attempt{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: $basq-red;
+  color: $basq-blue;
   padding: 1.25em 0em 0.5em 0em;
 }
 
@@ -883,7 +887,7 @@ li.attempt{
 *
 */
 .shop-link{
-  
+  color: $index-link-text;
 }
 
 #shopmap{
