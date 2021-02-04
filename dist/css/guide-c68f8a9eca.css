@@ -193,11 +193,11 @@ table > thead {
 
 caption {
   padding-top: .25rem;
-  color: #CCCCCE; }
+  color: #888888; }
 
 figcaption {
   padding-top: .25rem;
-  color: #CCCCCE; }
+  color: #888888; }
 
 input {
   border: 2px solid #CCCCCE;
@@ -213,15 +213,16 @@ input {
   padding-bottom: 1em; }
 
 .recipe-section-title {
-  margin: 1.25em 0em 5px 0em;
-  color: #962634;
-  font-size: 150%;
-  font-weight: 500; }
+  color: #0D9EB6;
+  margin: 1.25em 0em 2px 0em;
+  font-size: 140%;
+  text-transform: uppercase; }
 
 .recipe-link {
   display: block;
   font-size: 120%;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em;
+  color: #6C6C6C; }
 
 .vegetarian::after {
   padding-left: 0.5em;
@@ -230,19 +231,21 @@ input {
 .guide-link {
   display: block;
   font-size: 120%;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em;
+  color: #6C6C6C; }
 
 .resource-link {
   display: block;
   font-size: 120%;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em;
+  color: #6C6C6C; }
 
 .resource-title {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
-  padding: 1.25em 0em 0.5em 0em; }
+  color: #0D9EB6;
+  padding: 1em 0em 0em 0em; }
 
 .badge-warning {
   color: white; }
@@ -482,7 +485,7 @@ li.attempt {
 .log-header {
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: #4C4C4C;
   text-transform: uppercase; }
 
 .log-date {
@@ -494,51 +497,63 @@ li.attempt {
 
 .log-rating-unknown {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-0 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-1 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-2 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-3 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-4 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-5 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-6 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-7 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-8 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-9 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-10 {
   padding-left: 1em;
-  display: inline; }
+  display: inline;
+  color: #F4BA49; }
 
 .log-rating-unknown::before {
   font-family: "FontAwesome";
@@ -619,11 +634,11 @@ li.attempt {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
-  padding: 0.5em 0em   0em 0em; }
+  color: #0D9EB6;
+  padding: 1.25em 0em 0em 0em; }
 
-.name-to::before {
-  content: '  '; }
+.name-to {
+  padding-left: 0.5em; }
 
 /*
 *
@@ -634,7 +649,7 @@ li.attempt {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 120%;
-  color: #962634;
+  color: #0D9EB6;
   padding: 1.25em 0em 0.5em 0em; }
 
 .project-detail {
@@ -674,6 +689,9 @@ li.attempt {
 *  Styles for Where Can I Buy
 *
 */
+.shop-link {
+  color: #6C6C6C; }
+
 #shopmap {
   margin-top: 1em;
   margin-bottom: 1em;
