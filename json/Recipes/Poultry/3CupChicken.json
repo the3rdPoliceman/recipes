@@ -1,0 +1,72 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "45ml toasted sesame oil",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "6 cloves garlic, peeled",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 inch piece of ginger, peeled and cut in discs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "700g chicken cut in pieces",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60ml light soy sauce",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60ml mirin",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g thai basil",
+      "alternative_ingredients": [
+        {
+          "text": "italian basil"
+        }
+      ]
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_STEP",
+      "text": "In a pan, fry the ginger and garlic in the oil until fragrant"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Add the chicken and fry over high heat until it starts to brown"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Add the soy and mirin, and simmer until reduced to a syrupy consistency"
+    },
+    {
+      "type": "METHOD_STEP",
+      "text": "Mix in the basil at the last minute and serve on plain rice"
+    }
+  ],
+  "title": "3 cup chicken",
+  "quantity": {
+    "number": "3"
+  }
+}
