@@ -19,6 +19,7 @@ $menu-bg : $body-bg;
 $main-text-color : #4C4C4C;
 $caption-text : #888888;
 $index-link-text : #6C6C6C;
+$transparent: rgba(0, 0, 0, 0);
 
 @mixin super-smooth-box-shadow{
   box-shadow : 
@@ -46,12 +47,53 @@ $index-link-text : #6C6C6C;
 * STYLES for APPLICATION
 *
 */
+
+/****  GENERAL STYLES ****/
+:focus{
+  outline: none;
+}
+
 body{
   background: $body-bg-2;
   font-family: circe-rounded;
   color: $main-text-color;
 }
 
+a{
+  color: $basq-blue;
+}
+
+a:hover,
+a:focus{
+  color: $basq-blue;
+  text-decoration: none;
+}
+
+table>thead{
+  background: $basq-blue ;
+  color: $basq-white;
+}
+
+caption {
+    padding-top: .25rem;
+    color: $caption-text;
+}
+
+figcaption {
+    padding-top: .25rem;
+    color: $caption-text;
+}
+
+input{
+  border: 2px solid $basq-grey;
+  color: $main-text-color;
+  padding-bottom: 0px;
+}
+
+.container{
+}
+
+/****  TOP MENU ****/
 .nav-bar{
     clear : both;
     width: 100%;
@@ -63,46 +105,32 @@ body{
 }
 
 .nav-link{
-  padding: 0px !important;
-  padding-right: 0px !important;
-  padding-left: 0px !important;
+  background: $menu-bg;
+  color: $menu-text;
+  font-weight: 300;
+  border-bottom: solid 2px $transparent;
+  text-transform: uppercase;
+  font-size: smaller;
+  letter-spacing: 1px;
+  padding: 10px 0px 0px 0px !important;
 }
 
-@mixin nav-button{
-    background: $menu-bg;
-    color: $menu-text;
-    padding-top: 10px;
-    font-weight: 300;
-    border-bottom: solid 2px rgba(0, 0, 0, 0);
-    text-transform: uppercase;
-    font-size: smaller;
-    letter-spacing: 1px;
+.nav-link:hover,
+.nav-link:focus
+{
+  text-decoration: none;
+  color: $menu-text;
+  border-bottom: solid 2px $basq-blue;
 }
 
 .nav-button-left {
-    @include nav-button; 
     float: left;
     margin-right: 20px;
 }
 
 .nav-button-right {
-    @include nav-button; 
     float: right;
     margin-left: 20px;
-}
-
-@mixin nav-button-hover{
-    text-decoration: none;
-    color: $menu-text;
-    border-bottom: solid 2px $basq-blue;
-}
-
-.nav-button-left:hover{
-    @include nav-button-hover; 
-}
-
-.nav-button-right:hover{
-    @include nav-button-hover;
 }
 
 @media (max-width:748px){
@@ -115,17 +143,11 @@ body{
     margin-left: 0px;
     border-bottom: none;
   }
-
-  .nav-button-left:hover{
-    text-decoration: underline;
-    border-bottom: none;
-  }
-
-  .nav-button-right:hover{
-    text-decoration: underline;
-    border-bottom: none;
-  }
 } 
+
+.navbar-toggler{
+  padding: 0px;
+}
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -138,10 +160,8 @@ body{
     box-shadow: none;
 }
 
-.navbar-toggler{
-  padding: 0px;
-}
 
+/****  AVATAR ****/
 .avatar-holder {
   position: fixed;
   top : 80px;
@@ -182,9 +202,8 @@ body{
   }
 }
 
-.container{
-}
 
+/****  TITLE BAR ****/
 .page-title{
   display:block;
   font-size: 400%;
@@ -215,6 +234,8 @@ body{
   border-radius: 0em;
 }
 
+
+/****  FOOTER ****/
 .non-footer{
   background : $body-bg;
   min-height: calc(100vh - 50px);
@@ -246,35 +267,6 @@ body{
   font-size: smaller; 
 }
 
-a{
-  color: $basq-blue;
-}
-
-a:hover{
-  color: $basq-blue;
-  text-decoration: none;
-}
-
-table>thead{
-  background: $basq-blue ;
-  color: $basq-white;
-}
-
-caption {
-    padding-top: .25rem;
-    color: $caption-text;
-}
-
-figcaption {
-    padding-top: .25rem;
-    color: $caption-text;
-}
-
-input{
-  border: 2px solid $basq-grey;
-  color: $main-text-color;
-  padding-bottom: 0px;
-}
 
 /*
 *
