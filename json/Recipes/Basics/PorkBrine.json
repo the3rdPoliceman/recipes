@@ -51,17 +51,24 @@
   ],
   "method": [
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Put <span class=\"quantity\">300</span>ml of water in a pot with the rest of the ingredients and heat to dissolve the salt and sugar"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Take off the heat, add the rest of the water or ice"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Chill further in the fridge if necessary to bring the temperature down to around 5C"
     }
   ],
+  "notes": [],
   "title": "Pork Brine"
 }

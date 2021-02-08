@@ -105,7 +105,7 @@ export module RecipeStructure {
         source: Source;
         ingredient_list: (Ingredient|IngredientSubList)[] = [];
         method: (MethodStep|MethodSubList)[] = [];
-        notes: Note[];
+        notes: Note[] = [];
         serving_suggestions: ServingSuggestion[];
         variations: Variation[];
 
@@ -116,8 +116,8 @@ export module RecipeStructure {
 
     export class MethodStep {
         text: string;
-        post_notes: Note[];
-        pre_notes: Note[];
+        post_notes: Note[] = [];
+        pre_notes: Note[] = [];
         type: MethodSubListItemType = MethodSubListItemType.METHOD_STEP;
 
         constructor(text: string) {

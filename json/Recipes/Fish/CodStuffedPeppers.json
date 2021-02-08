@@ -99,38 +99,55 @@
   ],
   "method": [
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "In a pan, fry the onion and garlic in the oil for the peppers until soft"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "In a second pan, do the same with the onion and garlic for the sauce"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Flake the cod, add to the first pan, and fry until opaque"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Meanwhile, finish the sauce. Add the cream and peppers to the second pan, and cook until the cream has thickened quite a bit. Blend the sauce until smooth, and check for seasoning"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "When the fish is cooked, add the flour, and prawns and cook for a few minutes"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Then gradually add the milk and cook for a few minutes until thickened. Check for salt and pepper"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Stuff the peppers with the cod mixture, arrange in a baking dish, and cover with the sauce"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Bake for 15 minutes at 180C"
     }
   ],
+  "notes": [],
   "title": "Peppers Stuffed With Salt Cod",
   "quantity": {
     "number": "4"
