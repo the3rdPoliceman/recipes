@@ -1,0 +1,66 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "400g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "8g salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50ml water",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Chop the butter into small cubes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sieve the flour and salt, and add the butter cubes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Blitz the butter and flour in a food processor until it forms breadcrumbs"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sprinkle the water onto the crumbs and work into a (fairly dry) dough. You want to work it as little as possible - the more it is worked the tougher the dough will be. It'll look like it doesn't have enough water, but it will probably come together"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Leave to rest for 20-30 minutes, covered with clingfilm"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Before and throughout the process you should chill everything as much as possible, whenever possible - both ingredients and equipment"
+    }
+  ],
+  "title": "Shortcrust Pastry"
+}
