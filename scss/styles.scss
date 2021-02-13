@@ -99,10 +99,7 @@ input{
     clear : both;
     width: 100%;
     background: $menu-bg;
-    padding-left : 20px;
-    padding-right : 20px;
-    padding-bottom:  8px;
-    padding-top:  6px;
+    padding:  6px 30px 8px 30px;
 }
 
 .nav-link{
@@ -211,7 +208,7 @@ input{
   font-size: 400%;
   font-weight: 900;
   font-family: 'circe';
-  padding: 0.40em 0.25em 0.35em 0.25em;
+  padding: 0.5em 30px 0.45em 30px;
   background: $basq-blue;
   color : white;
   text-decoration: underline;
@@ -220,12 +217,6 @@ input{
   word-wrap: break-word;
   line-height : 1.15em;
   width: 100%
-}
-
-@media (max-width:575px) {
-  .page-title{
-    font-size: 300%;
-  }
 }
 
 .jumbotron{
@@ -246,18 +237,13 @@ input{
 
 .footer-container {
   height: 50px; 
+  padding: 0px 30px;
   background : $basq-blue;
   background-image: url("../images/footer-background.svg");
   background-repeat: no-repeat;
   background-position: center top;
   color: white;
   @include super-smooth-box-shadow;
-}
-
-@media (max-width:575px) {
-  .footer-container {
-    background-image: url("../images/footer-background-small.svg");
-  }
 }
 
 .footer-spacer {
@@ -269,6 +255,26 @@ input{
   font-size: smaller; 
 }
 
+@media (max-width:575px) {
+  .page-title{
+    font-size: 300%;
+    padding: 0.40em 15px 0.35em 15px;
+  }
+
+  .footer-container {
+    background-image: url("../images/footer-background-small.svg");
+    padding: 0px 15px;
+  }
+
+  .nav-bar{
+    clear : both;
+    width: 100%;
+    background: $menu-bg;
+    padding:  6px 15px 8px 15px;
+  }
+}
+
+
 
 /*
 *
@@ -276,7 +282,7 @@ input{
 *
 */
 .recipe-list{
-  padding-bottom: 1em;
+  padding: 0 15px 1em 15px;
 }
 
 .recipe-section-title{
@@ -326,6 +332,11 @@ input{
   color: white;
 }
 
+@media (max-width:575px) {
+  .recipe-list{
+    padding: 0 0px 1em 0px;
+  }
+}
 
 /*
 *
@@ -334,8 +345,9 @@ input{
 */
 
 .recipe{
-  padding-bottom: 1em;
+  padding: 0 15px 1em 15px;
 }
+
 
 .servings{
   padding-top: 1em;
@@ -392,31 +404,13 @@ input{
 }
 
 .ingredients{
-  padding : 0px 15px;
+  padding : 0px 30px 0px 15px;
 }
 
 .directions
 {
   border-left: 2px solid $basq-blue;
-  padding: 0px 15px;
-}
-
-@media (max-width:576px) {
-  .recipe-details{
-    margin-top: 1em;
-    display: grid;
-    grid-template-columns:unset !important; 
-    grid-template-rows: auto 1fr;
-  }
-
-  .directions
-  {
-    border-left: none;
-  }
-
-  .ingredients{
-    padding : 0px 15px;
-  }
+  padding: 0px 15px 0px 30px;
 }
 
 
@@ -522,15 +516,6 @@ ol.directions-list li {
   counter-increment: methodstepcount
 }
 
-@media (max-width:575px) {
-  .directions-list
-  {
-    padding-top : 1em;
-    margin-top : 1em;
-    padding-bottom : 1em;
-    border-top: 2px solid $basq-blue;
-  }
-}
 
 ol.directions-list li:before {
   content: counter(methodstepcount) ". ";
@@ -634,6 +619,38 @@ li.attempt{
 // Whisk margin
 #WBRB-VQFG-VMJH-RSNG{
   margin-top : 2em;
+}
+
+
+@media (max-width:575px) {
+  .recipe{
+    padding: 0 0 1em 0;
+  }
+
+  .ingredients{
+    padding: 0px 15px 0px 15px;
+  }
+
+  .directions
+  {
+    border-left: none;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .directions-list
+  {
+    padding-top : 1em;
+    margin-top : 1em;
+    padding-bottom : 1em;
+    border-top: 2px solid $basq-blue;
+  }
+
+  .recipe-details{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns:unset !important; 
+    grid-template-rows: auto 1fr;
+  }
 }
 
 /*
@@ -825,6 +842,16 @@ li.attempt{
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
+}
+
+.guide{
+  padding: 0px 15px;
+}
+
+@media (max-width:575px) {
+  .guide{
+    padding: 0px;
+  }
 }
 
 /*
