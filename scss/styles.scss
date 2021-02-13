@@ -49,6 +49,7 @@ $transparent: rgba(0, 0, 0, 0);
 */
 
 /****  GENERAL STYLES ****/
+
 :focus{
   outline: none;
 }
@@ -108,7 +109,7 @@ input{
   background: $menu-bg;
   color: $menu-text;
   font-weight: 300;
-  border-bottom: solid 2px $transparent;
+  border-bottom: solid 3px $transparent;
   text-transform: uppercase;
   font-size: smaller;
   letter-spacing: 1px;
@@ -116,11 +117,12 @@ input{
 }
 
 .nav-link:hover,
-.nav-link:focus
+.nav-link:focus,
+.nav-link:active
 {
   text-decoration: none;
   color: $menu-text;
-  border-bottom: solid 2px $basq-blue;
+  border-bottom: solid 3px $basq-blue;
 }
 
 .nav-button-left {
@@ -292,6 +294,9 @@ input{
 }
 
 .recipe-link{
+  @include link_from-index; 
+}
+.recipe-link:focus{
   @include link_from-index; 
 }
 
@@ -656,63 +661,22 @@ li.attempt{
   display :inline;  
 }
 
-.log-link{
-}
-
-@mixin log-rating{
-  padding-left: 1em;
-  display :inline;
-  color: $basq-yellow;
-}
-
-.log-rating-unknown{
-  @include log-rating; 
-}
-
-.log-rating-0{
-  @include log-rating;
-}
-
-.log-rating-1{
-  @include log-rating;
-}
-
-.log-rating-2{
-  @include log-rating;
-}
-
-.log-rating-3{
-  @include log-rating;
-}
-
-.log-rating-4{
-  @include log-rating;
-}
-
-.log-rating-5{
-  @include log-rating;
-}
-
-.log-rating-6{
-  @include log-rating;
-}
-
-.log-rating-7{
-  @include log-rating;
-}
-
-.log-rating-8{
-  @include log-rating;
-}
-
-.log-rating-9{
-  @include log-rating;
-}
-
+.log-rating-unknown,
+.log-rating-0,
+.log-rating-1,
+.log-rating-2,
+.log-rating-3,
+.log-rating-4,
+.log-rating-5,
+.log-rating-6,
+.log-rating-7,
+.log-rating-8,
+.log-rating-9,
 .log-rating-10{
-  @include log-rating;
+    padding-left: 1em;
+    display :inline;
+    color: $basq-yellow;
 }
-
 @mixin log-rating-before{
   font-family: "FontAwesome";                     
   font-weight: 900;      
@@ -778,10 +742,6 @@ li.attempt{
   content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";  
 }
 
-.log-detail{
-  
-} 
-
 .log-header.collapsed::before{
   font-family: "FontAwesome";                     
   font-weight: 900;      
@@ -836,12 +796,14 @@ li.attempt{
 
 .project-detail {
   display: block;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em; 
+}
 
 .project-description {
   display: block;
   font-weight: 600;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em; 
+}
 
 
 /*
@@ -849,28 +811,20 @@ li.attempt{
 *  Styles for GUIDES
 *
 */
-.guide-section-first{
+
+.guide-section{
+  padding: 1.25em 0em 1.25em 0em;
+}
+
+.guide-section + .guide-section {
+  border-top: 5px solid $basq-white;
+}
+
+.guide-section-title{
   color: $basq-blue;
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
-  padding-top: 1.25em;
-}
-
-.guide-section{
-  @extend .guide-section-first;
-  border-top: 5px solid $basq-white;
-  margin: 1.25em 0em 0.5em 0em;
-}
-
-@media (min-width: 576px) {
-  .guide-header{
-    margin-top: 1.25em;
-  }
-}
-
-.guide{
-  padding-bottom: 1em;
 }
 
 /*
