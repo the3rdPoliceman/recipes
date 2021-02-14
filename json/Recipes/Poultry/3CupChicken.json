@@ -49,22 +49,31 @@
   ],
   "method": [
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "In a pan, fry the ginger and garlic in the oil until fragrant"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Add the chicken and fry over high heat until it starts to brown"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Add the soy and mirin, and simmer until reduced to a syrupy consistency"
     },
     {
+      "post_notes": [],
+      "pre_notes": [],
       "type": "METHOD_STEP",
       "text": "Mix in the basil at the last minute and serve on plain rice"
     }
   ],
+  "notes": [],
   "title": "3 cup chicken",
   "quantity": {
     "number": "3"

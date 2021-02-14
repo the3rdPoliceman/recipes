@@ -33,7 +33,7 @@
     ],
     "method": [
         {
-            "text": "Whisk together the eggs, sugar, and lemon juice in the bowl",
+            "text": "Whisk together the eggs, sugar, and juice in a bowl",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -57,7 +57,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "The lemon curd will thicken as it cools",
+            "text": "The curd will thicken as it cools",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"

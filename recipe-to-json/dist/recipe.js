@@ -96,12 +96,15 @@ var RecipeStructure;
         function Recipe() {
             this.ingredient_list = [];
             this.method = [];
+            this.notes = [];
         }
         return Recipe;
     }());
     RecipeStructure.Recipe = Recipe;
     var MethodStep = /** @class */ (function () {
         function MethodStep(text) {
+            this.post_notes = [];
+            this.pre_notes = [];
             this.type = MethodSubListItemType.METHOD_STEP;
             this.text = text;
         }

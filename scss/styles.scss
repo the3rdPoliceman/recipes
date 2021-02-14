@@ -19,6 +19,7 @@ $menu-bg : $body-bg;
 $main-text-color : #4C4C4C;
 $caption-text : #888888;
 $index-link-text : #6C6C6C;
+$transparent: rgba(0, 0, 0, 0);
 
 @mixin super-smooth-box-shadow{
   box-shadow : 
@@ -46,63 +47,89 @@ $index-link-text : #6C6C6C;
 * STYLES for APPLICATION
 *
 */
+
+/****  GENERAL STYLES ****/
+
+:focus{
+  outline: none;
+}
+
 body{
   background: $body-bg-2;
   font-family: circe-rounded;
   color: $main-text-color;
 }
 
+a{
+  color: $basq-blue;
+}
+
+a:hover,
+a:focus{
+  color: $basq-blue;
+  text-decoration: none;
+}
+
+table>thead{
+  background: $basq-blue ;
+  color: $basq-white;
+}
+
+caption {
+    padding-top: .25rem;
+    color: $caption-text;
+}
+
+figcaption {
+    padding-top: .25rem;
+    color: $caption-text;
+}
+
+input{
+  border: 2px solid $basq-grey;
+  color: $main-text-color;
+  padding-bottom: 0px;
+}
+
+.container{
+}
+
+/****  TOP MENU ****/
 .nav-bar{
     clear : both;
     width: 100%;
     background: $menu-bg;
-    padding-left : 20px;
-    padding-right : 20px;
-    padding-bottom:  8px;
-    padding-top:  6px;
+    padding:  6px 30px 8px 30px;
 }
 
 .nav-link{
-  padding: 0px !important;
-  padding-right: 0px !important;
-  padding-left: 0px !important;
+  background: $menu-bg;
+  color: $menu-text;
+  font-weight: 300;
+  border-bottom: solid 3px $transparent;
+  text-transform: uppercase;
+  font-size: smaller;
+  letter-spacing: 1px;
+  padding: 10px 0px 0px 0px !important;
 }
 
-@mixin nav-button{
-    background: $menu-bg;
-    color: $menu-text;
-    padding-top: 10px;
-    font-weight: 300;
-    border-bottom: solid 2px rgba(0, 0, 0, 0);
-    text-transform: uppercase;
-    font-size: smaller;
-    letter-spacing: 1px;
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active
+{
+  text-decoration: none;
+  color: $menu-text;
+  border-bottom: solid 3px $basq-blue;
 }
 
 .nav-button-left {
-    @include nav-button; 
     float: left;
     margin-right: 20px;
 }
 
 .nav-button-right {
-    @include nav-button; 
     float: right;
     margin-left: 20px;
-}
-
-@mixin nav-button-hover{
-    text-decoration: none;
-    color: $menu-text;
-    border-bottom: solid 2px $basq-blue;
-}
-
-.nav-button-left:hover{
-    @include nav-button-hover; 
-}
-
-.nav-button-right:hover{
-    @include nav-button-hover;
 }
 
 @media (max-width:748px){
@@ -115,17 +142,11 @@ body{
     margin-left: 0px;
     border-bottom: none;
   }
-
-  .nav-button-left:hover{
-    text-decoration: underline;
-    border-bottom: none;
-  }
-
-  .nav-button-right:hover{
-    text-decoration: underline;
-    border-bottom: none;
-  }
 } 
+
+.navbar-toggler{
+  padding: 0px;
+}
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -138,10 +159,8 @@ body{
     box-shadow: none;
 }
 
-.navbar-toggler{
-  padding: 0px;
-}
 
+/****  AVATAR ****/
 .avatar-holder {
   position: fixed;
   top : 80px;
@@ -182,15 +201,14 @@ body{
   }
 }
 
-.container{
-}
 
+/****  TITLE BAR ****/
 .page-title{
   display:block;
   font-size: 400%;
   font-weight: 900;
   font-family: 'circe';
-  padding: 0.40em 0.25em 0.35em 0.25em;
+  padding: 0.5em 30px 0.45em 30px;
   background: $basq-blue;
   color : white;
   text-decoration: underline;
@@ -201,12 +219,6 @@ body{
   width: 100%
 }
 
-@media (max-width:575px) {
-  .page-title{
-    font-size: 300%;
-  }
-}
-
 .jumbotron{
   background: $basq-blue;
   color: $basq-white;
@@ -215,6 +227,8 @@ body{
   border-radius: 0em;
 }
 
+
+/****  FOOTER ****/
 .non-footer{
   background : $body-bg;
   min-height: calc(100vh - 50px);
@@ -223,18 +237,13 @@ body{
 
 .footer-container {
   height: 50px; 
+  padding: 0px 30px;
   background : $basq-blue;
   background-image: url("../images/footer-background.svg");
   background-repeat: no-repeat;
   background-position: center top;
   color: white;
   @include super-smooth-box-shadow;
-}
-
-@media (max-width:575px) {
-  .footer-container {
-    background-image: url("../images/footer-background-small.svg");
-  }
 }
 
 .footer-spacer {
@@ -246,35 +255,26 @@ body{
   font-size: smaller; 
 }
 
-a{
-  color: $basq-blue;
+@media (max-width:575px) {
+  .page-title{
+    font-size: 300%;
+    padding: 0.40em 15px 0.35em 15px;
+  }
+
+  .footer-container {
+    background-image: url("../images/footer-background-small.svg");
+    padding: 0px 15px;
+  }
+
+  .nav-bar{
+    clear : both;
+    width: 100%;
+    background: $menu-bg;
+    padding:  6px 15px 8px 15px;
+  }
 }
 
-a:hover{
-  color: $basq-blue;
-  text-decoration: none;
-}
 
-table>thead{
-  background: $basq-blue ;
-  color: $basq-white;
-}
-
-caption {
-    padding-top: .25rem;
-    color: $caption-text;
-}
-
-figcaption {
-    padding-top: .25rem;
-    color: $caption-text;
-}
-
-input{
-  border: 2px solid $basq-grey;
-  color: $main-text-color;
-  padding-bottom: 0px;
-}
 
 /*
 *
@@ -282,7 +282,7 @@ input{
 *
 */
 .recipe-list{
-  padding-bottom: 1em;
+  padding: 0 15px 1em 15px;
 }
 
 .recipe-section-title{
@@ -300,6 +300,9 @@ input{
 }
 
 .recipe-link{
+  @include link_from-index; 
+}
+.recipe-link:focus{
   @include link_from-index; 
 }
 
@@ -329,6 +332,11 @@ input{
   color: white;
 }
 
+@media (max-width:575px) {
+  .recipe-list{
+    padding: 0 0px 1em 0px;
+  }
+}
 
 /*
 *
@@ -337,8 +345,9 @@ input{
 */
 
 .recipe{
-  padding-bottom: 1em;
+  padding: 0 15px 1em 15px;
 }
+
 
 .servings{
   padding-top: 1em;
@@ -395,31 +404,13 @@ input{
 }
 
 .ingredients{
-  padding : 0px 15px;
+  padding : 0px 30px 0px 15px;
 }
 
 .directions
 {
   border-left: 2px solid $basq-blue;
-  padding: 0px 15px;
-}
-
-@media (max-width:576px) {
-  .recipe-details{
-    margin-top: 1em;
-    display: grid;
-    grid-template-columns:unset !important; 
-    grid-template-rows: auto 1fr;
-  }
-
-  .directions
-  {
-    border-left: none;
-  }
-
-  .ingredients{
-    padding : 0px 15px;
-  }
+  padding: 0px 15px 0px 30px;
 }
 
 
@@ -525,15 +516,6 @@ ol.directions-list li {
   counter-increment: methodstepcount
 }
 
-@media (max-width:575px) {
-  .directions-list
-  {
-    padding-top : 1em;
-    margin-top : 1em;
-    padding-bottom : 1em;
-    border-top: 2px solid $basq-blue;
-  }
-}
 
 ol.directions-list li:before {
   content: counter(methodstepcount) ". ";
@@ -639,6 +621,38 @@ li.attempt{
   margin-top : 2em;
 }
 
+
+@media (max-width:575px) {
+  .recipe{
+    padding: 0 0 1em 0;
+  }
+
+  .ingredients{
+    padding: 0px 15px 0px 15px;
+  }
+
+  .directions
+  {
+    border-left: none;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .directions-list
+  {
+    padding-top : 1em;
+    margin-top : 1em;
+    padding-bottom : 1em;
+    border-top: 2px solid $basq-blue;
+  }
+
+  .recipe-details{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns:unset !important; 
+    grid-template-rows: auto 1fr;
+  }
+}
+
 /*
 *
 *  Styles for COOKING LOG 
@@ -664,63 +678,22 @@ li.attempt{
   display :inline;  
 }
 
-.log-link{
-}
-
-@mixin log-rating{
-  padding-left: 1em;
-  display :inline;
-  color: $basq-yellow;
-}
-
-.log-rating-unknown{
-  @include log-rating; 
-}
-
-.log-rating-0{
-  @include log-rating;
-}
-
-.log-rating-1{
-  @include log-rating;
-}
-
-.log-rating-2{
-  @include log-rating;
-}
-
-.log-rating-3{
-  @include log-rating;
-}
-
-.log-rating-4{
-  @include log-rating;
-}
-
-.log-rating-5{
-  @include log-rating;
-}
-
-.log-rating-6{
-  @include log-rating;
-}
-
-.log-rating-7{
-  @include log-rating;
-}
-
-.log-rating-8{
-  @include log-rating;
-}
-
-.log-rating-9{
-  @include log-rating;
-}
-
+.log-rating-unknown,
+.log-rating-0,
+.log-rating-1,
+.log-rating-2,
+.log-rating-3,
+.log-rating-4,
+.log-rating-5,
+.log-rating-6,
+.log-rating-7,
+.log-rating-8,
+.log-rating-9,
 .log-rating-10{
-  @include log-rating;
+    padding-left: 1em;
+    display :inline;
+    color: $basq-yellow;
 }
-
 @mixin log-rating-before{
   font-family: "FontAwesome";                     
   font-weight: 900;      
@@ -786,10 +759,6 @@ li.attempt{
   content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";  
 }
 
-.log-detail{
-  
-} 
-
 .log-header.collapsed::before{
   font-family: "FontAwesome";                     
   font-weight: 900;      
@@ -844,12 +813,14 @@ li.attempt{
 
 .project-detail {
   display: block;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em; 
+}
 
 .project-description {
   display: block;
   font-weight: 600;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em; 
+}
 
 
 /*
@@ -857,28 +828,30 @@ li.attempt{
 *  Styles for GUIDES
 *
 */
-.guide-section-first{
+
+.guide-section{
+  padding: 1.25em 0em 1.25em 0em;
+}
+
+.guide-section + .guide-section {
+  border-top: 5px solid $basq-white;
+}
+
+.guide-section-title{
   color: $basq-blue;
   text-transform: uppercase;
   font-size: 120%;
   font-weight: 600;
-  padding-top: 1.25em;
-}
-
-.guide-section{
-  @extend .guide-section-first;
-  border-top: 5px solid $basq-white;
-  margin: 1.25em 0em 0.5em 0em;
-}
-
-@media (min-width: 576px) {
-  .guide-header{
-    margin-top: 1.25em;
-  }
 }
 
 .guide{
-  padding-bottom: 1em;
+  padding: 0px 15px;
+}
+
+@media (max-width:575px) {
+  .guide{
+    padding: 0px;
+  }
 }
 
 /*
