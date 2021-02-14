@@ -11,98 +11,110 @@
             "magnitude": "10",
             "number_of_dimensions": "1"
         }],
-        "label": "cm bread pan"
+        "label": "cm cake"
     },
     "source": null,
     "ingredient_list": [
         {
-            "text": "88g egg white (about <span class=\"quantity\">4</span>)",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
+            "name": "CAKE",
+            "ingredient_list": [
+                {
+                    "text": "30g butter",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "88g egg white (about <span class=\"quantity\">4</span>)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "100g sugar (1)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "140g egg yolk (about <span class=\"quantity\">6</span>)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "40g sugar (2)",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "32g white flour",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "22g cocoa powder",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "40g ground hazelnuts",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "2g salt",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
         },
         {
-            "text": "100g sugar (1)",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "140g egg yolk (about <span class=\"quantity\">6</span>)",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "40g sugar (2)",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "32g white flour",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "22g cocoa powder",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "40g ground hazelnuts",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "2g salt",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "30g butter",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "400g chocolate",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "400g full cream",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "1.5g salt",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
+            "name": "GANACHE",
+            "ingredient_list": [
+                {
+                    "text": "400g chocolate",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "400g full cream",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "1.5g salt",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                }
+            ],
+            "type": "INGREDIENT_SUB_LIST"
         }
     ],
     "method": [
         {
-            "text": "Sponge",
+            "text": "Making the Cake",
             "method_steps": [
                 {
                     "text": "Melt the butter in a pan and let it cool",
@@ -123,7 +135,7 @@
                     "type": "METHOD_STEP"
                 },
                 {
-                    "text": "Mix white flour, cocoa powder, and nuts together",
+                    "text": "Mix white flour, cocoa powder, nuts, and salt together",
                     "post_notes": [],
                     "pre_notes": [],
                     "type": "METHOD_STEP"
@@ -135,7 +147,7 @@
                     "type": "METHOD_STEP"
                 },
                 {
-                    "text": "Butter the bread form, pour in the batter, and bake at 170C for 40 minutes",
+                    "text": "Butter your mould, pour in the batter, and bake at 170C for 30 minutes",
                     "post_notes": [],
                     "pre_notes": [],
                     "type": "METHOD_STEP"
@@ -151,7 +163,7 @@
             "type": "METHOD_SUB_LIST"
         },
         {
-            "text": "Ganache",
+            "text": "Making the Ganache",
             "method_steps": [
                 {
                     "text": "Warm the cream until it is boiling. Take the pan off the heat, add in the chopped chocolate and salt, and mix until ganache forms",
