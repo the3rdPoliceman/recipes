@@ -85,6 +85,22 @@
     --col-grey-8: hsl(0, 0%, 95%);
     --col-grey-9: hsl(0, 0%, 98%);
 
+    --col-error-light: hsl(0, 69%, 67%);
+    --col-error-main :hsl(4, 90%, 58%);
+    --col-error-dark : hsl(0, 65%, 51%);
+
+    --col-warning-light : hsl(36, 100%, 65%);
+    --col-warning-main : hsl(36, 100%, 50%);
+    --col-warning-dark : hsl(30, 100%, 48%);
+    
+    --col-info-light : hsl(207, 89%, 68%);
+    --col-info-main : hsl(207, 90%, 54%);
+    --col-info-dark : hsl(210, 79%, 46%);
+    
+    --col-success-light : hsl(123, 38%, 64%);
+    --col-success-main : hsl(122, 39%, 49%);
+    --col-success-dark : hsl(123, 43%, 39%);
+
     --col-transparent: hsla(0, 0%, 0%, 0);
 
     --col-tx-grey-1: var(--col-grey-2);
