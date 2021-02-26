@@ -1,0 +1,66 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g fine sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "75g dark chocolate (85% is good), roughly chopped",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30ml water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "5g chopped pistachios",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "10g shaved shaved chocolate",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Put the sugar and water in a pan and heat until they form a syrup, and the edges start to turn golden"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Take the pan off the heat and whisk in the chocolate. This happens very fast, so whisk vigorously and get into the corners as much as you can"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Pour it onto a non-stick mat to cool"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix in the optional ingredients"
+    }
+  ],
+  "notes": [
+    {
+      "text": "The soil keeps well, and can be frozen"
+    }
+  ],
+  "title": "Chocolate Soil"
+}
