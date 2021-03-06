@@ -8,6 +8,13 @@
     "source": null,
     "ingredient_list": [
         {
+            "text": "30g butter",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
             "text": "1 onion",
             "optional": false,
             "alternative_ingredients": [],
@@ -45,6 +52,13 @@
         {
             "text": "nutmeg",
             "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "50g sour cream",
+            "optional": true,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"

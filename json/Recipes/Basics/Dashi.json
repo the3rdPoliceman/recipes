@@ -3,7 +3,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1 liter water",
+      "text": "1 liter water (ideally soft water)",
       "alternative_ingredients": []
     },
     {
@@ -30,19 +30,13 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Heat the water and kombu gently to 75C and then remove the kombu"
+      "text": "Heat the water and kombu gently to 80C and then remove the kombu"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Continue heating the water until it almost boils (it MUST NOT boil), and remove from the heat"
-    },
-    {
-      "post_notes": [],
-      "pre_notes": [],
-      "type": "METHOD_STEP",
-      "text": "Add the Bonito and stir, leave for five minutes and then strain through cheesecloth to leave the dashi"
+      "text": "Add the Bonito and stir, leave for five minutes and then strain through cheesecloth to leave the dashi (Don't squeeze to extract more as it will get bitter)"
     }
   ],
   "notes": [],
