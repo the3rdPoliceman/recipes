@@ -11,7 +11,7 @@ O* Optional Ingredient
 -- Method Step List
 - Method Step {{Q: Quantity within Method Step }}
 SS: Serving Suggestion
-V: Variation
+VAR: Variation
 SRC: Source text {{HREF:source url}}
 
 

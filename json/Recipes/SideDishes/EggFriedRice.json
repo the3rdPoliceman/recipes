@@ -1,0 +1,121 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3 tbsp vegetable oil",
+      "alternative_ingredients": [
+        {
+          "text": "pork fat"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.5 shallot , finely chopped",
+      "alternative_ingredients": [
+        {
+          "text": "pork fat"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "4 cloves garlic",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.5 tsp chilli paste",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "15g ginger",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 plates rice, cooked the day before and then refrigerated",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1/4 tsp msg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "sesame oil, to taste",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "soy sauce, to taste",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "white pepper, to taste",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 spring onions, finely chopped green parts only",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Fry the shallot, garlic, chilli paste and ginger in the oil for a minute or so - not enough that the garlic browns"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the eggs, stir and fry until it's just cooked"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the rice and fry until warmed through"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the msg, then the sesame oil, soy sauce and white pepper to taste"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix in the spring onions and serve"
+    }
+  ],
+  "notes": [],
+  "title": "Egg Fried Rice",
+  "quantity": {
+    "number": "2"
+  }
+}

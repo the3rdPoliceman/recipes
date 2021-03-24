@@ -1,0 +1,107 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3 aubergines",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5 tbsp peanut oil",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 onions",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 cloves garlic",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.5 tsp chilli paste",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 tsp turmeric",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1.5 tsp garam masala",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 tsp coriander powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 tin tomatoes",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200ml coconut milk",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "1 bunch of coriander",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Slice the aubergines into 1cm slices, brush with oil, and grill under a medium heat until well browned on both sides"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Meanwhile, fry the onions and garlic in the rest of the oil until soft"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the chilli paste and spices, fry for another minute, then add the tomatoes, coconut milk, and aubergines"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cover and simmer gently for 30 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Chop and mix in the coriander if using, and serve"
+    }
+  ],
+  "notes": [],
+  "title": "Aubergine and Tomato Curry",
+  "quantity": {
+    "number": "4"
+  }
+}
