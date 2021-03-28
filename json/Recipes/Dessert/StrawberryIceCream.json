@@ -33,7 +33,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "2g salt",
+      "text": "1.5g salt",
       "alternative_ingredients": []
     },
     {
@@ -65,7 +65,7 @@
   ],
   "notes": [
     {
-      "text": "See if it can handle 10ml lemon juice without the cream splitting"
+      "text": "See if it can handle 10ml lemon juice without splitting"
     }
   ],
   "title": "Strawberry Ice Cream"
