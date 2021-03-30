@@ -3,37 +3,37 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "180g butter",
+      "text": "80g brown sugar",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "2g salt",
+      "text": "260ml milk",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "90g sugar",
+      "text": "260ml full cream",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1 egg yolk",
+      "text": "1.5g salt",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "10ml vanilla extract",
+      "text": "2/3 tonka bean",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "200g flour",
+      "text": "4 egg yolks",
       "alternative_ingredients": []
     }
   ],
@@ -42,30 +42,31 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Cream the butter with the sugar and salt"
+      "text": "Put the sugar, milk, cream in a pan and grate in the tonka. Heat until simmering, and then leave for 15 minutes to infuse"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Beat in the egg yolk and vanilla"
+      "text": "Sieve with a fine sieve to remove the tonka bean particles"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Beat in the flour until just combined"
+      "text": "Whisk the eggs, then mix in the milk mix"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Put back on the heat, and heat until it forms custard"
     }
   ],
   "notes": [
     {
-      "text": "Try without egg yolk, and some cornflour"
+      "text": "Original attempt was with 100g sugar and 6 egg yolks - flavour was good, but a bit rich and sweet. See if 80 and 4 works better."
     }
   ],
-  "title": "Light Shortbread",
-  "variations": [
-    {
-      "text": "Add the grated zest of an orange or lemon"
-    }
-  ]
+  "title": "Tonka Ice Cream"
 }
