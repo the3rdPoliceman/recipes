@@ -3,43 +3,55 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "400g strawberries",
+      "text": "1 liter milk",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "10g gin",
+      "text": "2 bay leaves",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "5g vanilla rum",
+      "text": "3 cloves",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "70g brown sugar",
+      "text": "1/2 medium onion",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30g inverted sugar",
+      "text": "100g butter",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1.5g salt",
+      "text": "100g flour",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "150ml full cream",
+      "text": "1/4 nutmeg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1/8 tsp ground white pepper",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "salt",
       "alternative_ingredients": []
     }
   ],
@@ -48,25 +60,31 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Macerate strawberries with gin, rum and sugars for an hour"
+      "text": "Bring the milk to the boil along with bay leaves, cloves and onion, then leave to infuse for up to 20 minutes"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Blend the fruit and salt, then carefully stir in the cream (blending in the cream risks turning it to butter)"
+      "text": "In a separate pan, melt the butter before adding the flour. Cook gently for a few minutes, allowing it to bubble, but not long enough that it darkens"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Chill and freeze"
+      "text": "Strain the solids from the milk, and whisk into the butter and flour"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the nutmeg, pepper and salt"
     }
   ],
   "notes": [
     {
-      "text": "See if it can handle 10ml lemon juice without splitting"
+      "text": "Measure how much salt"
     }
   ],
-  "title": "Strawberry Ice Cream"
+  "title": "Bechamel"
 }
