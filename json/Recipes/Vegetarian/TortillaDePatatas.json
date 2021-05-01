@@ -34,7 +34,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "Olive Oil",
+            "text": "500ml olive Oil",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -49,7 +49,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Chop the onion into 1cm dice and put in a bowl with the potatoes and salt",
+            "text": "Chop the onion finely and put in a bowl with the potatoes and salt",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -61,31 +61,31 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Heat enough olive oil to fry the potatoes. It should be hot enough that th oil bubbles when a piece of potato is put in, but doesn't go crazy",
+            "text": "Heat the olive oil until it bubbles quite quickly when a piece of potato is put in, but doesn't go crazy",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Add the potatoes and onion and cook until potatoes are tender and onion soft",
+            "text": "Add the potatoes and onion and cook until the potatoes are tender and the onion has softened",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Turn up the heat a bit at the end to give th potatoes a slight golden edge (15-20 mins total)",
+            "text": "When the potatoes are almost completely cooked through, turn up the heat and continue cooking until the edges of the potatoes become golden",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Crack three or four eggs into a bowl, mix the drained potatoes into it (a bit of oil does no harm), and stir well until it goes creamy as the potatoes cook the eggs",
+            "text": "Crack three or four eggs into a bowl, mix the drained potatoes into it (a bit of oil clinging to the potatoes does no harm). Stir together well",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Put in the rest fo the eggs and stir some more",
+            "text": "Add the rest of the eggs and stir some more",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -97,13 +97,19 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Add the mix, and flip around like an omlette, until it's gets close to cooked enough. The let settle in the pan so the bottom cooks solid",
+            "text": "Add the mix, and flip or mix for the first minute or two until curds start forming. Then allow it to settle in the pan for a minute or two to brown the bottom",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Drip some oil over the top, flip and cook the other side, then serve",
+            "text": "Drip some oil over the top of the omlette and flip onto a plate or lid. Slide back into the pan and cook the other side briefly until the middle is semi solid",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Slide out onto a plate to serve",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
