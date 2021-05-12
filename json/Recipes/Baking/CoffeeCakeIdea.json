@@ -1,0 +1,174 @@
+{
+  "ingredient_list": [
+    {
+      "name": "Cake",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "125g walnuts",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "125g hazelnuts",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "150g butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "200g brown sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "2 eggs",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 egg yolk",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "50g Plain flour",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 tsp Baking powder",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "2g salt",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1tbsp instant coffee, dissolved in as little hot water as possible",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "20ml vanilla essence",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "50ml oil",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "Icing",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "160g icing sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "80g butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 teaspoon instant coffee, disolved in 1 tsp vanilla essence ( or hot water if that doesn't work)",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Cake",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Roast nuts. Chop the walnuts, and grind the hazelnuts"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cream the butter and sugar, stir in the nuts, gradually beat in the eggs"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Combine the flour, baking powder and salt, and fold into the mix"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Combine the coffee vanilla and oil, and fold into the mix"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Bake at 160C until done"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Icing",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Beat the butter until soft"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Then sieve the icing sugar, and gradually beat into the butter"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Then beat int the coffee/vanilla mix"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "text": "Never tried"
+    }
+  ],
+  "title": "Coffee Cake Idea"
+}
