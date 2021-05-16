@@ -42,7 +42,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "50g Plain flour",
+          "text": "100g Plain flour",
           "alternative_ingredients": []
         },
         {
@@ -54,7 +54,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "2g salt",
+          "text": "3g salt",
           "alternative_ingredients": []
         },
         {
@@ -66,13 +66,13 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "20ml vanilla essence",
+          "text": "30ml vanilla rum",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "50ml oil",
+          "text": "100ml oil",
           "alternative_ingredients": []
         }
       ],
@@ -96,7 +96,13 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "1 teaspoon instant coffee, disolved in 1 tsp vanilla essence ( or hot water if that doesn't work)",
+          "text": "1 teaspoon instant coffee",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 tsp vanilla rum",
           "alternative_ingredients": []
         }
       ],
@@ -112,13 +118,13 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Roast nuts. Chop the walnuts, and grind the hazelnuts"
+          "text": "Roast the nuts, then chop the walnuts, and grind the hazelnuts into powder"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Cream the butter and sugar, stir in the nuts, gradually beat in the eggs"
+          "text": "Cream the butter and sugar, stir in the nuts, and gradually beat in the eggs"
         },
         {
           "post_notes": [],
@@ -136,7 +142,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Bake at 160C until done"
+          "text": "Bake at 160C until done (around 40 minutes)"
         }
       ]
     },
@@ -148,27 +154,38 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Beat the butter until soft"
+          "text": "Dissolve the coffee powder in the vanilla"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Then sieve the icing sugar, and gradually beat into the butter"
+          "text": "Beat the butter well until soft"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Then beat int the coffee/vanilla mix"
+          "text": "Seve the icing sugar, and gradually beat into the butter"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Finally, beat in the coffee/vanilla mix"
         }
       ]
     }
   ],
-  "notes": [
+  "notes": [],
+  "title": "Coffee Cake",
+  "quantity": {
+    "number": "2",
+    "dimensions": [
     {
-      "text": "Never tried"
-    }
-  ],
-  "title": "Coffee Cake Idea"
+        "magnitude": "18",
+        "number_of_dimensions": "2"
+    }],
+    "label": "cm cakes"
+  }
 }
