@@ -18,7 +18,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "150g butter",
+          "text": "130g butter",
           "alternative_ingredients": []
         },
         {
@@ -72,7 +72,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "100ml oil",
+          "text": "80ml oil",
           "alternative_ingredients": []
         }
       ],
