@@ -18,7 +18,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "130g butter",
+          "text": "150g butter",
           "alternative_ingredients": []
         },
         {
@@ -72,7 +72,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "80ml oil",
+          "text": "100ml oil",
           "alternative_ingredients": []
         }
       ],
@@ -142,7 +142,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Bake at 160C until done (around 40 minutes)"
+          "text": "Bake at 160C until done"
         }
       ]
     },
@@ -178,14 +178,5 @@
     }
   ],
   "notes": [],
-  "title": "Coffee Cake",
-  "quantity": {
-    "number": "2",
-    "dimensions": [
-    {
-        "magnitude": "18",
-        "number_of_dimensions": "2"
-    }],
-    "label": "cm cakes"
-  }
+  "title": "Coffee Cake"
 }
