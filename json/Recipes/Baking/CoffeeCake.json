@@ -178,5 +178,10 @@
     }
   ],
   "notes": [],
-  "title": "Coffee Cake"
+  "title": "Coffee Cake",
+  "variations": [
+    {
+      "text": "Use coffee flavored <a href=\"FrenchButtercream.html\">french buttercream<\/a> for icing"
+    }
+  ]
 }
