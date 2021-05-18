@@ -1,0 +1,100 @@
+{
+    "title": "Hot Chocolate (thick)",
+    "quantity": {
+        "number": "1",
+        "dimensions": [],
+        "label": " Cup"
+    },
+    "source": null,
+    "ingredient_list": [
+        {
+            "text": "10g powdered milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "200ml whole milk",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "10g brown sugar",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "40g lindt 70%, finely chopped",
+            "optional": false,
+            "alternative_ingredients": [
+                {
+                    "text": "<span class=\"quantity\">30g</span> lindt 78%"
+                }
+            ],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "0.15g salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "Few orange peelings (credit Noelia Gonzalez Lopez)",
+            "optional": true,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 grating tonka beans",
+            "optional": true,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2 tsp rum vanilla extract",
+            "optional": true,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        }
+    ],
+    "method": [
+        {
+            "text": "Gradually whisk the milk into the powdered milk and sugar",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Bring the mixture to a boil, then stir in the chopped chocolate and bring to a boil again",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "If using any of the optional ingredients, the orange peel and tonka would be added while heating the milk, the vanilla would be added just before serving",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        }
+    ],
+    "notes": [
+        {
+            "text": "Also try versions with cardamom, coffee, raw sugar",
+            "note_type": null
+        }
+    ],
+    "serving_suggestions": null,
+    "variations": null,
+    "attempt_log": null
+}

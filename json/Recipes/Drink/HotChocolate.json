@@ -9,12 +9,6 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30ml cream",
-      "alternative_ingredients": []
-    },
-    {
-      "optional": false,
-      "type": "INGREDIENT",
       "text": "pinch salt",
       "alternative_ingredients": []
     },
@@ -28,6 +22,12 @@
       "optional": false,
       "type": "INGREDIENT",
       "text": "2tsp raw brown sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30ml cream",
       "alternative_ingredients": []
     },
     {
@@ -48,13 +48,19 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Heat the milk with the cream, salt and tonka until near boiling"
+      "text": "Heat the milk with the salt, tonka, and the sugar until near boiling"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Add in the chocolate and heat until it boils, and starts foaming up the saucepan. Allow it to foam briefly to get some bubbles into the hot chocolate"
+      "text": "Chop the chocolate, add to the milk and heat until it boils and starts foaming up the saucepan. Allow it to foam briefly to get some bubbles into the hot chocolate"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix in the vanilla and cream and serve"
     }
   ],
   "notes": [],

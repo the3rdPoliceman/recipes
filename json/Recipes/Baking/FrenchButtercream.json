@@ -1,0 +1,79 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25g water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "70g fine sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 egg yolk",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 egg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g butter, softened",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bring the still mineral water and sugar to a boil. Cook the syrup until it reaches 120C"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In the bowl of a mixer fitted with a wire whisk, beat the egg yolks and the eggs until they just become pale"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Gradually pour the syrup into the eggs and continue to beat until the mixture has cooled completely (a waterbath helps cool it quicker)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the butter in the bowl of a stand mixer until it is creamy"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Incorporate this mixture into the egg mixture and beat until the buttercream is smooth"
+    }
+  ],
+  "notes": [],
+  "title": "French Buttercream",
+  "variations": [
+    {
+      "text": "For a vanilla buttercream, beat in <span class=\"quantity\">5</span> to <span class=\"quantity\">10</span> milliliters of vanilla extract at the end (it will look curdled initially)"
+    },
+    {
+      "text": "For a coffee buttercream, dissolve <span class=\"quantity\">2</span> teaspoons of instant coffee in <span class=\"quantity\">15</span>ml of vanilla rum and beat into the buttercream, at the end (it will look curdled initially)"
+    },
+    {
+      "text": "Beating in <span class=\"quantity\">20</span>g powdered sugar at the end will give you a slightly sweeter, stiffer, less fatty feeling buttercream"
+    }
+  ]
+}
