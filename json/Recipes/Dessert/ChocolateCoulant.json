@@ -1,33 +1,33 @@
 {
-    "title": "Chocolate Coulant",
+    "title": "Chocolate Lava Cakes",
     "source": null,
     "ingredient_list": [
         {
             "name": "Ganache",
             "ingredient_list": [
                 {
-                    "text": "40 g dark chocolate",
+                    "text": "40g dark chocolate",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "10 g butter",
+                    "text": "10g butter",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "60 ml cream",
+                    "text": "60ml cream",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "5 ml coffee extract",
+                    "text": "5ml coffee extract",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
@@ -40,42 +40,49 @@
             "name": "Cake",
             "ingredient_list": [
                 {
-                    "text": "35 g dark chocolate",
+                    "text": "85g dark chocolate",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "15 g cornstarch",
+                    "text": "35g butter",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "15 g ground almonds",
+                    "text": "2.5 egg, separated",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "1 egg, separated",
+                    "text": "90g sugar",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "30 g sugar",
+                    "text": "40g cornflour",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "15 g butter",
+                    "text": "40g ground almonds",
+                    "optional": false,
+                    "alternative_ingredients": [],
+                    "note": null,
+                    "type": "INGREDIENT"
+                },
+                {
+                    "text": "0.5g salt",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
@@ -87,26 +94,104 @@
     ],
     "method": [
         {
-            "text": "Make the ganache by heating the cream and melting the other ingredients into it. Freeze overnight",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
+            "text": "Preparing the Ganache",
+            "method_steps": [
+                {
+                    "text": "Make the ganache by heating the cream and melting the other ingredients into it",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Freeze, and cut into cylinders 2.5cm long, and 3cm smaller in diameter than your ring molds",  
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
         },
         {
-            "text": "For the cake mix, first melt the chocolate and butter. Whisk the egg white until stiff, add half the sugar and continue whisking until shiny. Whisk the egg yolk with the other half of the sugar until pale. Fold the chocolate, butter and half of the flour and almonds into the egg yolk mixture, then gently fold in a third of the egg whites, followed by the remaining egg whites, flour and almonds",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
+            "text": "Making the Cakes",
+            "method_steps": [
+                {
+                    "text": "Melt the chocolate and butter",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Whisk the egg white until stiff, add half the sugar and continue whisking until shiny",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "In a separate bowl, whisk the egg yolk with the other half of the sugar until pale",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Fold the chocolate and butter into the egg yolk mixture, then gently fold in a third of the egg whites, the remaining egg whites, and finally the cornflour, almonds, and salt",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
         },
         {
-            "text": "Assemble in a and bake in an oven at 180 for about 15 minutes, or until the top of the cake is dry",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
+            "text": "Assembling and Baking",
+            "method_steps": [
+                {
+                    "text": "Butter the ring molds, line with baking paper, and then butter the paper", 
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Place a sheet of baking paper on a baking tray, and put the ring molds on top", 
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Fill the ring mold half full of cake mix, prod the cylinder of ganache into the middle, and top with more cake mix until 80% full",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Bake at 180C for about 15 minutes",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "Find a de-ring-molding tool - this should be something a bit narrower and taller than the ring mold, and will help you get the cake out af the mold e.g. a tall narrow glass or a tea strainer",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                },
+                {
+                    "text": "For each cake, slide a palette knife under the ring mold, then lift the ring mold and cake and set on top of your de-ring-molder. Slide the ring mold down off the cake, put your cake on it's final plate before removing the paper",
+                    "post_notes": [],
+                    "pre_notes": [],
+                    "type": "METHOD_STEP"
+                }
+            ],
+            "notes": [],
+            "type": "METHOD_SUB_LIST"
         }
     ],
     "notes": [],
     "serving_suggestions": null,
     "variations": null,
-    "attempt_log": null
+    "attempt_log": null,
+    "quantity": {
+    "number": "2"
+    }
 }

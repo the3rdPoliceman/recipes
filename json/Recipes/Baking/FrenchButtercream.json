@@ -27,7 +27,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "200g butter, softened",
+      "text": "200g butter, at room temp",
       "alternative_ingredients": []
     }
   ],
@@ -60,17 +60,21 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Incorporate this mixture into the egg mixture and beat until the buttercream is smooth"
+      "text": "Gradually incorporate the butter into the egg mixture while beating. If it looks like it's separating, just keep beating"
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "In general, there will be a lot of beating"
+    }
+  ],
   "title": "French Buttercream",
   "variations": [
     {
-      "text": "For a vanilla buttercream, beat in <span class=\"quantity\">5</span> to <span class=\"quantity\">10</span> milliliters of vanilla extract at the end (it will look curdled initially)"
+      "text": "Vanilla buttercream - beat in <span class=\"quantity\">5</span> to <span class=\"quantity\">10</span> milliliters of vanilla extract at the end (it will look curdled initially)"
     },
     {
-      "text": "For a coffee buttercream, dissolve <span class=\"quantity\">2</span> teaspoons of instant coffee in <span class=\"quantity\">15</span>ml of vanilla rum and beat into the buttercream, at the end (it will look curdled initially)"
+      "text": "Coffee buttercream - dissolve <span class=\"quantity\">2</span> teaspoons of instant coffee in <span class=\"quantity\">15</span>ml of vanilla rum and beat into the buttercream, at the end (it will look curdled initially)"
     },
     {
       "text": "Beating in <span class=\"quantity\">20</span>g powdered sugar at the end will give you a slightly sweeter, stiffer, less fatty feeling buttercream"
