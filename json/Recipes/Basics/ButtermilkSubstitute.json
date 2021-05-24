@@ -1,0 +1,30 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "240ml milk",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "15ml lemon juice",
+      "alternative_ingredients": [
+        {
+          "text": "vinegar"
+        }
+      ]
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix, leave 5 minutes, then use"
+    }
+  ],
+  "notes": [],
+  "title": "Buttermilk Substitute"
+}
