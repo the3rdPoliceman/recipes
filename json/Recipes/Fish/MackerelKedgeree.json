@@ -65,32 +65,51 @@
     ],
     "method": [
         {
-            "text": "Start to cook the rice",
+            "text": "Cook the rice according to the instructions",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Sliced onion and fry on low until soft",
+            "text": "Boil the eggs for 7 minutes, then remove the shell and quarter them",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Start eggs boiling for 7 minutes",
+            "text": "Gently fry the onion in a little oil until soft but not brown",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Increase the heat, and add the mustard seeds to the frying pan. When they start to pop, add the chilli powder and turmeric. Fry for a minute. Add the spinach and flake in the mackerel, and fry until cooked. Add the rice once it is ready",
+            "text": "Increase the heat and add the mustard seeds to the frying pan. When they start to pop, add the chilli powder and turmeric and fry for another half a minute",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the spinach to the pan, flake in the mackerel, and fry until the spinach has wilted",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the rice, and toss with the other ingredients. Serve, with the quartered eggs on top",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         }
     ],
-    "notes": [],
+    "notes": [
+        {
+          "text": "Probably better with rice that has been cooked the day before"
+        }
+    ],
     "serving_suggestions": null,
     "variations": null,
-    "attempt_log": null
+    "attempt_log": null,
+    "quantity": {
+        "number": "2"
+    }
 }
