@@ -103,7 +103,7 @@
                     "type": "METHOD_STEP"
                 },
                 {
-                    "text": "Freeze, and cut into cylinders 2.5cm long, and 3cm smaller in diameter than your ring molds",  
+                    "text": "Freeze, and cut into cylinders 3cm long, and 4cm smaller in diameter than your ring molds",  
                     "post_notes": [],
                     "pre_notes": [],
                     "type": "METHOD_STEP"
@@ -165,7 +165,7 @@
                     "type": "METHOD_STEP"
                 },
                 {
-                    "text": "Bake at 180C for about 15 minutes",
+                    "text": "Bake at 180C for 15 minutes",
                     "post_notes": [],
                     "pre_notes": [],
                     "type": "METHOD_STEP"
@@ -183,7 +183,10 @@
                     "type": "METHOD_STEP"
                 }
             ],
-            "notes": [],
+            "notes": [ {
+                "text": "When using top and bottom heat, it started to burn a little on the bottom by the time the sides were done. Should try 160C fan instead",
+                "note_type": null
+            }],
             "type": "METHOD_SUB_LIST"
         }
     ],

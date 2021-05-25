@@ -1,0 +1,217 @@
+{
+  "ingredient_list": [
+    {
+      "name": "FENNEL SAUCE",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "300g fennel, diced",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 shallot, sliced",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "20g butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "15g flour",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "500ml of fish stock",
+          "alternative_ingredients": [
+            {
+              "text": "chicken stock"
+            }
+          ]
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "40ml of double cream",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "COD",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "300ml fish stock",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "200ml milk",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "600g cod",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "SPINACH",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "20g butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "0.5 garlic clove, finely chopped",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "400g baby spinach",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "TO SERVE",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "fennel fronds, finely chopped",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "lemon zest",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Fennel Sauce",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Saute the fennel and shallot in butter until soft, but not browned. Take a quarter of it out to use later, and leave the rest in the pan"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add the flour to the pan and cook for a couple of minutes, then add the stock and simmer for about 5 minutes until thickened"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Put the sauce in a blender and blend until very smooth. Add the cream and blend a bit more."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Return to the pan along with the reserved fennel from earlier, taste for salt and pepper, and keep warm while you make the cod and spinach (the sauce can also be made ahead and reheated)"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Cod",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Bring the fish stock and milk to the boil then turn the heat down very low. Add the cod and leave it to cook itself - it should take 5-7 minutes"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Season with a little salt"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Spinach",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "While the cod is cooking, make the spinach. Melt the butter in a pan, and saute the garlic for 30 seconds, then add the spinach and some salt."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cook for a minute or 2 until the spinach is wilted"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Serving",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Mix the fennel fronds into the sauce just before serving"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Pile up the sauce, then spinach, then the fish on top"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Finely grate a little lemon zest over the fish"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "text": "Try seasoning the poaching liquid instead of seasoning the fish afterwards"
+    }
+  ],
+  "title": "Cod with Fennel Sauce",
+  "quantity": {
+    "number": "4"
+  }
+}
