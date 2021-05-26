@@ -1,0 +1,114 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "120g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "120g peanut butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "250g fine brown sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 egg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 tsp vanilla",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "150g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3g salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1/2 tsp baking powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1/2 tsp baking soda",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g dark chocolate, chopped",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the butter and peanut butter together until well mixed"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add in the sugar and beat again"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add egg and vanilla...and beat again until well combined"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix the flour, salt, baking powder and soda. Then add them to the batter and stir to combine"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Refrigerate for 30 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Divide into <span class=\"quantity\">15</span> and roll into balls, then place the balls on baking sheets lined with parchment (12 will fit on a big sheet). They will spread a lot so leave space."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake at 170C (no fan) for 14 minutes (they shouldn't brown)"
+    }
+  ],
+  "notes": [
+    {
+      "text": "These puff up when cooking, but then flatten as they cool and end up as big chewy discs"
+    }
+  ],
+  "title": "Peanut Butter & Chocolate Cookies"
+}
