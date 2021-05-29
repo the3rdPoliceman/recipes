@@ -88,7 +88,7 @@
         },
         {
             "text": "little bit of parmesan for the top",
-            "optional": false,
+            "optional": true,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"

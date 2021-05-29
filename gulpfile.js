@@ -136,7 +136,7 @@ function copyGuidesToTarget() {
 }
 
 function copyResourcesToTarget() {
-  return src('./Resources/**/*.html').pipe(dest('./target/Resources'));
+  return src(['./Resources/**/*.html','./Resources/**/*.pdf']).pipe(dest('./target/Resources'));
 }
 
 function copyRootFilesToTarget() {
@@ -144,7 +144,7 @@ function copyRootFilesToTarget() {
 }
 
 // Clean
-function clean() {
+function clean() {  
   return del(['dist', 'gen', 'css']);
 }
 

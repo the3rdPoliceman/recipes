@@ -3,7 +3,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "3 eggs",
+      "text": "4 eggs",
       "alternative_ingredients": []
     },
     {
@@ -54,18 +54,30 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Butter a dish (around <span class=\"quantity\">25</span>cm by <span class=\"quantity\">15</span>cm), pour in the egg mixture, and grate in the cheese"
+      "text": "Butter a dish (a 25x15cm dish is good for 4 eggs), pour in the egg mixture, and grate in the cheese"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Bake at 180C for around 20 minutes, until the outside puffs up and solidifies, and the middle is still wobbly"
+      "text": "Bake at 180C for around 20 minutes, until the outside puffs up and solidifies, and the middle is still gooey"
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "This is like a puffy, gooey centered quiche without the pastry. As with quiche, almost anything can be added"
+    }
+  ],
   "title": "Cheese Not Souffle",
   "quantity": {
     "number": "2"
-  }
+  },
+  "variations": [
+    {
+      "text": "Asparagus and Goats Cheese. When adding the cheddar, add some asparagus spears that have been boiled for a couple of minutes in salted water, and top with chunks of goats cheese"
+    },
+    {
+      "text": "Feta and Chilli. Add some finely chopped red chilli when mixing the egg, and top with feta at the end"
+    }
+  ]
 }
