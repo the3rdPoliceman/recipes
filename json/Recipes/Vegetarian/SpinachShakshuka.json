@@ -58,6 +58,12 @@
     {
       "optional": false,
       "type": "INGREDIENT",
+      "text": "50ml cream",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
       "text": "4 eggs",
       "alternative_ingredients": []
     },
@@ -87,11 +93,11 @@
     },
     {
       "type": "METHOD_STEP",
-      "text": "Make <span class=\"quantity\">4</span> holes in the spinach, and crack an egg into each. If using feta, scatter it over the top at this point."
+      "text": "Mix in the cream and scatter the feta over the top if you're using it, then cover with a lid and simmer on low heat while you pwoach the eggs"
     },
     {
       "type": "METHOD_STEP",
-      "text": "Cover with a lid and cook until the eggs are done to your liking"
+      "text": "Poach the eggs separately, then make <span class=\"quantity\">4</span> holes in the spinach, and put an egg into each"
     }
   ],
   "title": "Spinach Shakshuka",
