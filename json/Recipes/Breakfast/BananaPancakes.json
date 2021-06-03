@@ -3,67 +3,55 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1 egg yolk",
+      "text": "200g flour",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1/3 tsp dijon mustard",
+      "text": "35g sugar",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "15ml lemon juice",
+      "text": "15g baking powder",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "7ml sherry vinegar",
+      "text": "1.5g salt",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "3ml worcestershire sauce",
+      "text": "3 bananas (extra ripe), roughly mashed",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1/10 clove garlic",
+      "text": "2 eggs",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30ml anchovy paste",
+      "text": "200ml milk",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "pinch cayenne pepper",
+      "text": "35g butter, melted",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "120ml extra virgin olive oil",
-      "alternative_ingredients": []
-    },
-    {
-      "optional": false,
-      "type": "INGREDIENT",
-      "text": "Black pepper",
-      "alternative_ingredients": []
-    },
-    {
-      "optional": false,
-      "type": "INGREDIENT",
-      "text": "Salt",
+      "text": "1tsp vanilla",
       "alternative_ingredients": []
     }
   ],
@@ -72,28 +60,36 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Beat the egg yolk, mustard, lemon, vinegar, worcestershire sauce, garlic, anchovy paste and cayenne pepper together"
+      "text": "Sieve the flour, sugar, baking powder and salt into a bowl"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Gradually whisk in the oil"
+      "text": "Put the bananas in a second bowl and mash - a potato masher is good for this, or if they're really ripe the electric mixer will break them down"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Season to taste with salt and pepper"
-    }
-  ],
-  "notes": [
-    {
-      "text": "Haven't tried with anchovy paste yet, but it seems more convenient than whole anchovies. 30ml might be a bit much, so add at the end and grandually build up"
+      "text": "Add the eggs, milk, butter and vanilla to the bananas and beat well to combine"
     },
     {
-      "text": "Fish sauce might be an alternative to worcestershire sauce"
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Pour the dry ingredients into the banana mix, and combine with as little mixing as possible"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Fry over medium to low heat, in a non stick pan with a little butter. Flip when bubbles form on the surface and the underside has browned"
     }
   ],
-  "title": "Caesar Dressing"
+  "notes": [],
+  "title": "Banana Pancakes",
+  "quantity": {
+    "number": "4"
+  }
 }

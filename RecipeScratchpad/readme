@@ -5,6 +5,7 @@ Below are the elements which can be used when defining recipes
 TITLE: Title
 CAT: Category (Currently unused)
 SERVE: Serving Count
+INTRO: Intro text
 ** Ingredient List
 * Ingredient  {{N: Note about this Ingredient }} {{ALT: {{Q: Quantity }} Alternative Ingredient }}  {{ALT: Alternative Ingredient without Quantity }}
 O* Optional Ingredient
@@ -20,6 +21,7 @@ Below is an example of a sample recipe file, which might be created as RecipeScr
 TITLE: Spinach Shakshuka
 CAT: Vegetarian
 SERVE: 2 
+INTRO: This recipe is a variation of the original recipe, using spiced spinach, rather than tomatoesss
 * 1 Onion
 * Olive Oil
 * 2 cloves garlic

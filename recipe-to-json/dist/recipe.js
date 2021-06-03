@@ -20,6 +20,7 @@ var RecipeStructure;
     var PLUGIN_NAME = 'recipe-to-json';
     // constants used for parsing recipes
     var TITLE_PREFIX = "TITLE:";
+    var INTRO_PREFIX = "INTRO:";
     var CATEGORY_PREFIX = "CAT:";
     var SERVING_PREFIX = "SERVE:";
     var INGREDIENT_SUB_LIST_PREFIX = "**";
@@ -155,6 +156,11 @@ var RecipeStructure;
         recipe.title = line;
     }
     RecipeStructure.parseTitle = parseTitle;
+    function parseIntro(line, recipe) {
+        line = line.substring(INTRO_PREFIX.length).trim();
+        recipe.intro = line;
+    }
+    RecipeStructure.parseIntro = parseIntro;
     function parseCategory(line, recipe) {
         // doing nothing with this for now
     }
@@ -349,6 +355,9 @@ var RecipeStructure;
             }
             else if (line.toUpperCase().startsWith(TITLE_PREFIX)) {
                 parseTitle(line, recipe);
+            }
+            else if (line.toUpperCase().startsWith(INTRO_PREFIX)) {
+                parseIntro(line, recipe);
             }
             else if (line.toUpperCase().startsWith(CATEGORY_PREFIX)) {
                 parseCategory(line, recipe);

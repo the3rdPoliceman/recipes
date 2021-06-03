@@ -3,67 +3,61 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1 egg yolk",
+      "text": "100ml yogurt",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1/3 tsp dijon mustard",
+      "text": "3 cloves garlic",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "15ml lemon juice",
+      "text": "2 shallots",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "7ml sherry vinegar",
+      "text": "3 tbsp sumac",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "3ml worcestershire sauce",
+      "text": "1 tsp ground cumin",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1/10 clove garlic",
+      "text": "zest of 1 lemon",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30ml anchovy paste",
+      "text": "5g salt",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "pinch cayenne pepper",
+      "text": "20ml oil",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "120ml extra virgin olive oil",
+      "text": "1/2 tsp black pepper",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "Black pepper",
-      "alternative_ingredients": []
-    },
-    {
-      "optional": false,
-      "type": "INGREDIENT",
-      "text": "Salt",
+      "text": "4 chicken legs",
       "alternative_ingredients": []
     }
   ],
@@ -72,28 +66,30 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Beat the egg yolk, mustard, lemon, vinegar, worcestershire sauce, garlic, anchovy paste and cayenne pepper together"
+      "text": "Blend all the ingredients to create a marinade, then cover the chicken with it"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Gradually whisk in the oil"
+      "text": "Leave the marinated chicken in the fridge for at least\t an hour (overnight is better)"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Season to taste with salt and pepper"
-    }
-  ],
-  "notes": [
-    {
-      "text": "Haven't tried with anchovy paste yet, but it seems more convenient than whole anchovies. 30ml might be a bit much, so add at the end and grandually build up"
+      "text": "Place the chicken on a baking tray (don't rub the marinade off), and sprinkle a little more sumac over it"
     },
     {
-      "text": "Fish sauce might be an alternative to worcestershire sauce"
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake at 200C until cooked through, about 30 minutes"
     }
   ],
-  "title": "Caesar Dressing"
+  "notes": [],
+  "title": "Sumac &amp; Yogurt Marinated Chicken",
+  "quantity": {
+    "number": "4"
+  }
 }

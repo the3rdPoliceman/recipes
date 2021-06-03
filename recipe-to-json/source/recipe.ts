@@ -4,6 +4,7 @@ export module RecipeStructure {
 
 // constants used for parsing recipes
     const TITLE_PREFIX = "TITLE:";
+    const INTRO_PREFIX = "INTRO:";
     const CATEGORY_PREFIX = "CAT:";
     const SERVING_PREFIX = "SERVE:";
     const INGREDIENT_SUB_LIST_PREFIX = "**";
@@ -101,6 +102,7 @@ export module RecipeStructure {
 
     export class Recipe {
         title: string;
+        intro: string;
         quantity: Quantity;
         source: Source;
         ingredient_list: (Ingredient|IngredientSubList)[] = [];
@@ -172,11 +174,16 @@ export module RecipeStructure {
         }
     }
 
-
     export function parseTitle(line: string, recipe: Recipe) {
         line = line.substring(TITLE_PREFIX.length).trim();
 
         recipe.title = line;
+    }
+
+    export function parseIntro(line: string, recipe: Recipe) {
+        line = line.substring(INTRO_PREFIX.length).trim();
+
+        recipe.intro = line;
     }
 
     export function parseCategory(line: string, recipe: Recipe) {
@@ -399,6 +406,8 @@ export module RecipeStructure {
                 // ignore blank lines
             } else if (line.toUpperCase().startsWith(TITLE_PREFIX)) {
                 parseTitle(line, recipe);
+            } else if (line.toUpperCase().startsWith(INTRO_PREFIX)) {
+                parseIntro(line, recipe);
             } else if (line.toUpperCase().startsWith(CATEGORY_PREFIX)) {
                 parseCategory(line, recipe);
             } else if (line.toUpperCase().startsWith(SERVING_PREFIX)) {
