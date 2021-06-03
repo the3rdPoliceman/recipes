@@ -624,6 +624,10 @@ ol.directions-list {
   counter-reset: methodstepcount;
   padding-inline-start: 0px; }
 
+.intro {
+  margin-top: var(--vert-space-6);
+  margin-bottom: var(--vert-space-6); }
+
 .note {
   margin-bottom: var(--vert-space-4);
   color: var(--col-tx-grey-1); }
@@ -650,6 +654,16 @@ ol.directions-list {
 .recipe-image {
   width: 100%;
   padding-top: var(--vert-space-6); }
+
+.recipe-notes-title {
+  color: var(--col-primary-4); }
+
+.recipe-notes-list {
+  padding-inline-start: 0px; }
+
+.recipe-note {
+  list-style-type: circle;
+  list-style-position: inside; }
 
 .serving-suggestions-title {
   color: var(--col-primary-4); }
