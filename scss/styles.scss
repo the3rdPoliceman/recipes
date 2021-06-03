@@ -767,6 +767,11 @@ ol.directions-list {
     padding-inline-start: 0px;
 }
 
+.intro{
+    margin-top: var(--vert-space-6);
+    margin-bottom: var(--vert-space-6);
+}
+
 .note {
     margin-bottom: var(--vert-space-4);
     color: var(--col-tx-grey-1);
@@ -812,6 +817,20 @@ ol.directions-list {
 @mixin supplementary-section-list-item {
     list-style-type: circle;
     list-style-position: inside;
+}
+
+.recipe-notes{}
+
+.recipe-notes-title{
+    @include supplementary-section-title;
+}
+
+.recipe-notes-list{
+    @include supplementary-section-list;
+}
+
+.recipe-note{
+    @include supplementary-section-list-item;
 }
 
 .serving-suggestions-title {

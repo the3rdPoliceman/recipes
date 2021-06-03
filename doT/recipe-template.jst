@@ -86,6 +86,11 @@
                         <input type="text" class="quantity-adjuster" id="multiplier" size="2" value="1">
                     </div>
                 {{?}}
+
+                <!-- ********** INTRO -->
+                {{? it.intro}}
+                    <div class="intro">{{= it.intro}}<br></div>
+                {{?}}
                 <div class="recipe-details row">
 
                     <!-- ********** INGREDIENTS -->
@@ -147,15 +152,8 @@
 
 
                     <div class="directions">
-                        <!-- ********** RECIPE NOTES -->
-                        {{? it.notes }}
-                            {{~ it.notes :note:index}}
-                                <div class="note">{{= note.text}}</div>
-                            {{~}}
-                        {{?}}
-                        <ol class="directions-list">
-
                         <!-- ********** METHOD -->
+                        <ol class="directions-list">
                         {{? it.method}}
                             {{~ it.method :method_item:method_item_index}}
                                 {{? method_item.type === "METHOD_STEP"}}
@@ -193,9 +191,19 @@
                                 {{?}}
                             {{~}}
                         {{?}}
-
                         </ol>
 
+                        <!-- ********** RECIPE NOTES -->
+                        {{? it.notes && it.notes.length > 0}}
+                            <div id="recipe-notes">
+                                <div class="recipe-notes-title">Notes</div>
+                                <ul class="recipe-notes-list">
+                                {{~ it.notes :note:index}}
+                                    <li class="recipe-note">{{= note.text}}</li>
+                                {{~}}
+                                </ul>
+                            </div>
+                        {{?}}
 
                         <!-- ********** SERVING SUGGESTIONS -->
                         {{? it.serving_suggestions }}
