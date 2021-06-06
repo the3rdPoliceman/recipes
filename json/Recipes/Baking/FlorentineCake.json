@@ -12,7 +12,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "100g caster sugar",
+          "text": "100g fine light brown sugar",
           "alternative_ingredients": []
         },
         {
@@ -54,7 +54,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "15g oil",
+          "text": "25g oil",
           "alternative_ingredients": []
         },
         {
@@ -72,7 +72,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "80g butter",
+          "text": "65g butter",
           "alternative_ingredients": []
         },
         {
@@ -192,7 +192,21 @@
   "notes": [
     {
       "text": "This is a variation on swedish toscakaka"
+    },
+    {
+      "text": "Makes 1 18cm cake"
+    },
+    {
+      "text": "Bit dry on day 2, so i increased the oil by 10ml"
     }
   ],
-  "title": "Florentine Cake"
+  "title": "Florentine Cake",
+  "variations": [
+    {
+      "text": "Apple Florentine - Chop up <span class=\"quantity\">2</span> to <span class=\"quantity\">3</span> apples and add them to the cake batter before baking"
+    },
+    {
+      "text": "Chocolate Florentine - Chop up <span class=\"quantity\">100</span>g of dark chocolate and add to the batter before baking"
+    }
+  ]
 }
