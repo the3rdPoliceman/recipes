@@ -49,10 +49,11 @@ export declare module RecipeStructure {
     }
     class Recipe {
         title: string;
+        intro: string;
         quantity: Quantity;
         source: Source;
-        ingredient_list: object[];
-        method: object[];
+        ingredient_list: (Ingredient | IngredientSubList)[];
+        method: (MethodStep | MethodSubList)[];
         notes: Note[];
         serving_suggestions: ServingSuggestion[];
         variations: Variation[];
@@ -89,8 +90,24 @@ export declare module RecipeStructure {
         constructor(text: string);
     }
     function parseTitle(line: string, recipe: Recipe): void;
+    function parseIntro(line: string, recipe: Recipe): void;
     function parseCategory(line: string, recipe: Recipe): void;
     function parseServing(line: string, recipe: Recipe): void;
+    function parseServingLabel(line: string, recipe: Recipe): void;
+    /**
+     * The line parameter format uses a colon (:) to separate each dimension, and within each dimension the magnitude and numberOfDimensions are separated by a comma
+     * i.e.SERVE_DIMENSIONS:magnitudeX,numberOfDimensionsX:magnitudeY,numberOfDimensionsY
+     *
+     * Example line content for 25 by 20
+     * SERVE_DIMENSIONS:25,1:20,1
+     *
+     * Example line content for 25 by 25
+     * SERVE_DIMENSIONS:25,2
+     *
+     * @param line
+     * @param recipe
+     */
+    function parseServingDimensions(line: string, recipe: Recipe): void;
     function parseIngredientSubList(line: string, recipe: Recipe): void;
     function parseIngredientText(ingredientAsString: string): Ingredient;
     function parseIngredient(line: string, recipe: Recipe): void;

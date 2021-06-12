@@ -23,6 +23,8 @@ var RecipeStructure;
     var INTRO_PREFIX = "INTRO:";
     var CATEGORY_PREFIX = "CAT:";
     var SERVING_PREFIX = "SERVE:";
+    var SERVING_LABEL_PREFIX = "SERVE_LABEL:";
+    var SERVING_DIMENSIONS_PREFIX = "SERVE_DIMENSIONS:";
     var INGREDIENT_SUB_LIST_PREFIX = "**";
     var INGREDIENT_PREFIX = "*";
     var OPTIONAL_INGREDIENT_PREFIX = "O*";
@@ -173,6 +175,46 @@ var RecipeStructure;
         recipe.quantity.number = line.trim();
     }
     RecipeStructure.parseServing = parseServing;
+    function parseServingLabel(line, recipe) {
+        line = line.substring(SERVING_LABEL_PREFIX.length).trim();
+        if (recipe.quantity === undefined) {
+            recipe.quantity = new Quantity();
+        }
+        recipe.quantity.label = line.trim();
+    }
+    RecipeStructure.parseServingLabel = parseServingLabel;
+    /**
+     * The line parameter format uses a colon (:) to separate each dimension, and within each dimension the magnitude and numberOfDimensions are separated by a comma
+     * i.e.SERVE_DIMENSIONS:magnitudeX,numberOfDimensionsX:magnitudeY,numberOfDimensionsY
+     *
+     * Example line content for 25 by 20
+     * SERVE_DIMENSIONS:25,1:20,1
+     *
+     * Example line content for 25 by 25
+     * SERVE_DIMENSIONS:25,2
+     *
+     * @param line
+     * @param recipe
+     */
+    function parseServingDimensions(line, recipe) {
+        line = line.substring(SERVING_DIMENSIONS_PREFIX.length).trim();
+        if (recipe.quantity === undefined) {
+            recipe.quantity = new Quantity();
+        }
+        var dimensionsAsSingleString = line.trim();
+        var dimensionStrings = dimensionsAsSingleString.split(":");
+        var dimensionArray = [];
+        for (var _i = 0, dimensionStrings_1 = dimensionStrings; _i < dimensionStrings_1.length; _i++) {
+            var dimensionString = dimensionStrings_1[_i];
+            var dimensionsStringParts = dimensionString.split(",");
+            var dimension = new Dimension();
+            dimension.magnitude = dimensionsStringParts[0];
+            dimension.number_of_dimensions = dimensionsStringParts[1];
+            dimensionArray[dimensionArray.length] = dimension;
+        }
+        recipe.quantity.dimensions = dimensionArray;
+    }
+    RecipeStructure.parseServingDimensions = parseServingDimensions;
     function parseIngredientSubList(line, recipe) {
         var subListName = line.substring(INGREDIENT_SUB_LIST_PREFIX.length).trim();
         var ingredientSubList = new IngredientSubList();
@@ -364,6 +406,12 @@ var RecipeStructure;
             }
             else if (line.toUpperCase().startsWith(SERVING_PREFIX)) {
                 parseServing(line, recipe);
+            }
+            else if (line.toUpperCase().startsWith(SERVING_LABEL_PREFIX)) {
+                parseServingLabel(line, recipe);
+            }
+            else if (line.toUpperCase().startsWith(SERVING_DIMENSIONS_PREFIX)) {
+                parseServingDimensions(line, recipe);
             }
             else if (line.toUpperCase().startsWith(INGREDIENT_SUB_LIST_PREFIX)) {
                 parseIngredientSubList(line, recipe);
