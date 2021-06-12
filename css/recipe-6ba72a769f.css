@@ -551,6 +551,9 @@ input {
 .ingredients {
   padding: var(--vert-space-0) var(--gutter-2) var(--vert-space-0) var(--gutter); }
 
+.recipe-ref {
+  text-transform: lowercase; }
+
 .directions {
   border-left: 2px solid var(--col-primary-4);
   padding: var(--vert-space-0) var(--gutter) var(--vert-space-0) var(--gutter-2); }
