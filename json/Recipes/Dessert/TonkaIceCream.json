@@ -3,7 +3,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "80g brown sugar",
+      "text": "40g white sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "40g brown sugar",
       "alternative_ingredients": []
     },
     {
@@ -63,10 +69,6 @@
       "text": "Put back on the heat, and heat until it forms custard"
     }
   ],
-  "notes": [
-    {
-      "text": "Original attempt was with 100g sugar and 6 egg yolks - flavour was good, but a bit rich and sweet. See if 80 and 4 works better."
-    }
-  ],
+  "notes": [],
   "title": "Tonka Ice Cream"
 }

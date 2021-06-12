@@ -586,8 +586,7 @@ input {
 
 .guide-link {
     @include link-from-index;
-}
-
+}   
 
 .resource-link {
     @include link-from-index;
@@ -668,6 +667,11 @@ input {
 
 .ingredients {
     padding: var(--vert-space-0) var(--gutter-2) var(--vert-space-0) var(--gutter);
+}
+
+
+.recipe-ref {
+    text-transform: lowercase;
 }
 
 .directions {

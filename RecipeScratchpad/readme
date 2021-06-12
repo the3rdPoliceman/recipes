@@ -5,6 +5,8 @@ Below are the elements which can be used when defining recipes
 TITLE: Title
 CAT: Category (Currently unused)
 SERVE: Serving Count
+SERVE_DIMENSIONS:dimensions of each serving (see examples below)
+SERVE_LABEL:text that goes after the serving amount
 INTRO: Intro text
 ** Ingredient List
 * Ingredient  {{N: Note about this Ingredient }} {{ALT: {{Q: Quantity }} Alternative Ingredient }}  {{ALT: Alternative Ingredient without Quantity }}
@@ -39,3 +41,17 @@ O* 50g feta cheese
 - Make {{Q: 4 }} holes in the spinach, and crack an egg into each. If using feta, scatter it over the top at this point.
 - Cover with a lid and cook until the eggs are done to your liking
 VAR: Instead of the spices and feta, add some ham and scatter cubes of fontina on top when you add the eggs
+
+
+Below is an example showing how to describe dimensions of a recipe which makes one 25x35 cm cake
+
+SERVE: 1
+SERVE_DIMENSIONS:25,1:35,1
+SERVE_LABEL:cm cake
+
+
+Below is an example showing how to describe dimensions of a recipe which makes one 25cm round cake. Notice the dimension is 25,2 which implies that the 25 applies to 2 dimensions. This is to allow quantities to scale properly when the user adjusts them on the front end.	
+
+SERVE: 1
+SERVE_DIMENSIONS:25,2
+SERVE_LABEL:cm cake

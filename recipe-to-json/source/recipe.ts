@@ -6,7 +6,9 @@ export module RecipeStructure {
     const TITLE_PREFIX = "TITLE:";
     const INTRO_PREFIX = "INTRO:";
     const CATEGORY_PREFIX = "CAT:";
-    const SERVING_PREFIX = "SERVE:";
+        const SERVING_PREFIX = "SERVE:";
+        const SERVING_LABEL_PREFIX = "SERVE_LABEL:";
+        const SERVING_DIMENSIONS_PREFIX = "SERVE_DIMENSIONS:";
     const INGREDIENT_SUB_LIST_PREFIX = "**";
     const INGREDIENT_PREFIX = "*";
     const OPTIONAL_INGREDIENT_PREFIX = "O*";
@@ -198,6 +200,53 @@ export module RecipeStructure {
         }
 
         recipe.quantity.number = line.trim();
+    }
+
+    export function parseServingLabel(line: string, recipe: Recipe) {
+        line = line.substring(SERVING_LABEL_PREFIX.length).trim();
+
+        if (recipe.quantity === undefined) {
+            recipe.quantity = new Quantity();
+        }
+
+        recipe.quantity.label = line.trim();
+    }
+
+    /**
+     * The line parameter format uses a colon (:) to separate each dimension, and within each dimension the magnitude and numberOfDimensions are separated by a comma
+     * i.e.SERVE_DIMENSIONS:magnitudeX,numberOfDimensionsX:magnitudeY,numberOfDimensionsY
+     *
+     * Example line content for 25 by 20
+     * SERVE_DIMENSIONS:25,1:20,1
+     *
+     * Example line content for 25 by 25
+     * SERVE_DIMENSIONS:25,2
+     *
+     * @param line
+     * @param recipe
+     */
+    export function parseServingDimensions(line: string, recipe: Recipe) {
+        line = line.substring(SERVING_DIMENSIONS_PREFIX.length).trim();
+
+        if (recipe.quantity === undefined) {
+            recipe.quantity = new Quantity();
+        }
+
+        let dimensionsAsSingleString = line.trim();
+        let dimensionStrings = dimensionsAsSingleString.split(":");
+        let dimensionArray: Dimension[] = [];
+
+        for (let dimensionString of dimensionStrings){
+            let dimensionsStringParts = dimensionString.split(",");
+
+            let dimension = new Dimension();
+            dimension.magnitude = dimensionsStringParts[0];
+            dimension.number_of_dimensions = dimensionsStringParts[1];
+
+            dimensionArray[dimensionArray.length] = dimension;
+        }
+
+        recipe.quantity.dimensions = dimensionArray;
     }
 
     export function parseIngredientSubList(line: string, recipe: Recipe) {
@@ -412,6 +461,10 @@ export module RecipeStructure {
                 parseCategory(line, recipe);
             } else if (line.toUpperCase().startsWith(SERVING_PREFIX)) {
                 parseServing(line, recipe);
+            } else if (line.toUpperCase().startsWith(SERVING_LABEL_PREFIX)) {
+                parseServingLabel(line, recipe);
+            } else if (line.toUpperCase().startsWith(SERVING_DIMENSIONS_PREFIX)) {
+                parseServingDimensions(line, recipe);
             } else if (line.toUpperCase().startsWith(INGREDIENT_SUB_LIST_PREFIX)) {
                 parseIngredientSubList(line, recipe);
             } else if (line.toUpperCase().startsWith(INGREDIENT_PREFIX)) {

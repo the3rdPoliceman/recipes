@@ -19,6 +19,7 @@
     var parseIngredient = recipe_1.RecipeStructure.parseIngredient;
     var IngredientListItemType = recipe_1.RecipeStructure.IngredientListItemType;
     var parseIngredientSubList = recipe_1.RecipeStructure.parseIngredientSubList;
+    var parseServingDimensions = recipe_1.RecipeStructure.parseServingDimensions;
     describe('Tests for parseMethodStep', function () {
         it('parseMethodStep into empty recipe', function () {
             var recipe = new recipe_1.RecipeStructure.Recipe();
@@ -216,6 +217,27 @@
             chaiAssertions.lengthOf(ingredient.alternative_ingredients, 1, "1 alternative ingredient present");
             var alternativeIngredient = ingredient.alternative_ingredients[0];
             expect(alternativeIngredient.text).to.be.equal('<span class="quantity">400</span>g Chard');
+        });
+    });
+    describe('Tests for parseServingDimension', function () {
+        it('Use parseServingDimension to add single dimension with magnitude and number of dimensions', function () {
+            var recipe = new recipe_1.RecipeStructure.Recipe();
+            parseServingDimensions("SERVE_DIMENSIONS:40,2", recipe);
+            chaiAssertions.lengthOf(recipe.quantity.dimensions, 1, "1 dimension");
+            var dimension = recipe.quantity.dimensions[0];
+            expect(dimension.magnitude).to.be.equal("40");
+            expect(dimension.number_of_dimensions).to.be.equal("2");
+        });
+        it('Use parseServingDimension to two dimensions with magnitude and number of dimensions', function () {
+            var recipe = new recipe_1.RecipeStructure.Recipe();
+            parseServingDimensions("SERVE_DIMENSIONS:40,1:25,1", recipe);
+            chaiAssertions.lengthOf(recipe.quantity.dimensions, 2, "2 dimension");
+            var dimension1 = recipe.quantity.dimensions[0];
+            expect(dimension1.magnitude).to.be.equal("40");
+            expect(dimension1.number_of_dimensions).to.be.equal("1");
+            var dimension2 = recipe.quantity.dimensions[1];
+            expect(dimension2.magnitude).to.be.equal("25");
+            expect(dimension2.number_of_dimensions).to.be.equal("1");
         });
     });
 });
