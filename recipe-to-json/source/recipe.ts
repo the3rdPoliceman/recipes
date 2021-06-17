@@ -6,9 +6,9 @@ export module RecipeStructure {
     const TITLE_PREFIX = "TITLE:";
     const INTRO_PREFIX = "INTRO:";
     const CATEGORY_PREFIX = "CAT:";
-        const SERVING_PREFIX = "SERVE:";
-        const SERVING_LABEL_PREFIX = "SERVE_LABEL:";
-        const SERVING_DIMENSIONS_PREFIX = "SERVE_DIMENSIONS:";
+    const SERVING_PREFIX = "SERVE:";
+    const SERVING_LABEL_PREFIX = "SERVE_LABEL:";
+    const SERVING_DIMENSIONS_PREFIX = "SERVE_DIMENSIONS:";
     const INGREDIENT_SUB_LIST_PREFIX = "**";
     const INGREDIENT_PREFIX = "*";
     const OPTIONAL_INGREDIENT_PREFIX = "O*";
