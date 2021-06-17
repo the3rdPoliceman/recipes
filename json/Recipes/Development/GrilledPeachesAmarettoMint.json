@@ -9,13 +9,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "50g butter",
+      "text": "25g butter",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "100g sugar",
+      "text": "50g sugar",
       "alternative_ingredients": []
     },
     {
@@ -27,7 +27,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "60ml amaretto",
+      "text": "50ml amaretto",
       "alternative_ingredients": []
     },
     {
