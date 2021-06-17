@@ -6,7 +6,7 @@
     },
     "ingredient_list": [
         {
-            "text": "1650g Potatoes",
+            "text": "1650g Potatoes (weight after peeling)",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -147,6 +147,10 @@
     "notes": [
         {
             "text": "A good non stick pan is needed",
+            "note_type": null
+        },
+        {
+            "text": "When planning to eat the next day, reduce salt to 30g. Seems to need less salt after sitting overnight",
             "note_type": null
         }
     ],

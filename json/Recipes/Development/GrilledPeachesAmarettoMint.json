@@ -1,0 +1,78 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30g almonds, coarsly chopped",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "4 ripe peaches, halved if possible or cut in large chunks",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60ml amaretto",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Zest of 1/2 lemon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Small bunch of mint leaves of 1/2 lemon",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Place the butter and half the sugar in a pan over medium to high. When the sugar begins to melt, add the peaches skin-side down and cook until the bottoms begin to brown (about 5 minutes)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the grand marnier, flame it, and the remaining sugar and continue caramelizing for 1 more minute"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Turn the peaches over to brown the flesh sides (about 1 minute)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Finely grate over the lemon zest, and add the mint leaves"
+    }
+  ],
+  "notes": [
+    {
+      "text": "STATUS:DEVELOPMENT"
+    }
+  ],
+  "title": "Grilled Peaches with Amaretto &amp; Mint"
+}
