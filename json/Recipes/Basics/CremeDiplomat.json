@@ -1,0 +1,51 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "<a href=\"../Basics/CremePat.html\"><span class=\"quantity\">400</span>g Creme Patisiere</a>",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g Full Cream",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Make, and chill the creme patisiere"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk the cream until stiff"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the creme patisiere to loosen it up and make it smooth again"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add a third of the cream to the creme patisiere and beat it in. Then fold in the remaining cream"
+    }
+  ],
+  "notes": [
+    {
+      "text": "This is a pretty standard ratio of creme patisiere to whipped cream, but any ration you want can be used"
+    },
+    {
+      "text": "If the creme diplomat needs to be kept for a long time, it's good to stabilize your whipped cream with some gelatine before combining with the creme patisiere"
+    }
+  ],
+  "title": "Creme Diplomat"
+}

@@ -3,7 +3,7 @@
     "source": null,
     "ingredient_list": [
         {
-            "text": "60ml sherry vinegar",
+            "text": "55ml sherry vinegar",
             "optional": false,
             "alternative_ingredients": [{
                     "text": "apple cider vinegar"
@@ -79,7 +79,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "10g salt",
+            "text": "12g salt",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
