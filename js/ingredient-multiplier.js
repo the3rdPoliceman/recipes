@@ -103,27 +103,13 @@ function updateIngredients(ratio){
 		var contents = $(element).contents();
 
 		// standard "number then measure" order 
-		var regexMatch = $(element).attr('data-original-value').match(/^([0-9\-/.]+)( ?)(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice of|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)?( ?)(.*)$/i);
-		if (regexMatch !== null){
-			//construct scaled ingredient text
-			var newQuantity = applyRatioToQuantity(regexMatch[1],ratio);
-			var newText = '' + newQuantity + regexMatch[2] + (regexMatch[3] === undefined ? '' : regexMatch[3]) + regexMatch[4] + regexMatch[5];
-			
-			$(element).text(newText);
-			if (contents.length > 1){
-				for (var i = 1; i < contents.length; i++) {
-					$(element).append(contents[i]);
-				}
-			}
-			toggleAdjustedClass(element, ratio);
-		}
-		else{
-			//"measure then number" order 
-			regexMatch = $(element).attr('data-original-value').match(/^(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice of|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)( ?)([0-9\-/.]+)( ?)(.*)$/i);
+		if ($(element).attr('data-original-value') !== undefined){
+			var regexMatch = $(element).attr('data-original-value').match(/^([0-9\-/.]+)( ?)(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice of|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)?( ?)(.*)$/i);
 			if (regexMatch !== null){
 				//construct scaled ingredient text
-				var newQuantity = applyRatioToQuantity(regexMatch[3], ratio);
-				var newText = regexMatch[1] + regexMatch[2] + newQuantity + regexMatch[4] + regexMatch[5];
+				var newQuantity = applyRatioToQuantity(regexMatch[1],ratio);
+				var newText = '' + newQuantity + regexMatch[2] + (regexMatch[3] === undefined ? '' : regexMatch[3]) + regexMatch[4] + regexMatch[5];
+				
 				$(element).text(newText);
 				if (contents.length > 1){
 					for (var i = 1; i < contents.length; i++) {
@@ -131,6 +117,22 @@ function updateIngredients(ratio){
 					}
 				}
 				toggleAdjustedClass(element, ratio);
+			}
+			else{
+				//"measure then number" order 
+				regexMatch = $(element).attr('data-original-value').match(/^(bunch|can|cans|colander|colanders|cup|cups|dash|g|gram|gramm|gramms|grams|grind|grinds|gs|juice of|kg|kgs|Kg|Kgs|kilo|kilogram|kilograms|kilos|liter|liters|litre|litres|ml|mls|pinch|pinches|shaving|shavings|slice|slices|sprig|sprigs|tablespoon|tablespoons|tbsp|tbsps|teaspoon|teaspoons|thumb|thumbs|tin|tins|tsp|tsps|zest of)( ?)([0-9\-/.]+)( ?)(.*)$/i);
+				if (regexMatch !== null){
+					//construct scaled ingredient text
+					var newQuantity = applyRatioToQuantity(regexMatch[3], ratio);
+					var newText = regexMatch[1] + regexMatch[2] + newQuantity + regexMatch[4] + regexMatch[5];
+					$(element).text(newText);
+					if (contents.length > 1){
+						for (var i = 1; i < contents.length; i++) {
+							$(element).append(contents[i]);
+						}
+					}
+					toggleAdjustedClass(element, ratio);
+				}
 			}
 		}
 

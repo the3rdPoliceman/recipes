@@ -51,6 +51,13 @@
                 "type": "NOTE"
             },
             "type": "INGREDIENT"
+        },
+        {
+            "text": "20g butter",
+            "optional": true,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
         }
     ],
     "method": [
@@ -73,18 +80,20 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Cook until the mixture thickens, making sure it doesn't go over 85C",
+            "text": "Cook while stirring until the mixture thickens, goes lumpy, and looks like a total disaster. Continue cooking for another 30 seconds while whisking hard",
             "post_notes": [],
-            "pre_notes": [
-                {
-                    "text": "In the following step the custard will try to stick, and will go very lumpy \u2013 don't worry, the lumps will go",
-                    "note_type": null
-                }
-            ],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "If using the butter, take the pan off the heat and whisk it in",
+            "post_notes": [],
+            "pre_notes": [],
             "type": "METHOD_STEP"
         }
     ],
-    "notes": [],
+    "notes": [{"text":"This is much less likely to curdle like standard custard, so you can get away with cooking it at higer heat. It can even get away with boiling a bit"},
+        {"text":"It using vanilla essence, add it at the end rather than at the start"}],
     "serving_suggestions": null,
     "variations": null,
     "attempt_log": null

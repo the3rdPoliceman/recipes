@@ -3,19 +3,19 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30g almonds, coarsly chopped",
+      "text": "25g flaked almonds",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "50g butter",
+      "text": "20g butter",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "100g sugar",
+      "text": "40g fine sugar",
       "alternative_ingredients": []
     },
     {
@@ -27,7 +27,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "60ml vanilla rum",
+      "text": "50ml vanilla rum",
       "alternative_ingredients": []
     },
     {
@@ -42,19 +42,19 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Lightly toast the almonds in a pan over medium heat"
+      "text": "Lightly toast the almonds in a pan over medium heat, and reserve for later"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Turn up the heat a bit and place the butter and half the sugar in the pan. When the sugar begins to melt, add the peaches skin-side down and cook until the bottoms begin to brown (about 5 minutes)"
+      "text": "Place the butter and half the sugar in the pan. When the sugar begins to melt, add the peaches skin-side down and cook until the bottoms begin to brown (about 5 minutes)"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Add the rum, flame it, and the remaining sugar and continue caramelizing for 1 more minute"
+      "text": "Add the rum, and the remaining sugar and continue caramelizing for 1 more minute"
     },
     {
       "post_notes": [],
@@ -66,18 +66,22 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Finely grate over the lemon zest, and remaining almonds as you serve"
+      "text": "Finely grate over the lemon zest and stir into the caramel, then immediately serve and sprinkle the almonds over"
     }
   ],
   "notes": [
     {
-      "text": "STATUS:DEVELOPMENT"
+      "text": "Try adding all the sugar at the start"
     }
   ],
   "title": "Grilled Peaches with Rum, Almond, Vanilla",
+  "quantity": {
+    "number": "4",
+    "label": "people"
+  },
   "serving_suggestions": [
     {
-      "text": "Serve with vanilla ice cream"
+      "text": "With vanilla ice cream"
     }
   ]
 }
