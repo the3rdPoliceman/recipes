@@ -38,28 +38,28 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "1 bunch of coriander",
+            "text": "1 large bunch of coriander",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "30ml lime juice",
+            "text": "40ml lime juice",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "3 tbsp sour cream",
+            "text": "30g sour cream",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "2 chipotle chile in adobo",
+            "text": "3 chipotle chile in adobo",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -80,21 +80,21 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "\u00bd tsp. smoked paprika",
+            "text": "1/2 tsp. smoked paprika",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "2 tbsp olive oil",
+            "text": "30ml olive oil",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "1 tbsp water",
+            "text": "15ml water",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
