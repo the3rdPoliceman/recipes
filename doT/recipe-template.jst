@@ -96,19 +96,20 @@
         {{? it.ingredient_list}}
         "recipeIngredient": [
             {{~ it.ingredient_list :ingredient_list_item:ingredient_list_item_index}}
+                {{? ingredient_list_item_index  > 0 }},{{?}}
                 {{? ingredient_list_item.type === "INGREDIENT"}}
-                    "{{= ingredient_list_item.text}}",
+                    "{{= ingredient_list_item.text}}"
                 {{?? ingredient_list_item.type === "INGREDIENT_SUB_LIST"}}
                     {{~  ingredient_list_item.ingredient_list :sub_list_ingredient:sub_list_ingredient_index}}
+                        {{? sub_list_ingredient_index  > 0 }},{{?}}
                         {{? sub_list_ingredient.type === "INGREDIENT"}}
-                            "{{= sub_list_ingredient.text}}",
+                            "{{= sub_list_ingredient.text}}"
                         {{?? sub_list_ingredient.type === "RECIPE_LINK"}}
-                            "{{= sub_list_ingredient.text}}",
+                            "{{= sub_list_ingredient.text}}"
                         {{?}}
                     {{~}}
-                    </div>
                 {{?? ingredient_list_item.type === "RECIPE_LINK"}}
-                    "{{= ingredient_list_item.text}}",
+                    "{{= ingredient_list_item.text}}"
                 {{?}}
             {{~}}
         ],
@@ -116,21 +117,23 @@
         {{? it.method}}
         "recipeInstructions": [
         {{~ it.method :method_item:method_item_index}}
-            {{? method_item.type === "METHOD_STEP"}}
-                {
-                "@type": "HowToStep",
-                "text": "
-                    {{? method_item.pre_notes}}
-                        {{~ method_item.pre_notes :pre_note:pre_note_index}}{{= pre_note.text}}. {{~}} 
-                    {{?}}
-                    {{= method_item.text}}. 
-                    {{? method_item.post_notes}}
-                        {{~ method_item.post_notes :post_note:post_note_index}}{{= post_note.text}}. {{~}} 
-                    {{?}}
-                    "
-                },
+            {{? method_item_index  > 0 }},{{?}}
+                {{? method_item.type === "METHOD_STEP"}}
+                    {
+                    "@type": "HowToStep",
+                    "text": "
+                        {{? method_item.pre_notes}}
+                            {{~ method_item.pre_notes :pre_note:pre_note_index}}{{= pre_note.text}}. {{~}} 
+                        {{?}}
+                        {{= method_item.text}}. 
+                        {{? method_item.post_notes}}
+                            {{~ method_item.post_notes :post_note:post_note_index}}{{= post_note.text}}. {{~}} 
+                        {{?}}
+                        "
+                    }
                 {{?? method_item.type === "METHOD_SUB_LIST"}}
                     {{~ method_item.method_steps :method_step:method_step_index}}
+                    {{? method_step_index  > 0 }},{{?}}
                     {
                         "@type": "HowToStep",
                         "text": "
@@ -142,12 +145,12 @@
                             {{~ method_step.post_notes :post_note:post_note_index}}{{= post_note.text}}. {{~}} 
                         {{?}}
                         "
-                    },
-                    {{~}} 
-                    </div>
+                    }
+                    {{~}}
                 {{?}}
             {{~}}
         {{?}}
+        ]
     }
     </script>
 </head>
