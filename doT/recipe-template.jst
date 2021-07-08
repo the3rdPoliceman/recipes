@@ -31,8 +31,126 @@
         });
       });
     </script>
+    <!--
+    Schema elements still to be completed
+    "keywords": "David Moore, Daves Recipes, Dave's Recipes"
+    "@id": "https://the3rdpoliceman.github.io/recipes/Recipes/",
+    "mainEntityOfPage":
+    {
+        "@type": "Webpage",
+        "@id": "https://the3rdpoliceman.github.io/recipes/Recipes/"
+    },
+    
+    Schema elements still to be implemented
+    "suitableForDiet": "http://schema.org/VegetarianDiet",
+    "recipeCuisine": "",
+    "datePublished": "2010-06-30 11:39:10",
+    "dateModified": "2020-08-25 17:19:53",
+    "description": "",
+    "image":
+    {
+        "@type": "ImageObject",
+        "height": 400,
+        "url": "https://image.url",
+        "width": 440
+    },
+    "recipeCategory": "",
+    "cookTime": "PT40M",
+    "prepTime": "PT40M",
+    "totalTime": "PT1H40M",
+    "recipeYield": 8,
+    -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        "@id": "https://the3rdpoliceman.github.io/recipes/Recipes/",
+        "name": "{{=it.title}}",
+        "mainEntityOfPage":
+        {
+            "@type": "Webpage",
+            "@id": "https://the3rdpoliceman.github.io/recipes/Recipes/"
+        },
+        "author":
+        {
+            "@type": "Person",
+            "name": "David Moore"
+        },
+        "publisher":
+        {
+            "@type": "Organization",
+            "name": "Daves Recipes",
+            "url": "https://the3rdpoliceman.github.io/recipes/index.html",
+            "logo":
+            {
+                "@type": "ImageObject",
+                "url": "https://the3rdpoliceman.github.io/recipes/images/avatar.svg",
+                "width": 240,
+                "height": 240
+            }
+        },
+        "keywords": "David Moore, Daves Recipes, Dave's Recipes",
+        "headline": "{{=it.title}}",
+        "isAccessibleForFree": "True",
+        "recipeYield": 8,
+        {{? it.ingredient_list}}
+        "recipeIngredient": [
+            {{~ it.ingredient_list :ingredient_list_item:ingredient_list_item_index}}
+                {{? ingredient_list_item.type === "INGREDIENT"}}
+                    "{{= ingredient_list_item.text}}",
+                {{?? ingredient_list_item.type === "INGREDIENT_SUB_LIST"}}
+                    {{~  ingredient_list_item.ingredient_list :sub_list_ingredient:sub_list_ingredient_index}}
+                        {{? sub_list_ingredient.type === "INGREDIENT"}}
+                            "{{= sub_list_ingredient.text}}",
+                        {{?? sub_list_ingredient.type === "RECIPE_LINK"}}
+                            "{{= sub_list_ingredient.text}}",
+                        {{?}}
+                    {{~}}
+                    </div>
+                {{?? ingredient_list_item.type === "RECIPE_LINK"}}
+                    "{{= ingredient_list_item.text}}",
+                {{?}}
+            {{~}}
+        ],
+        {{?}}
+        {{? it.method}}
+        "recipeInstructions": [
+        {{~ it.method :method_item:method_item_index}}
+            {{? method_item.type === "METHOD_STEP"}}
+                {
+                "@type": "HowToStep",
+                "text": "
+                    {{? method_item.pre_notes}}
+                        {{~ method_item.pre_notes :pre_note:pre_note_index}}{{= pre_note.text}}. {{~}} 
+                    {{?}}
+                    {{= method_item.text}}. 
+                    {{? method_item.post_notes}}
+                        {{~ method_item.post_notes :post_note:post_note_index}}{{= post_note.text}}. {{~}} 
+                    {{?}}
+                    "
+                },
+                {{?? method_item.type === "METHOD_SUB_LIST"}}
+                    {{~ method_item.method_steps :method_step:method_step_index}}
+                    {
+                        "@type": "HowToStep",
+                        "text": "
+                        {{? method_step.pre_notes}}
+                            {{~ method_step.pre_notes :pre_note:pre_note_index}}{{= pre_note.text}}. {{~}} 
+                        {{?}}
+                        {{= method_step.text}}. 
+                        {{? method_step.post_notes}}
+                            {{~ method_step.post_notes :post_note:post_note_index}}{{= post_note.text}}. {{~}} 
+                        {{?}}
+                        "
+                    },
+                    {{~}} 
+                    </div>
+                {{?}}
+            {{~}}
+        {{?}}
+    }
+    </script>
 </head>
-
 <body>
     {{? it.author === "Julia" }}
     <div class="avatar-holder">
