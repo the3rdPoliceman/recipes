@@ -40,12 +40,6 @@
         "@type": "Webpage",
         "@id": "https://the3rdpoliceman.github.io/recipes/Recipes/"
     },
-    
-    Schema elements still to be implemented
-    "suitableForDiet": "http://schema.org/VegetarianDiet",
-    "recipeCuisine": "",
-    "datePublished": "2010-06-30 11:39:10",
-    "dateModified": "2020-08-25 17:19:53",
     "description": "",
     "image":
     {
@@ -54,11 +48,16 @@
         "url": "https://image.url",
         "width": 440
     },
+    
+    Schema elements still to be implemented
+    "suitableForDiet": "http://schema.org/VegetarianDiet",
+    "recipeCuisine": "",
+    "datePublished": "2010-06-30 11:39:10",
+    "dateModified": "2020-08-25 17:19:53",
     "recipeCategory": "",
     "cookTime": "PT40M",
     "prepTime": "PT40M",
     "totalTime": "PT1H40M",
-    "recipeYield": 8,
     -->
     <script type="application/ld+json">
     {
@@ -92,7 +91,41 @@
         "keywords": "David Moore, Daves Recipes, Dave's Recipes",
         "headline": "{{=it.title}}",
         "isAccessibleForFree": "True",
-        "recipeYield": 8,
+        
+        {{? it.quantity }}
+            {{ { 
+                let yield = it.quantity.number + "";
+
+                if (it.quantity.dimensions != null){
+                    for (let i = 0; i < it.quantity.dimensions.length; i++) { 
+                        let dimension = it.quantity.dimensions[i];
+                        yield = yield + " " + dimension.magnitude;
+
+                        if ( i < (it.quantity.dimensions.length - 1)){
+                            yield = yield + " by";
+                        } 
+                    }
+                }
+                
+                if (it.quantity.label != null){
+                    yield = yield  + it.quantity.label;
+                }
+            }}
+                "recipeYield": "{{= yield}}",
+            {{ } }}
+        {{??}}
+        "recipeYield": 1,
+        {{?}}
+
+
+        "description": "{{=it.title}}",
+        "image":
+        {
+            "@type": "ImageObject",
+            "url": "https://the3rdpoliceman.github.io/recipes/images/avatar.svg",
+            "width": 240,
+            "height": 240
+        },
         {{? it.ingredient_list}}
         "recipeIngredient": [
             {{~ it.ingredient_list :ingredient_list_item:ingredient_list_item_index}}
