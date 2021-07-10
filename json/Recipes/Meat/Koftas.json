@@ -24,14 +24,14 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "1 large bunch of parsley",
+            "text": "1 bunch of parsley",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "1 large bunch of mint",
+            "text": "1 bunch of mint",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -89,7 +89,7 @@
     ],
     "method": [
         {
-            "text": "Chop the onion finely, crush the garlic, and mix everything together",
+            "text": "Chop the onion, pistachios and herbs finely, crush the garlic, and mix everything together",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
