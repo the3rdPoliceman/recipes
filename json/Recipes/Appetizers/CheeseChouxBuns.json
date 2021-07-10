@@ -73,7 +73,7 @@
     ],
     "method": [
         {
-            "text": "Heat oven to 200c Fan",
+            "text": "Heat oven to 200C Fan",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -115,7 +115,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Leave the mature to cool completely",
+            "text": "Leave the mixture to cool completely",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"

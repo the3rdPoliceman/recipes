@@ -3,14 +3,21 @@
     "source": null,
     "ingredient_list": [
         {
-            "text": "500g lamb mince, 30% fat min.",
+            "text": "500g lamb mince",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "100g pistachios",
+            "text": "300g pork mince (fatty)",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "50g pistachios",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -24,28 +31,49 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "1 onion",
+            "text": "1 large bunch of mint",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "1 clove garlic",
+            "text": "1 medium onion",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "6g salt",
+            "text": "3 cloves garlic",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "Pepper",
+            "text": "12g salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1tsp cumin",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "2g pepper",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tsp sumac",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -61,24 +89,19 @@
     ],
     "method": [
         {
-            "text": "Chop everything finely and add to the lamb mince",
+            "text": "Chop the onion finely, crush the garlic, and mix everything together",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Form mini burger shapes, chill to help hold shape and grill",
+            "text": "Form flattened meatball shapes, chill to help hold shape and grill",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         }
     ],
-    "notes": [
-        {
-            "text": "Try with mint, coriander, cumin, breadcrumbs",
-            "note_type": null
-        }
-    ],
+    "notes": [],
     "serving_suggestions": null,
     "variations": null,
     "attempt_log": null
