@@ -1,3 +1,4 @@
+<script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
@@ -96,3 +97,4 @@
     "suitableForDiet": "http://schema.org/VegetarianDiet",
     "recipeCuisine": "French"
 }
+</script>
