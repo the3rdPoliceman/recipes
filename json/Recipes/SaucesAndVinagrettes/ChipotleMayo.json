@@ -1,0 +1,29 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g mayo",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 chipotle chillis in adobo",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Finely chop or blend the chillis, then stir into the mayo"
+    }
+  ],
+  "notes": [],
+  "title": "Chipotle Mayo",
+  "quantity": {
+    "number": "1"
+  }
+}
