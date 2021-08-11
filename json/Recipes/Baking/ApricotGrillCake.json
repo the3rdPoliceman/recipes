@@ -1,0 +1,186 @@
+{
+  "ingredient_list": [
+    {
+      "name": "apricots",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "20g butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "30g sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "10ml vanilla rum",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "7 apricots",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "20 - 30 whole almonds",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "cake batter",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "90g butter, softened",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "175g granulated sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "2 eggs",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "40g yogurt",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 teaspoons pure vanilla extract",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "60ml whole milk",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "130g flour",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1.25 teaspoons baking powder",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1/2 teaspoon salt",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Preparation",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Prepare a suitable cake tin or saucepan - I used a deep two-handled saucepan. The pan must be able to go on a hob and fit in the BBQ with the lid on (I removed the grid from the BBQ so the saucepan sat lower inside it, and that allowed the lid to close properly)."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Line the pan with baking paper or foil"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Set up the BBQ for indirect heat if possible"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Apricots",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add the butter, and sugar to the lined pan an melt on the hob until it starts to color"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Halve the apricots, remove the stones and add to the pan along with the almonds and rum. Allow to cook while preparing the cake batter. Check occasionally to make sure it doesn't burn"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Whisk the butter with the sugar, then beat in the eggs"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Mix in the yogurt, vanilla and milk"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add in the flour, baking powder and salt, and fold into the mix. Don't stir more than necessry to combine"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Bake in the BBQ at medium heat until the top is set - it may not brown like a normal cake, especially if it's cooked in a deep saucepan. It took around 25 minutes, but that could vary a lot"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Take out when the top is cooked, and invert onto a serving dish"
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "title": "Apricot BBQ Cake",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "23",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round cake"
+  }
+}

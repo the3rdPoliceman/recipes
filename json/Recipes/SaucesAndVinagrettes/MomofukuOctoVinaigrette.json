@@ -3,14 +3,14 @@
     "source": null,
     "ingredient_list": [
         {
-            "text": "2 tbsp garlic",
+            "text": "5 cloves garlic",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "2 tbsp ginger",
+            "text": "30g ginger",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -38,9 +38,13 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "2 tbsp neutral oil (sunflower/rapeseed etc)",
+            "text": "30ml peanut oil",
             "optional": false,
-            "alternative_ingredients": [],
+            "alternative_ingredients": [
+                {
+                   "text": "rapeseed oil, sunflower oil"
+                }
+        ],
             "note": null,
             "type": "INGREDIENT"
         },
@@ -52,7 +56,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "1 tbsp sugar",
+            "text": "10g sugar",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -68,7 +72,7 @@
     ],
     "method": [
         {
-            "text": "Chop the garlic, ginger and chilli into ~2mm cubes",
+            "text": "Chop the garlic and ginger into cubes, roughly 2mm, and chop the chilli finely",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
