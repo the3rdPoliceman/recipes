@@ -1,0 +1,44 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "6 Prawns (heads on)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "700g coarse salt",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Get a plancha hot on the grill"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sprinkle a thin layer of salt on the pan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Set the prawns on top, then cover with the rest of the salt - the prawns should be completely covered"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sprinkle a little water on top, cover with a lid, and bake for a few minutes until just cooked"
+    }
+  ],
+  "notes": [],
+  "title": "Salt Grilled Prawns"
+}
