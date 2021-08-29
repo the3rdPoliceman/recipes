@@ -1,0 +1,48 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "800g Sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "300g water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25ml lemon juice",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Put the water and sugar in a pan and bring to the boil"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the lemon juice, and mix well"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Transfer to a clean pan (which helps to avoid crystals forming) and boil very gently until amber brown. How long this takes depends on how much it boils, but will normally be 30 minutes to an hour"
+    }
+  ],
+  "notes": [
+    {
+      "text": "The golden syrup will thicken as it cools"
+    }
+  ],
+  "title": "Golden Syrup"
+}
