@@ -1,0 +1,143 @@
+{
+  "ingredient_list": [
+    {
+      "name": "cake",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "150g soft butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "125g granulated sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "2.5 eggs",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "40g white flour",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1tsp baking powder",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "60g ground pistachios",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "100g ground almonds",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "Zest of 2 lemons",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1.5g salt",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "syrup",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "Juice of 1.5 lemons",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "40g granulated sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "60 g pistachios, roughly chopped",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the butter and sugar until pale and light - about 10 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the eggs in a small bowl, and gradually beat into the butter and sugar"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Combine the flour, baking powder, ground pistachios, ground almonds, lemon zest and salt in a bowl, then fold into the butter mix, stirring as little as possible"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Put the dough in a lined 18cm pan and bake until it starts coming away from the sides and a stick comes out clean. About 35 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Meanwhile, heat the lemon juice and sugar until the sugar dissolves. Add the chopped pistachios, bring to a boil and take off the heat"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Remove the cake from the tin, and take the baking paper off the bottom but leave it on the sides. Pour the hot pistachio syrup over the top and let everything cool down completely, then remove the baking paper from the sides"
+    }
+  ],
+  "notes": [],
+  "title": "Pistachio &amp; Lemon Cake",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round cake"
+  },
+  "serving_suggestions": [
+    {
+      "text": "Serve with gsreek yogurt"
+    }
+  ]
+}

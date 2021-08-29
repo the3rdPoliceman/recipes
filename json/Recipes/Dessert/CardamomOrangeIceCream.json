@@ -1,9 +1,6 @@
 {
     "title": "Cardamom and Orange ice cream",
-    "source": {
-        "href": null,
-        "text": "Not Sure"
-    },
+    "source": null,
     "ingredient_list": [
         {
             "text": "7g green cardamom pods (about 2 tablespoons)",
@@ -55,7 +52,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "zest of 1 orange",
+            "text": "zest of 1/2 orange",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -95,7 +92,11 @@
         }
     ],
     "notes": [],
-    "serving_suggestions": null,
+    "serving_suggestions": [
+        {
+          "text": "Serve with almond & orange cake. In that case, leave the orange zest out of the ice cream"
+        }
+      ],
     "variations": null,
     "attempt_log": null
 }

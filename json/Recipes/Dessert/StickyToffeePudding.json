@@ -1,0 +1,200 @@
+{
+  "ingredient_list": [
+    {
+      "name": "Pudding",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "100g dates, roughly chopped",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1/2 tsp bicarbonate of soda",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "150ml boiling water",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "25g unsalted butter, softened",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "40g raw brown sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "40g light brown sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1 egg",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "15ml vanilla rum",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "90g flour",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1g salt",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1/2 tsp baking powder",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "Pinch of ground cloves",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "Sauce",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "55g unsalted butter",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "30g raw brown sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "30g light brown sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "70ml double cream",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "1g salt",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Prepare the dates",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add the dates and baking soda to the boiling water. Bring back to the boil, then leave to sit until the dates soften a bit"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Make the Sauce",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "While the dates boil and soften, make the sauce. Add all the sauce ingredients to a pan and bring to the boil, then allow to bubble for a few minutes until it thickens"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Butter a 25*10cm cake pan, and pour half the sauce in the bottom and place in the freezer until you're ready to bake the pudding"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Make the Pudding",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cream the butter and sugar together until light and fluffy, then add the egg and vanilla and beat well"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Blend the softened dates to a puree, and stir into the mix"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Mix the flour, salt, baking powder and cloves together, and fold into the mix"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Take the pan out of the freezer, and pour the pudding batter in"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Bake at 170C until just firm to the touch - about 30 minutes"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Poke holes in the pudding with a skewer. Reheat the remaining half of the sauce from earlier and pour over the pudding"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Place under a hot grill for a few minutes until it turns a deep brown, but be careful as it can start to burn quite quickly"
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "title": "Sticky Toffee Pudding"
+}

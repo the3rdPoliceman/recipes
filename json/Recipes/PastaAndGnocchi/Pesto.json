@@ -1,0 +1,92 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.5 - 1 clove garlic",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "15g cedar nuts",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50g Basil leaves",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g parmesan",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "80ml olive oil (something mild)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1g salt",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Pound and grind the nuts and garlic in a mortar and pestle, until pulverised"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Rinse the basil, chop, add to the mortar with a little salt, and grind again until well broken down"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add cheese and oil, grind a third time until it froms a smooth green paste"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Carefully test and adjust the salt as necessary"
+    }
+  ],
+  "notes": [
+    {
+      "text": "The amount of garlic varies wildly depending on how strong it is. So start with half a clove if you're not sure"
+    },
+    {
+      "text": "Cheese - to be correct, this should really be a mix of parmesan/fiore sardo or parmesan/pecorino"
+    },
+    {
+      "text": "Nuts - this uses cedar nuts instead of pine nuts, since they're way cheaper and i can't tell the difference"
+    },
+    {
+      "text": "Some recipes suggest adding a small amount of butter. This probably gives a creamier result when you mix it with pasta and cooking water, as per the serving suggestion"
+    },
+    {
+      "text": "Can also be done in a food processor, but won't be quite as good"
+    }
+  ],
+  "title": "Pesto",
+  "quantity": {
+    "number": "4"
+  },
+  "serving_suggestions": [
+    {
+      "text": "Mix with your choice of pasta and a few spoons of the pasta cooking water"
+    }
+  ]
+}
