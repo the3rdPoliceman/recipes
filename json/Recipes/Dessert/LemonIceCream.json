@@ -10,7 +10,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "3 tsp cornflour",
+            "text": "2 tsp cornflour",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -31,14 +31,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "juice of 3 lemons",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "zest of 3 lemons",
+            "text": "3 lemons",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -64,8 +57,8 @@
         }
     ],
     "method": [
-        {
-            "text": "Put everything except the cream and limoncello in a saucepan",
+        {   
+            "text": "Zest and juice the lemons, and put everything except the cream and limoncello in a saucepan",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -85,11 +78,7 @@
     ],
     "notes": [
         {
-            "text": "<span class=\"quantity\">3</span> Lemons is extremely lemony, <span class=\"quantity\">2</span> is also good and still not subtle at all",
-            "note_type": null
-        },
-        {
-            "text": "Next time try - juice of <span class=\"quantity\">1</span> lemon, zest of <span class=\"quantity\">2</span> lemons, <span class=\"quantity\">2</span> tsp cornflour",
+            "text": "<span class=\"quantity\">3</span> Lemons is extremely lemony, <span class=\"quantity\">2</span> is also good, and <span class=\"quantity\">1</span> is also possible for a more subtle flavour",
             "note_type": null
         }
     ],

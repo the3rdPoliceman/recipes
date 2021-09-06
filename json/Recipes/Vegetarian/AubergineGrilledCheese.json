@@ -1,0 +1,93 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 aubergines",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g gruyere",
+      "alternative_ingredients": [
+        {
+          "text": "fontina, provalone"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 tomato",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "sprig of fresh thyme",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "salt and pepper",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g breadcrumbs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "vegetable oil",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat the oven to 180C"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cut the aubergines into 6-7mm thick slices, then slice the cheese and tomato and season them with thyme, salt and pepper"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Form the aubergine, cheese and tomato into \"sandwiches\" with the aubergine taking the part of the bread. Squish them a bit"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the eggs, brush on both sides and edges of the aubergine and dip the sandwiches in the breadcrumbs"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Shallow fry in around half a centimeter of oil over high heat until golden brown on both sides, then place on a baking tray lined with baking paper and bake for another 7-10 minutes"
+    }
+  ],
+  "notes": [],
+  "title": "Aubergine Grilled Cheese Sandwich",
+  "quantity": {
+    "number": "4"
+  }
+}
