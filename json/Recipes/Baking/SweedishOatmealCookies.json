@@ -1,0 +1,94 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g porridge oats",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "120g granulated light brown sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 egg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "15g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1tsp baking powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1g salt",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Melt the butter and mix in the porridge oats, followed by the flour, baking powder and salt"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk the egg and sugar together until pale and thick"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Fold the oats into the egg and sugar"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Line baking sheets with parchment, and spoon out the mix. You should only have 6 per large baking sheet as they spread a lot"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake at 170C until the edges are going a medium brown. About 6-8 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Remove from the oven, slide the baking paper off the pan, and leave to cool"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Best cooked reasonably near the bottom. This allows the bottom of the cookies to crisp up and release from the paper, while leaving the top a bit chewy"
+    }
+  ],
+  "title": "Swedish Oatmeal Cookies",
+  "quantity": {
+    "number": "12",
+    "label": "Cookies"
+  }
+}

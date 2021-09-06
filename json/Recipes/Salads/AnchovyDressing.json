@@ -1,0 +1,80 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3 anchovy fillets",
+      "alternative_ingredients": [
+        {
+          "text": "<span class=\"quantity\">20</span>g anchovy paste"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 small garlic clove",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 large lemon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100ml of extra virgin olive oil",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "pepper",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "salt",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Crush garlic and mash the anchovies"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Combine with the lemon juice and then whisk in the oil"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Season with pepper and taste"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add salt if necessary, although there may be enough from the anchovies"
+    }
+  ],
+  "notes": [
+    {
+      "text": "This is quite a thin dressing"
+    }
+  ],
+  "title": "Anchovy Dressing",
+  "quantity": {
+    "number": "150",
+    "label": "ml of dressing"
+  }
+}

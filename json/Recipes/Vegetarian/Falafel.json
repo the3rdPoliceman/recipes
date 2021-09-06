@@ -72,7 +72,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "1l vegetable oil for frying",
+          "text": "300ml water",
           "alternative_ingredients": []
         }
       ],
@@ -92,17 +92,17 @@
           "type": "INGREDIENT",
           "text": "1 tbsp Sesame seeds",
           "alternative_ingredients": []
-        },
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "Frying",
+      "ingredient_list": [
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "Tahini 15g in one third of mix",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "baking soda 1/3tsp in one third of mix",
+          "text": "1l vegetable oil",
           "alternative_ingredients": []
         }
       ],
@@ -126,7 +126,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Chop everything very finely in a food processor, adding a little water if necessary"
+      "text": "Chop everything very finely in a blender. Transfer the mix to a sieve, and leave until 200ml of the water has drained out (The water could be drained faster by squeezing in cheesecloth)"
     },
     {
       "post_notes": [],
@@ -138,18 +138,24 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Making the balls either by spooning straight into the oil or using the method <a href=\"https://www.youtube.com/watch?v=7RLQfCXdr-g\">here</a>. The video method is actually much easier than it looks"
+      "text": "Heat the oil to 180C"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Form the falafel either by spooning straight into the oil or using the method <a href=\"https://www.youtube.com/watch?v=7RLQfCXdr-g\">here</a>. The video method is actually much easier than it looks"
     }
   ],
   "notes": [
     {
-      "text": "How you form the balls will have a big effect on the texture, so avoid squeezing them into balls as they'll be densers"
+      "text": "The main reason for the water in this recipe is that it makes the blending much easier. Maybe with a food processor, it wouldn't be necessary"
     },
     {
-      "text": "This recipe is for egyptian style falafel or ta'ameya"
+      "text": "How you form the balls will have a big effect on the texture, so avoid squeezing them into balls as they'll be too dense"
     }
   ],
-  "title": "Falafel",
+  "title": "Egyptian Falafel (Ta'ameya)",
   "quantity": {
     "number": "3"
   }

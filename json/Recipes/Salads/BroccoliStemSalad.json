@@ -1,0 +1,75 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2-3 broccoli stems",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "small bunch parsley",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5 or 6 chives",
+      "alternative_ingredients": [
+        {
+          "text": "chive flowers"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50ml anchovy dressing",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "zest of 1/4 lemon",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Peel the rough outside from the broccoli stems and remove the end if it's woody"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Use a vegetable peeler to finely slice the stems (holding one end down on a chopping board with a fork makes this easier)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Finely chop the chives (or break apart the flowers), and parsley"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix everything and combine with the dressing"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Finely zest the lemon and sprinkle over"
+    }
+  ],
+  "notes": [],
+  "title": "Broccoli Stem Salad",
+  "quantity": {
+    "number": "1"
+  }
+}
