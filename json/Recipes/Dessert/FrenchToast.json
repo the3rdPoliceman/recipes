@@ -1,0 +1,67 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 egg yolks",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100ml double cream",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g bread (stale bread is better)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "10g butter",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk the cream, sugar and egg yolks together"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cut the bread into 2cm thick slices and submerge in the cream until it's all absorbed"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat a frying pan over a medium heat, melt the butter then gently fry the piece of bread until medium brown"
+    }
+  ],
+  "notes": [],
+  "title": "French Toast",
+  "serving_suggestions": [
+    {
+      "text": "Apple suace"
+    },
+    {
+      "text": "Whipped cream"
+    },
+    {
+      "text": "Vanilla ice cream"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 Apples",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "40g butter",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Gently heat the sugar in a pan until it forms a golden caramel"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Meanwhile, peel the apples and puree in a blender"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Once the caramel has turned golden, add the apple puree and bring back to the boil. After adding the apples, the caramel will probably have formed lumps, but continue to boil until all the caramel has disolved into the apples"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Take off the heat and whisk in the butter"
+    }
+  ],
+  "notes": [],
+  "title": "Caramelized Apple Sauce"
+}

@@ -8,42 +8,7 @@
     "source": null,
     "ingredient_list": [
         {
-            "text": "25g tablespoons breadcrumbs",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
             "text": "60ml full cream",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "1 tsp salt",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "1 tablespoon parsley",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "3 tablespoons grated parmesan",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "large pinch of nutmeg",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -57,7 +22,42 @@
             "type": "INGREDIENT"
         },
         {
+            "text": "30g tablespoons breadcrumbs",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tsp salt",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "1 tablespoon parsley, chopped",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "large pinch of nutmeg",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
             "text": "1 small onion",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "30g grated parmesan",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -94,13 +94,13 @@
     ],
     "method": [
         {
-            "text": "Mix breadcrumbs, cream, salt, parsley, cheese, and nutmeg, and leave to stand for 10 minutes",
+            "text": "Beat the cream and egg together, then add the breadcrumbs, salt, parsley and nutmeg, and leave to stand for 10 minutes",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Beat egg into cream, followed by onion, then mix into the meat",
+            "text": "Mix the onion and grated parmesan into the meat, the stir in the cream mixture",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
