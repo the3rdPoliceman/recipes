@@ -52,7 +52,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "75g almonds, finely chopped",
+            "text": "75g almonds, coarsely chopped",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -82,7 +82,7 @@
     ],
     "method": [
         {
-            "text": "Fry onion and shallots in butter",
+            "text": "Fry the onion and celery in butter",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -94,7 +94,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Cook",
+            "text": "Bake for around 45 minutes at 180C",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
