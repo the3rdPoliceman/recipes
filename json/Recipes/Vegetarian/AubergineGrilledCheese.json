@@ -9,10 +9,10 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "200g gruyere",
+      "text": "200g provolone",
       "alternative_ingredients": [
         {
-          "text": "fontina, provalone"
+          "text": "fontina, gruyere"
         }
       ]
     },
@@ -25,7 +25,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "sprig of fresh thyme",
+      "text": "sprig of basil",
       "alternative_ingredients": []
     },
     {
@@ -64,13 +64,13 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Cut the aubergines into 6-7mm thick slices, then slice the cheese and tomato and season them with thyme, salt and pepper"
+      "text": "Cut the aubergines into 6-7mm thick slices, then slice the cheese and tomato"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Form the aubergine, cheese and tomato into \"sandwiches\" with the aubergine taking the part of the bread. Squish them a bit"
+      "text": "Form the aubergine, cheese, basil leaves and tomato into \"sandwiches\" with the aubergine taking the part of the bread. Season them with salt and pepper, and squish them a bit"
     },
     {
       "post_notes": [],

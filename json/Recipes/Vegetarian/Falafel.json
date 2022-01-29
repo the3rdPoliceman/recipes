@@ -6,7 +6,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "200g Split Fava beans",
+          "text": "200g Fava beans",
           "alternative_ingredients": []
         },
         {
@@ -42,6 +42,12 @@
         {
           "optional": false,
           "type": "INGREDIENT",
+          "text": "300ml water",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
           "text": "1 Tsp Dried Coriander",
           "alternative_ingredients": []
         },
@@ -67,12 +73,6 @@
           "optional": false,
           "type": "INGREDIENT",
           "text": "10g salt",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "300ml water",
           "alternative_ingredients": []
         }
       ],
@@ -120,19 +120,25 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Roughly chop the greens and herbs, and then combine all the batter ingredients in a large bowl"
+      "text": "Roughly chop the greens and herbs, and then combine the fava beans, spring onions, leeks, coriander, parsley, crushed garlic and water in a large bowl"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Chop everything very finely in a blender. Transfer the mix to a sieve, and leave until 200ml of the water has drained out (The water could be drained faster by squeezing in cheesecloth)"
+      "text": "Chop everything very finely in a blender. Transfer the mix to a sieve, and leave until <span class=\"quantity\">200</span>ml of the water has drained out (The water can be drained faster by squeezing in cheesecloth)"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Beat thoroghly with an electric whisk until the batter aquires a mousse like consistency"
+      "text": "Add the remaining seasonings to the batter"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat thoroghly with an electric whisk until the batter aquires a lighter more mousse-like consistency"
     },
     {
       "post_notes": [],
@@ -144,7 +150,13 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Form the falafel either by spooning straight into the oil or using the method <a href=\"https://www.youtube.com/watch?v=7RLQfCXdr-g\">here</a>. The video method is actually much easier than it looks"
+      "text": "Prepare the topping by roughly crushing the coriander and sesame seeds with a mortar and pestle, grinder or food processor"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Form the falafel either by spooning straight into the oil or using the method <a href=\"https://www.youtube.com/watch?v=7RLQfCXdr-g\">here</a>. The video method is actually much easier than it looks. As you form them, dip them in the topping, or sprinkle it on top before adding them to the oil"
     }
   ],
   "notes": [
@@ -153,6 +165,9 @@
     },
     {
       "text": "How you form the balls will have a big effect on the texture, so avoid squeezing them into balls as they'll be too dense"
+    },
+    {
+      "text": "This should freeze well, but it deteriorates overnight in the fridge"
     }
   ],
   "title": "Egyptian Falafel (Ta'ameya)",
