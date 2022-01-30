@@ -111,6 +111,12 @@
     {
       "optional": false,
       "type": "INGREDIENT",
+      "text": "half a nutmeg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
       "text": "Salt and black pepper",
       "alternative_ingredients": []
     },
@@ -168,7 +174,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Add the chicken stock, tomatoes, milk, drained gelatin sheets and bay leaves. Season with a little salt and pepper (careful not to add too much as you'll add parmesan later and reduce the ragu)"
+      "text": "Add the chicken stock, tomatoes, milk, drained gelatin sheets, bay leaves and nutmeg. Season with a little salt and pepper (careful not to add too much as you'll add parmesan later and reduce the ragu)"
     },
     {
       "post_notes": [],
@@ -189,13 +195,6 @@
       "text": "Season with salt and pepper"
     }
   ],
-  "notes": [
-    {
-      "text": "Nutmeg seems to be a common addition in traditional recipes. Add about half a nutmeg next time."
-    }
-  ],
-  "title": "Ragu Bolognese",
-  "quantity": {
-    "number": "4"
-  }
+  "notes": [],
+  "title": "Ragu Bolognese"
 }
