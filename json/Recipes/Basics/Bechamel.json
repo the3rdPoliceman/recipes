@@ -39,7 +39,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1/4 nutmeg",
+      "text": "1/3 nutmeg",
       "alternative_ingredients": []
     },
     {
@@ -82,6 +82,9 @@
     }
   ],
   "notes": [
+    {
+      "text": "The amount of flour can be adjusted to give a thicker or thinner sauce. 100g will give quite a thick sauce, 80g will be much more pourable."
+    },
     {
       "text": "Measure how much salt"
     }

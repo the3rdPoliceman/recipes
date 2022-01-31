@@ -3,13 +3,19 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "Half a recipe ragu bolognese",
+      "text": "Half a recipe <span class=\"recipe-ref\"><a href=\"../PastaAndGnocchi/RaguBolognese.html\">Ragu Bolognese</a></span>",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "fresh spinach pasta, made with 300g flour",
+      "text": "<span class=\"recipe-ref\"><a href=\"../../Guides/PastaAndGnocchi/Pasta.html\">spinach pasta</a></span>, made with 300g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "<span class=\"recipe-ref\"><a href=\"../Basics/Bechamel.html\">Bechamel</a></span>, made with 1l milk and 80g flour",
       "alternative_ingredients": []
     },
     {
@@ -17,60 +23,6 @@
       "type": "INGREDIENT",
       "text": "60g grated parmesan",
       "alternative_ingredients": []
-    },
-    {
-      "name": "BECHAMEL",
-      "ingredient_list": [
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "1l milk",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "1 onion",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "3 bay leaves",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "4 cloves",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "90g butter",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "80g flour",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "1/3 nutmeg",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "salt and pepper",
-          "alternative_ingredients": []
-        }
-      ],
-      "type": "INGREDIENT_SUB_LIST"
     }
   ],
   "method": [
@@ -94,12 +46,6 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "To make the bechamel, heat the milk with the onion, bay leaves and cloves. Then leave to infuse for around half an hour. Melt the butter, before adding the flour and frying gently for a couple of minutes. Strain the milk and add it to the flour while whisking. Bring it up to the boil and cook it for 5 minutes. Add the nutmeg, and salt and pepper to taste."
-        },
-        {
-          "post_notes": [],
-          "pre_notes": [],
-          "type": "METHOD_STEP",
           "text": "Cook the pasta sheets for a couple of minutes in salted water, then drain"
         }
       ]
@@ -118,13 +64,13 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Add layers of pasta, ragu, bechamel, and parmesan until almost everything is used up. You don't want too much stuff between each pasta layer. You want at least 6 layers ideally - having more thin layers helps the structure of the lasagna"
+          "text": "Add layers of pasta, ragu, bechamel, and parmesan until almost everything is used up. You don't want too much filling between each pasta layer. Ideally, you should end up with at least 6 layers of pasta - more thin layers helps the structure of the lasagna"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Top with bechamel, a little ragu here and there and parmesan"
+          "text": "Top with bechamel, a spot of ragu here and there, and a little parmesan"
         },
         {
           "post_notes": [],
@@ -135,7 +81,11 @@
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "Calcuate pasta thickness in GSM, like paper"
+    }
+  ],
   "title": "Lasagna",
   "quantity": {
     "number": "6"
