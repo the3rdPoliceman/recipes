@@ -1,0 +1,131 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "500g frozen raspberries",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "90g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2tsp vanilla extract",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "375g mascarpone",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g Simple Syrup (50:50 water sugar by weight)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "12-16 savoiardi biscuits (enough to make layers)",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Leave the raspberries overnight in a sieve over a bowl, to thaw and collect the juice"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Have the eggs and mascarpone in the fridge overnight, and take them out 20 minutes before starting to make the tiramisu"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a bowl, whisk the egg whites until almost stiff. Add 20g sugar, and continue whisking until stiff"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a second bowl, whisk the egg yolks with the remaining sugar intil thick and pale. Whisk in the vanilla"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a third bowl, whisk the mascarpone on the slowest speed to soften it up a little. This will help it combine more easily with the other ingredients"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the egg yolk mix into the mascarpone, and whisk at the slowest setting until smoothly combined"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Fold in the egg whites"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix the juice from the raspberries with the simple syrup. Do this to taste, it should still be quite tart"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Dunk the biscuits in the juice until they soak a decent amount of it. The raspberry juice soaks in a lot slower than coffee"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Layer up mascarpone, then biscuits, then half the raspberries. Repeat, and finally top with the rest of the mascarpone"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Chill for a few hours before eating"
+    }
+  ],
+  "notes": [
+    {
+      "text": "The mascarpone tends to want to curdle if overwhipped or mixed with ingredients at different temperatures. That's why care with the temperature and whisking is emphasized here"
+    },
+    {
+      "text": "Maybe 2 egg yolks would be enough. 2 whites might also be fine"
+    }
+  ],
+  "title": "Raspberry Tiramisu",
+  "quantity": {
+    "number": "4"
+  },
+  "serving_suggestions": [
+    {
+      "text": "Sprinkle with lime leaf powder, ground up freeze dried raspberries, or cocoa powder"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 lemon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "40ml Grapeseed oil",
+      "alternative_ingredients": [
+        {
+          "text": "Rapeseed oil"
+        }
+      ]
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "If the lemon is waxed, wash and scrub it under boiling water, before drying it off"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Zest the lemon, being careful to get none of the white pith"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Blend the zest thoroughly with the oil, then pass through a fine sieve"
+    }
+  ],
+  "notes": [],
+  "title": "Lemon Oil",
+  "quantity": {
+    "number": "20",
+    "label": "ml"
+  }
+}

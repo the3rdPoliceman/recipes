@@ -11,14 +11,14 @@
     },
     "ingredient_list": [
         {
-            "text": "7 egg whites",
+            "text": "6 egg whites",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "8 egg yolks",
+            "text": "6 egg yolks",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -126,6 +126,10 @@
     "notes": [
         {
             "text": "One third recipe for small blue dish",
+            "note_type": "PERSONAL"
+        },
+        {
+            "text": "Mascarpone is prone to curdling, so it should be whipped gently and as little as possible. It is said to be more likely to curdle if it's warm or different in temperature to other things added to it, so maybe best if everything is straight from the fridge. One advice is to leave it out 15 mins before using. Common advice to salvage curdled mascarpone is to put it into a double boiler for a couple fo minutes until smooth, then cool and rewhip",
             "note_type": "PERSONAL"
         }
     ],

@@ -1,0 +1,93 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1/3 a recipe <span class=\"recipe-ref\"><a href=\"../PastaAndGnocchi/RaguBolognese.html\">Ragu Bolognese</a></span>",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "<span class=\"recipe-ref\"><a href=\"../../Guides/PastaAndGnocchi/Pasta.html\">spinach pasta</a></span>, made with 250g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "<span class=\"recipe-ref\"><a href=\"../Basics/Bechamel.html\">Bechamel</a></span>, made with 1l milk and 80g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60g grated parmesan",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Preparation",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Preheat the oven to 170C"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Make the pasta and roll into sheets - probably on the thinnest setting, but if that's incredibly thin use the next one up"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cook the pasta sheets for a couple of minutes in salted water, then drain"
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Assembling the Lasagna",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Spread a very small amount of the ragu in the base of the dish you're using"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add layers of pasta, ragu, bechamel, and parmesan until almost everything is used up. You don't want too much filling between each pasta layer. Ideally, you should end up with at least 6 layers of pasta - more thin layers helps the structure of the lasagna"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Top with bechamel, a spot of ragu here and there, and a little parmesan"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Bake until the top is browning (about 30 minutes)"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "text": "Calcuate pasta thickness in GSM, like paper"
+    }
+  ],
+  "title": "Lasagne",
+  "quantity": {
+    "number": "6"
+  }
+}
