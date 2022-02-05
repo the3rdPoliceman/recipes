@@ -3,13 +3,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "Half a recipe <span class=\"recipe-ref\"><a href=\"../PastaAndGnocchi/RaguBolognese.html\">Ragu Bolognese</a></span>",
+      "text": "1/3 a recipe <span class=\"recipe-ref\"><a href=\"../PastaAndGnocchi/RaguBolognese.html\">Ragu Bolognese</a></span>",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "<span class=\"recipe-ref\"><a href=\"../../Guides/PastaAndGnocchi/Pasta.html\">spinach pasta</a></span>, made with 300g flour",
+      "text": "<span class=\"recipe-ref\"><a href=\"../../Guides/PastaAndGnocchi/Pasta.html\">spinach pasta</a></span>, made with 250g flour",
       "alternative_ingredients": []
     },
     {
@@ -86,7 +86,7 @@
       "text": "Calcuate pasta thickness in GSM, like paper"
     }
   ],
-  "title": "Lasagna",
+  "title": "Lasagne",
   "quantity": {
     "number": "6"
   }
