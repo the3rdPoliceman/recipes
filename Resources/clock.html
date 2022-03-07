@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><body><canvas id="canvas" width="400" height="400" style="background-color:#FFF"></canvas><script>var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+drawClock();
+
+function drawClock() {
+  drawFace(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+  
+  //outline
+  ctx.beginPath();
+  ctx.fillStyle = 'white';
+  ctx.arc(0, 0, radius, 0, 2*Math.PI);
+  ctx.fill();
+  ctx.lineWidth = radius*0.05;
+  ctx.stroke();
+  
+  // draw center
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.05, 0, 2*Math.PI);
+  ctx.fillStyle = '#333';
+  ctx.fill();
+  
+  //draw hour divisions
+  for (let hour = 0; hour < 12; hour++) {
+  	let angleInRadians = (pi/6) * hour;
+    let startRadius = radius * 0.7
+    let endRadius = radius * 0.85
+    
+    let strokeStartX = Math.sin(angleInRadians) * startRadius;
+    let strokeStartY = Math.cos(angleInRadians) * startRadius;
+    let strokeEndX = Math.sin(angleInRadians) * endRadius;
+    let strokeEndY = Math.cos(angleInRadians) * endRadius;
+    
+    console.log(strokeStartX);
+    console.log(strokeStartY);
+    console.log(strokeEndX);
+    console.log(strokeEndY);
+    
+    ctx.beginPath();
+    ctx.moveTo(strokeStartX, strokeStartY);
+    ctx.lineTo(strokeEndX, strokeEndY);
+    ctx.stroke();
+  }
+  
+}</script></body></html>
