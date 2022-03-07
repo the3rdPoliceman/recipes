@@ -3,19 +3,19 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1/3 a recipe <span class=\"recipe-ref\"><a href=\"../PastaAndGnocchi/RaguBolognese.html\">Ragu Bolognese</a></span>",
+      "text": "750g <span class=\"recipe-ref\"><a href=\"../PastaAndGnocchi/RaguBolognese.html\">Ragu Bolognese</a></span> (Roughly 1/4 recipe)",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "<span class=\"recipe-ref\"><a href=\"../../Guides/PastaAndGnocchi/Pasta.html\">spinach pasta</a></span>, made with 250g flour",
+      "text": "<span class=\"recipe-ref\"><a href=\"../../Guides/PastaAndGnocchi/Pasta.html\">spinach pasta</a></span>, made with 300g flour, 150g egg, 70g spinach",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "<span class=\"recipe-ref\"><a href=\"../Basics/Bechamel.html\">Bechamel</a></span>, made with 1l milk and 80g flour",
+      "text": "<span class=\"recipe-ref\"><a href=\"../Basics/Bechamel.html\">Bechamel</a></span>, made with 1.3l milk and 90g flour",
       "alternative_ingredients": []
     },
     {
@@ -34,7 +34,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Preheat the oven to 170C"
+          "text": "Preheat the oven to 160C"
         },
         {
           "post_notes": [],
@@ -52,8 +52,20 @@
     },
     {
       "type": "METHOD_SUB_LIST",
-      "text": "Assembling the Lasagna",
+      "text": "Assembling",
       "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "If the ragu was cold, heat it up and stir in enough water that its easily spreadable"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Set aside 200g of bechamel to use for covering the top at the end"
+        },
         {
           "post_notes": [],
           "pre_notes": [],
@@ -64,26 +76,26 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Add layers of pasta, ragu, bechamel, and parmesan until almost everything is used up. You don't want too much filling between each pasta layer. Ideally, you should end up with at least 6 layers of pasta - more thin layers helps the structure of the lasagna"
+          "text": "Add layers of pasta, ragu, bechamel, and parmesan until almost everything is used up. You don't want too much filling between each pasta layer. Ideally, you should end up with at least 6 layers of pasta - more thin layers helps the structure"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Top with bechamel, a spot of ragu here and there, and a little parmesan"
+          "text": "Top with the bechamel you set aside at the start, a spot of ragu here and there, and a little parmesan"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Bake until the top is browning (about 30 minutes)"
+          "text": "Bake until the top is browning, about 40 minutes. It's better to cook reasonably long at a slow temperature, so the pasta has time to absorb the ragu and bechamel"
         }
       ]
     }
   ],
   "notes": [
     {
-      "text": "Calcuate pasta thickness in GSM, like paper"
+      "text": "Calcuate pasta thickness in GSM, like paper. I used the thinnest setting on the pasta roller"
     }
   ],
   "title": "Lasagne",

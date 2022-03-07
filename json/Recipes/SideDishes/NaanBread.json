@@ -89,25 +89,25 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Get a frying pan super hot",
+            "text": "Get a frying pan super hot. A hotter pan gives much better air blisters in the bread",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Divide the dough into 4 and roll out thin (the seeds really help to get even thickness). You'll need more flour",
+            "text": "Divide the dough into <span class=\"quantity\">4</span> and roll out thin (the seeds really help to get even thickness). You'll need more flour",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Dry fry until cooked on first side, flip and let cook out",
+            "text": "Dry fry until cooked on first side, flip and let the other side brown",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Brush with melted butter",
+            "text": "Take out and brush with melted butter",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
