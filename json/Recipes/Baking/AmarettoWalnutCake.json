@@ -1,9 +1,14 @@
 {
     "title": "Amaretto & Walnut Cake",
-    "quantity": {
-        "number": "10",
-        "dimensions": [],
-        "label": ""
+    "quantity":
+    {
+        "number": "1",
+        "dimensions": [
+        {
+            "magnitude": "23",
+            "number_of_dimensions": "2"
+        }],
+        "label": "cm cake"
     },
     "source": {
         "href": "https://www.youtube.com/watch?v=HH9vJZeU43Q&list=PLQNeRlHk_5USDMjrYL_kjRxeOm9p5xmO1&index=7",
