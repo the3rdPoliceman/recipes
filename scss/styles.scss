@@ -57,11 +57,11 @@
     --col-primary-2: hsl(189, 87%, 27%);
     --col-primary-3: hsl(189, 87%, 33%);
     --col-primary-4: hsl(189, 87%, 38%);
-    --col-primary-5: hsl(189, 87%, 43%);
-    --col-primary-6: hsl(189, 87%, 48%);
-    --col-primary-7: hsl(189, 87%, 56%);
-    --col-primary-8: hsl(189, 87%, 67%);
-    --col-primary-9: hsl(189, 87%, 78%);
+    --col-primary-5: hsl(189, 72%, 43%);
+    --col-primary-6: hsl(189, 60%, 48%);
+    --col-primary-7: hsl(189, 55%, 56%);
+    --col-primary-8: hsl(189, 50%, 67%);
+    --col-primary-9: hsl(189, 45%, 78%);
 
     --col-accent-0: hsl(40, 89%, 15%);
     --col-accent-1: hsl(40, 89%, 30%);
@@ -349,6 +349,11 @@ a:focus {
 
 table>thead {
     background: var(--col-primary-4);
+    color: var(--col-grey-9);
+}
+
+.row-header{
+    background: var(--col-primary-6);
     color: var(--col-grey-9);
 }
 
