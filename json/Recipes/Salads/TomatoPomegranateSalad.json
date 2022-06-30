@@ -1,0 +1,102 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1kg tomatoes (mixed, best you can get)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 red pepper",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 small red onion",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 clove of garlic",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "10ml red wine vinegar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25ml pomegranate molasses",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60ml olive oil, plus a little extra to drizzle at the end",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 pomegranate",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 small bunch oregano leaves",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Salt and pepper",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cut the tomatoes and pepper into roughly 0.5cm dice, and chop the onion as finely as possible. Mix together in a large bowl"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Crush the garlic and combine with the vinegar, pomegranate molasses and oil, and stir into the tomato mix"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Taste for salt and vinegar. It'll probably need 2-3 grams of salt"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Seed the pomegranate"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Before serving, finely chop the oregano and stir into the tomatoes along with half the pomegranate seeds.Sprinkle the remaining seeds on top, and drizzle with a bit more olive oil"
+    }
+  ],
+  "notes": [],
+  "title": "Tomato and Pomegranate Salad",
+  "source": {
+    "text": "Ottolenghi",
+    "href": "https://ottolenghi.co.uk/recipes/tomato-and-pomegranate-salad"
+  }
+}
