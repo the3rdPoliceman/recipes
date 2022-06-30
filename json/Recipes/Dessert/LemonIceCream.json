@@ -78,11 +78,18 @@
     ],
     "notes": [
         {
-            "text": "<span class=\"quantity\">3</span> Lemons is extremely lemony, <span class=\"quantity\">2</span> is also good, and <span class=\"quantity\">1</span> is also possible for a more subtle flavour",
+            "text": "<span class=\"quantity\">3</span> Lemons is extremely lemony, less would also be ok.",
             "note_type": null
         }
     ],
     "serving_suggestions": null,
-    "variations": null,
+    "variations": [
+    {
+      "text": "Use 2 lemons and 120g sugar"
+    },
+    {
+      "text": "Use 1 lemons and 100g sugar, for a much more subtle flavor"
+    }
+  ],
     "attempt_log": null
 }

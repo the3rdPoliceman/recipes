@@ -15,14 +15,7 @@
     },
     "ingredient_list": [
         {
-            "text": "60g 90% chocolate, frozen",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "125g unsalted butter, softened",
+            "text": "105g unsalted butter, softened",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -43,7 +36,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "3 eggs, separated",
+            "text": "2 eggs, separated",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -57,14 +50,14 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "100g whole almonds",
+            "text": "60g 90% chocolate, frozen",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "1 teaspoon ground cardamom",
+            "text": "120g ground almonds",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -78,7 +71,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "0.25 teaspoon ground cinnamon",
+            "text": "10g cocoa powder",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -92,7 +85,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "zest of 1.5 oranges",
+            "text": "0.75tsp baking powder",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -119,31 +112,25 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Blitz the almonds and frozen chocolate until they're like very coarse sand",
+            "text": "Blitz the frozen chocolate until it has the texture of coarse sand",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Mix the almonds, chocolate, and all the remaining ingredients well together",
+            "text": "Mix the almonds, chocolate, salt, cocoa, zest and baking powder together",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Fold these into the butter mixture",
+            "text": "Beat the egg whites until stiff, then combine the butter mix, almond mix and egg wites in a bowl, and beat slowly together until just combined",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Beat the egg whites until stiff, and fold into the mix",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Bake until done. Check after around 40 minutes for 18cm cake",
+            "text": "Bake until skewer comes out clean. It'll probably need an hour, but check after around 50 minutes",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"

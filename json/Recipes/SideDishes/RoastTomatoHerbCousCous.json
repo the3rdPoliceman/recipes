@@ -1,0 +1,114 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "250g cherry tomatoes",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "75g whole almonds",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "250ml couscous",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60ml olive oil",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1.5tsp ras el hanout",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "250ml boiling water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Salt and black pepper",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 onions",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 teaspoon cumin seeds",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 bunch of cilantro leaves",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 bunch of mint leaves",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1/2 lemon",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Roast the tomatoes with a bit of olive oil and salt until they start to go brown in patches. When the tomatoes are nearly done, add the almonds to the oven (keep separate) and roast for about 5 minutes until they start to brown"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix a teaspoon of the ras el hanout and about half a teaspoon of salt into the couscous along with about 20ml of the oil and the boiling water. Cover and leave for 10 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Slice the onions as finely as possible and fry with the remaining ras el hanout, oil and a bit of salt until well browned. Add the cumin seeds towards the end and fry for a couple of minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Once the couscous has cooled down a bit, roughly chop the almonds, finely chop the herbs, and zest the lemon. Mix them all into the couscous, along with the onions and the juice from the roasted tomatoes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Squeeze over some juice from the lemon and put the tomatoes on top"
+    }
+  ],
+  "notes": [],
+  "title": "Roast Tomato &amp; Herb Couscous",
+  "source": {
+    "text": "Ottolenghi via Food52",
+    "href": "https://food52.com/recipes/77878-ottolenghi-s-couscous-cherry-tomato-herb-salad"
+  }
+}

@@ -196,5 +196,10 @@
     }
   ],
   "notes": [],
-  "title": "Sticky Toffee Pudding"
+  "title": "Sticky Toffee Pudding",
+  "variations": [
+    {
+      "text": "Try using hot black tea instead of hot water"
+    }
+  ]
 }
