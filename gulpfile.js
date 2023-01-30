@@ -59,6 +59,7 @@ function generateRecipesFromJson(callback) {
   let files = [];
   getAllJsonFiles("json/Recipes", files);
   for (let index = 0; index < files.length; index++) {
+    console.log("generating recipe for " + files[index]);
     let recipe_as_string = fs.readFileSync(files[index], 'utf8');
     let recipe_as_json = JSON.parse(recipe_as_string);
     let recipe_as_html = templateFunction(recipe_as_json);
