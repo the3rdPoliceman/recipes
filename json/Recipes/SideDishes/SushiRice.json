@@ -6,11 +6,9 @@
         "label": ""
     },
     "source": null,
-    "ingredient_list": [
-        {
+    "ingredient_list": [{
             "name": "Rice",
-            "ingredient_list": [
-                {
+            "ingredient_list": [{
                     "text": "400g Sushi Rice",
                     "optional": false,
                     "alternative_ingredients": [],
@@ -36,8 +34,7 @@
         },
         {
             "name": "Vinegar Seasoning",
-            "ingredient_list": [
-                {
+            "ingredient_list": [{
                     "text": "25g sugar",
                     "optional": false,
                     "alternative_ingredients": [],
@@ -62,10 +59,9 @@
             "type": "INGREDIENT_SUB_LIST"
         }
     ],
-    "method": [
-        {
+    "method": [{
             "text": "Wash the rice in cold water (warm water will result in less sticky rice) until the water runs clear (clear clear!), and leave to drain in a colander (ideally for 30mins+)",
-            "post_notes": [See <a href="https://www.youtube.com/watch?v=d9ZPG5Esbb8">this guy washing it</a> for an example],
+            "post_notes": ["See < a href = \"https://www.youtube.com/watch?v=d9ZPG5Esbb8\" > this guy washing it < /a> for an example"],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
@@ -106,12 +102,10 @@
             "type": "METHOD_STEP"
         }
     ],
-    "notes": [
-        {
-            "text": "Need to decide on exactly how much vinegar mix is needed. Some recipes suggest more",
-            "note_type": null
-        }
-    ],
+    "notes": [{
+        "text": "Need to decide on exactly how much vinegar mix is needed. Some recipes suggest more",
+        "note_type": null
+    }],
     "serving_suggestions": null,
     "variations": null,
     "attempt_log": null
