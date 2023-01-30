@@ -93,7 +93,7 @@ function syncBrowser() {
     './target/*.html',
     './target/Recipes/**/*.html',
     './target/css/*.css',
-    './target/images/**/*.{png,jpg,gif,xml,json}',
+    './target/images/**/*.{png,jpg,jpeg,gif,xml,json,svg}',
     './target/js/*.js'
   ];
 
@@ -122,7 +122,7 @@ function copyCssToTarget() {
 }
 
 function copyImagesToTarget() {
-  return src('./images/**/*.{png,jpg,gif,svg,xml,json}').pipe(dest('./target/images'));
+  return src('./images/**/*.{png,jpg,jpeg,gif,svg,xml,json}').pipe(dest('./target/images'));
 }
 
 function copyJavascriptToTarget() {
@@ -163,7 +163,7 @@ function generateCss() {
 
 // // Images
 function minifyImages() {
-  return src('images/**/*.{png,jpg,gif,svg}')
+  return src('images/**/*.{png,jpg,jpeg,gif,svg}')
     .pipe(imagemin({
       optimizationLevel: 3,
       progressive: true,
