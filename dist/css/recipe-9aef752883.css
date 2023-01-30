@@ -126,202 +126,231 @@
   --col-tx-grey-2: var(--col-grey-3);
   --col-tx-grey-3: var(--col-grey-4);
   --bottom-box-shadow-1:
-        1px 1px 3px hsla(0, 0%, 20%, .2),
-        1px 1px 8px hsla(0, 0%, 20%, .1);
+      1px 1px 3px hsla(0, 0%, 20%, .2),
+      1px 1px 8px hsla(0, 0%, 20%, .1);
   --bottom-box-shadow-2:
-        1px 2px 3px hsla(0, 0%, 20%, .2),
-        1px 2px 8px hsla(0, 0%, 20%, .1);
+      1px 2px 3px hsla(0, 0%, 20%, .2),
+      1px 2px 8px hsla(0, 0%, 20%, .1);
   --bottom-box-shadow-3:
-        2px 4px 5px hsla(0, 0%, 20%, .2),
-        2px 4px 18px hsla(0, 0%, 20%, .1);
+      2px 4px 5px hsla(0, 0%, 20%, .2),
+      2px 4px 18px hsla(0, 0%, 20%, .1);
   --bottom-box-shadow-4:
-        3px 6px 8px hsla(0, 0%, 20%, .3),
-        3px 6px 25px hsla(0, 0%, 20%, .15);
+      3px 6px 8px hsla(0, 0%, 20%, .3),
+      3px 6px 25px hsla(0, 0%, 20%, .15);
   --bottom-box-shadow-5:
-        5px 10px 20px hsla(0, 0%, 20%, .4),
-        5px 10px 50px hsla(0, 0%, 20%, .2);
+      5px 10px 20px hsla(0, 0%, 20%, .4),
+      5px 10px 50px hsla(0, 0%, 20%, .2);
   --hor-box-shadow-1:
-        4.5px 0px 2.2px hsla(0, 0%, 0%, 0.02),
-        -4.5px 0px 2.2px hsla(0, 0%, 0%, 0.02);
+      4.5px 0px 2.2px hsla(0, 0%, 0%, 0.02),
+      -4.5px 0px 2.2px hsla(0, 0%, 0%, 0.02);
   --hor-box-shadow-2:
-        2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
-        6.7px 0px 5.3px hsla(0, 0%, 0%, 0.02),
-        -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
-        -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.02);
+      2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
+      6.7px 0px 5.3px hsla(0, 0%, 0%, 0.02),
+      -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
+      -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.02);
   --hor-box-shadow-3:
-        2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
-        6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
-        12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
-        22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
-        -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
-        -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
-        -12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
-        -22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024);
+      2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
+      6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
+      12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
+      22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
+      -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.02),
+      -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
+      -12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
+      -22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024);
   --hor-box-shadow-4:
-        2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
-        6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
-        12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
-        22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
-        41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030),
-        -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
-        -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
-        -12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
-        -22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
-        -41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030);
+      2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
+      6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
+      12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
+      22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
+      41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030),
+      -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
+      -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
+      -12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
+      -22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
+      -41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030);
   --hor-box-shadow-5:
-        2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
-        6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
-        12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
-        22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
-        41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030),
-        100px 0px 80px hsla(0, 0%, 0%, 0.02),
-        -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
-        -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
-        -12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
-        -22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
-        -41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030),
-        -100px 0px 80px hsla(0, 0%, 0%, 0.02);
+      2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
+      6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
+      12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
+      22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
+      41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030),
+      100px 0px 80px hsla(0, 0%, 0%, 0.02),
+      -2.8px 0px 2.2px hsla(0, 0%, 0%, 0.01),
+      -6.7px 0px 5.3px hsla(0, 0%, 0%, 0.016),
+      -12.5px 0px 10px hsla(0, 0%, 0%, 0.02),
+      -22.3px 0px 17.9px hsla(0, 0%, 0%, 0.024),
+      -41.8px 0px 33.4px hsla(0, 0%, 0%, 0.030),
+      -100px 0px 80px hsla(0, 0%, 0%, 0.02);
   font-family: var(--ff-main);
   font-size: var(--fs-0);
   font-weight: var(--fw-1);
-  color: var(--col-tx-grey-1); }
+  color: var(--col-tx-grey-1);
+}
 
 p {
   margin: var(--vert-space) 0;
-  line-height: var(--vert-space); }
+  line-height: var(--vert-space);
+}
 
 h1 {
   margin: var(--vert-space-1) 0 var(--vert-space-1) 0;
-  line-height: calc(5.2917/var(--space)* var(--vert-space)); }
+  line-height: calc(5.2917 / var(--space) * var(--vert-space));
+}
 
 h2 {
   margin: var(--vert-space-2) 0 var(--vert-space-3) 0;
-  line-height: 1em; }
+  line-height: 1em;
+}
 
 h3 {
   margin: var(--vert-space-1) 0 var(--vert-space-3) 0;
-  line-height: 1em; }
+  line-height: 1em;
+}
 
 h4,
 h5,
 h6 {
   margin: var(--vert-space-2) 0 var(--vert-space-3) 0;
-  line-height: var(--vert-space); }
+  line-height: var(--vert-space);
+}
 
 .bigtitle,
 h1 {
   font-size: var(--fs-7);
-  word-break: break-word; }
+  word-break: break-word;
+}
 
 .title,
 h2 {
   font-size: var(--fs-5);
   font-weight: var(--fw-1);
-  word-break: break-word; }
+  word-break: break-word;
+}
 
 .subheading1,
 h3 {
   font-size: var(--fs-3);
   font-weight: var(--fw-1);
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  letter-spacing: 0.1em;
+}
 
 .subheading2,
 h4 {
   font-size: var(--fs-2);
-  text-transform: capitalize; }
+  text-transform: capitalize;
+}
 
 .subheading3,
 h5 {
   font-size: var(--fs-1);
   font-weight: var(--fw-1);
   text-transform: uppercase;
-  letter-spacing: .15em; }
+  letter-spacing: 0.15em;
+}
 
 .subheading4,
 h6 {
   font-size: var(--fs-0);
   font-weight: var(--fw-1);
   font-style: italic;
-  letter-spacing: 0px !important; }
+  letter-spacing: 0px !important;
+}
 
 .caption_ts {
   font-size: var(--fs--2);
   font-weight: var(--fw-1);
-  font-style: italic; }
+  font-style: italic;
+}
 
 blockquote {
   font-size: var(--fs-0);
   font-style: italic;
-  line-height: calc(1*var(--vert-space));
-  margin: var(--vert-space-2) var(--vert-space-2); }
+  line-height: calc(1 * var(--vert-space));
+  margin: var(--vert-space-2) var(--vert-space-2);
+}
 
 .endnote_ts {
-  font-size: var(--fs--2); }
+  font-size: var(--fs--2);
+}
 
 .footnote_ts {
   margin: var(--vert-space-1) 0 var(--vert-space-2) 0;
   font-size: var(--fs--3);
   border-top: 1px solid #ccc;
-  line-height: 2em; }
+  line-height: 2em;
+}
 
 sup {
   font-size: var(--fs--3);
-  margin: .5em;
+  margin: 0.5em;
   text-transform: none;
   font-style: italic;
-  font-weight: var(--fw-1); }
+  font-weight: var(--fw-1);
+}
 
 /****  GENERAL STYLES ****/
 :focus {
-  outline: none; }
+  outline: none;
+}
 
 body {
   background: var(--col-grey-8);
   font-family: circe-rounded;
-  color: var(--col-tx-grey-1); }
+  color: var(--col-tx-grey-1);
+}
 
 a {
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 a:hover,
 a:focus {
   color: var(--col-primary-4);
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 table > thead {
   background: var(--col-primary-4);
-  color: var(--col-grey-9); }
+  color: var(--col-grey-9);
+}
 
 .row-header {
   background: var(--col-primary-6);
-  color: var(--col-grey-9); }
+  color: var(--col-grey-9);
+}
 
 td {
-  color: var(--col-tx-grey-1); }
+  color: var(--col-tx-grey-1);
+}
 
 caption {
   padding-top: var(--vert-space-3);
-  color: var(--col-tx-grey-3); }
+  color: var(--col-tx-grey-3);
+}
 
 figcaption {
   padding-top: var(--vert-space-3);
-  color: var(--col-tx-grey-3); }
+  color: var(--col-tx-grey-3);
+}
 
 input {
   border: 2px solid var(--col-grey-6);
   color: var(--col-tx-grey-1);
-  padding-bottom: var(--vert-space-0); }
+  padding-bottom: var(--vert-space-0);
+}
 
 .small-image {
-  width: 200px; }
+  width: 200px;
+}
 
 /****  TOP MENU ****/
 .nav-bar {
   clear: both;
   width: 100%;
   background: var(--col-grey-9);
-  padding: var(--hor-space-4) var(--gutter-2) var(--hor-space-5) var(--gutter-2); }
+  padding: var(--hor-space-4) var(--gutter-2) var(--hor-space-5) var(--gutter-2);
+}
 
 .nav-link {
   background: var(--col-grey-9);
@@ -331,42 +360,51 @@ input {
   text-transform: uppercase;
   font-size: var(--fs--1);
   letter-spacing: 0.8px;
-  padding: var(--vert-space-4) 0px 0px 0px !important; }
+  padding: var(--vert-space-4) 0px 0px 0px !important;
+}
 
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
   text-decoration: none;
   color: var(--col-primary-3);
-  border-bottom: solid 2px var(--col-primary-3); }
+  border-bottom: solid 2px var(--col-primary-3);
+}
 
 .nav-button-left {
   float: left;
-  margin-right: var(--hor-space-7); }
+  margin-right: var(--hor-space-7);
+}
 
 .nav-button-right {
   float: right;
-  margin-left: var(--hor-space-7); }
+  margin-left: var(--hor-space-7);
+}
 
 @media (max-width: 748px) {
   .nav-button-left {
     margin-right: var(--hor-space-0);
-    border-bottom: none; }
+    border-bottom: none;
+  }
   .nav-button-right {
     margin-left: var(--hor-space-0);
-    border-bottom: none; } }
-
+    border-bottom: none;
+  }
+}
 .navbar-toggler {
-  padding: 0px; }
+  padding: 0px;
+}
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 158, 182, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
   outline: none;
-  box-shadow: none; }
+  box-shadow: none;
+}
 
 /****  AVATAR ****/
 .avatar-holder {
@@ -380,11 +418,13 @@ input {
   box-shadow: var(--bottom-box-shadow-5);
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .avatar {
   width: 160px;
-  height: 160px; }
+  height: 160px;
+}
 
 @media (max-width: 575px) {
   .avatar-holder {
@@ -398,17 +438,19 @@ input {
     box-shadow: var(--bottom-box-shadow-5);
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+  }
   .avatar {
     width: 100px;
-    height: 100px; } }
-
+    height: 100px;
+  }
+}
 /****  TITLE BAR ****/
 .page-title {
   display: block;
   font-size: var(--fs-7);
   font-weight: var(--fw-3);
-  font-family: 'circe';
+  font-family: "circe";
   padding: var(--vert-space-8) var(--gutter-2) var(--vert-space-8) var(--gutter-2);
   background: var(--col-primary-4);
   color: var(--col-grey-9);
@@ -417,20 +459,23 @@ input {
   text-decoration-color: var(--col-accent-4);
   word-wrap: break-word;
   line-height: 1.1em;
-  width: 100%; }
+  width: 100%;
+}
 
 .jumbotron {
   background: var(--col-primary-4);
   color: var(--col-grey-8);
   padding: var(--vert-space-8) var(--hor-space-7);
   margin-bottom: 0em;
-  border-radius: 0em; }
+  border-radius: 0em;
+}
 
 /****  FOOTER ****/
 .non-footer {
   background: var(--col-grey-9);
   min-height: calc(100vh - 50px);
-  box-shadow: var(--hor-box-shadow-5); }
+  box-shadow: var(--hor-box-shadow-5);
+}
 
 .footer-container {
   height: 50px;
@@ -440,35 +485,42 @@ input {
   background-repeat: no-repeat;
   background-position: center top;
   color: var(--col-grey-9);
-  box-shadow: var(--hor-box-shadow-5); }
+  box-shadow: var(--hor-box-shadow-5);
+}
 
 .footer-spacer {
-  height: var(--vert-space-6); }
+  height: var(--vert-space-6);
+}
 
 .footer-text {
   color: var(--col-grey-9);
-  font-size: var(--fs--2); }
+  font-size: var(--fs--2);
+}
 
 @media (max-width: 575px) {
   .page-title {
     font-size: var(--fs-5);
-    padding: var(--vert-space-6) var(--gutter) var(--vert-space-6) var(--gutter); }
+    padding: var(--vert-space-6) var(--gutter) var(--vert-space-6) var(--gutter);
+  }
   .footer-container {
     background-image: url("../images/footer-background-small.svg");
-    padding: var(--vert-space-0) var(--gutter); }
+    padding: var(--vert-space-0) var(--gutter);
+  }
   .nav-bar {
     clear: both;
     width: 100%;
     background: var(--col-grey-9);
-    padding: var(--vert-space-4) var(--gutter) var(--vert-space-4) var(--gutter); } }
-
+    padding: var(--vert-space-4) var(--gutter) var(--vert-space-4) var(--gutter);
+  }
+}
 /*
 *
 *  Styles for INDEX 
 *
 */
 .recipe-list {
-  padding: 0 var(--gutter) var(--vert-space-6) var(--gutter); }
+  padding: 0 var(--gutter) var(--vert-space-6) var(--gutter);
+}
 
 .recipe-section-title {
   text-transform: uppercase;
@@ -476,94 +528,114 @@ input {
   color: var(--col-primary-4);
   font-family: var(--ff-title);
   font-size: var(--fs-2);
-  margin: 1.25em 0em 0em 0em; }
+  margin: 1.25em 0em 0em 0em;
+}
 
 .recipe-link {
   display: block;
   font-size: var(--fs-1);
   padding: 0em 0em 0em 0em;
-  color: var(--col-tx-grey-2); }
+  color: var(--col-tx-grey-2);
+}
 
 .vegetarian::after {
   padding-left: var(--vert-space-4);
-  content: url(../images/Veggie.svg); }
+  content: url(../images/Veggie.svg);
+}
 
 .guide-link {
   display: block;
   font-size: var(--fs-1);
   padding: 0em 0em 0em 0em;
-  color: var(--col-tx-grey-2); }
+  color: var(--col-tx-grey-2);
+}
 
 .resource-link {
   display: block;
   font-size: var(--fs-1);
   padding: 0em 0em 0em 0em;
-  color: var(--col-tx-grey-2); }
+  color: var(--col-tx-grey-2);
+}
 
 .badge-warning {
-  color: var(--col-grey-9); }
+  color: var(--col-grey-9);
+}
 
 @media (max-width: 575px) {
   .recipe-list {
-    padding: 0 0px var(--vert-space-6) 0px; } }
-
+    padding: 0 0px var(--vert-space-6) 0px;
+  }
+}
 /*
 *
 *  Styles for RECIPES   
 *
 */
 .recipe {
-  padding: 0 var(--gutter) var(--vert-space-6) var(--gutter); }
+  padding: 0 var(--gutter) var(--vert-space-6) var(--gutter);
+}
 
 .servings {
-  padding-top: var(--vert-space-6); }
+  padding-top: var(--vert-space-6);
+}
 
 .servings::before {
   color: var(--col-primary-4);
   font-size: var(--fs--1);
   text-transform: uppercase;
-  content: "Servings: "; }
+  content: "Servings: ";
+}
 
 #servings {
   text-align: right;
-  padding-right: var(--hor-space-3); }
+  padding-right: var(--hor-space-3);
+}
 
 .multiplier {
-  padding-top: var(--vert-space-6); }
+  padding-top: var(--vert-space-6);
+}
 
 .multiplier::before {
   color: var(--col-primary-4);
   font-size: var(--fs--1);
   text-transform: uppercase;
-  content: "scale by: "; }
+  content: "scale by: ";
+}
 
 #multiplier {
   text-align: right;
-  padding-right: var(--hor-space-3); }
+  padding-right: var(--hor-space-3);
+}
 
 .source-link {
-  padding-top: var(--vert-space-7); }
+  padding-top: var(--vert-space-7);
+}
 
 .source-link::before {
   color: var(--col-primary-4);
   font-size: var(--fs--1);
   text-transform: uppercase;
-  content: "Source: "; }
+  content: "Source: ";
+}
 
 .recipe-details {
   margin-top: var(--vert-space-6);
   display: grid;
-  grid-template-columns: minmax(150px, 25%) 1fr; }
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
 
 .ingredients {
-  padding: var(--vert-space-0) var(--gutter-2) var(--vert-space-0) var(--gutter); }
+  padding: var(--vert-space-0) var(--gutter-2) var(--vert-space-0) var(--gutter);
+}
 
 .recipe-ref {
-  text-transform: lowercase; }
+  text-transform: lowercase;
+}
 
 .directions {
   border-left: 2px solid var(--col-primary-4);
-  padding: var(--vert-space-0) var(--gutter) var(--vert-space-0) var(--gutter-2); }
+  padding: var(--vert-space-0) var(--gutter) var(--vert-space-0) var(--gutter-2);
+}
 
 .ingredient {
   text-indent: calc(-1 * var(--hor-space-10));
@@ -571,182 +643,228 @@ input {
   margin-bottom: var(--vert-space-3);
   font-weight: var(--fw-2);
   color: var(--col-tx-grey-1);
-  text-transform: lowercase; }
+  text-transform: lowercase;
+}
 
 .ingredient-sub-list {
   margin-top: var(--vert-space-6);
   color: var(--col-primary-4);
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .ingredient-sub-list-top {
   color: var(--col-primary-4);
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .ingredient-spacer {
-  height: var(--vert-space-4); }
+  height: var(--vert-space-4);
+}
 
 .servings-not-adjusted::before {
-  content: '!NOT ADJUSTED! '; }
+  content: "!NOT ADJUSTED! ";
+}
 
 .adjusted {
   font-style: italic;
-  color: var(--col-accent-4); }
+  color: var(--col-accent-4);
+}
 
 .alternative-ingredient {
   display: block;
   font-style: italic;
-  color: var(--col-tx-grey-1); }
+  color: var(--col-tx-grey-1);
+}
 
 .alternative-ingredient::before {
   padding-left: var(--hor-space-6);
   color: var(--col-primary-4);
   font-size: var(--fs--1);
   font-style: italic;
-  content: 'or: '; }
+  content: "or: ";
+}
 
 .optional::before {
   font-style: italic;
-  content: '(optional) '; }
+  content: "(optional) ";
+}
 
 .method-sub-list {
   color: var(--col-primary-4);
-  margin-top: var(--vert-space-4); }
+  margin-top: var(--vert-space-4);
+}
 
 .method-sub-list-top {
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 .method-part {
-  margin-bottom: var(--vert-space-4); }
+  margin-bottom: var(--vert-space-4);
+}
 
 .method-step {
   padding-bottom: var(--vert-space-3);
-  color: var(--col-tx-grey-1); }
+  color: var(--col-tx-grey-1);
+}
 
 ol.directions-list li {
-  counter-increment: methodstepcount; }
+  counter-increment: methodstepcount;
+}
 
 ol.directions-list li:before {
   content: counter(methodstepcount) ". ";
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 ol.directions-list {
   list-style: none;
   counter-reset: methodstepcount;
-  padding-inline-start: 0px; }
+  padding-inline-start: 0px;
+}
 
 .intro {
   margin-top: var(--vert-space-6);
-  margin-bottom: var(--vert-space-6); }
+  margin-bottom: var(--vert-space-6);
+}
 
 .note {
   margin-bottom: var(--vert-space-4);
-  color: var(--col-tx-grey-1); }
+  color: var(--col-tx-grey-1);
+}
 
 .note::before {
   color: var(--col-primary-4);
   font-size: var(--fs--1);
-  content: 'NOTE: '; }
+  content: "NOTE: ";
+}
 
 .alternative-recipe {
   color: var(--col-primary-4);
-  margin-bottom: var(--vert-space-4); }
+  margin-bottom: var(--vert-space-4);
+}
 
 .alternative-recipe::before {
-  content: 'ALTERNATIVE RECIPE: '; }
+  content: "ALTERNATIVE RECIPE: ";
+}
 
 .serve-with {
   color: var(--col-primary-4);
-  margin-top: var(--vert-space-4); }
+  margin-top: var(--vert-space-4);
+}
 
 .serve-with::before {
-  content: 'SERVE WITH: '; }
+  content: "SERVE WITH: ";
+}
 
 .recipe-image {
   width: 100%;
-  padding-top: var(--vert-space-6); }
+  padding-top: var(--vert-space-6);
+}
 
 .recipe-notes-title {
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 .recipe-notes-list {
-  padding-inline-start: 0px; }
+  padding-inline-start: 0px;
+}
 
 .recipe-note {
   list-style-type: circle;
-  list-style-position: inside; }
+  list-style-position: inside;
+}
 
 .serving-suggestions-title {
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 .serving-suggestions-list {
-  padding-inline-start: 0px; }
+  padding-inline-start: 0px;
+}
 
 li.serving-suggestion {
   list-style-type: circle;
-  list-style-position: inside; }
+  list-style-position: inside;
+}
 
 .variations-title {
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 .variations-list {
-  padding-inline-start: 0px; }
+  padding-inline-start: 0px;
+}
 
 li.variation {
   list-style-type: circle;
-  list-style-position: inside; }
+  list-style-position: inside;
+}
 
 .attempt-log-title {
-  color: var(--col-primary-4); }
+  color: var(--col-primary-4);
+}
 
 .attempt-log-list {
-  padding-inline-start: 0px; }
+  padding-inline-start: 0px;
+}
 
 li.attempt {
   list-style-type: circle;
-  list-style-position: inside; }
+  list-style-position: inside;
+}
 
 #WBRB-VQFG-VMJH-RSNG {
-  margin-top: var(--vert-space-8); }
+  margin-top: var(--vert-space-8);
+}
 
 @media (max-width: 575px) {
   .recipe {
-    padding: 0 0 var(--vert-space-6) 0; }
+    padding: 0 0 var(--vert-space-6) 0;
+  }
   .ingredients {
-    padding: 0px var(--gutter) 0px var(--gutter); }
+    padding: 0px var(--gutter) 0px var(--gutter);
+  }
   .directions {
     border-left: none;
-    padding: 0px var(--gutter) 0px var(--gutter); }
+    padding: 0px var(--gutter) 0px var(--gutter);
+  }
   .directions-list {
     padding-top: var(--vert-space-6);
     margin-top: var(--vert-space-6);
     padding-bottom: var(--vert-space-6);
-    border-top: 2px solid var(--col-primary-4); }
+    border-top: 2px solid var(--col-primary-4);
+  }
   .recipe-details {
     margin-top: var(--vert-space-6);
     display: grid;
     grid-template-columns: unset !important;
-    grid-template-rows: auto 1fr; } }
-
+    grid-template-rows: auto 1fr;
+  }
+}
 /*
 *
 *  Styles for COOKING LOG 
 *
 */
 .log-entry {
-  padding-top: var(--vert-space-7); }
+  padding-top: var(--vert-space-7);
+}
 
 .log-header {
   font-weight: var(--fw-2);
   font-size: var(--fs-1);
   color: var(--col-tx-grey-1);
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .log-date {
-  display: inline; }
+  display: inline;
+}
 
 .log-title {
   padding-left: var(--hor-space-6);
-  display: inline; }
+  display: inline;
+}
 
 .log-rating-unknown,
 .log-rating-0,
@@ -762,77 +880,92 @@ li.attempt {
 .log-rating-10 {
   padding-left: var(--hor-space-7);
   display: inline;
-  color: var(--col-accent-4); }
+  color: var(--col-accent-4);
+}
 
 .log-rating-unknown::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "?"; }
+  content: "?";
+}
 
 .log-rating-0::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f006\f006\f006\f006\f006\f006\f006\f006\f006\f006"; }
+  content: "\f006\f006\f006\f006\f006\f006\f006\f006\f006\f006";
+}
 
 .log-rating-1::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f006\f006\f006\f006\f006\f006\f006\f006\f006"; }
+  content: "\f005\f006\f006\f006\f006\f006\f006\f006\f006\f006";
+}
 
 .log-rating-2::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f006\f006\f006\f006\f006\f006\f006\f006"; }
+  content: "\f005\f005\f006\f006\f006\f006\f006\f006\f006\f006";
+}
 
 .log-rating-3::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f006\f006\f006\f006\f006\f006\f006"; }
+  content: "\f005\f005\f005\f006\f006\f006\f006\f006\f006\f006";
+}
 
 .log-rating-4::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f006\f006\f006\f006\f006\f006"; }
+  content: "\f005\f005\f005\f005\f006\f006\f006\f006\f006\f006";
+}
 
 .log-rating-5::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f005\f006\f006\f006\f006\f006"; }
+  content: "\f005\f005\f005\f005\f005\f006\f006\f006\f006\f006";
+}
 
 .log-rating-6::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f005\f005\f006\f006\f006\f006"; }
+  content: "\f005\f005\f005\f005\f005\f005\f006\f006\f006\f006";
+}
 
 .log-rating-7::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f005\f005\f005\f006\f006\f006"; }
+  content: "\f005\f005\f005\f005\f005\f005\f005\f006\f006\f006";
+}
 
 .log-rating-8::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f006\f006"; }
+  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f006\f006";
+}
 
 .log-rating-9::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f006"; }
+  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f006";
+}
 
 .log-rating-10::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005"; }
+  content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";
+}
 
 .log-header.collapsed::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f078"; }
+  content: "\f078";
+}
 
 .log-header:not(.collapsed)::before {
   font-family: "FontAwesome";
   font-weight: var(--fw-3);
-  content: "\f077"; }
+  content: "\f077";
+}
 
 /*
 *
@@ -845,10 +978,12 @@ li.attempt {
   color: var(--col-primary-4);
   font-family: var(--ff-title);
   font-size: var(--fs-1);
-  margin: 1em 0em 0em 0em; }
+  margin: 1em 0em 0em 0em;
+}
 
 .name-to {
-  padding-left: var(--hor-space-5); }
+  padding-left: var(--hor-space-5);
+}
 
 /*
 *
@@ -861,16 +996,19 @@ li.attempt {
   color: var(--col-primary-4);
   font-family: var(--ff-title);
   font-size: var(--fs-1);
-  margin: 1em 0em 0em 0em; }
+  margin: 1em 0em 0em 0em;
+}
 
 .project-detail {
   display: block;
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em;
+}
 
 .project-description {
   display: block;
   font-weight: var(--fw-2);
-  padding: 0em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em;
+}
 
 /*
 *
@@ -878,10 +1016,12 @@ li.attempt {
 *
 */
 .guide-section {
-  padding: 0em 0em var(--vert-space-7) 0em; }
+  padding: 0em 0em var(--vert-space-7) 0em;
+}
 
 .guide-section + .guide-section {
-  border-top: 3px solid var(--col-grey-7); }
+  border-top: 3px solid var(--col-grey-7);
+}
 
 .guide-section-title {
   text-transform: uppercase;
@@ -889,29 +1029,34 @@ li.attempt {
   color: var(--col-primary-4);
   font-family: var(--ff-title);
   font-size: var(--fs-1);
-  margin: 1em 0em 0em 0em; }
+  margin: 1em 0em 0em 0em;
+}
 
 .guide {
-  padding: var(--vert-space-0) var(--gutter); }
+  padding: var(--vert-space-0) var(--gutter);
+}
 
 @media (max-width: 575px) {
   .guide {
-    padding: 0px; } }
-
+    padding: 0px;
+  }
+}
 /*
 *
 *  Styles for Where Can I Buy
 *
 */
 .shop-link {
-  color: var(--col-tx-grey-2); }
+  color: var(--col-tx-grey-2);
+}
 
 #shopmap {
   margin-top: var(--vert-space-6);
   margin-bottom: var(--vert-space-6);
   height: 100%;
   /* The height is 400 pixels */
-  width: 100%; }
+  width: 100%;
+}
 
 .product-name {
   text-transform: uppercase;
@@ -919,45 +1064,46 @@ li.attempt {
   color: var(--col-primary-4);
   font-family: var(--ff-title);
   font-size: var(--fs-1);
-  margin: 1em 0em 0em 0em; }
+  margin: 1em 0em 0em 0em;
+}
 
 /*
 *
 *  Styles for WEIGHTS AND VOLUMES 
 *
 */
-
 @font-face {
   font-family: circe-rounded;
   src: url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/83236a/00000000000000007735afd6/30/a?subset_id=2&fvd=n4&v=3) format("opentype");
   font-weight: 400;
   font-style: normal;
-  font-display: auto; }
-
+  font-display: auto;
+}
 @font-face {
   font-family: circe-rounded;
   src: url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/154410/00000000000000007735afdd/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
   font-weight: 700;
   font-style: normal;
-  font-display: auto; }
-
+  font-display: auto;
+}
 @font-face {
   font-family: circe;
   src: url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/l?subset_id=2&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/d?subset_id=2&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/6c2a3b/00000000000000007735afd3/30/a?subset_id=2&fvd=n3&v=3) format("opentype");
   font-weight: 300;
   font-style: normal;
-  font-display: auto; }
-
+  font-display: auto;
+}
 @font-face {
   font-family: circe;
   src: url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/4824d6/00000000000000007735afdf/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
   font-weight: 700;
   font-style: normal;
-  font-display: auto; }
-
+  font-display: auto;
+}
 @font-face {
   font-family: circe;
   src: url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/l?subset_id=2&fvd=n8&v=3) format("woff2"), url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/d?subset_id=2&fvd=n8&v=3) format("woff"), url(https://use.typekit.net/af/1dc972/00000000000000007735afe6/30/a?subset_id=2&fvd=n8&v=3) format("opentype");
   font-weight: 800;
   font-style: normal;
-  font-display: auto; }
+  font-display: auto;
+}
