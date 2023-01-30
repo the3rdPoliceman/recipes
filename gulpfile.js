@@ -8,7 +8,8 @@ const {
   watch
 } = require('gulp');
 
-const sass = require('gulp-sass'),
+
+const sass = require('gulp-sass')(require('sass')),
   browserSync = require('browser-sync'),
   del = require('del'),
   imagemin = require('gulp-imagemin'),
@@ -295,6 +296,7 @@ const runTarget = series( cleanTarget,
                           parallel( syncBrowser, 
                                     watchAll,
                                     watchMarkdownRecipes));
+
 
 exports.build = build;
 exports.runDist = runDist;
