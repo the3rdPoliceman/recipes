@@ -20,7 +20,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "33g Salt",
+            "text": "32g Salt",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -146,17 +146,22 @@
     ],
     "notes": [
         {
-            "text": "A good non stick pan is needed",
+            "text": "Pan: You need a good non stick pan. If you want to get it runny in the middle and browned on the outside, you need a pan tha gets fairly hot",
             "note_type": null
         },
         {
-            "text": "When planning to eat the next day, reduce salt to 30g. Seems to need less salt after sitting overnight",
+            "text": "Salt: When planning to eat the next day, reduce salt by 10%. It seems to need less salt after sitting overnight",
             "note_type": null
         },
         {
-            "text": "My pan doesn't seem to get very hot, so next time try without the flipping/mixing at step 2 of the cooking process",
+            "text": "Potato Varieties: It general, potatoes suitable for french fries are recommended. Kennebec is used in Betanzos, and is said to soak up less oil when fried. Agria is also sometimes recommended and actually available (found in migros last time). Monalisa is another possibility",
+            "note_type": null
+        },
+        {
+            "text": "Potato Notes: New potatoes should be used if possible, and they should not be watery",
             "note_type": null
         }
+
     ],
     "serving_suggestions": null,
     "variations": null,
