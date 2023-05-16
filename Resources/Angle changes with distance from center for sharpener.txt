@@ -1,0 +1,32 @@
+Angle changes with distance from center
+
+
+D1  distance of sharpening plate from center of rod
+L  	length from rod pivot to contact point with knife blade
+A 	angle created when rod vertical
+
+
+1MM DIFFERENCE PER STONE
+
+D1 		L 	 	A
+12 		150 	4.57
+15 		150 	5.71
+19		150		7.22
+23		150		8.72
+
+Difference 1..12 = 4.15 degrees.  A progression through 12 sharpening stones, each 1mm further away from the rod center than the previous would gradually increase the angle, with a final angle 4.15 degrees greater than the original
+
+
+
+0.5MM DIFFERENCE PER STONE
+
+D1 		L 	 	A
+12 		150 	4.57
+13.5 	150 	5.14
+15.5	150		5.9
+17.5	150		6.65
+
+Difference 1..12 = 2.08 degrees.  A progression through 12 sharpening stones, each 0.5mm further away from the rod center than the previous would gradually increase the angle, with a final angle 2.08 degrees greater than the original
+
+
+
