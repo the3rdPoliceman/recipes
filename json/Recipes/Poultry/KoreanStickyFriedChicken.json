@@ -1,0 +1,135 @@
+{
+  "ingredient_list": [
+    {
+      "name": "For the sauce",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "60g dark brown sugar",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "30g gochujang (Korean chilli paste)",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "30g soy sauce",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "10g garlic cloves, crushed",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "25g ginger, grated",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "10g sesame oil",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    },
+    {
+      "name": "For the chicken",
+      "ingredient_list": [
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "300g chicken breast sliced",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "20g ginger, finely grated",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "35g cornflour",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "4g salt",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "0.7g ground glack pepper",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "Canola oil, for frying",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "sesame seeds and sliced spring onion, to serve",
+          "alternative_ingredients": []
+        }
+      ],
+      "type": "INGREDIENT_SUB_LIST"
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Blitz all the sauce ingredients in a food processor, then let bubble gently for a few minutes in a saucepan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "For the chicken, mix with the ginger, then add the cornflour, salt and pepper"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Deep fry in 180-190C oil, then stir fry quickly in the sauce"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sprinkle the spring onion and sesame seeds over when serving"
+    }
+  ],
+  "notes": [],
+  "title": "Korean Sticky Fried Chicken (Yangnyeom Tongdak)",
+  "quantity": {
+    "number": "2"
+  },
+  "serving_suggestions": [
+    {
+      "text": "Serve with white rice"
+    }
+  ],
+  "variations": [
+    {
+      "text": "The base recipe makes quite a sticky thick sauce. If you want more of a dipping sauce consistency, add some pineapple juice when blitzing it"
+    }
+  ]
+}

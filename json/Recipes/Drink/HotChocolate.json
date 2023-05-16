@@ -3,13 +3,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "180ml milk",
+      "text": "200ml milk",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "pinch salt",
+      "text": "0.2g salt",
       "alternative_ingredients": []
     },
     {
@@ -21,19 +21,19 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "2tsp raw brown sugar",
+      "text": "8g raw brown sugar",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30ml cream",
+      "text": "40ml cream",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "30g 78% lindt",
+      "text": "30g dark chocolate (70% lindt, or coop fleur de sel 72%)",
       "alternative_ingredients": []
     },
     {
@@ -54,13 +54,13 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Chop the chocolate, add to the milk and heat until it boils and starts foaming up the saucepan. Allow it to foam briefly to get some bubbles into the hot chocolate"
+      "text": "Chop the chocolate, add to the milk and heat until it boils and starts foaming up the saucepan. Allow it to foam for around 30 seconds until it appears to thicken, to get some bubbles into the hot chocolate"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Mix in the vanilla and cream and serve"
+      "text": "Put the vanilla and cream in a mug and pour the chocolate over"
     }
   ],
   "notes": [],
