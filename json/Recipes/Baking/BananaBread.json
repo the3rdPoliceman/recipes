@@ -86,7 +86,13 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Mix flour, baking soda, salt and walnuts. Fold into the mix",
+            "text": "Mix flour, baking soda and salt. Fold into the mix",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Add the walnuts. Fold into the mix (Walnuts should not be added with the flour, as raw flour will stick in the folds)",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"

@@ -1,0 +1,109 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "zest of half a lemon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "stick of cinnamon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "75ml milk",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100ml double cream",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30g white sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5ml vanilla extract",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "pinch of salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 pieces bread (10*5*5cm)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "10g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50g sugar",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "heat the milk until near boiling, then add the lemon zest and cinnamon stick and leave to infuse 10 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk the cream, sugar, eggs, vanilla and salt into the milk"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cut the bread into 5 cm thick slices and submerge in the cream for about 10 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat a frying pan over a medium-low heat, melt the butter then gently fry the piece of bread until medium brown on all sides"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Take the toast out and clean the pan. Add the sugar and caramelise until medium brown. Add the toast to the caramel and turn to coat all sides"
+    }
+  ],
+  "notes": [],
+  "title": "Caramelised French Toast",
+  "serving_suggestions": [
+    {
+      "text": "Vanilla Ice Cream, Cinnamon Crumble"
+    }
+  ]
+}

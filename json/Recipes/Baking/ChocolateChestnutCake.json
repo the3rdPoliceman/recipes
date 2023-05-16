@@ -1,0 +1,118 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "140g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "140g dark chocolate",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5 eggs, separated",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "140g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1g salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2g vinegar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g chestnuts (cooked)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200ml cream",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g Chocolate (for garnish)",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat oven to 180C no fan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Melt butter in a saucepan, take off the heat and melt the chocolate into it. Stir together"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk the egg yolks, 80g sugar, and salt until pale and thick. Stir into the warm chocolate"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk egg whites until fluffy. Add remaining sugar and beat until stiff peaks"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Process half the chestnuts into fine powder, and half into pea sized pieces and add to the chocolate batter. Gradually fold in the egg whites, and scrape into a lined 23cm pan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake for 25 to 30 minutes, cool on a rack"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Decorate with whipped cream, and shave chocolate over"
+    }
+  ],
+  "notes": [],
+  "title": "Chocolate Chestnut Cake",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "23",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round cake"
+  },
+  "source": {
+    "text": "New York Times Cooking",
+    "href": "https://cooking.nytimes.com/recipes/1017816-chocolate-chestnut-cake"
+  }
+}

@@ -80,7 +80,7 @@ function watchAll() {
     './js/*.*',
     './doT/**/*.jst',
     './Guides/**/*.html',
-    './Resources/**/*.html',
+    './Resources/**/*.*',
     './*.html',
     './*.txt'
   ];
@@ -138,7 +138,7 @@ function copyGuidesToTarget() {
 }
 
 function copyResourcesToTarget() {
-  return src(['./Resources/**/*.html','./Resources/**/*.pdf']).pipe(dest('./target/Resources'));
+  return src(['./Resources/**/*.html','./Resources/**/*.pdf','./Resources/**/*.txt']).pipe(dest('./target/Resources'));
 }
 
 function copyRootFilesToTarget() {
@@ -195,7 +195,7 @@ function minifyGuides() {
     .pipe(dest('dist/Guides/'));
 }
 
-function minifyResources() {
+function minifyHtmlResources() {
   return src('./Resources/**/*.html')
     .pipe(flatmap(function(stream, file) {
       return stream
@@ -252,6 +252,9 @@ function minifyRecipes() {
     .pipe(dest('dist/Recipes/'));
 }
 
+function copyNonHtmlResourcesToDist(){
+  return src(['!./Resources/**/*.html', './Resources/**/*.*']).pipe(dest('dist/Resources/'));
+}
 
 function copyRootResourceFilesToDist() {
   return src(['./*.txt', './*.ico']).pipe(dest('dist/'));
@@ -286,7 +289,8 @@ const build = series( clean,
                                 copyImageDescriptorsToDist,
                                 minifyRecipes, 
                                 minifyGuides, 
-                                minifyResources, 
+                                minifyHtmlResources,
+                                copyNonHtmlResourcesToDist,
                                 minifyRootHtml, 
                                 copyRootResourceFilesToDist));
 
