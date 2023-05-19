@@ -10,7 +10,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "150g Jacutinga sugar (unrefined sugar/vollrohrzucker)",
+            "text": "150g light brown sugar",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -39,7 +39,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "In a frying pan, melt the brown sugar over a medium heat until completely melted (mine burned here and there, which seemed to be good)",
+            "text": "In a frying pan, melt the brown sugar over a medium heat until completely melted and medium brown",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
