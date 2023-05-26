@@ -32,21 +32,21 @@
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "3 Tablespoons Salt",
+                    "text": "60g Salt",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "2 Tablespoons Sugar",
+                    "text": "25g Sugar",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
                     "type": "INGREDIENT"
                 },
                 {
-                    "text": "1 Tablespoon Ground White Pepper",
+                    "text": "9g Ground White Pepper",
                     "optional": false,
                     "alternative_ingredients": [],
                     "note": null,
