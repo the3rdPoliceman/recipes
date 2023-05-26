@@ -3,6 +3,18 @@
     {
       "optional": false,
       "type": "INGREDIENT",
+      "text": "100g chestnuts (cooked)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g vanilla rum",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
       "text": "140g butter",
       "alternative_ingredients": []
     },
@@ -21,7 +33,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "140g sugar",
+      "text": "120g sugar",
       "alternative_ingredients": []
     },
     {
@@ -39,7 +51,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "200g chestnuts (cooked)",
+      "text": "100g chestnut paste",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25g flour",
       "alternative_ingredients": []
     },
     {
@@ -60,37 +78,43 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Heat oven to 180C no fan"
+      "text": "Chop the whole chestnuts into pea sized pieces, and soak in the vanilla rum"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Melt butter in a saucepan, take off the heat and melt the chocolate into it. Stir together"
+      "text": "Heat oven to 180C, no fan"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Whisk the egg yolks, 80g sugar, and salt until pale and thick. Stir into the warm chocolate"
+      "text": "Melt butter in a saucepan, take off the heat and melt the chocolate into it, stirring to combine"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Whisk egg whites until fluffy. Add remaining sugar and beat until stiff peaks"
+      "text": "Whisk the egg yolks, 80g sugar, and salt until pale and thick."
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Process half the chestnuts into fine powder, and half into pea sized pieces and add to the chocolate batter. Gradually fold in the egg whites, and scrape into a lined 23cm pan"
+      "text": "Whisk egg whites and vinegar until fluffy. Add the remaining sugar and beat until stiff peaks form"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Bake for 25 to 30 minutes, cool on a rack"
+      "text": "Combine the egg yolk mix, chocolate mix, chestnut paste, chopped chestnuts and flour. Fold in the egg whites, and scrape into a lined 23cm pan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake for 25 to 30 minutes, then cool on a rack"
     },
     {
       "post_notes": [],
@@ -101,10 +125,10 @@
   ],
   "notes": [
     {
-      "text": "80g Chestnut flour can be used instead of the 100g of pulverised chestnuts. Chestnut flour is expensive (10chf/300g) but cheaper than chestnuts (4chf/100g). It's popular in poland (called Mąka kasztanowa) so maybe googling can find a much supplier cheaper (price in poland - 10eur/kg)"
+      "text": "80g Chestnut flour can be used instead of the chestnut puree and flour. A bit extra sugar would be needed too"
     },
     {
-      "text": "Next time try soaking the roughly chopped chestnuts in vanilla run to soften them up a bit"
+      "text": "Next time try a bit more salt"
     }
   ],
   "title": "Chocolate Chestnut Cake",
