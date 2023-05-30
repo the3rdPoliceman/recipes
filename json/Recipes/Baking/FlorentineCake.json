@@ -42,13 +42,13 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "2/3 tsp baking powder",
+          "text": "1 tsp baking powder",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "1.5g salt",
+          "text": "2g salt",
           "alternative_ingredients": []
         },
         {
@@ -60,7 +60,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "10ml vanilla rum",
+          "text": "1 vanilla pod",
           "alternative_ingredients": []
         }
       ],
@@ -84,7 +84,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "1.5g salt",
+          "text": "1.5g salt (not more)",
           "alternative_ingredients": []
         },
         {
@@ -136,13 +136,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Gradually mix in the buttermilk"
-        },
-        {
-          "post_notes": [],
-          "pre_notes": [],
-          "type": "METHOD_STEP",
-          "text": "Mix the oil, vanilla and melted butter, and slowly mix into the batter"
+          "text": "Mix the buttermilk, oil, vanilla and melted butter, and slowly mix into the batter"
         },
         {
           "post_notes": [],
@@ -194,7 +188,7 @@
       "text": "This is a variation on swedish toscakaka"
     },
     {
-      "text": "The cake was a bit dry on day 2, so i increased the oil by 10ml. Haven't tried baking since that adjustment"
+      "text": "Last time was too dense, so I upped the baking powder but haven't tried it since then"
     }
   ],
   "title": "Florentine Cake",
@@ -210,7 +204,7 @@
   },
   "variations": [
     {
-      "text": "Apple Florentine - Chop up <span class=\"quantity\">2</span> to <span class=\"quantity\">3</span> apples and add them to the cake batter before baking"
+      "text": "Apple Florentine - Chop up <span class=\"quantity\">1</span> to <span class=\"quantity\">1.5</span> finely cut apples and add them to the cake batter before baking"
     },
     {
       "text": "Chocolate Florentine - Chop up <span class=\"quantity\">100</span>g of dark chocolate and add to the batter before baking"
