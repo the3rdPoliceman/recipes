@@ -6,7 +6,7 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "30g butter",
+          "text": "50g butter",
           "alternative_ingredients": []
         },
         {
@@ -24,31 +24,31 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "50g buttermilk",
+          "text": "90g plain flour",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "80g plain flour",
+          "text": "25g ground almonds",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "50g ground almonds",
-          "alternative_ingredients": []
-        },
-        {
-          "optional": false,
-          "type": "INGREDIENT",
-          "text": "1 tsp baking powder",
+          "text": "6g baking powder",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
           "text": "2g salt",
+          "alternative_ingredients": []
+        },
+        {
+          "optional": false,
+          "type": "INGREDIENT",
+          "text": "50g buttermilk",
           "alternative_ingredients": []
         },
         {
@@ -130,13 +130,19 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Mix the flour, baking powder and salt, and fold into the eggs"
+          "text": "Combine the flour, ground almonds, baking powder and salt, and mix"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Mix the buttermilk, oil, vanilla and melted butter, and slowly mix into the batter"
+          "text": "Whisk the buttermilk, oil, vanilla and melted butter together"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Slowly mix the flour and buttermilk mixes into the batter"
         },
         {
           "post_notes": [],
