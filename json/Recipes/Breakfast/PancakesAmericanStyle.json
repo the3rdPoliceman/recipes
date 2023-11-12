@@ -60,8 +60,8 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Cook at medium heat with a little neutral oil. Use Kitchen paper to spread the oil evenly. Flip gently when top is nearly dry",
-            "post_notes": [],
+            "text": "Cook at medium heat with a little neutral oil or butter. Flip gently when top has quite a lot of popped bubbles. ",
+            "post_notes": ["The idea is to get the center just cooked, and the sides medium brown. Poke gently with your fingers to determine how cooked it is. It should spring back but still be soft"],
             "pre_notes": [],
             "type": "METHOD_STEP"
         }
