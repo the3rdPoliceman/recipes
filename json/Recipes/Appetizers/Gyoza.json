@@ -157,7 +157,12 @@
             "type": "METHOD_STEP"
         }
     ],
-    "notes": [],
+    
+    "notes": [        
+        {
+            "text": "See <a href=\"https://www.youtube.com/watch?v=_qApr4UmCGY\"> for advanced technique, and folding details",
+            "note_type": null
+        }],
     "serving_suggestions": null,
     "variations": null,
     "attempt_log": null
