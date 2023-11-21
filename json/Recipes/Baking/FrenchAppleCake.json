@@ -1,0 +1,132 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "120g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.25 teaspoon ground allspice",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1kg apples (sour or a mix)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "140g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2.5g salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30ml rum or brandy",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "80g flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5g baking powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 vanilla pod",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat the oven to 180C. Grease the cake pan with butter, then dust with flour and tip out the excess"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat 100g of the butter in a pan until it melts and the milk solids turn golden brown. Pour into a bowl along with the allspice"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Peel and core the apples and slice each apple into about 12 wedges."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the apples to a large frying pan along with 20g butter, 30g sugar and the salt. Fry over medium heat until the apples have released most of their moisture and started to brown"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the rum or brandy and cook until evaporated, then remove the apples from the pan and allow to cool completely"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a large bowl, whisk the eggs, vanilla and 100g sugar until light and fluffy, then gradually whisk in the browned butter"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Slowly beat in the flour and baking powder until just combined, then fold in the apples and transfer to the cake pan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sprinkle the remaining sugar over the top, and bake until deeply browned (35 to 40 minutes)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Let cool completely in the pan on a wire rack, then run a knife around the inside of the pan before slicing"
+    }
+  ],
+  "notes": [],
+  "title": "French Apple Cake",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "23",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round cake"
+  }
+}
