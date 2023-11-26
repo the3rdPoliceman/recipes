@@ -15,7 +15,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1kg apples (sour or a mix)",
+      "text": "1.5kg apples (sour or a mix)",
       "alternative_ingredients": []
     },
     {
@@ -78,7 +78,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Peel and core the apples and slice each apple into about 12 wedges."
+      "text": "Peel and core the apples and slice each apple into about 12 wedges"
     },
     {
       "post_notes": [],
