@@ -15,7 +15,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "1kg apples (sour or a mix)",
+      "text": "1.5kg apples (sour or a mix)",
       "alternative_ingredients": []
     },
     {
@@ -72,19 +72,19 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Heat 100g of the butter in a pan until it melts and the milk solids turn golden brown. Pour into a bowl along with the allspice"
+      "text": "Heat <span class=\"quantity\">100</span>g of the butter in a pan until it melts and the milk solids turn golden brown. Pour into a bowl along with the allspice"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Peel and core the apples and slice each apple into about 12 wedges."
+      "text": "Peel and core the apples and slice each apple into about 12 wedges"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Add the apples to a large frying pan along with 20g butter, 30g sugar and the salt. Fry over medium heat until the apples have released most of their moisture and started to brown"
+      "text": "Add the apples to a large frying pan along with <span class=\"quantity\">20</span>g butter, <span class=\"quantity\">30</span>g sugar and the salt. Fry over medium heat until the apples have released most of their moisture and started to brown"
     },
     {
       "post_notes": [],
@@ -96,7 +96,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "In a large bowl, whisk the eggs, vanilla and 100g sugar until light and fluffy, then gradually whisk in the browned butter"
+      "text": "In a large bowl, whisk the eggs, vanilla and <span class=\"quantity\">100</span>g sugar until light and fluffy, then gradually whisk in the browned butter"
     },
     {
       "post_notes": [],
@@ -108,16 +108,20 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Sprinkle the remaining sugar over the top, and bake until deeply browned (35 to 40 minutes)"
+      "text": "Sprinkle the remaining <span class=\"quantity\">10</span>g of sugar over the top, and bake until well browned (35 to 40 minutes)"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Let cool completely in the pan on a wire rack, then run a knife around the inside of the pan before slicing"
+      "text": "Let cool in the pan, then run a knife around the inside of the pan before slicing"
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "Can me made ahead and then warmed up in a low oven. 100C, covered, for 20 mins works"
+    }
+  ],
   "title": "French Apple Cake",
   "quantity": {
     "number": "1",
