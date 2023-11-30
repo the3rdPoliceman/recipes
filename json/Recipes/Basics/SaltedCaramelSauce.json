@@ -1,0 +1,74 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200ml cups heavy cream",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2.5g coarse sea salt",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the sugar to a saucepan. A larger pan is better, as is one that has a light color so you can see how brown the caramel is getting"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Heat at medium, until the sugar starts to color"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Meanwhile, warm the cream in a separate pan until steam starts coming off, then set aside"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Gently ue a wooden spoon or tip the pan to encourage it to mix and color evenly (Don't worry if it goes pebbly/lumpy/weird - as long as it doesn't burn, just keep it on medium and it will be fine in the end)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Keep going until the sugar turns rich reddish brown, then immediately take it off the heat and very slowly add the cream while stirring"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Adding the cream slowly will stop chunks of caramel solidifying, which then take ages to melt again. So patience pays off here, and it's quicker in the end"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Stir in the butter and salt, and leave to cool"
+    }
+  ],
+  "notes": [],
+  "title": "Salted Caramel Sauce"
+}
