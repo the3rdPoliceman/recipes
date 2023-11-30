@@ -16,6 +16,7 @@ O* Optional Ingredient
 SS: Serving Suggestion
 VAR: Variation
 SRC: Source text {{HREF:source url}}
+N:Note for recipe
 
 
 Below is an example of a sample recipe file, which might be created as RecipeScratchpad/Vegetarian/SpinachShakshuka.recipe
@@ -41,7 +42,8 @@ O* 50g feta cheese
 - Make {{Q: 4 }} holes in the spinach, and crack an egg into each. If using feta, scatter it over the top at this point.
 - Cover with a lid and cook until the eggs are done to your liking
 VAR: Instead of the spices and feta, add some ham and scatter cubes of fontina on top when you add the eggs
-
+SS: Serve with vanilla ice cream
+N: Try with less salt next time
 
 Below is an example showing how to describe dimensions of a recipe which makes one 25x35 cm cake
 
