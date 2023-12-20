@@ -1,0 +1,69 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "120g dark chocolate",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "150g egg whites",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1ml lemon juice",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "45g caster sugar",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Melt the chocolate"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the egg whites, with the lemon juice and sugar until stiff peak stage"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat one third of the egg white into the hot melted chocolate. This needs to be done quickly and while the chocolate is hot, otherwise the chocolate will seize"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the chocolate mix back into the remaining egg white mix and fold together until combined"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Divide into individual dishes if you ish, and chill in the fridge for a few hours"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Try with raw brown sugar next time (not sure if it will produce a stable foam with the egg whites)"
+    },
+    {
+      "text": "Can add vanilla to this also"
+    }
+  ],
+  "title": "Basic Chocolate Mousse"
+}
