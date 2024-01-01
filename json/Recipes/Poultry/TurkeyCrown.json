@@ -1,0 +1,105 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 Turkey Crown",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "15 slices streaky bacon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g Butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 Onions",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 Head Garlic",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "4 Celery sticks",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3 Carrots",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "500ml Chicken stock",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Half the onions, carrots, and garlic bulb and add to the tray along with the celery, wine and stock"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Rub the turkey with butter, season with salt and pepper, and cover with bacon. Place on top of the vegetables"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cook at high heat (230C) to get some color (If desired)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cover with foil and cook at lower temperature (see below) until desired temperature is reached. Baste occasionally and watch the pan doesn't get dry and start to burn"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Rest up to 90 minutes"
+    }
+  ],
+  "notes": [
+    {
+      "text": "We want a browning phase to get color on the turkey, and a warming phase where we slowly bring the meat to the desired final temperature. <br>Browning takes relatively little time, and should be done at the start at high temperature, since doing it at the end risks missing the desired final temperature for the middle of the turkey<br>During the warming phase, the lower the temperature used, the easier it will be to hit your final core tmeperature. We did a 3kg turkey crown in about 3 hours at 160C, but this could have been dome much lower."
+    },
+    {
+      "text": "Resting: The turkey can easily be rested covered for an hour easily, and probably a good bit longer, without losing much heat. During resting, the core temp will rise, probably by roughly 2/3 of the difference between the core and the outside temperatures. So take out when: Core temp + 0.67*(outer temp - core temp) = Final temp"
+    },
+    {
+      "text": "Final temp possibilities: <br>  58C - Pale pink, soft, moist (people will expect food poisoning)<br>62C - White, tender, moist<br>66C - White; traditional roast texture"
+    },
+    {
+      "text": "The 2023 turkey came out with core temp 64C, external 74C, and then rested 1hr 15. It reached about 71-72C core temp after resting and was pretty good. We probably could have gotten away with a few degrees less."
+    },
+    {
+      "text": "Brining: Should we brine it? Yes we should."
+    }
+  ],
+  "title": "Turkey Crown",
+  "quantity": {
+    "number": ""
+  }
+}
