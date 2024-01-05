@@ -1,0 +1,100 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g softened butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "50g caster sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "125g plain flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25g semolina",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Extra caster sugar",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cream butter and sugar together until light and fluffy"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Using fork, gradually stir in flour and semolina"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Draw mixture together with finger tips"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Press into lightly buttered tin, and prick well all over"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake in centre of 160°C oven until very lightly browned, about 40 minutes"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Leave in the tin for 5 minutes, then cut into triangles and dust with extra caster sugar"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Leave too cool before removing from tin"
+    }
+  ],
+  "notes": [
+    {
+      "text": "This is now a bit away from mums. I think she uses no semolina, mixes the flour in with the mixer, kneads it a bit, rolls it out thin and then cuts the shortbread. She also bakes it with almost no color."
+    },
+    {
+      "text": "<a href=\"https://www.youtube.com/watch?v=3l4YaSX3YmA\" >Shortbread House of Edinburgh</a> has a video, which reveals a few hints. Dough seems soft, like it's been kneaded slightly. Appears to be mushed out by hand, rolled with a dimpler, then hand cut"
+    },
+    {
+      "text": "<a href=\"https://www.youtube.com/watch?v=R28zciwK65I\" >New Forest Shortbread</a> have a video that shows it being made. Dough is again soft, rolled into logs, (video may show dough being chilled), then sliced into rounds. Again looks like it's rolled in demerara sugar"
+    }
+  ],
+  "title": "Mum's Shortbread",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round"
+  }
+}
