@@ -3,19 +3,19 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "200ml milk",
+      "text": "150ml milk",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "0.2g salt",
+      "text": "50ml cream",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "tonka",
+      "text": "0.1g salt",
       "alternative_ingredients": []
     },
     {
@@ -27,19 +27,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "40ml cream",
-      "alternative_ingredients": []
-    },
-    {
-      "optional": false,
-      "type": "INGREDIENT",
-      "text": "30g dark chocolate (70% lindt, or coop fleur de sel 72%)",
-      "alternative_ingredients": []
-    },
-    {
-      "optional": false,
-      "type": "INGREDIENT",
-      "text": "10ml vanilla rum",
+      "text": "35g dark chocolate (naturaplan honduras 70% is current favourite)",
       "alternative_ingredients": []
     }
   ],
@@ -48,24 +36,45 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Heat the milk with the salt, tonka, and the sugar until near boiling"
+      "text": "Heat the milk, cream and salt, along with any additional flavorings to 80C (steaming a bit but not boiling)"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Chop the chocolate, add to the milk and heat until it boils and starts foaming up the saucepan. Allow it to foam for around 30 seconds until it appears to thicken, to get some bubbles into the hot chocolate"
+      "text": "Chop the chocolate, and put in a tall tumbler"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Put the vanilla and cream in a mug and pour the chocolate over"
+      "text": "Add the milk to the chocolate, and use a stick blender with the chopping blade to blend until the chocolate is fully incorporated. Do this with the head of the blender fully submerged"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Now we want to create a slightly thicker feeling texture by adding microbubbles, like in a latte. To do this, blend a little a with the blender at the surface to introduce some air, then submerge and blend again thoroughly in order to disperse the air in evenly sized, very small bubbles"
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "The amount of sugar needed will vary with the chocolate. 7-8g is good for lindt 70%, naturaplan ecuador 70%, or naturaplan honduras 70%"
+    }
+  ],
   "title": "Hot Chocolate",
   "quantity": {
     "number": "2"
-  }
+  },
+  "variations": [
+    {
+      "text": "Add d teaspoon of vanilla essence, added to the milk"
+    },
+    {
+      "text": "10 -15ml of rum can be added after the milk has been heated"
+    },
+    {
+      "text": "Create a flavoured milk, by warming it along with a couple of cardamom pods, a tonka bean, or some thin shavings of orange zest. Leave to steep for 20 minutes before straining out"
+    }
+  ]
 }
