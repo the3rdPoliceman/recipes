@@ -1,0 +1,60 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25g Lemon zest",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "25g citric acid",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "400g water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Juice from the lemons",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Blitz the lemon zest and citric acid briefly in a blender, and leave to sit for 2 hours"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the water and the juice from the lemons"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Blend again very thoroughly, then pass through a sieve"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Typically, I'll get 12.5g of zest from one lemon"
+    },
+    {
+      "text": "Will keep in a fridge for a couple of weeks"
+    }
+  ],
+  "title": "Lemon Super Juice",
+  "quantity": {
+    "number": "1"
+  }
+}
