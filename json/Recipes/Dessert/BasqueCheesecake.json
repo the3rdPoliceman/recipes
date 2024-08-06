@@ -1,0 +1,88 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "500g cream cheese, room temp",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "250ml double cream",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "180g caster sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2.5g salt (optional)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3.5 eggs, beaten",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "14g cornflour",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Dissolve the cornflour in about 100ml of the double cream - it's easier to start with a little and form a paste, and then gradually add the cream"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Beat the cheese with a wooden spoon until soft, then beat in double cream, sugar & salt, eggs (one at a time), and the cornflour cream mix in that order"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Line an <span class=\"quantity\">18</span>cm pan with baking paper - one piece for the base and one for the sides. The piece used for the side should extend well above the sides of the pan as the mixture may double in size during cooking"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Cook on middle shelf at 220C fan, until the lowest temperature in the cheesecake is 45C. Ideally, it'll still look very liquid, but the top should be chestnut brown"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Bubbles on the top will burn too quickly, so aim to get no air bubbles when mixing. It should be possible to mix with an immersion blender as long as it's fully submerged"
+    },
+    {
+      "text": "Overcooking it will tend to give a more cakelike texture and it'll seep water a little bit as it cools. Getting the temperature right will give a creamier result with less leakage"
+    },
+    {
+      "text": "Would be interesting to hang the cream cheese in cheesecloth to remove some of the moisture"
+    }
+  ],
+  "title": "Basque Cheesecake",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round cheesecake"
+  }
+}
