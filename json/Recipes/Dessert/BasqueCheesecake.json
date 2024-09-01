@@ -33,7 +33,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "14g cornflour",
+      "text": "7g flour",
       "alternative_ingredients": []
     }
   ],
@@ -48,7 +48,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Beat the cheese with a wooden spoon until soft, then beat in double cream, sugar & salt, eggs (one at a time), and the cornflour cream mix in that order"
+      "text": "Put everything in a bowl (preferably a taller narrower one). Fully submerge a stick bleander in there and blend until smooth"
     },
     {
       "post_notes": [],
@@ -65,13 +65,13 @@
   ],
   "notes": [
     {
-      "text": "Bubbles on the top will burn too quickly, so aim to get no air bubbles when mixing. It should be possible to mix with an immersion blender as long as it's fully submerged"
+      "text": "Bubbles on the top will burn too quickly, so aim to get no air bubbles when mixing"
     },
     {
       "text": "Overcooking it will tend to give a more cakelike texture and it'll seep water a little bit as it cools. Getting the temperature right will give a creamier result with less leakage"
     },
     {
-      "text": "Would be interesting to hang the cream cheese in cheesecloth to remove some of the moisture"
+      "text": "Next time, reduce sugar by 20%"
     }
   ],
   "title": "Basque Cheesecake",
