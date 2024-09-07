@@ -24,6 +24,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
           git commit -m "Automated rebuild of dist folder via Github Action .github/workflows/build_and_publish.yml" --allow-empty
       - name: Push changes

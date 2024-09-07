@@ -1,0 +1,157 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "90g Butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "90g Semi-Sweet Chocolate",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "35g Bakers Chocolate",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60g Whole Eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2.7g Instant Espresso Powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5.2g Vanilla Extract",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "90g Sucrose (Sugar)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "30g AP Flour (All-Purpose Flour)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3g Baking Powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1.2g Sea Salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "70g Chocolate Chips",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "75g Walnuts",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a pot, melt the butter, chocolate chips, and bakers chocolate"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a bowl, stir (not whisk) together eggs, espresso powder, vanilla, and sugar"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Stir the warm chocolate mixture into the egg mixture"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Grease a parchment-lined 18cm round pan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sift 25g flour, the baking powder, and the sea salt together."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Use the remaining 5g flour to coat the chocolate chips and walnuts (this stops them sinking)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Fold these dry ingredients into the wet mixture in 3 additions"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Pour the batter into the prepared pan"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Bake at 150C for 20 mins, then bang the pan to stop an air bubble forming between the brownies and the pan. Then bake around 15 minutes more, or until a toothpick comes out clean"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Allow to cool before cutting"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Be careful not to overmix the batter to maintain the fudgy texture."
+    }
+  ],
+  "title": "Outrageous Brownies",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "1"
+      }
+    ],
+    "label": "cm pan"
+  },
+  "source": {
+    "text": "Adapted via Kathleen Meisinger from Ina Garten's Outrageous Brownie recipe."
+  }
+}

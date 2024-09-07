@@ -45,7 +45,7 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "Chilli flakes",
+      "text": "Large pinch piment d'espelette",
       "alternative_ingredients": []
     }
   ],
@@ -60,7 +60,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Fry the onion in some oil and set aside"
+      "text": "Fry the onion in some oil until golden and set aside"
     },
     {
       "post_notes": [],
@@ -72,7 +72,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Add the garlic and a little more oil if necessary and fry for a minute or so over medium heat, to soften it but without letting it brown"
+      "text": "Add the garlic and a little more oil if necessary and fry gently for a minute or so, to soften but without letting it brown"
     },
     {
       "post_notes": [],
@@ -105,13 +105,10 @@
       "text": "Serve with white bread"
     }
   ],
-  "notes": [
-    {
-      "text": "This is vaguely based on peri peri chicken livers"
-    }
-  ],
+  "notes": [],
   "title": "Spicy Chicken Livers",
   "quantity": {
     "number": "1"
-  }
+  },
+  "intro": "This is vaguely based on peri peri chicken livers"
 }
