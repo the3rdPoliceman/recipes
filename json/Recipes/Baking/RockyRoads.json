@@ -1,0 +1,110 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g plain biscuits (Digestive or Petit Beurre work well)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "135g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g dark chocolate (70% cocoa works best)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 tbsp honey",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g mini marshmallows (or chopped regular marshmallows)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g of dried cranberries, raisins or a mix",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "25g Smarties",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Icing sugar, to dust",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "In a large saucepan, melt the butter, dark chocolate, and honey over a gentle heat, stirring constantly until no lumps of chocolate remain. Remove from heat and leave to cool a bit"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Grease and line the baking pan with baking paper"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Crush half the biscuits into dust, and the other half into pieces the size of coins"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add all the other ingredients into the chocolate and stir to distribute everything"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Tip the mixture into the baking tin and spread it evenly"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Chill for at least 2 hours, then dust with icing sugar and cut portions"
+    }
+  ],
+  "notes": [],
+  "title": "Rocky Roads",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "1"
+      },
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "1"
+      }
+    ],
+    "label": "cm pan"
+  },
+  "source": {
+    "text": "Adapted from BBC's Rocky Roads recipe .",
+    "href": "https://www.bbcgoodfood.com/recipes/easy-rocky-road"
+  }
+}
