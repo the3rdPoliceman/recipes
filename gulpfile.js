@@ -179,7 +179,7 @@ function copyImageDescriptorsToDist() {
 function minifyGuides() {
   return src('./Guides/**/*.html')
     .pipe(flatmap(function(stream, file) {
-      console.log('Processing file:', file.path);
+      console.log('minifyGuides:', file.path);
       return stream
         .pipe(usemin({
           css: [rev()],
@@ -199,7 +199,7 @@ function minifyGuides() {
 function minifyHtmlResources() {
   return src('./Resources/**/*.html')
     .pipe(flatmap(function(stream, file) {
-      console.log('Processing file:', file.path);
+      console.log('minifyHtmlResources:', file.path);
       return stream
         .pipe(usemin({
           css: [rev()],
@@ -219,7 +219,7 @@ function minifyHtmlResources() {
 function minifyRootHtml() {
   return src('./*.html')
     .pipe(flatmap(function(stream, file) {
-      console.log('Processing file:', file.path);
+      console.log('minifyRootHtml:', file.path);
       return stream
         .pipe(usemin({
           css: [rev()],
@@ -239,7 +239,7 @@ function minifyRootHtml() {
 function minifyRecipes() {
   return src('./gen/Recipes/**/*.html')
     .pipe(flatmap(function(stream, file) {
-      console.log('Processing file:', file.path);
+      console.log('minifyRecipes:', file.path);
       return stream
         .pipe(usemin({
           css: [rev()],
