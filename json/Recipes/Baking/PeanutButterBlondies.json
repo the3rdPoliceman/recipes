@@ -1,0 +1,140 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "3 eggs",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "250g white granulated sugar",
+      "alternative_ingredients": [
+        {
+          "text": "caster sugar"
+        }
+      ]
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Pinch of salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "160g peanut butter, chunky",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60g butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60g plain flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.25tsp baking powder",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": true,
+      "type": "INGREDIENT",
+      "text": "60g dark chocolate, cut into chunks",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Batter Preparation",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Gently melt the butter and peanut butter together and mix until smooth."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "In a separate large bowl, beat the eggs, sugar, and salt until thick and moussy"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Pour the melted peanut butter and butter mixture into the beaten eggs."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add a third of the flour and fold it in, bringing the peanut butter mixture from the bottom and the flour from the top. Repeat two more times until the mixture is evenly combined."
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Baking",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Pour the mixture into a lined <span class=\"quantity\">23</span>cm round pan"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "If using chocolate, scatter the chunks over the top"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Bake in the middle of a preheated oven at 175ºC, with fan, until middle reaches around 100C. Took mine 22 minutes."
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Cooling and Serving",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Allow the blondies to cool before cutting, and store in an airtight container - they will become fudgier over time."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "text": "They improve on day 2"
+    }
+  ],
+  "title": "Peanut Butter Chocolate Chunk Blondies",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "23",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round pan"
+  }
+}
