@@ -9,13 +9,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "90g Semi-Sweet Chocolate",
+      "text": "90g 60% Chocolate",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "35g Bakers Chocolate",
+      "text": "35g 90% Chocolate",
       "alternative_ingredients": []
     },
     {
@@ -78,7 +78,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "In a pot, melt the butter, chocolate chips, and bakers chocolate"
+      "text": "Melt the butter, 60% and 90% chocolate, then allow to cool slightly"
     },
     {
       "post_notes": [],
@@ -90,13 +90,7 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Stir the warm chocolate mixture into the egg mixture"
-    },
-    {
-      "post_notes": [],
-      "pre_notes": [],
-      "type": "METHOD_STEP",
-      "text": "Grease a parchment-lined 18cm round pan"
+      "text": "Stir the chocolate mixture into the egg mixture"
     },
     {
       "post_notes": [],
@@ -120,13 +114,13 @@
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Pour the batter into the prepared pan"
+      "text": "Grease a parchment-lined 18cm round pan, and pour in the batter"
     },
     {
       "post_notes": [],
       "pre_notes": [],
       "type": "METHOD_STEP",
-      "text": "Bake at 150C for 20 mins, then bang the pan to stop an air bubble forming between the brownies and the pan. Then bake around 15 minutes more, or until a toothpick comes out clean"
+      "text": "Bake at 175C for 20 mins, then bang the pan to stop an air bubble forming between the brownies and the pan. Then bake until a toothpick comes out clean - probably around 10 minutes but go by testing not time"
     },
     {
       "post_notes": [],
@@ -138,9 +132,12 @@
   "notes": [
     {
       "text": "Be careful not to overmix the batter to maintain the fudgy texture."
+    },
+    {
+      "text": "Took them out at 92C in the center last time."
     }
   ],
-  "title": "Outrageous Brownies",
+  "title": "Chocolate Brownies",
   "quantity": {
     "number": "1",
     "dimensions": [
@@ -149,7 +146,7 @@
         "number_of_dimensions": "1"
       }
     ],
-    "label": "cm pan"
+    "label": "cm round pan"
   },
   "source": {
     "text": "Adapted via Kathleen Meisinger from Ina Garten's Outrageous Brownie recipe."
