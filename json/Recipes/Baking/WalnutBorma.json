@@ -1,0 +1,101 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "45g unsalted butter, melted, plus extra for greasing",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "165g golden caster sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.6 tsp lemon juice",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.9 tbsp rose water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.9 tbsp orange blossom water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "120g shelled walnuts, finely ground",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.45 tsp ground cinnamon",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5 sheets Greek or Turkish filo pastry, each measuring 31 x 46 cm",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Preheat the oven to 220C, and brush the baking dish with a little melted butter"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Put <span class=\"quantity\">105</span>g of the sugar, add <span class=\"quantity\">45</span>ml of water in a saucepan over medium heat. Boil gently for a minute, then add the lemon juice and <span class=\"quantity\">0.6</span> tbsp each of the rose and orange blossom water. Leave to cool."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix the ground walnuts, remaining sugar, rose and orange blossom water, and the cinnamon."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Spread out a sheet of filo with the long side facing you (cover the other sheets so that they don’t dry out). Brush with some of the melted butter. Arrange a fifth of the walnut filling in a thin line along the sheet, about <span class=\"quantity\">1</span>cm from the edge nearest to you. Roll tightly into a thin sausage. Coil up the roll and place in the centre of the baking dish or tin. Make the remaining walnut rolls and coil them around the initial coil until the dish is completely covered."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Brush the top with melted butter and bake in the oven for 20-25 minutes or until golden brown. Remove from the oven, pour the sugar syrup all over the borma and allow to cool."
+    }
+  ],
+  "notes": [],
+  "title": "Walnut Borma",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round dish"
+  },
+  "serving_suggestions": [
+    {
+      "text": "Serve at room temperature."
+    }
+  ]
+}
