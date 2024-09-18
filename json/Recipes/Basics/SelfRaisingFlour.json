@@ -1,0 +1,42 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "240g plain flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "10g baking powder",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sift baking powder into flour"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whisk flour and baking powder together until fully combined and evenly distributed."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Store in an airtight container for future use."
+    }
+  ],
+  "notes": [],
+  "title": "Self-Raising Flour",
+  "quantity": {
+    "number": "250",
+    "label": "g"
+  }
+}

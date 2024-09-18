@@ -1,0 +1,43 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g white granulated sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "20g black treacle (preferably room temp)",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add the sugar and treacle to the bowl of a stand mixer."
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Mix until the sugar has an even brown color and texture throughout."
+    }
+  ],
+  "notes": [
+    {
+      "text": "Store in an airtight container for future use."
+    },
+    {
+      "text": "Will mix faster with room temperature treacle"
+    }
+  ],
+  "title": "Dark Soft Brown Sugar",
+  "quantity": {
+    "number": "220",
+    "label": "g"
+  }
+}
