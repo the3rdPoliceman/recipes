@@ -1,0 +1,201 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "142g coarsely chopped pecans",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "150g granulated sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "57g unsalted butter",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.5 tsp baking soda",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "0.5 tsp Diamond Crystal kosher salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "227g unsalted butter, cut into tablespoons",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "173g all-purpose flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "6g Diamond Crystal kosher salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "6g baking soda",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "200g old-fashioned rolled oats",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "150g packed dark brown sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "100g granulated sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "2 large eggs, cold from the refrigerator (100g)",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 tbsp vanilla extract",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Pecan Brittle",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Toast the pecans in the oven until golden brown and smelling good."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "In a small saucepan, combine <span class=\"quantity\">150</span>g granulated sugar, <span class=\"quantity\">57</span>g unsalted butter, and a splash of water"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cook until the caramel turns a deep amber color, and swirl the pan rater than stirring - which would cause crystallization."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Remove from heat and quickly stir in the toasted pecans, baking soda, and salt."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Spread the brittle in an even layer on a baking sheet and allow it to cool completely before chopping into small pieces."
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Cookie Dough",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Brown half of the butter over medium heat, stirring constantly until golden brown. Pour the browned butter over the remaining butter in the bowl of a stand mixer and allow it to cool."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "In a food processor, pulse together the flour, <span class=\"quantity\">6</span>g salt, baking soda, half of the oats, and half of the chopped pecan brittle until the oats and brittle are finely ground."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add the granulated sugar and brown sugar to the cooled butter in the mixer. Mix until smooth but not fluffy."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add the cold eggs one at a time, mixing well after each addition. Stir in the vanilla extract."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Gradually add the flour mixture to the wet ingredients, mixing until just combined."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Stir in the remaining oats and the other half of the chopped pecan brittle by hand."
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Bake and Assemble",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Portion the dough into balls about <span class=\"quantity\">60</span>g each."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Chill the dough in the refrigerator for at least <span class=\"quantity\">2</span> hours."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Preheat the oven to <span class=\"quantity\">175</span>C and bake until the edges are golden brown but the centers remain soft. Mine took about 14 minutes"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "text": "Next time try reducing the work by not blitzing the brittle, oats etc in the food processor."
+    }
+  ],
+  "title": "Pecan Brittle Oatmeal Cookies",
+  "quantity": {
+    "number": "18"
+  }
+}
