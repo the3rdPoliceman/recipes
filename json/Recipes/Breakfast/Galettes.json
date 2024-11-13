@@ -3,13 +3,13 @@
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "165g buckwheat flour",
+      "text": "250g buckwheat flour",
       "alternative_ingredients": []
     },
     {
       "optional": false,
       "type": "INGREDIENT",
-      "text": "375ml water",
+      "text": "500ml water",
       "alternative_ingredients": []
     },
     {
@@ -22,6 +22,12 @@
       "optional": false,
       "type": "INGREDIENT",
       "text": "1 egg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "10ml oil",
       "alternative_ingredients": []
     },
     {
@@ -46,7 +52,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Gradually pour in the water, stirring vigorously to create a smooth, thick batter."
+          "text": "Gradually pour in the water and oil, stirring vigorously to create a smooth, thick batter."
         },
         {
           "post_notes": [],
@@ -58,7 +64,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Cover the bowl with a cloth or plastic wrap and let the batter rest for approximately 2 hours in the refrigerator."
+          "text": "Cover the bowl with a cloth or plastic wrap and let the batter rest for 2 hours (or preferably overnight) in the refrigerator."
         }
       ]
     },
@@ -88,7 +94,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Flip, top with the filling, allow to cook, fold over the edges and serve"
+          "text": "Flip, top with the filling, allow to cook, fold over the edges and serve."
         }
       ]
     }
@@ -96,11 +102,11 @@
   "notes": [],
   "title": "Buckwheat Galettes",
   "quantity": {
-    "number": "6"
+    "number": "10"
   },
   "serving_suggestions": [
     {
-      "text": "Serve with savory fillings such as ham, cheese, or eggs."
+      "text": "Serve with savory fillings such as ham, cheese, or eggs. If using eggs, break up the egg white a bit and thin it out over the galette so it cooks through faster"
     }
   ]
 }
