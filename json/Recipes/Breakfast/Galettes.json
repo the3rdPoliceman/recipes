@@ -99,7 +99,11 @@
       ]
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "<a href=\"https://youtu.be/hFtVLQ8oqnA?si=D8Kx2kBiGzZPqyPp&t=1618\">Video of history and making</a>. Best with transcript translated with ChatGPT"
+    }
+  ],
   "title": "Buckwheat Galettes",
   "quantity": {
     "number": "10"
