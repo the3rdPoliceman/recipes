@@ -1,0 +1,106 @@
+{
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "165g buckwheat flour",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "375ml water",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "5g coarse salt",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1 egg",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "butter or lard",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Prepare the batter",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "In a bowl, place the buckwheat flour and <span class=\"quantity\">5</span>g of salt in a well in the center."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Gradually pour in the water, stirring vigorously to create a smooth, thick batter."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Add the egg and mix well"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cover the bowl with a cloth or plastic wrap and let the batter rest for approximately 2 hours in the refrigerator."
+        }
+      ]
+    },
+    {
+      "type": "METHOD_SUB_LIST",
+      "text": "Cooking the galettes",
+      "method_steps": [
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Melt some butter or lard in a frying pan over a medium heat"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Pour a ladleful of batter into the pan and tilt the pan to spread the batter across the entire surface."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Cook each side for about 1 to 2 minutes, until golden."
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Flip, top with the filling, allow to cook, fold over the edges and serve"
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "title": "Buckwheat Galettes",
+  "quantity": {
+    "number": "6"
+  },
+  "serving_suggestions": [
+    {
+      "text": "Serve with savory fillings such as ham, cheese, or eggs."
+    }
+  ]
+}
