@@ -183,5 +183,15 @@
     {
       "text": "Use coffee flavored <a href=\"FrenchButtercream.html\">french buttercream<\/a> for icing"
     }
-  ]
+  ],
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "18",
+        "number_of_dimensions": "2"
+      }
+    ],
+    "label": "cm round cake"
+  }
 }
