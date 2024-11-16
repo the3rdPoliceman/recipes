@@ -84,31 +84,31 @@
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "55g unsalted butter",
+          "text": "85g unsalted butter",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "30g raw brown sugar",
+          "text": "45g raw brown sugar",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "30g light brown sugar",
+          "text": "45g light brown sugar",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "70ml double cream",
+          "text": "105ml double cream",
           "alternative_ingredients": []
         },
         {
           "optional": false,
           "type": "INGREDIENT",
-          "text": "1g salt",
+          "text": "1.5g salt",
           "alternative_ingredients": []
         }
       ],
@@ -142,7 +142,7 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Butter a 25*10cm cake pan, and pour half the sauce in the bottom and place in the freezer until you're ready to bake the pudding"
+          "text": "Butter the cake pan, and pour a third of the sauce in the bottom. Place in the freezer until you're ready to bake the pudding"
         }
       ]
     },
@@ -184,19 +184,39 @@
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
-          "text": "Poke holes in the pudding with a skewer. Reheat the remaining half of the sauce from earlier and pour over the pudding"
+          "text": "Poke holes in the pudding with a skewer. Reheat another third of the sauce from earlier and pour over the pudding"
         },
         {
           "post_notes": [],
           "pre_notes": [],
           "type": "METHOD_STEP",
           "text": "Place under a hot grill for a few minutes until it turns a deep brown, but be careful as it can start to burn quite quickly"
+        },
+        {
+          "post_notes": [],
+          "pre_notes": [],
+          "type": "METHOD_STEP",
+          "text": "Warm the final third of the sauce and serve alongside the pudding"
         }
       ]
     }
   ],
   "notes": [],
   "title": "Sticky Toffee Pudding",
+  "quantity": {
+    "number": "1",
+    "dimensions": [
+      {
+        "magnitude": "25",
+        "number_of_dimensions": "1"
+      },
+      {
+        "magnitude": "10",
+        "number_of_dimensions": "1"
+      }
+    ],
+    "label": "cm cake pan"
+  },
   "variations": [
     {
       "text": "Try using hot black tea instead of hot water"
