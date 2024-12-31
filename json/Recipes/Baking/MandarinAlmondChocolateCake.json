@@ -36,14 +36,14 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "10g fine hite sugar",
+            "text": "2 eggs, separated",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
             "type": "INGREDIENT"
         },
         {
-            "text": "2 eggs, separated",
+            "text": "10g fine white sugar",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
