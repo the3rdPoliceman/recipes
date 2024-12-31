@@ -22,7 +22,7 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "60g fine brown sugar",
+            "text": "50g fine light brown sugar",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -37,6 +37,13 @@
         },
         {
             "text": "2 eggs, separated",
+            "optional": false,
+            "alternative_ingredients": [],
+            "note": null,
+            "type": "INGREDIENT"
+        },
+        {
+            "text": "10g fine white sugar",
             "optional": false,
             "alternative_ingredients": [],
             "note": null,
@@ -71,13 +78,6 @@
             "type": "INGREDIENT"
         },
         {
-            "text": "10g cocoa powder",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
             "text": "zest of 3 mandarins",
             "optional": false,
             "alternative_ingredients": [],
@@ -100,7 +100,7 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Beat the butter and sugar together until light",
+            "text": "Beat the butter and brown sugars together until light",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -118,13 +118,19 @@
             "type": "METHOD_STEP"
         },
         {
-            "text": "Mix the almonds, chocolate, salt, cocoa, zest and baking powder together",
+            "text": "Mix the almonds, chocolate, salt, zest and baking powder together",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
         },
         {
-            "text": "Beat the egg whites until stiff, then combine the butter mix, almond mix and egg wites in a bowl, and beat slowly together until just combined",
+            "text": "Beat the egg whites until foamy, add the white sugar, and continue beating until stiff peaks form",
+            "post_notes": [],
+            "pre_notes": [],
+            "type": "METHOD_STEP"
+        },
+        {
+            "text": "Then combine the butter mix, almond mix and egg wites in a bowl, and beat slowly together until just combined",
             "post_notes": [],
             "pre_notes": [],
             "type": "METHOD_STEP"
@@ -139,6 +145,10 @@
     "notes": [
         {
             "text": "Try toasting the almonds first",
+            "note_type": null
+        },
+        {
+            "text": "Try 15% less butter",
             "note_type": null
         },
         {
