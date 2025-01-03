@@ -1,147 +1,116 @@
 {
-    "title": "Tiramisu",
-    "quantity": {
-        "number": "8",
-        "dimensions": [],
-        "label": " (8 servings = 1 big pyrex dish)"
+  "ingredient_list": [
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "12g coffee powder",
+      "alternative_ingredients": []
     },
-    "source": {
-        "href": "https://www.lacucinaitaliana.it/ricetta/dolci-e-dessert/tiramisu/",
-        "text": "La Cucina Italiana"
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "660ml water",
+      "alternative_ingredients": []
     },
-    "ingredient_list": [
-        {
-            "text": "6 egg whites",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "6 egg yolks",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "180g Sugar",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "750g Mascarpone",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "4 tbsp Grand Marnier",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "350g Savoiardi Biscuits",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "270ml strong coffee",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        },
-        {
-            "text": "Unsweetened cocoa powder",
-            "optional": false,
-            "alternative_ingredients": [],
-            "note": null,
-            "type": "INGREDIENT"
-        }
-    ],
-    "method": [
-        {
-            "text": "Make the coffee and cool it completely",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Get 2 bowls",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Beat the egg whites until stiff in one",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Beat the egg yolks and sugar in the other until pale",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Beat the marsala (or other alcohol) into the egg yolks, followed by the mascarpone",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Fold in the egg whites",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Dunk the biscuits quickly in the coffee. If you have coffee left over, dunk them again",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Layer up: thin layer cream, biscuit, medium layer of cream, biscuit, thick layer of cream",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        },
-        {
-            "text": "Chill until ready to serve, and then top with cocoa powder",
-            "post_notes": [],
-            "pre_notes": [],
-            "type": "METHOD_STEP"
-        }
-    ],
-    "notes": [
-        {
-            "text": "One third recipe for small blue dish",
-            "note_type": "PERSONAL"
-        },
-        {
-            "text": "Mascarpone is prone to curdling, so it should be whipped gently and as little as possible. It is said to be more likely to curdle if it's warm or different in temperature to other things added to it, so maybe best if everything is straight from the fridge. One advice is to leave it out 15 mins before using. Common advice to salvage curdled mascarpone is to put it into a double boiler for a couple fo minutes until smooth, then cool and rewhip",
-            "note_type": "PERSONAL"
-        },
-        {
-            "text": "Tiramisu being served at the original restaurant can be found here https://www.youtube.com/watch?v=oWMbuTc7iIU",
-            "note_type": "PERSONAL"
-        }
-    ],
-    "serving_suggestions": null,
-    "variations": [
-        {
-            "text": "Recipe uses Grand Marnier but Marsala, Brandy, Amaretto or Kahlua would also be options"
-        }
-    ],
-    "attempt_log": null
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "12 egg yolks",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "220g sugar",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "1kg mascarpone",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "60 ladyfinger biscuits",
+      "alternative_ingredients": []
+    },
+    {
+      "optional": false,
+      "type": "INGREDIENT",
+      "text": "Cocoa powder",
+      "alternative_ingredients": []
+    }
+  ],
+  "method": [
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Before starting, determine your scaling by calculating how many ladyfingers you need to create a complete layer in your dish. Decide whether you want 2 or 3 layers of ladyfingers. Ensure there are no gaps in the layers. Note that soaked ladyfingers expand slightly, so perform a dry fit beforehand and add about 10% more to account for this"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Make the coffee and leave it to cool"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Whip the egg yolks with the sugar until pale and thick (<a href=\"https://youtu.be/V9uApXYaWs4?si=lg09uIdR4VT5CitS&t=221\">see video </a>)"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Add in mascarpone and beat until it reaches firm peaks stage (<a href=\"https://youtu.be/V9uApXYaWs4?si=lg09uIdR4VT5CitS&t=268\">see video </a>). Start at low speed, moving up to medium, and expect this to take quite a few minutes. If you overbeat, it will eventually curdle, but don't be scared"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Dunk the ladyfingers in the coffee. You should use it all, and each finger should get the same amountx"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Spread half of the mascarpone cream evenly over the ladyfingers"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Create another layer using the remaining <span class=\"quantity\">30</span> coffee-dipped ladyfingers, then spread the remaining mascarpone cream on top"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Sift cocoa powder generously over the mascarpone layer"
+    },
+    {
+      "post_notes": [],
+      "pre_notes": [],
+      "type": "METHOD_STEP",
+      "text": "Store in the fridge until ready to serve"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Coffee volume is an estimate, increased 20% from the previous effort (9g per ladyfinger) which left the biscuits slightly too dry"
+    }
+  ],
+  "title": "Tiramisu",
+  "quantity": {
+    "number": "12"
+  },
+  "intro": "Based on the original Tiramisu recipe from Le Beccherie Restaurant, but with reduced sugar as it turns out way too sweet",
+  "source": {
+    "text": "Original recipe by Le Beccherie Restaurant",
+    "href": "https://www.youtube.com/watch?v=V9uApXYaWs4&t=118s"
+  }
 }
